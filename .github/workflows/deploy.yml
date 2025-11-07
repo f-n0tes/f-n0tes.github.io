@@ -1,0 +1,49 @@
+name: Deploy Quartz Site
+
+on:
+  # Löst den Workflow aus, wenn auf den v4 Branch gepusht wird
+  push:
+    branches:
+      - v4
+  
+  # Ermöglicht manuelles Ausführen über die GitHub UI
+  workflow_dispatch:
+
+# Setzt die Basis-Berechtigungen für GitHub Actions
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Wichtig für die korrekte Datumsanzeige (Git-History)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Quartz
+        run: npx quartz build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public # Der Ordner, den Quartz erstellt
+          publish_branch: gh-pages # Der Branch, den wir erstellen wollen
