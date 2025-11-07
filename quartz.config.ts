@@ -1,11 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
-/**
- * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "f_notes",
@@ -53,6 +48,7 @@ const config: QuartzConfig = {
       },
     },
   },
+
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
@@ -73,25 +69,47 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
+
     emitters: [
-      Plugin.AliasRedirects(),
-      Plugin.ComponentResources(),
-      Plugin.ContentPage(),
       Plugin.FolderPage(),
-      Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
+      Plugin.ContentPage(),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.Favicon(),
-      Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
     ],
   },
 }
+
+// -------------------------------------------------------
+// Statische Sidebar-Konfiguration (kein Plugin-Aufruf nötig)
+// -------------------------------------------------------
+// Diese Struktur wird von Quartz automatisch erkannt,
+// wenn du im Ordner `content/` Unterordner hast.
+// Lege z. B. folgende Ordner an:
+//   content/Kultur/
+//   content/Literatur/
+//   content/Theorie/
+//   content/Wissenschaft/
+// Dann erscheinen sie automatisch in der linken Sidebar.
+//
+// Wenn du explizite Gruppierung willst, leg in `content/_sidebar.yml` an:
+//
+// Kultur:
+//   - Kultur/Philosophie
+//   - Kultur/Kunst
+// Literatur:
+//   - Literatur/Romane
+//   - Literatur/Lyrik
+// Theorie:
+//   - Theorie/Kritische-Theorie
+//   - Theorie/Marxismus
+// Wissenschaft:
+//   - Wissenschaft/Soziologie
+//   - Wissenschaft/Bildung
+//
+// -------------------------------------------------------
 
 export default config
