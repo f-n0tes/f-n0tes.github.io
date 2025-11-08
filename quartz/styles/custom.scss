@@ -1,3 +1,90 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+:root {
+  --clr-1: #00c2ff;
+  --clr-2: #33ff8c;
+  --clr-3: #ffc640;
+  --clr-4: #e54cff;
+  --blur: 1rem;
+}
+
+/* Titel-Styling */
+.aurora-title {
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Aurora-Layer */
+.aurora {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.aurora__item {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  border-radius: 40%;
+  filter: blur(var(--blur));
+  mix-blend-mode: overlay;
+  animation: aurora-border 6s ease-in-out infinite;
+}
+
+.aurora__item:nth-of-type(1) {
+  background-color: var(--clr-1);
+  animation: aurora-border 6s ease-in-out infinite,
+    aurora-1 12s ease-in-out infinite alternate;
+}
+.aurora__item:nth-of-type(2) {
+  background-color: var(--clr-3);
+  animation: aurora-border 6s ease-in-out infinite,
+    aurora-2 12s ease-in-out infinite alternate;
+}
+.aurora__item:nth-of-type(3) {
+  background-color: var(--clr-2);
+  animation: aurora-border 6s ease-in-out infinite,
+    aurora-3 8s ease-in-out infinite alternate;
+}
+.aurora__item:nth-of-type(4) {
+  background-color: var(--clr-4);
+  animation: aurora-border 6s ease-in-out infinite,
+    aurora-4 24s ease-in-out infinite alternate;
+}
+
+/* Keyframes */
+@keyframes aurora-1 {
+  0% { top: 0; right: 0; }
+  50% { top: 100%; right: 75%; }
+  100% { top: 0; right: 0; }
+}
+@keyframes aurora-2 {
+  0% { top: -50%; left: 0; }
+  60% { top: 100%; left: 75%; }
+  100% { top: -50%; left: 0; }
+}
+@keyframes aurora-3 {
+  0% { bottom: 0; left: 0; }
+  40% { bottom: 100%; left: 75%; }
+  100% { bottom: 0; left: 0; }
+}
+@keyframes aurora-4 {
+  0% { bottom: -50%; right: 0; }
+  50% { bottom: 0%; right: 40%; }
+  100% { bottom: -50%; right: 0; }
+}
+@keyframes aurora-border {
+  0% { border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%; }
+  50% { border-radius: 57% 23% 47% 72% / 63% 17% 66% 33%; }
+  100% { border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%; }
+}
