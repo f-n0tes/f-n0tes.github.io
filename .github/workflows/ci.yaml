@@ -11,7 +11,6 @@ on:
 
 jobs:
   build-and-test:
-    # DIE IF-BEDINGUNG WIRD HIER ENTFERNT (WAR: if: ${{ github.repository == 'jackyzha0/quartz' }})
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
@@ -48,7 +47,9 @@ jobs:
         run: npx quartz build --bundleInfo -d docs
 
   publish-tag:
-    # DIE IF-BEDINGUNG WIRD HIER ENTFERNT (WAR: if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/v4' }})
+    # Wenn nur auf v4 taggen soll, diese Zeile aktivieren:
+    if: github.ref == 'refs/heads/v4'
+    needs: build-and-test
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -56,17 +57,22 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
           node-version: 22
-      - name: Get package version
-        run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
+
+      # SAFER: Version als Output schreiben, statt $GITHUB_ENV mit Backticks
+      - name: Read package version
+        id: pkgver
+        run: echo "version=$(node -p \"require('./package.json').version\")" >> "$GITHUB_OUTPUT"
+
       - name: Create release tag
         uses: pkgdeps/git-tag-action@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}
-          version: ${{ env.PACKAGE_VERSION }}
+          version: ${{ steps.pkgver.outputs.version }}
           git_commit_sha: ${{ github.sha }}
           git_tag_prefix: "v"
