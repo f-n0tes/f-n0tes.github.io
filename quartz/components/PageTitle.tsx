@@ -26,11 +26,11 @@ PageTitle.css = `
   position: relative;
   display: inline-block;
   color: transparent;
-  background: linear-gradient(90deg, #00c2ff, #33ff8c, #ffc640, #e54cff, #00c2ff);
+  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   background-clip: text;
-  animation: aurora-shift 10s ease infinite;
+  animation: aurora-shift 12s ease infinite;
   text-decoration: none;
 }
 
