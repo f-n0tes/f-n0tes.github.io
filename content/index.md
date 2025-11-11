@@ -1,6 +1,6 @@
 
 # Markdown Formatting Guide for Obsidian
-=======
+
 # f_notes
 
 
