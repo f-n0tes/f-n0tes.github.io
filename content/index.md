@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Markdown Formatting Guide for Obsidian
+=======
+# f_notes
+>>>>>>> origin/v4
 
 Learn how to apply basic formatting to your Obsidian notes, using [Markdown](https://daringfireball.net/projects/markdown/). Import this as a note into your Obsidian Vault to view it and to test new themes. Certain community plugins are required for a few features.
 - - -

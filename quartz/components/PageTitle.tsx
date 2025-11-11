@@ -8,18 +8,27 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
 
   return (
+<<<<<<< HEAD
     <h2 class={classNames(displayClass, "page-title")}>
       <a href={baseDir} class="split-link">
         <span class="split-link--top aurora-text">{title}</span>
         <span class="split-link--bottom aurora-text">{title}</span>
       </a>
+=======
+    <h2 class={classNames(displayClass, "page-title aurora-text")}>
+      <a href={baseDir}>{title}</a>
+>>>>>>> origin/v4
     </h2>
   )
 }
 
 PageTitle.css = `
 .page-title {
+<<<<<<< HEAD
   font-size: 3rem;
+=======
+  font-size: 2.75rem;
+>>>>>>> origin/v4
   margin: 0;
   font-family: var(--titleFont);
   overflow: visible;
@@ -148,6 +157,26 @@ PageTitle.css = `
   top: 65%;
   transform-origin: left top;
   transform: rotateZ(-4.4deg) scaleX(100%);
+}
+
+/* Aurora nur im Text sichtbar */
+.aurora-text a {
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: aurora-shift 12s ease infinite;
+  text-decoration: none;
+}
+
+/* Sanfte Bewegung */
+@keyframes aurora-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 `
 
