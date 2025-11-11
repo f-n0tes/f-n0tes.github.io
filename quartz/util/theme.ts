@@ -148,6 +148,7 @@ ${stylesheet.join("\n\n")}
 :root {
   --light: ${theme.colors.lightMode.light};
   --lightgray: ${theme.colors.lightMode.lightgray};
+  --lightgraysoft: ${theme.colors.lightMode.lightgraysoft};
   --gray: ${theme.colors.lightMode.gray};
   --darkgray: ${theme.colors.lightMode.darkgray};
   --dark: ${theme.colors.lightMode.dark};
@@ -165,6 +166,7 @@ ${stylesheet.join("\n\n")}
 :root[saved-theme="dark"] {
   --light: ${theme.colors.darkMode.light};
   --lightgray: ${theme.colors.darkMode.lightgray};
+  --lightgraysoft: ${theme.colors.darkMode.lightgraysoft};
   --gray: ${theme.colors.darkMode.gray};
   --darkgray: ${theme.colors.darkMode.darkgray};
   --dark: ${theme.colors.darkMode.dark};
