@@ -23,6 +23,8 @@ PageTitle.css = `
   margin: 0;
   font-family: var(--titleFont);
   overflow: visible;
+  line-height: 1.2;  /* Gibt mehr vertikalen Raum */
+  padding-top: 0.15em;  /* Extra Platz oben */
 }
 
 /* Aurora Gradient Effekt */
@@ -33,6 +35,9 @@ PageTitle.css = `
   -webkit-background-clip: text;
   background-clip: text;
   animation: aurora-shift 300s ease infinite;
+  padding-top: 0.05em;  /* Wichtig! */
+  padding-bottom: 0.05em;  /* Wichtig! */
+  display: inline-block;  /* Wichtig! */
 }
 
 @keyframes aurora-shift {
@@ -64,8 +69,9 @@ PageTitle.css = `
   position: absolute;
   top: 0;
   display: inline-block;
-  clip-path: polygon(0% 66%, 0% 0%, 110% 0%, 110% 40%);
+  clip-path: polygon(0% 70%, 0% -10%, 110% -10%, 110% 45%);
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s;
+  overflow: visible;
 }
 
 /* Aurora Linie oben beim Hover */
@@ -74,7 +80,7 @@ PageTitle.css = `
   position: absolute;
   top: 52%;
   left: -0.25em;
-  width: 95%;
+  width: 98%;
   height: 4%;
   background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
   background-size: 400% 400%;
@@ -87,7 +93,7 @@ PageTitle.css = `
 /* Unterer Teil des Split-Textes */
 .split-link--bottom {
   display: inline-block;
-  clip-path: polygon(0% 65%, 100% 40%, 110% 40%, 110% 120%, 0% 120%);
+  clip-path: polygon(0% 68%, 100% 43%, 110% 43%, 110% 120%, 0% 120%);
   transition: background-position 0.1s ease 0.11s;
   text-decoration: none;
   position: relative;
@@ -139,9 +145,9 @@ PageTitle.css = `
 }
 
 .split-link:hover .split-link--top:after {
-  top: 62%;
+  top: 70%;
   transform-origin: left top;
-  transform: rotateZ(-2.2deg) scaleX(100%);
+  transform: rotateZ(-4.2deg) scaleX(100%);
 }
 
 .split-link:hover .split-link--bottom:after {
