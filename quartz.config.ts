@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "de-DE",
-    baseUrl: "fredxgit.github.io/f_notes",
+    baseUrl: "f-notes.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
