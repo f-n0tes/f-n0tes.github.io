@@ -8,27 +8,18 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
 
   return (
-<<<<<<< HEAD
     <h2 class={classNames(displayClass, "page-title")}>
       <a href={baseDir} class="split-link">
         <span class="split-link--top aurora-text">{title}</span>
         <span class="split-link--bottom aurora-text">{title}</span>
       </a>
-=======
-    <h2 class={classNames(displayClass, "page-title aurora-text")}>
-      <a href={baseDir}>{title}</a>
->>>>>>> origin/v4
     </h2>
   )
 }
 
 PageTitle.css = `
 .page-title {
-<<<<<<< HEAD
   font-size: 3rem;
-=======
-  font-size: 2.75rem;
->>>>>>> origin/v4
   margin: 0;
   font-family: var(--titleFont);
   overflow: visible;
