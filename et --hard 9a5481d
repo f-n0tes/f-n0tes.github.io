@@ -1,0 +1,109 @@
+[33m272a2e6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mv4[m[33m, [m[1;31morigin/v4[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge remote-tracking branch 'origin/v4' into v4
+[33m1c47fbd[m vault backup: 2025-11-09 04:21:07
+[33m9bd6bb4[m vault backup: 2025-11-08 17:59:26
+[33m2ea0092[m vault backup: 2025-11-08 13:11:18
+[33mef296e0[m vault backup: 2025-11-08 03:56:21
+[33mbf3b6b6[m vault backup: 2025-11-08 02:37:16
+[33m9a5481d[m vault backup: 2025-11-08 02:31:41
+[33m631d3ec[m vault backup: 2025-11-07 05:05:00
+[33m3af540e[m vault backup: 2025-11-07 04:59:43
+[33m37bc142[m vault backup: 2025-11-07 04:45:12
+[33mc9ea2d2[m vault backup: 2025-11-07 04:33:01
+[33m55e5df9[m vault backup: 2025-11-07 04:26:57
+[33m0b14733[m vault backup: 2025-11-07 04:20:54
+[33mfc49fed[m Deployment Fix: Updated Node version to 22 to meet NPM requirements
+[33md94b096[m Add final deploy.yml for gh-pages generation
+[33m57490dd[m[33m ([m[1;33mtag: [m[1;33mv4.5.2[m[33m)[m Deployment fix: Removed jackyzha0 hardcoded check
+[33me3b8a3a[m first
+[33m0ecb859[m feat(i18n): update Italian translations for coherency (#2189)
+[33m2fdc812[m fix(components): prevent infinite recursion from circular transcludes (#2187)
+[33m8bc6cb9[m fix(css): not break word in the search button placeholder (#2182)
+[33maf5773f[m fix(api): adapt to updated API parameter format from (#2185)
+[33m4260214[m feat(i18n): add Hebrew translations for UI components and pages (#2186)
+[33m0c4386d[m feat(i18n): add Kazakh translations for UI components and pages (#2056)
+[33m08c8617[m fix(explorer): Disable keyboard navigation on collapsed folders (#2169)
+[33m1377004[m chore(deps): bump the production-dependencies group across 1 directory with 6 updates (#2177)
+[33m519d56c[m chore(deps): bump the ci-dependencies group across 1 directory with 5 updates (#2178)
+[33m52460f3[m fix: modified time data of frontmatter didnt loaded. (#2165)
+[33mb4805a1[m chore(deps): bump the production-dependencies group with 3 updates (#2159)
+[33mf14260b[m fix(oxhugo): Do not discard embedded HTML (#2151)
+[33m9ad3481[m chore(deps): bump the production-dependencies group with 4 updates (#2146)
+[33m3ff7ca4[m chore(deps): bump sigstore/cosign-installer in the ci-dependencies group (#2135)
+[33meb6cc6f[m chore(deps): bump the production-dependencies group with 9 updates (#2134)
+[33m4923aff[m fix(callouts)!: match callout DOM to Obsidian (#2104)
+[33m4c78d29[m fix(search): css min padding
+[33m7a77f54[m fix(i18n): Add RTL Detection based on Config Set Language (#2100)
+[33m03ccac2[m feat: Update FlexSearch and Add Support for All Languages (#2108)
+[33m6add0c8[m fix(style): layout flow, search restyle
+[33m8df8d5c[m fix: fix CNAME path error (#2096)
+[33mac06a52[m chore(deps): bump the production-dependencies group with 3 updates (#2122)
+[33m6457ad2[m chore(deps): bump actions/setup-node in the ci-dependencies group (#2123)
+[33m05e4f42[m docs: update nav for cloudflare pages (#2130)
+[33m7bcab60[m Update de-DE.ts (#2128)
+[33me77a051[m feat(analytics): add support for Vercel Web Analytics provider (#2119)
+[33mecb3d92[m Fix: normalize chokidar paths for hot reload on Windows (#2120)
+[33m42052eb[m chore(deps): bump the production-dependencies group across 1 directory with 9 updates (#2106)
+[33ma402828[m docs: remove out of date admonition (#2114)
+[33m0a57d03[m feat(typst): invert the math equation for typst rendered equation in darkmode (#2095)
+[33mebff661[m Add pl translation for search placeholder (#2090)
+[33me918f11[m feat: add support for matomo analytics (#2051)
+[33m45c130b[m chore(deps): bump the ci-dependencies group across 1 directory with 3 updates (#2080)
+[33mbb22312[m chore(deps): bump the production-dependencies group across 1 directory with 6 updates (#2082)
+[33m53d6e18[m fix(a11y): aria-controls and role fixes
+[33m9105984[m fix(search): prevent Enter key handling during IME composition (#2070)
+[33mefddd79[m revert(graph): roll back changes due to issues with Safari (#2067)
+[33m8d19bc3[m chore(deps): bump sigstore/cosign-installer in the ci-dependencies group (#2057)
+[33m2c53654[m chore(deps): bump the production-dependencies group across 1 directory with 14 updates (#2066)
+[33m059848f[m fix(rss): add cdata to escape html content for rss feed (#2046)
+[33macfaa47[m chore: add PR templates (#2045)
+[33m7253557[m fix(goatcounter): properly count SPA page hits (#2035)
+[33m82c53a1[m fix docs for using custom components compositionally (#2044)
+[33meceefd1[m chore(deps): bump sigstore/cosign-installer in the ci-dependencies group (#2028)
+[33m40f30be[m fix(emoji): duplicate mappings (#2042)
+[33m4678964[m fix(emoji): added missing skintone variations to emoji map (#2040)
+[33m74606a1[m fix(emoji): map multi-unicode emoji properly (#2037)
+[33m930eb1c[m fix(cli): filter files on rebuild using --serve (#2039)
+[33m52a5196[m chore: converted Emoji version 16 (#2018)
+[33mcdd0be2[m feat(giscus): expose language option for Comments component (#2012)
+[33m9de370a[m watcher: manually ignore .git changes
+[33mae0466e[m css: unapply redundant bg on section
+[33m499adf4[m fix(ios): mobile explorer overscroll behavior (#2008)
+[33mcd13ce3[m docs: clarify parens on ignorePatterns (closes #2009)
+[33mb48aa91[m fix(flex): respect DesktopOnly and MobileOnly components (#1971)
+[33m7b052e8[m docs: added note to not forget to add https:// to the plausible-host (for #1337) (#2000)
+[33m1cfc876[m fix: tz-less date parse in local tz instead of utc (closes #1615)
+[33m096ef22[m docs: fix explorernode references (closes #1985)
+[33mbc16822[m docs: showcase housekeeping
+[33m7fa9253[m Node 22 (#1997)
+[33m996d8d5[m chore(deps): bump the production-dependencies group across 1 directory with 9 updates (#1996)
+[33m951d1de[m chore(deps): replace `chalk` and `rimraf` with builtin functions (#1879)
+[33m51b43a2[m feat(links): added ofm option to style unresolved or broken links differently (#1992)
+[33mc934945[m css: adjust color blend for search bg
+[33m6d49d97[m fix(analytics): streamline posthog script loading and event capturing (#1974)
+[33mc9741d0[m fix(a11y): increased content-meta text contrast (#1980)
+[33m73983cf[m feat(i18n): Bahasa Indonesia translations (#1981)
+[33m52344cd[m fix(style): Katex adding scrollbars on non-overflowing content (#1989)
+[33mfec0a62[m fix(ofm): allow wikilink alias to be empty (#1984)
+[33me98d97a[m feat(i18n): readermode translations and icon (#1961)
+[33mc33f96e[m chore(deps): bump sigstore/cosign-installer in the ci-dependencies group (#1953)
+[33m0b348a0[m chore(deps): bump the production-dependencies group with 7 updates (#1964)
+[33m59d4b4e[m fix(analytics): Umami tracking pageviews properly
+[33madf4420[m fix(graph): provide proper workaround for pixijs webgpu issue #1899 (#1949)
+[33mdc2c4dc[m docs: add fix for 'remote end hung up unexpectedly' error during initial sync (#1939)
+[33m6ba9c7c[m doc(favicon): add documentation of favicon plugin (#1948)
+[33m8d5b13e[m fix(fonts): Fixed page title fonts not downloadable to local (#1898)
+[33m4d07ac9[m chore(deps-dev): bump the production-dependencies group with 2 updates (#1952)
+[33m32d3fc0[m chore(ci): fix proj name
+[33m00e860d[m ci: fix fork preview
+[33m2acdec3[m fix(explorer): Prevent html from being scrollable when mobile explorer is open (#1895)
+[33m9e58857[m feat(favicon): add plugin to expose favicon from icon.png (#1942)
+[33m4bd714b[m fix(callout): Grid-based callout collapsible animation (#1944)
+[33m78e13bc[m chore: add ci to preview all prs (#1947)
+[33m7d49dff[m fix: prefer webgl for devices with webgpu and no float32-blendable feature flag #1899 (#1933)
+[33mcdebd05[m fix(wikilinks): dont default empty alias
+[33m2a9290b[m fix(transclude): blockref detection
+[33m771c05f[m fix: dynamically detect current branch for quartz sync push (#1930)
+[33m6dd772b[m fix(popover): properly clear popover on racing fetch
+[33mc238dd1[m chore(deps): bump the production-dependencies group with 2 updates (#1919)
+[33mb34d521[m feat: reader mode
+[33mbfd7234[m fix(popover): clear popovers more aggressively, use
