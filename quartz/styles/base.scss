@@ -17,6 +17,7 @@ body {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  background: linear-gradient(180deg, var(--light), var(--lightgraysoft));
 }
 
 .text-highlight {

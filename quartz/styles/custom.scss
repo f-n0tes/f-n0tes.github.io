@@ -45,12 +45,12 @@
 .aurora__item:nth-of-type(1) {
   background-color: var(--clr-1);
   animation: aurora-border 6s ease-in-out infinite,
-    aurora-1 12s ease-in-out infinite alternate;
+    aurora-1 300s ease-in-out infinite alternate;
 }
 .aurora__item:nth-of-type(2) {
   background-color: var(--clr-3);
   animation: aurora-border 6s ease-in-out infinite,
-    aurora-2 12s ease-in-out infinite alternate;
+    aurora-2 300s ease-in-out infinite alternate;
 }
 .aurora__item:nth-of-type(3) {
   background-color: var(--clr-2);
@@ -88,4 +88,9 @@
   0% { border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%; }
   50% { border-radius: 57% 23% 47% 72% / 63% 17% 66% 33%; }
   100% { border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;  // Oder 700
+  font-style: normal;
 }

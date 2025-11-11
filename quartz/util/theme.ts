@@ -1,6 +1,7 @@
 export interface ColorScheme {
   light: string
   lightgray: string
+  lightgraysoft: string // ← hinzufügen
   gray: string
   darkgray: string
   dark: string
