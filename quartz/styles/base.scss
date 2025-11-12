@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--light);
+  background-color: var(--light); /* Basis-Hintergrundfarbe für die Seite */
   font-family: var(--bodyFont);
   color: var(--darkgray);
   background: linear-gradient(180deg, var(--light), var(--lightgraysoft));
@@ -155,6 +155,7 @@ a {
 .page {
   max-width: calc(#{map.get($breakpoints, desktop)} + 300px);
   margin: 0 auto;
+    
   & article {
     & > h1 {
       font-size: 2rem;
@@ -180,6 +181,31 @@ a {
       color: var(--dark);
     }
   }
+
+// ------------------------------------------------------------------
+// ⭐ HIER MUSS DER NEUE BLOCK HIN ⭐
+// ------------------------------------------------------------------
+
+body.scrolled-down & > #quartz-body {
+    /* Maskierung */
+    mask-image: linear-gradient(to bottom, black 0%, black calc(100% - 100px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black calc(100% - 100px), transparent 100%);
+    
+    /* NEU: Stellt sicher, dass die Maske auf den gesamten Content angewendet wird */
+    mask-origin: content-box;
+    -webkit-mask-origin: content-box;
+    
+    mask-clip: content-box;
+    -webkit-mask-clip: content-box;
+
+    transition: mask-image 0.2s;
+}
+
+    // Wenn die Klasse fehlt, wird die Maske entfernt (Optional, aber gut für den Übergang)
+    body:not(.scrolled-down) & > #quartz-body {
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
 
   & > #quartz-body {
     display: grid;
@@ -631,4 +657,31 @@ iframe.pdf {
   background: var(--secondary);
   transition: width 0.2s ease;
   z-index: 9999;
+}
+
+/* FADE-OVERLAY ANS ENDE DER base.scss VERSCHIEBEN */
+
+.page::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    pointer-events: none;
+    z-index: 9999; 
+    
+    background: linear-gradient(
+        to top, 
+        var(--light) 0%, 
+        transparent 100%
+    );
+    
+    opacity: 0; 
+    transition: opacity 0.3s ease-out;
+}
+
+/* Steuert die Sichtbarkeit */
+body.scrolled-down .page::after {
+    opacity: 1; 
 }

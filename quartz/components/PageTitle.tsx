@@ -80,8 +80,8 @@ PageTitle.css = `
   position: absolute;
   top: 52%;
   left: -0.25em;
-  width: 98%;
-  height: 4%;
+  width: 127%;
+  height: 3%;
   background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
   background-size: 400% 400%;
   animation: aurora-line-shift 300s ease infinite;
@@ -104,17 +104,23 @@ PageTitle.css = `
 .split-link--bottom:before {
   content: "";
   position: absolute;
-  bottom: 0em;
+  bottom: 0.125em;
   left: 0;
   width: 106%;
-  height: 0.05em;
+  height: 0.075em;
   background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
   background-size: 400% 400%;
   animation: aurora-line-shift 300s ease infinite;
   transform: rotateZ(-2deg) scaleX(100%);
   transform-origin: left;
   transition: transform 0.1s ease;
-  border-radius: 0.15em;
+  clip-path: polygon(
+    0 50%, 
+    88% 0, 92% 0, 96% 5%, 100% 15%,  /* obere Rundung - sehr stark */
+    100% 85%, 96% 95%, 92% 100%, 88% 100%,  /* untere Rundung - sehr stark */
+    0 50%
+  );
+  filter: blur(0.3px);
 }
 
 /* Aurora Linie unten beim Hover */
@@ -123,7 +129,7 @@ PageTitle.css = `
   position: absolute;
   top: 10%;
   left: 0;
-  width: 115%;
+  width: 125%;
   height: 4%;
   background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
   background-size: 400% 400%;
