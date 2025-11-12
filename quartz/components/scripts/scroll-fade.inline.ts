@@ -9,7 +9,7 @@ if (contentWrapper) {
         const scrollHeight = document.documentElement.scrollHeight;
         const scrollTop = window.scrollY;
         const clientHeight = document.documentElement.clientHeight;
-        const tolerance = 10; 
+        const tolerance = 50; 
         
         const isNotAtBottom = (scrollTop + clientHeight) < (scrollHeight - tolerance);
 
