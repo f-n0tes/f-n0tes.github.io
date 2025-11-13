@@ -1,6 +1,11 @@
 
 ---
+
 title: f-notes
+enableToc: true
+showDate: false
+showReadingTime: false
+
 ---
 
 # Markdown Formatting Guide for Obsidian
