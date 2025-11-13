@@ -45,3 +45,1749 @@ tags:
 
 > [!ai] AI
 
+```md
+Notizen lesen | <<Dostojewski – Werke>>Dostojewski, Fjodr Michailowitsch
+SCHULD UNS SÜHNE
+Seite Nr.: 8076
+Er ist der zweite, vollständige Roman Dostojewskis nach seiner Rückkehr aus dem Exil in Sibirien und sein erster großer Roman seiner Reifejahre.
+
+Seite Nr.: 8086
+TEIL I
+ 
+I
+【Annotation】# Teil 1
+## I
+
+Seite Nr.: 8091
+Am meisten fürchten sie sich vor einem neuen Schritte, vor einem eignen neuen Worte… Übrigens schwatze ich viel zuviel. Darum handle ich auch nicht, weil ich soviel schwatze. Vielleicht aber liegt die Sache auch so: weil ich nicht handle, darum schwatze ich. Da habe ich nun in diesem letzten Monat das Schwatzen gelernt, wenn ich so ganze Tage lang im Winkel lag und an weiß Gott was dachte.
+
+Seite Nr.: 8094
+Nur ab und zu murmelte er etwas vor sich hin, zufolge jener Neigung, mit sich selbst zu reden, die er sich soeben selbst eingestanden hatte.
+
+Seite Nr.: 8095
+Er war so schlecht gekleidet, daß ein anderer, selbst jemand, der die Armut schon gewohnt war, sich geschämt hätte, bei Tage in solchen Lumpen auf die Straße zu gehen. Übrigens war dieser Stadtteil von der Art, daß es schwer war, durch die Kleidung hier jemand in Verwunderung zu versetzen.
+
+Seite Nr.: 8096
+ Aber in der Seele des jungen Mannes hatte sich bereits so viel ingrimmige Verachtung angesammelt, daß er trotz all seiner mitunter stark jünglingshaften Empfindlichkeit sich seiner Lumpen auf der Straße nicht mehr schämte. Anders beim Zusammentreffen mit irgendwelchen Bekannten oder mit früheren Kommilitonen, denen er
+
+Seite Nr.: 8097
+überhaupt nicht gern begegnete …
+
+Seite Nr.: 8104
+Die Glocke rasselte schwach, wie wenn sie aus Blech wäre statt aus Messing.
+
+Seite Nr.: 8124
+Doch selbst in diesem Augenblick ahnte er ganz von fern, daß diese ganze Empfänglichkeit für bessere Regungen bei ihm gleichfalls etwas Krankhaftes an sich
+
+Seite Nr.: 8129
+II
+【Annotation】## II
+
+Seite Nr.: 8138
+Obgleich er noch soeben das Verlangen nach irgendwelchem Verkehr mit andern Menschen verspürt hatte, empfand er plötzlich bei dem ersten Worte, das nun wirklich an ihn gerichtet wurde, sein gewohntes unangenehmes und gereiztes Gefühl des Widerwillens gegen jeden Fremden, der mit ihm in Berührung kam oder dies auch nur zu beabsichtigen schien.
+
+Seite Nr.: 8140
+schlichen Gesellschaft hinausgefegt. Und das mit Recht; denn beim Bettelelend bin ich selbst der erste, der bereit ist, mich zu beleidigen. Daher kommt dann das Trinken!
+
+Seite Nr.: 8148
+Meine Tochter lebt nämlich mit dem gelben Schein«,
+【Annotation】Dieser Satz stammt aus Fjodor Dostojewskis Roman **"Schuld und Sühne"** (russisch: "Преступление и наказание", auch übersetzt als "Verbrechen und Strafe").
+
+**Kontext:**
+
+Der "gelbe Schein" (жёлтый билет) war im zaristischen Russland ein offizielles Dokument, das Prostituierte bei sich tragen mussten. Es war buchstäblich ein gelbes Identitätspapier, das ihre Registrierung als Prostituierte auswies.
+
+**Im Roman:**
+
+Diese Worte spricht **Marmeladow**, ein heruntergekommener Beamter und Trinker, zu Raskolnikow. Er erzählt die tragische Geschichte seiner Familie: Seine Tochter **Sonja** (Sofja Semjonowna) hat sich gezwungen gesehen, als Prostituierte zu arbeiten, um die hungernde Familie – ihren Vater, ihre Stiefmutter Katerina Iwanowna und deren kleine Kinder – zu ernähren.
+
+**Bedeutung:**
+
+Diese Szene ist eine der ergreifendsten im gesamten Roman. Sie zeigt:
+- Die extreme soziale Not und Verzweiflung
+- Das Opfer Sonjas, die sich für ihre Familie aufopfert
+- Die Schuld und Scham Marmeladows, der weiß, dass seine Trunksucht zu diesem Elend beigetragen hat
+- Dostojewskis tiefes Mitgefühl für die "Erniedrigten und Beleidigten"
+
+Sonja wird später zu einer zentralen Figur des Romans – ein Symbol für Aufopferung, christliche Liebe und moralische Reinheit trotz ihrer äußeren "Schande".
+
+Seite Nr.: 8151
+Verehrter Herr, verehrter Herr, es müßte doch in der Welt so eingerichtet sein, daß jeder Mensch wenigstens eine Stelle hätte, wo man ihn bemitleidete!
+
+Seite Nr.: 8154
+Und je mehr ich trinke, desto mehr gräme ich mich. Darum eben trinke ich, weil ich aus diesem Getränke die Empfindungen des Mitleides und des Grames schöpfe …
+
+Seite Nr.: 8154
+Ich trinke,
+
+Seite Nr.: 8154
+weil ich doppelt leiden will!«
+
+Seite Nr.: 8160
+Welchen Grad ihr Elend erreicht hatte, das können Sie daraus beurteilen, daß sie, eine gebildete, wohlerzogene Frau aus angesehener Familie, sich bereit fand, mich zu nehmen.
+
+Seite Nr.: 8162
+Ich bekam hier eine Stelle; ich bekam sie und verlor sie wieder. Verstehen Sie wohl? Diesmal verlor ich sie nun schon
+
+Seite Nr.: 8162
+durch meine eigene Schuld; denn meine Natur machte sich geltend
+
+Seite Nr.: 8165
+Physiologie von Lewes
+【Annotation】Die Physiologie von Lewis, die oft mit dem Namen Sir Thomas Lewis (1881–1945) verbunden wird, bezieht sich auf die Forschung und Beiträge dieses Pioniers in der Untersuchung des Herz-Kreislauf-Systems sowie der Physiologie elektrischer und mechanischer Prozesse des Herzens. Lewis war ein Wegbereiter in der Nutzung des Elektrokardiogramms (EKG) und half dabei, die elektrische Aktivität des Herzens und deren Bedeutung im Zusammenhang mit verschiedenen Herzkrankheiten zu entschlüsseln.
+---
+### Hauptbeiträge zur Physiologie
+1. **Elektrophysiologie des Herzens**     Thomas Lewis widmete einen Großteil seiner Arbeit der Erforschung der elektrischen Aktivität des Herzens. Seine Studien über das EKG ermöglichten es, die normalen und pathologischen Herztöne sowie Arrhythmien (wie Vorhofflimmern und ventrikuläre Tachykardie) zu charakterisieren. Durch die Standardisierung des EKG half er, kardiovaskuläre Diagnosen auf wissenschaftlicher Basis zu verbessern.
+2. **Angina Pectoris**     Lewis war einer der Ersten, der fundierte Ergebnisse über die physiologischen Mechanismen hinter der Angina Pectoris präsentierte, einer häufigen Form von Brustschmerzen, die aus einer Ischämie (durchblutungsbedingte Sauerstoffmangelversorgung des Herzens) resultiert. Er lieferte qualitative Daten zu den Symptomen, die sich in einem defekten Blutfluss in den Koronararterien widerspiegeln.
+3. **Arterienpuls und Kreislauf**     Ein weiteres bedeutendes Interesse galt den Phänomenen des Kreislaufs, wie der Arterienspannung und dem Puls. Lewis beschrieb detailliert den Zusammenhang zwischen der peripheren Durchblutung und der Funktion des Herzens. Seine Untersuchungen verbesserten das Verständnis für die Regulation des Blutflusses und die Rolle der Nervenaktivität bei der Regulation des Gefäßsystems.
+4. **Dermatologische Durchblutungen (Lewis-Reaktion)**     Eine seiner bekanntesten Entdeckungen ist die sogenannte „Lewis-Reaktion“, die auftritt, wenn die Haut mechanisch gereizt wird (wie bei einem Kratzen). Diese Reaktion demonstrierte lokale vasomotorische (gefäßsteuernde) Effekte in der Kapillaren-Durchblutung, einschließlich der physischen Prozesse hinter der Rötung der Haut. Dies revolutionierte das Verständnis von der Rolle peripherer Schiffunktionen sowie der reaktiven Hyperämie.
+5. **Nerven- und Reflexphysiologie**     Neben kardiovaskulären Systemen widmete sich Lewis auch Reflexprozessen, die bei vaskulären Reaktionen ausgelöst werden. Seine Entdeckungen bezüglich der autonomen Nervensysteme verdeutlichten den Einfluss sympathischer und parasympathischer Nerven auf Herzfrequenz und Gefäßtonus.
+---
+### Bedeutung der Arbeiten  Das Werk von Sir Thomas Lewis markiert einen Meilenstein in der Verbindung der klinischen Medizin mit der experimentellen Physiologie. Seine Beiträge legten die Grundlagen für die moderne Kardiologie, sowohl in der Diagnostik (z. B. durch EKG-Analysen) als auch in den therapeutischen Ansätzen für Herzerkrankungen. Zudem zeigte er, wie systemische Mechanismen auf einfache Weise durch lokale Beobachtungen des menschlichen Körpers (z. B. bei der Lewis-Reaktion) verstanden werden können. 
+Durch die präzisen Experimente mit einer Verbindung aus Physiologie und klinischem Wissen gilt Lewis als einer der Begründer der modernen Herz-Kreislauf-Physiologie. Seine Arbeiten wurden vielfach zitiert und halfen, ein besseres Verständnis grundlegender pathophysiologischer Prozesse zu entwickeln. 
+Abschließend ist hervorzuheben, dass die Physiologie nach Lewis einen systemübergreifenden Ansatz verfolgte und das Herz-Kreislauf-System in Zusammenhang mit anderen physiologischen Mechanismen analysierte. Sein wissenschaftliches Werk ist eine bleibende Basis für die Medizin bis heute.
+
+Seite Nr.: 8166
+Sie wird noch nicht fünfzehn Kopeken den Tag verdienen, mein Herr, wenn sie sich anständig hält und keine besonderen Talente besitzt,
+
+Seite Nr.: 8166
+auch das nur, wenn sie bei der Arbeit die Hände keinen Augenblick ruhen läßt.
+
+Seite Nr.: 8169
+Katerina Iwanowna hat nun einmal einen solchen Charakter, und wenn die Kinder zu weinen anfangen, sei es auch vor Hunger, so schlägt sie sie sofort.
+
+Seite Nr.: 8174
+Wohnen tut sie bei dem Schneider Kapernaumow; dem hat sie eine Stube abgemietet. Dieser Kapernaumow ist lahm und stottert, und seine ganze außerordentlich zahlreiche Nachkommenschaft stottert gleichfalls. Und seine Frau stottert auch … Sie hausen alle in einer einzigen Stube;
+
+Seite Nr.: 8176
+Ich küßte ihm den Staub von den Füßen, in Gedanken; denn in Wirklichkeit hätte er es nicht zugelassen, als hoher Würdenträger und Vertreter der neuen Ideen über Staat und Bildung.
+【Annotation】man wird an der uni nicht geistig gefördert, stattdessen uberfordeert sie einen. sie verweist noch auf alles, wonlwissend dass es zum durchkommen weder erforderlich noch wirklich sinnvoll ist, und verbaut Bildung somit umso stärker, als wenn man die Inhalte bewusst aus der Universität ausgelagert hätte
+
+Seite Nr.: 8194
+denn ich lechze nicht nach Freuden, sondern nach Leid und Tränen!… Meinst du, Schankwirt, daß deine Flasche Schnaps mir ein Genuß war? Leid, Leid habe ich auf ihrem Grunde gesucht, Leid und Tränen, und die habe ich gefunden und gekostet; Mitleid aber wird mit uns der haben, der mit allen Mitleid hat und alle und alles versteht, er, der Einzige, er wird Richter sein. Er wird an jenem Tage kommen und fragen: ,Wo ist die Tochter, die sich um der bösen, schwindsüchtigen Stiefmutter und der fremden Kinderchen willen zum Opfer gebracht hat?
+
+Seite Nr.: 8201
+roten Flecke auf ihren Backe
+
+Seite Nr.: 8217
+Erst haben sie ein bißchen geweint, und dann haben sie sich daran gewöhnt. Der Mensch ist eben ein Schuft und
+
+Seite Nr.: 8218
+gewöhnt sich an alles!‹
+
+Seite Nr.: 8218
+Er versank in Nachdenken.
+»Nun, wenn es aber nicht wahr ist«, rief er plötzlich unwillkürlich aus, »wenn der Mensch kein Schuft ist (der Mensch, das heißt das ganze Menschengeschlecht): so folgt daraus, daß alles übrige nur leere, vorgefaßte Meinung ist, lediglich eitle Schreckgebilde, und daß es keinerlei Schranken gibt. Und so wird das auch richtig und in der Ordnung sein …«
+【Annotation】!!!
+
+Seite Nr.: 8219
+III
+【Annotation】## III
+
+Seite Nr.: 8222
+Schwerlich konnte jemand tiefer sinken und mehr verkommen; aber Raskolnikow empfand dies in seinem jetzigen Gemütszustande sogar als angenehm. Er hatte sich von allen Menschen völlig zurückgezogen, wie eine Schildkröte in ihre Schale, und selbst das Gesicht der Magd, die die Aufwartung zu
+
+Seite Nr.: 8222
+besorgen hatte und manchmal einen Blick in sein Zimmer warf, erregte ihm die Galle und reizte ihn zu Krämpfen. Es ist das eine häufige Erscheinung bei Leuten, die an einer bestimmten fixen Idee leiden und ihre Gedanken immer nur auf diesen einen Punkt richten.
+
+Seite Nr.: 8223
+Nastasja, die Köchin
+
+Seite Nr.: 8225
+zwei Stückchen gelben Zuckers
+【Annotation】Gelber Zucker war billiger als weißer raffinierter Zucker
+Die genaue Zählung ("zwei Stückchen") unterstreicht die Knappheit
+Symbol für das elende Leben am Existenzminimum
+
+Seite Nr.: 8227
+Dumm mag sie schon sein, gerade so wie ich; aber du bist doch nun so ein kluger Mensch und liegst immer da wie ein Sack, und man sieht nicht, daß du etwas schaffst. Früher gingst du Kinder unterrichten, wie du sagst; warum tust du denn jetzt gar nichts?«
+
+Seite Nr.: 8228
+»Ich habe eine Arbeit vor.«
+
+Seite Nr.: 8228
+»Was denn für eine Arbeit?«
+»Ich denke«, antwortete er nach einer kurzen Pause ernst
+
+Seite Nr.: 8229
+»Du hast dir wohl schon viel Geld verdient mit dem Denken?«
+
+Seite Nr.: 8229
+»Die Leute sagen: Spuck nicht in den Brunnen, aus dem du trinken mußt.«
+»Für solche Privatstunden bekommt man einen Quark. Was soll ich mit so ein paar Kopeken?« fuhr er verdrossen fort, wie wenn er seine eigenen Gedanken beantwortete
+
+Seite Nr.: 8230
+»Du möchtest wohl gleich mit einem Male ein ganzes Kapital verdienen?«
+Er warf ihr einen seltsamen Blick zu.
+»Ja, ein ganzes Kapital«, erwiderte er nach kurzem Überlegen entschieden.
+»Na, mach's nur lieber so ganz allmählich, sonst muß man sich ja vor dir fürchten. Das klingt ja ganz schrecklich. Soll ich nun Semmeln holen oder nicht?«
+
+Seite Nr.: 8232
+Der Brief zitterte ihm in den Händen; er wollte ihn nicht in ihrer Gegenwart aufmachen; es verlangte ihn, mit diesem Briefe allein zu sein.
+
+Seite Nr.: 8246
+Du hättest am Ende noch Dich selbst ins Verderben gestürzt.
+
+Seite Nr.: 8247
+Und andrerseits: einen Brief mit allerlei gleichgültigem Zeuge vollschreiben, wo ich doch solchen Kummer im Herzen hatte, das konnte ich auch wieder nicht.
+
+Seite Nr.: 8254
+daß sie in jedem Hause schon im voraus erwartet wurde und alle vorher wußten, daß an dem und dem Tage Marfa Petrowna in dem und dem Hause diesen Brief vorlesen werde, und zu jeder solchen Vorlesung sogar auch diejenigen wieder mit zusammenkamen, die den Brief bereits einige Male teils bei sich zu Hause, teils bei andern Bekannten, die an der Reihe gewesen waren, gehört hatten.
+【Annotation】quasi instagram
+
+Seite Nr.: 8255
+hierbei vieles, sehr vieles überflüssig; aber das liegt nun einmal so in Marfa Petrownas Wesen.
+
+Seite Nr.: 8261
+und daß er ein Feind aller Vorurteile sei. Er sprach auch sonst noch vielerlei; denn er scheint ein bißchen selbstgefällig zu sein und hat es sehr gern, wenn man ihm zuhört; aber das ist ja schließlich nichts Schlimmes. Ich habe selbstverständlich von alledem nur wenig begriffen; aber Dunja erklärte mir, er sei zwar kein hochgebildeter, wohl aber ein kluger und, wie es scheine, ein guter Mensch.
+
+Seite Nr.: 8262
+aber Dunja ist nicht nur ein verständiges Mädchen, sondern zugleich auch ein Wesen von engelhafter Güte und wird es als ihre Pflicht und Aufgabe betrachten, einen Mann glücklich zu machen, wenn dieser auch
+
+Seite Nr.: 8263
+seinerseits auf ihr Glück bedacht ist; und daß das letztere der Fall sein wird, daran haben wir vorläufig keinen eigentlichen Grund zu zweifeln,
+
+Seite Nr.: 8263
+Außerdem ist er ein Mann, der wohl zu rechnen versteht und sich gewiß selbst sagen wird, daß sein eigenes Glück als Ehemann um so fester begründet sein wird, je glücklicher sich Dunjetschka durch ihn fühlt.
+
+Seite Nr.: 8265
+er habe schon früher, noch ehe er Dunja gekannt habe, sich vorgenommen, ein ehrenhaftes Mädchen, aber ohne Mitgift, zu nehmen, und unbedingt eine solche, die schon die Armut aus eigener Erfahrung kenne; denn, wie er uns auseinandersetzte, der Mann müsse seine
+
+Seite Nr.: 8265
+Frau nichts zu verdanken haben; weit besser sei es, wenn die Frau den Mann als ihren Wohltäter betrachte.
+
+Seite Nr.: 8268
+Auf diese Weise kann er auch Dir, lieber Rodja, sehr nützlich sein, in jeder Beziehung, und ich und Dunja haben schon gemeint, Du könntest gleich mit dem heutigen Tage Deine künftige Laufbahn definitiv beginnen und Deinen Lebensweg als klar und deutlich festgesetzt betrachten.
+
+Seite Nr.: 8269
+Er drückte sich vorsichtig aus: da er einen Sekretär notwendig brauche, so sei es selbstverständlich besser, das Gehalt einem Verwandten zuzuwenden als einem Fremden,
+
+Seite Nr.: 8270
+Du und nicht befähigt!);
+
+Seite Nr.: 8271
+selbst Kompagnon in seiner Anwaltspraxis werden könntest, um so mehr, da Du zur juristischen Fakultät gehörst.
+
+Seite Nr.: 8272
+Natürlich haben wir uns wohl gehütet, zu Pjotr Petrowitsch auch nur das geringste von diesen unsern weitergehenden Plänen und Hoffnungen zu äußern, namentlich davon, daß Du sein Kompagnon werden sollst. Er ist ein nüchtern denkender Mann und hätte es wohl sehr kühl aufgenommen, da ihm alles als ein leeres Phantasiegebilde erschienen wäre.
+
+Seite Nr.: 8282
+So klügle ich es vielleicht zurecht, daß ich Dir nicht fünfundzwanzig, sondern hoffentlich dreißig Rubel schicken kann.
+
+Seite Nr.: 8283
+Sie ist ein Engel, und Du, Rodja, bist unser ein und alles, unsere ganze Hoffnung, unsere ganze Zuversicht. Wenn Du nur glücklich bist, dann sind wir es auch. Betest Du auch wohl wie früher zu Gott, lieber Rodja, und glaubst Du an die Gnade unsres Schöpfers und Erlösers? Ich fürchte in meinem Herzen, daß auch Du Dich von dem Unglauben, der in neuester Zeit Mode geworden ist, habest anstecken lassen. 
+
+Seite Nr.: 8283
+es so sein sollte, dann will ich für Dich beten. Denke daran, mein Sohn, wie Du damals, als Du noch ein Kind warst und Dein Vater noch lebte, auf meinem Schoße Deine Gebete lalltest und wie glücklich wir damals alle waren.
+
+Seite Nr.: 8287
+IV
+【Annotation】# IV
+
+Seite Nr.: 8290
+Awdotja Romanowna,
+
+Seite Nr.: 8290
+Dieses »wie es scheint« ist ganz besonders prachtvoll. Und diese gute Dunjetschka wird dieses »wie es scheint« heiraten! Prachtvoll! Prachtvoll!
+
+Seite Nr.: 8293
+Und warum schrieb sie mir da: »Lieber Rodja, liebe Deine Schwester Dunja; sie liebt Dich mehr als sich selbst«: quälen sie da im geheimen Gewissensbisse, weil sie zugestimmt hatte, daß die Tochter für den Sohn geopfert werde? »Du bist unsere Zuversicht, unser ein und alles!« O Mama!‹
+
+Seite Nr.: 8296
+der geschäftserfahrene Mann sie ein bißchen übers Ohr gehauen: das Gepäck kostet weniger als ihre Reise, und vielleicht wird es sogar ganz umsonst befördert. Sehen das nun die beiden Frauen nicht, oder wollen sie es absichtlich nicht bemerken? Sie sind ja zufrieden, so zufrieden! Und wenn man nun bedenkt, daß dies nur der Anfang, die Blüten sind und die wahren Früchte erst hinterdrein kommen! Und was ist die Hauptsache bei alledem? Die Hauptsache ist nicht der Geiz und die Knauserei, sondern
+
+Seite Nr.: 8297
+der Ton, in dem das Ganze vor sich geht. Das wird der künftige Ton nach der Hochzeit sein; es zeigt sich schon an…
+
+Seite Nr.: 8300
+bis zum letzten Moment erwarten sie von ihm nur Gutes und nichts Schlechtes; wiewohl sie die Kehrseite der Medaille ahnen, mögen sie sich doch um keinen Preis dazu entschließen, beizeiten das Kind beim richtigen Namen zu nennen; es schaudert ihnen bei dem bloßen Gedanken; mit Händen und Füßen sträuben sie sich gegen die Wahrheit, bis der Mensch, den ihre Phantasie so schön herausstaffiert hat, sie gehörig hereinlegt.
+
+Seite Nr.: 8302
+Und jetzt ist sie mit Mama der Meinung, daß sie auch Herrn Lushin ertragen könne, der
+
+Seite Nr.: 8302
+seine Theorie von den Vorzügen derjenigen Frauen auseinandersetzt, welche aus der größten Armut herstammen und nur von den Wohltaten ihrer Männer leben, und der dies noch dazu fast beim ersten Zusammensein auseinandersetzt. 
+
+Seite Nr.: 8305
+Und bestände Herr Lushin ganz aus purem Golde oder wäre er ein einziger Brillant, auch dann würde sie nicht einwilligen, Herrn Lushins legitime Beischläferin zu werden! Warum willigt sie denn jetzt ein? Wo steckt der Grund? Welches ist die Lösung des Rätsels?
+
+Seite Nr.: 8306
+Um eines lieben, vergötterten Menschen willen verkauft sie sich! Und das ist der Schlüssel zu ihrer Handlungsweise: um des Bruders, um der Mutter willen verkauft sie sich, verkauft sie alles, was sie hat.
+
+Seite Nr.: 8307
+wir bringen unsre Freiheit,
+
+Seite Nr.: 8307
+unsre Ruhe, sogar unser Gewissen, alles, alles auf den Trödelmarkt.
+
+Seite Nr.: 8307
+Und daran nicht genug: wir ersinnen uns noch eine eigene Kasuistik,
+
+Seite Nr.: 8308
+Nun, wie sollte man um eines solchen Erstgeborenen willen nicht eine solche Tochter opfern? Oh, ihr lieben, ungerechten Seelen! Ei nun, unter diesen Umständen weigern wir uns nicht, sogar das Los einer Sonjetschka auf uns zu nehmen!
+
+Seite Nr.: 8309
+liebe Dunja, daß Sonjas Los in keiner Weise schrecklicher ist als das deine an Herrn Lushins Seite?
+
+Seite Nr.: 8310
+Verstehst du, verstehst du, verstehst du auch wirklich, was es mit dieser Sauberkeit für eine Bewandtnis hat? Verstehst du, daß die Sauberkeit der Frau Lushina völlig auf gleicher Stufe steht mit Sonjas Sauberkeit und vielleicht noch schlimmer, häßlicher und gemeiner ist, weil du, liebe Dunja, dabei doch auch auf einen entbehrlichen Komfort spekulierst, während es sich dort einfach um den Hungertod handelt! Diese Sauberkeit kostet viel, sehr viel, liebe Dunja!
+
+Seite Nr.: 8314
+Wie wirst du sie gegen die Swidrigailows und Afanassij Iwanowitsch Wachruschin schützen, du künftiger Millionär, du Jupiter, der du ihr Schicksal ordnest und lenkst? Wohl nach zehn Jahren? Aber in zehn Jahren ist deine Mutter schon blind vom Tüchersäumen, vielleicht auch vom Weinen, und krank und abgezehrt vom Fasten.
+
+Seite Nr.: 8315
+Übrigens waren alle diese Fragen ihm nicht neu und traten ihm nicht erst jetzt unerwartet entgegen; es waren alte Fragen, die ihn schon geraume Zeit gepeinigt hatten.
+
+Seite Nr.: 8315
+Schon vor langer, langer Zeit war dieser ganze jetzige schwere Gram in seinem Innern entstanden, war herangewachsen und angeschwollen, und nun war er in der letzten Zeit herangereift und hatte sich zu einer schrecklichen, wilden, gespenstischen Frage konzentriert, die ihm Herz und Geist folterte und unabweisbar nach einer Lösung verlangte. Jetzt nun traf ihn auf einmal der Brief seiner Mutter wie ein Donnerschlag. Es war klar: jetzt durfte er nicht mehr sich grämen, passiv leidenden und über die Unlösbarkeit dieser Fragen reflektieren, sondern er mußte unbedingt etwas tun, und zwar sofort, so schnell wie möglich.
+
+Seite Nr.: 8317
+»Oder ich muß überhaupt auf ein lebenswertes Leben verzichten!« rief er in plötzlich hervorbrechender Wut. »Muß gehorsam das Schicksal hinnehmen, wie es eben ist, ein für allemal, und alle Wünsche in mir ersticken und auf jedes Recht zu handeln, zu leben
+
+Seite Nr.: 8317
+und zu lieben verzichten!«
+
+Seite Nr.: 8317
+›Verstehen Sie, verstehen Sie, verehrter Herr, was das besagen will, wenn man nirgends mehr hingehen kann?‹
+
+Seite Nr.: 8317
+Es müßte doch jeder Mensch wenigstens irgendwohin gehen können.‹
+
+Seite Nr.: 8318
+Aber der Unterschied lag darin, daß dieser Gedanke vor einem Monate, ja selbst gestern noch, lediglich ein Phantasiegebilde gewesen war, jetzt aber… jetzt ihm auf einmal nicht als Phantasiegebilde, sondern in einer neuen, furchtbaren, ganz unbekannten Gestalt entgegentrat;
+
+Seite Nr.: 8320
+es war ihm schon zur Gewohnheit geworden, so achtlos zu gehen.
+
+Seite Nr.: 8344
+in zwei, drei Jahren ist sie körperlich völlig ruiniert, also mit neunzehn oder auch nur achtzehn Jahren. Solche Mädchen habe ich ja schon massenhaft gesehen. Und wie sind sie so geworden? Genau auf die Weise wie hier… Pfui! Aber meinetwegen! Es heißt, das muß eben so sein. Ein gewisser Prozentsatz, heißtßt es, muß jedes Jahr draufgehen, zum Teufel gehen, damit die übrigen frisch und gesund bleiben und sich ungestört entwickeln. Ein Prozentsatz! Wahrhaftig, prächtige Fachausdrücke haben die Leute jetzt; sie klingen so beruhigend, so wissenschaftlich. Man hat den schönen Ausdruck erfunden: »ein Prozentsatz«, und nun braucht sich niemand mehr aufzuregen.
+【Annotation】! lol
+
+Seite Nr.: 8348
+Er war bei seiner Armut von einem anmaßenden Stolze und einer seltsamen Verschlossenheit, wie wenn er bezüglich seiner Person etwas zu verheimlichen hätte. Manche seiner Kommilitonen hatten von ihm den Eindruck, als blicke er auf sie alle von oben herab wie auf Kinder, in der Vorstellung, daß er sie alle in der geistigen Entwicklung, den Kenntnissen und Lebensanschauungen weit überholt habe
+
+Seite Nr.: 8348
+und als sehe er ihre Anschauungen und Interessen für minderwertig an.
+
+Seite Nr.: 8349
+Dieser war ein ungemein heiterer, offenherziger Bursche und von einer Herzensgüte, die an Einfalt grenzte.
+
+Seite Nr.: 8354
+V
+【Annotation】## V
+
+Seite Nr.: 8363
+Bei krankhaften Zuständen zeichnen sich die Träume oft durch ungemeine Lebhaftigkeit, Klarheit und außerordentliche Ähnlichkeit
+
+Seite Nr.: 8363
+mit der Wirklichkeit aus. Der eigentliche Gegenstand des Traumes ist dabei manchmal ganz ungeheuerlich, die näheren Umstände aber und die ganze Art, wie sich der Hergang abspielt, so wahrscheinlich und mit so feinen, überraschenden, aber künstlerisch zu dem Gesamtbilde durchaus passenden Einzelheiten ausgestattet, daß der Träumende im wachen Zustande, und wenn er ein Dichter wie Puschkin oder Turgenjew wäre, sie nicht ersinnen könnte. Solche krankhaften Träume haften immer lange im Gedächtnis und wirken stark auf den gestörten und schon erregten Organismus des Menschen.
+
+Seite Nr.: 8399
+Aber warum – so fragte er sich später immer – warum ereignete sich eine so wichtige, für ihn so entscheidende und zugleich so höchst zufällige Begegnung auf dem Heumarkte (über den er gar nicht zu gehen brauchte) gerade jetzt zu dieser Stunde, in diesem Augenblicke seines Lebens, gerade bei einer solchen Stimmung seiner Seele und gerade unter solchen Umständen, die allein es ermöglichten, daß diese Begegnung eine entscheidende, endgültige Einwirkungwirkung auf sein ganzes Schicksal ausübte? Als ob sie hier absichtlich auf ihn gewartet hätte!
+
+Seite Nr.: 8410
+VI
+【Annotation】## VI
+
+Seite Nr.: 8424
+Hunderte, vielleicht Tausende von Existenzen könnten in die richtige Bahn geleitet,
+
+Seite Nr.: 8425
+Dutzende von Familien vor größter Armut, vor dem Verfall, vor dem gänzlichen Ruin, vor Unsittlichkeit und Geschlechtskrankheiten bewahrt werden – und alles das vermittels ihres Geldes. Wenn man sie ermordet und ihr Geld nimmt, um dann mit dessen Hilfe sich dem Dienste der ganzen Menschheit und der Sache der Allgemeinheit zu widmen: was meinst du, wird dann nicht ein einziges kleines Verbrechen durch Tausende von guten Taten aufgewogen?
+
+Seite Nr.: 8426
+»Gewiß, sie verdient nicht, daß sie lebt«, entgegnete der Offizier. »Aber die Natur hat es nun doch einmal so eingerichtet.«
+»Ach was, Bruder, die Natur kann man doch korrigieren und lenken, sonst müßten wir ja in unsern beschränkten, engherzigen Anschauungen geradezu versinken. Sonst gäbe es keine großen Männer. Es heißt immer: ›Pflicht, Gewissen‹; nun, ich will ja gegen Pflicht und Gewissen nichts sagen; aber was versteht man eigentlich darunter? 
+
+Seite Nr.: 8450
+an die Hauptsache gedacht und die Kleinigkeiten bis zu dem Zeitpunkte verschoben, wo er »mit sich selbst über alles im klaren sein werde«.
+
+Seite Nr.: 8452
+seine Kasuistik, die so scharf geschliffen war wie ein Rasiermesse
+
+Seite Nr.: 8453
+und alles mit einem Male zur Entscheidung gebracht hatte, hatte auf ihn fast völlig mechanisch gewirkt: wie wenn ihn jemand bei der Hand ergriffe und hinter sich herzöge, unwiderstehlich, blindlings, mit übernatürlicher Kraft, ohne Widerrede. Er war gleichsam mit einem Zipfel seiner Kleidung an einem Maschinenrade hängengeblieben, und dieses begann ihn in das Triebwerk hineinzuziehen.
+
+Seite Nr.: 8454
+der Verbrecher selbst, und zwar fast jeder, unterliege im Augenblicke des Verbrechens einer gewissen Verringerung der Willens- und Urteilskraft, an deren Stelle im Gegenteil ein hochgradiger, kindlicher Leichtsinn trete, und das gerade in dem Augenblicke, wo Urteilskraft und Vorsicht am allernötigsten wären.
+
+Seite Nr.: 8455
+die Verdunkelung der Urteilskraft und die Herabminderung des Willens überfallen den Menschen wie eine Krankheit, entwickelntwickeln sich stufenweise und erreichen kurz vor der Ausführung des Verbrechens ihren Höhepunkt; sie verbleiben auf demselben im Augenblicke des Verbrechens selbst und noch einige Zeit nachher, je nach der Individualität des Betreffenden; dann verschwinden sie ganz genauso wie jede andere Krankheit. Die Frage aber, ob das Verbrechen selbst durch eine Krankheit hervorgerufen oder ob es irgendwie, vermöge seiner Eigenart, immer von krankheitsartigen Erscheinungen begleitet werde,
+
+Seite Nr.: 8456
+diese Frage zu entscheiden, fühlte er sich noch nicht imstande.
+Indem er zu solchen Resultaten gelangte, sagte er sich, daß mit ihm persönlich bei seiner Tat derartige krankhafte Veränderungen nicht stattfinden könnten, sondern daß seine Urteils- und Willenskraft während der ganzen Dauer der Ausführung seines Vorhabens ungeschwächt bleiben werde, einfach deswegen, weil sein Vorhaben »kein Verbrechen« sei.
+
+Seite Nr.: 8457
+Wir lassen den ganzen Denkprozeß beiseite, durch
+【Annotation】lol
+
+
+Seite Nr.: 8457
+den er zu diesem letzten Urteile gelangt war (wir sind ohnedies in diesen Erörterungen schon zu weit gegangen), und fügen nur noch hinzu, daß die äußeren, rein materiellen Schwierigkeiten der Tat bei seinen Überlegungen überhaupt nur eine ganz untergeordnete Rolle spielten.
+
+Seite Nr.: 8466
+Dann interessierte ihn auf einmal eine andre Frage: warum eigentlich in allen großen Städten die Menschen (von Gründen äußerer Notwendigkeit ganz abgesehen)
+
+Seite Nr.: 8466
+eine ganz besondere Neigung dazu haben, gerade in solchen Stadtteilen sich niederzulassen und zu wohnen, wo keine Gärten und Springbrunnen, sondern Schmutz, übler Geruch und allerlei andre häßliche Dinge zu finden sind.
+
+Seite Nr.: 8467
+Wahrscheinlich klammern sich Menschen, die zur Hinrichtung geführt werden, in derselben Weise mit ihren Gedanken an allerlei Gegenstände an, die ihnen unterwegs in die Augen fallen‹,
+
+Seite Nr.: 8476
+, so war es ihm stets unbegreiflich, wo er nur so viel Schlauheit hergenommen hatte, um so mehr, da sein Verstand sich in einzelnen Augenblicken geradezu verdunkeltedunkelte und er seinen Körper fast gar nicht fühlte …
+
+Seite Nr.: 8495
+aber er irrte sich fortwährend: er sah z.B., daß ein Schlüssel nicht der richtige war,
+
+Seite Nr.: 8495
+nicht paßte; aber er steckte ihn immer wieder von neuem hinein.
+
+Seite Nr.: 8549
+Das Gefühl, daß alles, sogar das Gedächtnis, sogar die einfache Denkkraft ihn im Stiche lasse, quälte ihn in unerträglicher Weise. ›Wie? Fängt es wirklich jetzt schon an? Kommt wirklich jetzt schon die Strafe? Wahrhaftig?‹
+
+Seite Nr.: 8601
+er hat zu Mittag gegessen und will nicht bezahlen. ›Ich werde eine Satire über Sie schreiben‹, sagt der Mensch.
+
+Seite Nr.: 8606
+er ist der netteste, anständigste Mensch der Welt, aber freilich Schießpulver, das reine Schießpulver! Gleich gerät er in Wut, braust auf, wird hitzig – aber dann ist's auch wieder zu Ende, alles wieder vorbei! 
+
+Seite Nr.: 8619
+er hatte bis zu diesem Augenblicke noch nie eine derartige seltsame und fürchterliche Empfindung durchgemacht. Und was das Qualvollste dabei war: es war mehr Empfindung als Bewußtsein oder Erkenntnis; es war eine ganz unmittelbare Empfindung, peinvoller als alle, die ihm das Leben bisher gebracht hatte.
+
+Seite Nr.: 8652
+Wenn du wirklich diese ganze Tat als denkender Mensch und nicht als Narr ausgeführt hast, wenn du wirklich ein bestimmtes, festes Ziel hattest, warum hast du denn dann bis jetzt nicht einmal in den Beutel hineingeblickt und weißt gar nicht, was dir in die Hände gefallen ist und weswegen du alle diese Qualen auf dich genommen und dich auf eine so gemeine, garstige, niedrige Tat mit vollem Bewußtsein eingelassen hast?
+
+Seite Nr.: 8655
+Ich werde wieder gesund werden, und dann werde ich mit dieser Selbstquälerei aufhören … Aber wenn ich nun gar nicht wieder gesund werde? O Gott, wie mir das alles zum Ekel geworden ist! …‹
+
+Seite Nr.: 8662
+dich so nicht weg.«
+【Annotation】eine Nische suchen, ist nicht grundlegend falsch, aber es hindert doch sehr, sich überhaupt bewusst einem Thema hingeben zu können, über etwas schreiben, etwas malen zu können. die bürgerliche Wissenschaft hört da auf, wo es interessant zu werden beginnt
+
+Seite Nr.: 8664
+Der hat so einen kleinen Verlag und läßt naturwissenschaftliche Büchelchen erscheinen; die werden horrende gekauft. Schon allein die Titel sind das Geld wert.
+
+Seite Nr.: 8664
+Sieh mal her, hier sind mehr als zwei Bogen deutscher Text – meiner Ansicht nach das dümmste Geschwätz; den Inhalt bildet, kurz gesagt, die Erörterung der Frage, ob die Frau ein Mensch ist oder nicht. Es wird natürlich pomphaft bewiesen, daß sie ein Mensch ist. Gheruwimow bringt das als einen Beitrag zur Frauenfrage heraus; ich übersetze es; er streckt diese dritthalb Bogen so,
+
+Seite Nr.: 8665
+daß es sechse werden; wir erfinden dazu einen grandiosen Titel, der eine halbe Seite füllt, und setzen den Preis des Exemplares auf einen halben Rubel fest.
+
+Seite Nr.: 8666
+Cheruwimow hat von jemandem gehört, Rousseau wäre so eine Art Radischtschew gewesen.
+【Annotation】Diese Aussage ist eine ironische Umkehrung historischer Proportionen, die den russischen Blickwinkel auf die europäische Aufklärung humorvoll verdreht.
+Die tatsächlichen Verhältnisse:
+Jean-Jacques Rousseau (1712-1778) war ein einflussreicher französischer Aufklärungsphilosoph, dessen Werke wie "Der Gesellschaftsvertrag" und "Émile" die europäische Geistesgeschichte prägten.
+Alexander Radischtschew (1749-1802) war ein russischer Schriftsteller und Sozialreformer, der stark von der westeuropäischen Aufklärung – insbesondere von Rousseau – beeinflusst wurde. Sein Hauptwerk "Reise von Petersburg nach Moskau" (1790) kritisierte die Leibeigenschaft und die Zustände im zaristischen Russland.
+
+Seite Nr.: 8667
+Erstens bin ich in der Orthographie schlecht beschlagen, und zweitens bin ich im Deutschen
+
+Seite Nr.: 8668
+sehr schwach, so daß ich das meiste selbst erfinde und mich nur damit tröste, daß das Buch dadurch eher besser als schlechter wird.
+
+Seite Nr.: 8675
+Als er noch die Universität besuchte, war er häufig, wohl hundertmal, namentlich auf dem Rückwege nach Hause, gerade an dieser Stelle stehengeblieben, um unverwandt dies wahrhaft großartige Panorama zu betrachten und sich fast jedesmal über ein unklares, undefinierbares Gefühl, das ihn bei diesem Anblicke überkam, zu wundern.
+
+Seite Nr.: 8676
+Er wunderte sich jedesmal über diesen finstern, rätselhaften Eindruck, den es auf ihn machte, und verschob den Versuch, dieses Rätsel zu lösen, da er seiner eigenen Empfindung mißtraute, auf eine spätere Zeit.
+
+Seite Nr.: 8693
+Bald war er auf einmal allein im Zimmer; alle waren hinausgegangen und fürchteten sich vor ihm, und nur ab und zu öffneten sie die Tür ein wenig, um nach ihm zu sehen, drohten ihm, besprachen etwas untereinander, lachten und neckten ihn.
+
+Seite Nr.: 8700
+die Sache habe nichts zu bedeuten; es wäre wohl etwas mit dem Kopfe passiert. Irgend so ein Quatsch mit den Nerven, dazu mangelhafte Ernährung, sagte er; du hättest zu wenig Bier und Meerrettich bekommen; daher die Krankheit;
+
+Seite Nr.: 8705
+in Hoffnung auf die Möglichkeit späterer höherer Zahlungen‹;
+
+Seite Nr.: 8716
+ Aber eine sonderbare, sozusagen tierische Schlauheit veranlaßte ihn, seine Kräfte einstweilen noch zu verbergen, sich zu verstellen, nötigenfalls sogar so zu tun, als ob er das Gesagte nicht ganz verstände, und unterdessen aufzuhorchen und zu beobachten, was eigentlich um ihn herum vorgehe.
+
+Seite Nr.: 8722
+Ilja Petrowitsch 
+
+Seite Nr.: 8726
+ad vocem
+
+Seite Nr.: 8728
+Übrigens kann ich dir versichern, daß ich mir mein Urteil über sie rein intellektuell, lediglich nach den Grundsätzen der Metaphysik bilde; aber dabei ist mir ein Problem entgegengetreten, gegen das alle Algebra ein Kinderspiel ist!
+
+Seite Nr.: 8779
+macht hohle Hände.«
+
+Seite Nr.: 8787
+Hans-Dampf-in-allen-Gassen
+【Annotation】Der Ausdruck **"Hans-Dampf-in-allen-Gassen"** bezeichnet eine Person, die vielseitig, überall präsent und in viele Angelegenheiten verwickelt ist. Ursprünglich spöttisch gemeint, beschreibt der Begriff jemanden, der sich überall einmischt oder bei allem mitreden will, oft ohne dabei wirklich Experte zu sein. Heute wird der Ausdruck sowohl negativ als auch positiv verwendet und kann auch jemanden meinen, der besonders umtriebig, aktiv und vielseitig interessiert ist.
+Die Herkunft der Wendung ist nicht völlig geklärt. Der Name „Hans“ galt im Deutschen lange als eine typische Bezeichnung für den „jedermann“, die Allgemeinheit oder eine einfache, volkstümliche Person. Der Zusatz „Dampf“ suggeriert Betriebsamkeit und Aktivität, während „in allen Gassen“ darauf hinweist, dass die betreffende Person überall zu finden ist – sie ist stets beschäftigt und taucht in verschiedenen Bereichen auf.
+In der heutigen Verwendung kann der Ausdruck kontextabhängig interpretiert werden:  - Im **negativen Sinn** wird ein „Hans-Dampf-in-allen-Gassen“ oft als aufdringlich oder überfordert angesehen, als jemand, der sich vielleicht überschätzt und in viele Projekte gleichzeitig einmischt, ohne sie wirklich erfolgreich zu Ende zu bringen.  - Im **positiven Sinn** beschreibt es eine vielseitige, engagierte Person, die sich für viele Themen interessiert, aktiv und gesellig ist.
+Beispiel: „Er ist ein echter Hans-Dampf-in-allen-Gassen – immer unterwegs und immer eine neue Idee im Kopf!“
+Dieser Ausdruck ist bis heute ein faszinierendes Sprachbild für Aktivität und Vielseitigkeit, ob nun bewundernswert oder etwas übertrieben.
+
+Seite Nr.: 8788
+ein Irrtum ist sogar etwas ganz Gutes, weil er zur Wahrheit führt. Nein, das Ärgerliche ist, daß sie sich irrenren und von ihrem eigenen Irrtum entzückt sind.
+
+Seite Nr.: 8790
+Wir haben Fakta‹, sagen sie. Aber Fakta allein tun's nicht; man muß doch auch mit den Fakten umzugehen wissen!«
+
+Seite Nr.: 8805
+Ich rede jetzt nicht von den Beweisen, sondern von dieser Fragestellung, von der Art, in der sie ihre Aufgabe auffassen!
+
+Seite Nr.: 8813
+»Wie er sie bekommen hat! Wie er sie bekommen hat!« rief Rasumichin. »Kannst denn du als Arzt, der du vor allen Dingen die menschliche Natur studieren sollst und dazu mehr Gelegenheit hast als jeder andre – kannst du denn nicht an all diesen Einzelheiten sehen, wes Geistes Kind dieser Nikolai ist?
+
+Seite Nr.: 8819
+Werden nach dem ganzen Charakter unsrer Justiz die
+
+Seite Nr.: 8819
+Behörden ein solches Moment, das sich einzig und allein auf die psychologische Unmöglichkeit, lediglich auf die Seelenstimmung gründet, als ein unbestreitbares Moment gelten lassen, als ein Moment, das alle belastenden sachlichen Momente, wie sie auch immer beschaffen sein mögen, umstößt? Und sind die Behörden einer solchen Anschauung überhaupt fähig?
+
+Seite Nr.: 8846
+gab ihm in keiner Weise ein lächerliches oder dummes Aussehen, wie das sonst gewöhnlich bei frisiertem Haare der Fall ist, da es dem Gesichte eine verzweifelte Ähnlichkeit mit einem Deutschen, der sich trauen läßt, verleiht.
+
+Seite Nr.: 8855
+Da irrst du, an Tüchtigkeit mangelt es«, fiel Rasumichin ein. »Tüchtigkeit läßt sich nur mühsam erwerben und fällt nicht so ohne weiteres vom Himmel. Aber bei uns ist es schon fast zweihundert Jahre her, daß wir uns von jeder Arbeit entwöhnt haben. Ideen sind ja im Umlauf, das mag sein«,
+
+Seite Nr.: 8856
+auch ein Verlangen nach dem Guten ist vorhanden, wenn
+
+Seite Nr.: 8856
+auch dieses Verlangen sich etwas kindlich ausnimmt; auch Ehrenhaftigkeit findet sich, obwohl die Zahl der Gauner in einer unheimlichen Weise angeschwollen ist; aber Tüchtigkeit ist trotzdem nicht vorhanden.«
+
+Seite Nr.: 8857
+die Übertreibungen zeugen von Eifer für die gute Sache und lassen auf die üble äußere Lage schließen, in der sich die gute Sache befindet.
+
+Seite Nr.: 8857
+eine Anzahl neuer nützlicher Schriften ist an Stelle der früheren phantastischentastischen und romantischen erschienen; die Literatur nimmt einen reiferen Charakter an; viele schädliche Vorurteile sind ausgerottet und dienen zum Gespött … Mit einem Worte, wir haben mit der Vergangenheit endgültig gebrochen, und das ist, meiner Ansicht nach, schon eine bedeutende Tat …«
+
+Seite Nr.: 8859
+daß ein Fortschreiten stattfindet, wenigstens auf dem Gebiete der Wissenschaft und der nationalökonomischen Theorie …«
+
+Seite Nr.: 8860
+»Gemeinplätze!«
+
+Seite Nr.: 8860
+Wenn man mir zum Beispiel bisher sagte: ›Liebe deinen Nächsten!‹ und ich ihn demgemäß liebte, was war dann die Folge?« fuhr Pjotr Petrowitsch mit vielleicht etwas zu weitgehendem Eifer fort. »Die Folge war, daß ich meinen Rock in
+
+Seite Nr.: 8860
+zwei gleiche Teile zerriß, den einen Teil meinem Nächsten gab und wir so beide halbnackt blieben, nach dem Sprichworte: ›Wer mehreren Hasen zugleich nachjagt, bekommt keinen.‹ Die Wissenschaft aber sagt: ›Liebe vor allen andern dich selbst; denn alles in der Welt beruht auf dem persönlichen Interesse.‹
+
+Seite Nr.: 8861
+Folglich, wenn ich einzig und allein für mich erwerbe, so erwerbe ich gerade dadurch gewissermaßen auch für alle und bringe es dahin, daß mein Nächster etwas mehr als einen halben Rock erhält, und zwar nicht von der privaten Mildtätigkeit eines einzelnen, sondern infolge der allgemeinen gedeihlichenlichen Entwicklung. Der Gedanke ist so einfach; aber leider hat es allzulange gedauert, bis er sich hat durchsetzen können, da Verstiegenheit und Phantasterei ihm im Wege standen; und doch sollte man meinen, daß nicht viel Scharfsinn erforderlich ist, um einzusehen …«
+【Annotation】!
+
+Seite Nr.: 8863
+im übrigen ist mir diese ganze Art, sich durch leeres Geschwätz selbst ein Amüsement zu machen, und all diese endlosen, nie abreißenden Gemeinplätze und immer dasselbe und immer dasselbe – das ist mir in diesen drei Jahren so zum Ekel geworden, daß ich wahrhaftig schamrot werde, wenn nicht etwa gar ich, sondern auch nur in meiner Gegenwart andre davon reden.
+【Annotation】fick die uni
+
+Seite Nr.: 8864
+Mir persönlich lag jetzt nur daran, zu erfahren, wes Geistes Kind Sie sind; denn sehen Sie, an die gute Sache haben sich in letzter Zeit so viele schlaue Streber von mancherlei Art herangedrängt und haben alles, was sie in die Finger bekamen, in ihrem Interesse so entstellt, daß sie entschieden die ganze Sache versudelt haben. Aber nun genug davon!«
+
+Seite Nr.: 8868
+Setzen wir aber einen unerfahrenen Mörder voraus, so ergibt sich, daß einzig und allein der Zufall ihm aus der Klemme geholfen hat, und was tut
+
+Seite Nr.: 8869
+nicht alles der Zufall!
+
+Seite Nr.: 8870
+aber vor dem Weggehen noch ein paar kluge Worte von sich zu geben wünschte.
+Es lag ihm offenbar viel daran, einen vorteilhaften Eindruck zu hinterlassen, und die Eitelkeit trug dabei den Sieg über die Klugheit davon.
+
+Seite Nr.: 8871
+mich interessiert dabei ein anderer Umstand, ich möchte sagen: eine sozialpolitische Frage. Ich will nicht davon reden, daß in der untersten Volksschicht die Verbrechen im Laufe der letzten fünf Jahre erheblich zugenommen haben; ich will nicht von den Raubüberfällen und Brandstiftungen reden, die jetzt allerwärts und unaufhörlich vorkommen;
+【Annotation】wtf merrrrkellll
+
+Seite Nr.: 8873
+im Ausland, wird einer unserer Gesandtschaftssekretäre aus einem rätselhaften pekuniären Anlasse von einem Kollegen ermordet … Und wenn jetzt diese alte Wucherin von einem Angehörigen der höheren Stände getötet wurde – denn einfache Leute versetzen doch keine Goldsachen –, wie läßt sich dann diese Demoralisation des gebildeten Teiles unserer Bevölkerung erklären?«
+
+Seite Nr.: 8874
+Das könnte man gerade durch die fest eingewurzelte Untüchtigkeit erklären.«
+
+Seite Nr.: 8874
+›Alle bereichern sich auf die eine oder andre Art; daher wollte auch ich schnell reich werden
+
+Seite Nr.: 8875
+reich werden auf andrer Leute Kosten, recht schnell, ohne Arbeit! Wir haben uns gewöhnt, alles zum Leben Nötige einfach vorzufinden, mit fremder Hilfe zu gehen, ohne vorhergehende Mühe zu genießen.
+
+Seite Nr.: 8875
+»Ja, aber wo bleibt denn da die Moral? Und sozusagen die Prinzipien des Handelns
+
+Seite Nr.: 8876
+mischte sich, für alle unerwartet, Raskolnikow in das Gespräch. »Das entspricht doch vollständig Ihrer Theorie!«
+»Inwiefern soll das meiner Theorie entsprechen?«
+»Ziehen Sie aus den Grundsätzen, die Sie vorhin vortrugen, die sich daraus ergebenden Schlüsse, so kommen Sie zu dem Resultate, daß es gestattet ist, andre Menschen zu töten …«
+
+Seite Nr.: 8877
+»Es hat doch alles seine Grenzen«, fuhr Lushin hochmütig fort. »Eine nationalökonomische Idee ist noch keine Aufforderung zum Morde, und wenn man nur annimmt …
+
+Seite Nr.: 8911
+wo habe ich doch gelesen, wie ein zum Tode Verurteilter eine Stunde vor seinem Tode spricht oder denkt? Daß, wenn ihm die Möglichkeit gewährt würde, irgendwo hoch oben auf einem Felsen zu leben, auf einer so schmalen Plat
+
+Seite Nr.: 8911
+te, daß gerade nur die beiden Füße Raum zum Stehen fänden, und ringsumher wären Abgründe, Ozean, ewige Finsternis, ewige Einsamkeit und ewiger Sturm, und wenn er so, auf dem schmalen Platze stehend, sein ganzes Leben, tausend Jahre, eine Ewigkeit zubringen könnte: daß es ihm dann besser scheinen würde, so zu leben, als gleich zu sterben! Nur leben, leben, leben! Wie, ist gleichgültig; nur leben! … Und das ist wahr! 0 Gott, wie wahr! Der Mensch ist ein Schuft!… Und ein Schuft ist, wer ihn deswegen Schuft nennt!‹
+
+Seite Nr.: 8914
+›Isler – Isler – Azteken – Azteken – Isler – Bartola – Massimo – Azteken – Isler
+【Annotation】Diese rätselhafte Passage aus Dostojewskis "Schuld und Sühne" bezieht sich auf eine historische Kuriosität aus den 1840er-60er Jahren.
+
+**Die Azteken-Zwerge:**
+"Bartola" und "Massimo" waren zwei kleinwüchsige Menschen aus Mittelamerika, die in Europa als "aztekische Liliputaner" oder "Azteken-Kinder" zur Schau gestellt wurden. Sie tourten durch europäische Städte und waren eine Sensation in den Zeitungen.
+
+**Der Kontext bei Dostojewski:**
+Als Raskolnikow (vermutlich er, der durch die Zeitung blättert) diese Namen überfliegt, zeigt das:
+
+1. **Seine Zerstreutheit und innere Unruhe** - Er kann sich nicht konzentrieren, die Worte verschwimmen ineinander
+
+2. **Die Banalität der Alltagswelt** - Während er mit Mord, Schuld und existenziellen Fragen ringt, berichtet die Zeitung über Jahrmarkt-Sensationen
+
+3. **Der Kontrast** zwischen seinen schweren inneren Kämpfen und der oberflächlichen Sensationsgier der Gesellschaft
+
+**"Isler"** war vermutlich der Impresario oder Schausteller, der die beiden managte und deren Auftritte organisierte.
+
+Diese scheinbar nonsenshafte Aneinanderreihung ist typisch für Dostojewskis psychologischen Realismus - sie zeigt, wie das gehetzte, schuldbeladene Bewusstsein Raskolnikows die Außenwelt nur noch fragmentarisch wahrnimmt.
+
+Seite Nr.: 8933
+Und setzen wir selbst den Fall, es wäre ihnen trotz ihrer ungeschickten Maßregeln geglückt, setzen wir den Fall, jeder hätte sich eine Million eingewechselt, nun, wie dann weiter? Wie hätte sich dann ihr ganzes Leben gestaltet? Jeder einzelne wäre dann von dem andern sein ganzes Leben lang abhängig gewesen! Da wäre es doch besser,
+
+Seite Nr.: 8934
+sich gleich aufzuhängen!
+
+Seite Nr.: 8938
+Ach, entschuldigen Sie, ich glaube, ich habe in dem zweiten Tausend das siebente Hundert nicht richtig gezählt; ich habe nun doch Zweifel‹, und hätte das dritte wieder hingelegt und nochmal nach dem zweiten gegriffen – und so bei allen fünfen.
+
+Seite Nr.: 8947
+Er wußte, was er tat, hatte aber die Herrschaft über sich verloren.
+
+Seite Nr.: 8959
+»hör mich mal an! Ich erkläre dir hiermit, daß ihr alle, ohne Ausnahme, weiter nichts als Schwätzer und Prahlhänse seid! Trifft euch einmal ein kleines Leid, so benehmt ihr euch damit wie eine Henne, die ein Ei legt! Auch bei solcher Gelegenheit kopiert ihr fremde Autoren. Keine Spur von eigenem, selbständigem Leben ist bei euch zu finden. Kerle wie aus Gallert und statt des Blutes Käsewasser in den Adern! Keinem von euch glaube ich etwas! Die Hauptsache ist euch in allen Lagen immer, euch nur ja nicht wie ein Mensch zu benehmen
+
+Seite Nr.: 8966
+Ich bin aber auch ein Esel! Als ob Verrückte nicht auch vernünftig reden könnten!
+
+Seite Nr.: 9040
+Vielleicht könnte man noch einen Aderlaß vornehmen, … aber … helfen wird das auch nicht.
+
+Seite Nr.: 9067
+Es hat uns jetzt ein Unglück nach dem andern betroffen«, fügte sie unvermittelt hinzu, mit der eigentümlich ernsten Miene, welche Kinder mit besonderer Bemühung annehmen, wenn sie »wie die Großen« reden wollen.
+
+Seite Nr.: 9071
+es ist Zeit, daß du zur Ruhe kommst! Jetzt beginnt die Herrschaft der Vernunft und des Lichtes … und des Willens und der Kraft … Und nun wollen wir einmal sehen! Nun wollen wir uns einmal miteinander messen!‹
+
+Seite Nr.: 9073
+Kraft ist erforderlich; ohne Kraft richtet man nichts aus; aber Kraft muß man gerade wieder durch Kraft erwerben; das ist´s, was die meisten nicht wissen‹,
+
+Seite Nr.: 9079
+Mögen sie jetzt schwadronieren, immerzu; im spätern Leben sind sie dann um so gesetzter.
+
+Seite Nr.: 9081
+Man lernt doch nie aus.«
+
+Seite Nr.: 9090
+vor allem ist mir so traurig zumute, so traurig! Als ob ich ein Weib wäre,
+
+Seite Nr.: 9128
+Und wie ist das gekommen, daß ich mich so beduselt habe? Das ist daher gekommen, weil sie mich in eine Debatte hineingezogen haben,
+
+Seite Nr.: 9128
+die verdammten Kerle! Und ich hatte mir selbst ein eidliches Versprechen gegeben, nie mehr zu debattieren!
+
+Seite Nr.: 9129
+Na, können Sie das glauben: sie verlangen, man solle sich seiner persönlichen Eigenheiten völlig entäußern, und darin finden sie ihr Ideal! Nur ja nicht man selbst sein, nur möglichst wenig individuell sein! Und das halten sie für das höchste Ziel fortschrittlicher Entwicklung. Und
+
+Seite Nr.: 9129
+wenn ihr unsinniges Geschwätz wenigstens etwas Eigenes hätte; aber…«
+
+Seite Nr.: 9130
+Ich habe das sogar ganz gern, wenn die Leute Unsinn reden! Das Unsinnreden ist das einzige Privilegium, das der Mensch vor allen
+
+Seite Nr.: 9130
+übrigen organischen Wesen hat. Wer Unsinn redet, der gelangt zur Wahrheit! Daß ich Unsinn rede, das macht mich erst recht eigentlich zum Menschen. Zu keiner einzigen Wahrheit ist man gelangt, ohne daß man vorher vierzehnmal, vielleicht auch hundertvierzehnmal Unsinn geredet hätte, und das ist etwas sehr Achtbares, wenn es in individueller Weise geschieht; na, aber wir verstehen nicht einmal, mit unserm eigenen Verstande Unsinn zu reden. Rede Unsinn, aber tue es auf deine eigene Art, und ich gebe dir einen Kuß dafür. Auf seine eigne Art Unsinn zu reden, das ist sogar beinah besser, als nach allgemeinem Schema und nach fremdem Muster die Wahrheit zu reden; im ersten Falle ist man ein Mensch, im zweiten nur ein Papagei. Die Wahrheit wird uns nicht davonlaufen; wohl aber kann man durch jenen törichten Verzicht auf Individualität sich selbst das Leben verderben; dafür fehlt es nicht an Beispielen. Na, was sind wir denn jetzt? In bezug auf Wissenschaft, Fortschritt, Denken, Erfindungsgabe, Ideale, Bestrebungen, Liberalismus, Vernunft, Erfahrung und alles, alles, alles, alles, alles sitzen wir alle ohne Ausnahmenahme gleichsam noch in der untersten Vorbereitungsklasse des Gymnasiums! Wir haben Gefallen daran gefunden, uns mit fremder Weisheit zu behelfen; wir haben uns daran gewöhnt! Ist es nicht so? Habe ich nicht recht?« rief Rasumichin, indem er die Hände der beiden Damen kräftig schüttelte und drückte. »Habe ich nicht recht?«
+【Annotation】!!!!
+
+Seite Nr.: 9151
+Wir wollen in Parenthese bemerken, daß die Erhaltung all dieser seelischen Eigenschaften eben das einzige Mittel ist, um sich die Schönheit sogar bis ins Alter hinüberzuretten.
+
+Seite Nr.: 9158
+Nach seinen Beobachtungen habe die Krankheit des Patienten, außer der üblen materiellen Lage desselben in den letzten Monaten, noch einige seelische Ursachen; sie sei sozusagen das Produkt vieler ineinandergreifender seelischer und materieller Einwirkungen, starker Aufregungen, Befürchtungen, Sorgen, gewisser Ideen usw.
+【Annotation】ist ja noch vor freud aber nach marx
+
+Seite Nr.: 9159
+und jedenfalls werde nun die Ankunft seiner Angehörigen eine kräftigende Wirkung auf ihn ausüben, ihn zerstreuen und zu seiner Genesung beitragen, vorausgesetzt, daß (wie er bedeutsam hinzufügte) es gelinge, neue außerordentliche Erschütterungen von ihm fernzuhalten.
+【Annotation】parenthese
+
+Seite Nr.: 9164
+Liedrian
+【Annotation】Liedrian, der
+
+GrammatikSubstantiv (Maskulinum) · Genitiv Singular: Liedrian(e)s · Nominativ Plural: Liedriane
+
+Aussprache 
+
+Worttrennung Lie-dri-an · Lied-ri-an
+
+eWDG
+
+Bedeutung
+
+umgangssprachlich, abwertend Liederjan
+
+Beispiel:
+
+Der Liedrian … der Ehrlose, Pflichtvergessene und Trunkenbold [ ZuchardtNarr93]
+
+
+
+Seite Nr.: 9178
+Das Hotel garni? Woher hätte er denn eigentlich in Erfahrung bringen können, was das für ein Hotel war? Er war doch dabei, eine ordentliche Wohnung einzurichten … Pfui, wie gemein er sich da in jeder Hinsicht benommen hatte!
+
+Seite Nr.: 9179
+Durch die Trunkenheit kommt nach dem Sprichwort die Wahrheit an den Tag, und nun war ja auch die ganze Wahrheit an den Tag gekommen, nämlich die ganze Gemeinheit seines neidischen, rohen Charakters!
+
+Seite Nr.: 9181
+›natürlich lassen sich alle diese Gemeinheiten jetzt nie mehr wieder beschönigen und gutmachen, … folglich hat es keinen Zweck, daran auch nur noch zu denken; sondern ich habe eine stumme Rolle zu spielen und … meine Pflicht zu erfüllen, schweigend, und … und ich darf nicht um Verzeihung bitten und darf überhaupt nicht davon reden, und … und natürlich ist nun alles für mich verloren!‹
+
+Seite Nr.: 9184
+Na, hol´s der Teufel! Mir ganz egal! Nun will ich mich gerade als recht schmutziger, schmieriger Kneipenbruder zeigen und mich um nichts scheren! Nun gerade!‹
+
+Seite Nr.: 9189
+Leute mit einer derartigen fixen Idee machen ja aus einer Mücke einen Elefanten und sehen in wachem Zustandetande die unglaublichsten Dinge leibhaftig vor sich
+
+Seite Nr.: 9190
+Es kommen noch seltsamere Dinge vor! Ich kenne einen Fall, wo ein Hypochonder, ein Mann von vierzig Jahren, nicht imstande war, es zu ertragen, daß ein achtjähriger Knabe sich täglich bei Tische über ihn lustig machte; er ermordete ihn deswegen!
+
+Seite Nr.: 9202
+Manchmal indessen ist er ganz und gar nicht hypochondrisch, sondern einfach kalt und gefühllos bis zur Unmenschlichkeit, geradezu als ob bei ihm zwei entgegengesetzte Charaktere einander ablösten. Mitunter ist er furchtbar schweigsam. Nie hat er Zeit; immer stört man ihn;
+
+Seite Nr.: 9205
+Auch sie hatte die Gewohnheit, das, was der andre sagte, nicht ganz bis zu Ende zu hören.
+
+Seite Nr.: 9207
+Awdotja Romanowna lächelnd. »Ich glaube, auch das ist richtig, daß er ein weibliches Wesen um sich haben muß«, fügte sie nachdenklich hinzu.
+»Davon habe ich nichts gesagt; indessen haben Sie vielleicht auch darin recht, nur …«
+
+Seite Nr.: 9209
+Verlaß war auf seinen Charakter niemals, selbst nicht, als er erst fünfzehn Jahre alt war. Ich bin überzeugt, er ist auch jetzt imstande, auf einmal irgend etwas zu unternehmen, was einem andern Menschen nie in den Sinn kommen würde zu tun …
+
+Seite Nr.: 9232
+»hätte ich wohl je gedacht, daß ich mich vor einem Wiedersehen mit meinem Sohne, mit meinem lieben, lieben Rodja fürchten würde,
+
+Seite Nr.: 9243
+Sossimow, der seinen Patienten mit dem ganzen jugendlichen Eifer eines erst kürzlich in die Praxis eingetretenen Arztes beobachtete und studierte, bemerkte zu seinem Staunen, daß sich auf dessen Gesichte nach der Ankunft seiner Angehörigen nicht etwa Freude spiegelte, sondern der heimliche,liche, schwere Entschluß, nun ein bis zwei Stunden lang eine Folter auszuhalten, der eben nicht mehr zu entgehen sei.
+
+Seite Nr.: 9247
+Jetzt, wo man wieder mit Ihnen ein vernünftiges Wort reden kann, möchte ich Ihnen dringend ans Herz legen, daß es notwendig ist, die Grundursachen zu beseitigen, die auf die Entstehung Ihres krankhaften Zustandes von Einfluß gewesen sind, sozusagen die Wurzeln des Übels;
+
+Seite Nr.: 9248
+Mir scheint, der Beginn Ihres Leidens fällt so ziemlich mit dem Verlassen der Universität zusammen. Sie dürfen nicht ohne Beschäftigung bleiben, und daher könnten Ihnen Arbeit und ein fest vorgestecktes Ziel meiner Ansicht nach sehr nützlich sein.«
+
+Seite Nr.: 9263
+»In dieser Hinsicht sind wir tatsächlich alle, und zwar sehr häufig, fast wie Verrückte, nur mit dem kleinen Unterschiede, daß die ›Kranken‹ ein bißchen verrückter sind als wir; man muß da eben auf die Grenzlinie achten
+
+Seite Nr.: 9277
+Wir können uns ja noch genug aussprechen.«
+Nach diesen Worten wurde er plötzlich wieder ganz verstört und blaß;
+
+Seite Nr.: 9303
+»Gerichtsstil? Ja, ganz richtig, Gerichtsstil, Geschäftsstil, das ist's. Nicht gerade sehr ungebildet, aber auch nicht gerade sehr geschmackvoll; Geschäftsstil!«
+
+Seite Nr.: 9339
+aber wo kann man wohl hier in Petersburg frische Luft atmen? Hier ist es auch auf den Straßen gerade wie in einem Zimmer, das nie gelüftet wird. Herrgott, was ist das nur für eine Stadt!
+
+Seite Nr.: 9377
+Päonie
+【Annotation】Pfingstrosen
+
+Seite Nr.: 9420
+Zuerst wurde die Ansicht der Sozialisten vorgebracht. Diese Ansicht ist ja bekannt: das Verbrechen ist ein Protest gegen die Abnormität der sozialen Einrichtungen – basta, weiter nichts; andre Ursachen werden nicht anerkannt, basta! …«
+
+Seite Nr.: 9421
+»Ich stelle es nicht falsch dar! Ich will dir Bücher zeigen, die sie darüber geschrieben haben; immer heißt es bei ihnen: ›die Gesellschaft ist daran schuld‹, weiter nichts. Das ist ihr beliebtes Schlagwort! Daraus folgt dann ohne weiteres, daß, wenn es gelingt, die Gesellschaft normal einzurichten, mit dem Wegfall jedes Anlasses zu einem Proteste sofort auch alle Verbrechen verschwinden und alle Menschen im Nu gerecht werden. Aber die Natur wird von ihnen nicht in Betracht gezogen; die wird in diesen Erwägungen ignoriert, die wird nicht
+
+Seite Nr.: 9422
+als Faktor in die Rechnung eingesetzt. Nach ihrer Ansicht verhält es sich nicht so, daß die Menschheit auf historischem, organischem Wege sich weiterentwickelt und schließlich zum Normalzustande gelangt, sondern ein soziales System, das Produkt eines mathematischen Kopfes, wird sofort die ganze Menschheit in Ordnung bringen und sie im Nu gerecht und sündlos machen, schneller als jeder organische Prozeß, ohne jede historische und organische Entwicklung! Daher haben sie auch eine solche instinktive Abneigung gegen die Geschichte; ›die Geschichte‹,
+
+Seite Nr.: 9423
+sagen sie, ›ist ein Gemenge von Schändlichkeiten und Dummheiten‹, und erklären alles nur aus der Dummheit. Darum haben sie auch eine solche Abneigung gegen den organischen Lebensprozeß: eine lebendige Seele brauchen sie nicht! Eine lebendige Seele verlangt zu leben; eine lebendige Seele fügt sich nicht in einen Mechanismus; eine lebendige Seele ist mißtrauisch; eine lebendige Seele opponiert! Aber den Menschen, der in ihr System paßt, den kann man aus Kautschuk machen; und wenn er auch einen Kadavergeruch hat – dafür ist er auch nicht lebendig, dafür ist er auch willenlos, dafür ist er auch sklavisch und rebelliert nicht.
+
+Seite Nr.: 9424
+Kurz, sie denken an nichts als an die Aufführung der Mauern und die Anordnung der Korridore und Zimmer in ihrer großen Phalanstère. Die Phalanstère ist fertig; aber die menschliche Natur dafür passend zu machen, damit sind sie noch nicht fertig. Die menschliche Natur will leben; sie hat ihren organischen Entwicklungsprozeß noch nicht abgeschlossen; sie auf den Kirchhof zu bringen, damit ist es noch zu früh! Mit der kahlen Logik kann man sich über die Natur nicht hinwegsetzen! Die Logik sieht vielleicht drei mögliche Arten voraus, wo es ihrer eine Million gibt! Diese ganze Million beiseite zu schieben lediglich mit Rücksicht auf die Bequemlichkeit beim Aufbau des Systems, das ist allerdings die leichteste Lösung der Aufgabe. Das ist von einer verführerischen Übersichtlichkeit, und das Denken spart man dabei ganz. Und das ist die Hauptsache: man spart dabei das Denken! Das ganze geheimnisvolle Problem des Lebens läßt sich dann auf zwei Druckseiten abtun!«
+【Annotation】Das Phalanstère ist ein von Charles Fourier entwickeltes Konzept für eine landwirtschaftliche oder industrielle Produktions- und Wohngenossenschaft, die in Fouriers System „Phalanx“ genannt wird und idealerweise aus genau 1620 Mitgliedern bestehen sollte. Die Mitglieder leben, arbeiten, lieben und konsumieren gemeinsam, wobei Fouriers Vision Elemente wie kollektives Eigentum, Solidarität sowie freie Liebe und die Abschaffung traditioneller Formen der Familie beinhaltet.wikipedia+2​
+
+Aufbau und Zweck
+
+Das Phalanstère ist architektonisch am Schloss Versailles orientiert: Ein zentraler Flügel dient öffentlichen Funktionen wie Speisesaal, Bibliothek und Wintergarten, die Seitenflügel enthalten Werkstätten und Wohnräume für die Gemeinschaft. Ziel ist es, durch eine neue Form des Zusammenlebens gesellschaftliche Konkurrenz und Habgier zu überwinden und stattdessen Kooperation und persönliche Entfaltung zu ermöglichen.kritisch-lesen+2​
+
+Soziale Ordnung
+
+In dieser idealen Gemeinschaft sollte die Verteilung von Arbeit, Kapital und Talent jedem einzelnen gerecht werden, sodass das individuelle Interesse mit dem Gemeinwohl übereinstimmt. Dabei sieht Fourier antiautoritäre Erziehung, freie Liebeswahl und Wechsel der beruflichen Tätigkeit vor. Klassen- und Geschlechtergrenzen sollen durch diese Form der Association überwunden werden; feste Ehen oder Kernfamilien sind im klassischen Phalanstère nicht vorgesehen.rosalux+2​
+
+Historische Beispiele
+
+Mehrere Versuche, solche Gemeinschaften nach Fouriers Vorbild zu realisieren, scheiterten spätestens nach kurzer Zeit, doch das Konzept beeinflusste zahlreiche utopische Projekte des 19. Jahrhunderts in Europa und Amerika.wikipedia​
+
+Zusammengefasst ist das Phalanstère eine sozialutopische Wohn- und Produktionsgemeinschaft, deren Ziel es war, ein harmonisches, solidarisches und gemeinschaftliches Leben zu ermöglichen und dabei die Zwänge der klassischen bürgerlichen Gesellschaft zu überwinden.tu-dresden+3​
+
+https://de.wikipedia.org/wiki/Phalanst%C3%A8re
+
+https://kritisch-lesen.de/essay/reclaim-the-smart-home
+
+https://www.textlog.de/benjamin/abhandlungen/passagen/fourier
+
+https://www.rosalux.de/fileadmin/rls_uploads/pdfs/105_Saage.pdf
+
+https://tu-dresden.de/bu/architektur/ibad/bg/ressourcen/dateien/lehre/lehrmaterialien/vorlesungen-archiv/Visionen-von-Architektur-2017-18_komplett_WEB.pdf
+
+https://www.phase-zwei.org/hefte/artikel/quadratstadt-citta-del-sole-und-phalanstere-486
+
+https://de.wikipedia.org/wiki/Datei:2021-03_-_Phalanst%C3%A8re_des_Zagots_-_01.jpg
+
+https://www.helles-koepfchen.de/?suche=phalanst%C3%A8re
+
+https://www.gites-de-france.com/de/franzoesische-regionen/hauts-de-france/miet-ferienwohnungen-aisne/das-familistere-von-guise
+
+
+
+Seite Nr.: 9427
+Nein, Bruder, du irrst dich: ›die Gesellschaft‹ ist bei den Verbrechen allerdings ein sehr wesentlicher Faktor; das kannst du mir glauben.«
+
+Seite Nr.: 9427
+aber beantworte mir mal diese Frage: wenn ein Mann von vierzig Jahren ein zehnjähriges Mädchen mißbraucht, hat ihn dann ›die Gesellschaft‹ dazu genötigt?«
+
+Seite Nr.: 9430
+Das ist alles bei ihm Verstellung; du kennst ihn bloß noch nicht, Rodja! Auch gestern nahm er für die Verfechter dieser Ansicht Partei, nur um sie alle zum Narren zu halten.
+【Annotation】based
+
+Seite Nr.: 9432
+dabei ist mir jetzt ein Aufsatz von Ihnen eingefallen, der mich übrigens schon immer interessiert hat. ›Über das Verbrechen‹ oder wie Sie ihn betitelt haben;
+
+Seite Nr.: 9438
+Raskolnikow lächelte über diese gewaltsame, absichtliche Entstellung seines Gedankens.
+
+Seite Nr.: 9438
+Der Kern der Sache ist, daß in Herrn Raskolnikows Aufsatze alle Menschen in gewöhnliche und außerordentliche eingeteilt werden. Die gewöhnlichen sind zum Gehorsam verpflichtet und haben kein Recht, das Gesetz zu überschreiten, eben deswegen, weil sie nur gewöhnliche Menschen sind. Aber die außerordentlichen haben das Recht oder gar die Pflicht, allerlei Verbrechen zu begehen und in jeder Weise das Gesetz zu übertreten, eben darum, weil sie außerordentliche Menschen sind.
+
+Seite Nr.: 9441
+Der Unterschied ist nur der, daß ich gar nicht behaupte, außerordentliche Menschen müßten und sollten unter allen Umständen allerlei Exzesse begehen, wie Sie sagen. Ich meine sogar, der Druck eines solchen Aufsatzes wäre gar nicht gestattet worden.
+
+Seite Nr.: 9441
+daß ein außerordentlicher Mensch das Recht habe, … das heißt, nicht ein offizielles Recht, sondern sozusagen ein persönliches Recht, seinem Gewissen die Überschreitung gewisser Hindernisse zu gestatten, aber einzig und allein in dem Falle, wenn die Durchführung seiner Idee (die mitunter vielleicht der gesamten Menschheit Heil und Segen bringt) dies verlangt.
+
+Seite Nr.: 9442
+Wenn die Entdeckungen Keplers und Newtons infolge irgendwelcher Umstände den Menschen schlechterdings nicht anders hätten bekannt werden können als dadurch, daß das Leben von einem, von zehn, von hundert usw. Menschen zum Opfer gebracht wurde, die der Veröffentlichung dieser Entdeckungen störend oder hindernd im Wege standen, so hätte Newton das Recht und sogar die Pflicht gehabt, … diese zehn oder hundert Menschen zu beseitigen, um seine Entdeckungen der ganzen Menschheitschheit bekannt zu machen. Daraus folgt jedoch durchaus nicht, daß Newton das Recht gehabt hätte, jeden beliebigen Menschen, der ihm gerade in die Quere kam, totzuschlagen oder jeden Tag auf dem Markte zu stehlen. Ferner entwickelte ich, meiner Erinnerung nach, in meinem Aufsatze den Gedanken, daß alle … nun, sagen wir zum Beispiel alle Gesetzgeber und Führer der Menschheit, von den ältesten angefangen, und dann weiter Lykurg, Solon, Mohammed, Napoleon und so fort – daß diese alle, ohne Ausnahme, Verbrecher waren, schon allein deswegen,gen, weil sie durch die neuen Gesetze, die sie gaben, die alten, von den Vätern überkommenen und von der Gesellschaft für heilig erachteten Gesetze verletzten und natürlich auch vor Blutvergießen nicht zurückschraken, wenn allein dieses Blutvergießen (und es handelte sich dabei oft um ganz unschuldiges Blut, das heldenmütig bei der Verteidigung der alten Gesetze vergossen wurde) ihnen zur Durchführung ihrer Absichten helfen konnte.
+
+Seite Nr.: 9445
+Kurz, ich kam zu dem Ergebnis, daß nicht nur die eigentlich großen Männer, sondern auch diejenigen, die nur einigermaßen fähig sind, neue Bahnen einzuschlagen, das heißt, die nur einigermaßen imstande sind, etwas Neues zu sagen, daß diese alle zufolge ihrer Natur Verbrecher sein müssen – selbstverständlich mehr oder weniger.
+【Annotation】!
+
+Seite Nr.: 9446
+Kurz, Sie sehen, daß bis dahin in meinen Ausführungen nichts besonders Neues liegt. Das alles ist schon tausendmal gedruckt und gelesen worden. Was meine Einteilung der Menschen in gewöhnliche und außerordentliche anlangt, so gebe ich zu, daß sie einigermaßen willkürlich ist; aber ich stelle ja auch keine bestimmten Zahlen auf. Wert lege ich nur auf meinen Hauptgedanken, und dessen Inhalt ist eben der, daß die Menschen nach einem Naturgesetze sich tatsächlich
+
+Seite Nr.: 9447
+in zwei Klassen scheiden: in eine niedrige, die der gewöhnlichen Menschen, das heißt sozusagen das Material, das lediglich zur Fortpflanzung der Menschheit dient, und in eigentliche Menschen, das heißt solche, die die Gabe oder das Talent besitzen, in ihrem Wirkungskreise ein neues Wort auszusprechen. Unterabteilungen gibt es hier natürlich unzählige; aber die unterscheidenden Merkmale der beiden Klassen sind doch recht scharf ausgeprägt:
+
+Seite Nr.: 9448
+erste Klasse, also das Material,
+
+Seite Nr.: 9448
+Vertreter der zweiten Klasse dagegen übertreten sämtlich das Gesetz; sie sind Zerstörer oder neigen wenigstens zur Zerstörung,
+
+Seite Nr.: 9449
+Die Verbrechen dieser Menschen sind selbstverständlich nach Grad und Art sehr verschieden; größtenteilsteils verlangen sie, in sehr mannigfaltigen Erscheinungsformen, die Zerstörung des Bestehenden zum Zwecke der Erreichung von etwas Besserem. Sollte aber ein solcher Mensch im Interesse seiner Idee es als nötig erkennen, selbst über Leichen und durch Blut vorwärtszuschreiten, so kann er nach meiner Ansicht sich innerlich, in seinem Gewissen, selbst die Erlaubnis erteilen, auch durch Blut dahinzuschreiten, jedoch nur in dem Umfange, wie es zur Verwirklichung der Idee erforderlich ist – wohl zu merken. Nur in diesem Sinne rede ich in meinem Aufsatze von einem Rechte dieser Menschen, Verbrechen zu begehen (Sie erinnern sich, daß wir von einer juristischen Frage ausgingen).
+【Annotation】subversive Theorie agnoli
+
+Seite Nr.: 9450
+Übrigens ist kein Anlaß, sich über diese ganze Sache besonders aufzuregen; die große Masse erkennt dieses Recht der außerordentlichen Menschen fast niemals an, sondern köpft und hängt sie (mehr oder weniger) und erfüllt dadurch in durchaus rechtmäßiger Weise ihre konservative Bestimmung; nur ist der weitere Verlauf oft der, daß in den nachfolgenden Generationen ebendiese große Masse die Hingerichtetengerichteten auf Piedestale stellt und feiert (auch hier setze ich hinzu: mehr oder weniger). Die erste Klasse ist stets die Beherrscherin der Gegenwart, die zweite die der Zukunft. Die ersten erhalten die Welt und vermehren sie numerisch; die andern bewegen die Welt und führen sie zum Ziele. Die einen und die andern haben eine völlig gleiche Existenzberechtigung.
+【Annotation】!!
+
+Seite Nr.: 9452
+Kurz, nach meiner Ansicht haben alle ein gleich wohlbegründetes Recht; und: vive la guerre éternelle! Natürlich, bis das neue Jerusalem kommt!«
+【Annotation】"Vive la guerre éternelle!" - Solange nicht klar ist, wer zu welcher Kategorie gehört, herrscht ewiger Kampf. Jeder kann theoretisch beanspruchen, zu den Außergewöhnlichen zu gehören - daher der permanente Konflikt um diese Position.
+"Bis das neue Jerusalem kommt" - Erst in der vollkommenen Zukunft, im Reich der absoluten Harmonie und Gerechtigkeit, würde dieser Kampf enden.
+
+Es lebe der ewige Krieg
+
+Kampf dee Ideen!
+
+Seite Nr.: 9453
+Ich glaube an ihn«, erwiderte Raskolnikow; dabei blickte er auf und sah Porfirij an.
+
+Seite Nr.: 9453
+»Und … und glauben Sie an die Auferstehung des Lazarus?«
+【Annotation】Die Frage nach der Auferstehung des Lazarus ist ein zentrales Motiv in Fjodor Dostojewskis **„Schuld und Sühne“**, das eine tiefere, symbolische Bedeutung im Kontext der Handlung und der inneren Kämpfe der Figuren bekommt. Im Johannesevangelium des Neuen Testaments wird die Geschichte von Lazarus erzählt, den Jesus von den Toten zurück ins Leben holt. Diese Geschichte dient als Metapher für spirituelle Erneuerung, Erlösung und die Macht des Glaubens.
+In Dostojewskis Roman wird die Auferstehung des Lazarus besonders im Dialog zwischen Sonja Marmeladowa und Rodion Raskolnikow hervorgehoben. Sonja liest Rodion diese Bibelstelle vor, da sie daran glaubt, dass selbst für einen zutiefst gefallenen Menschen wie ihn Hoffnung auf Erlösung und moralische Wiedergeburt bestehen kann. Für sie ist die Geschichte von Lazarus auch ein Ausdruck von unerschütterlichem Glauben an göttliche Gnade, selbst in den dunkelsten Momenten.
+Für Raskolnikow selbst ist die Geschichte ambivalent. Sie provoziert seinen inneren Konflikt, da er mit der Idee ringt, ob er – trotz seines Mordes und seines nihilistischen Gedankengebäudes – ebenfalls auf eine Art „Auferstehung“ hoffen kann. Die Bibelstelle symbolisiert die Möglichkeit, sich von der Last der Schuld zu befreien und durch Sühne moralisch erneuert zu werden.
+Die Frage „Glauben Sie an die Auferstehung des Lazarus?“ ist damit mehr als eine religiöse Frage. Sie fordert auf, an die Macht von Reue, Barmherzigkeit und Vergebung zu glauben – nicht nur durch göttliche, sondern auch durch menschliche Stärke und Liebe. In diesem Sinne ist die Geschichte auch ein zentraler Schlüssel zur Transformation der Figuren und zur Moral des Romans.
+
+Seite Nr.: 9456
+wenn es da zur Konfusion kommen sollte und einer aus der einen Klasse sich einbildete zur andern Klasse zu gehören und nun anfinge, ›alle Hindernisse zu beseitigen‹, wie Sie sich sehr treffend ausdrückten, dann würde doch …«
+
+Seite Nr.: 9457
+bedenken Sie, daß ein derartiger Irrtum nur von seiten der ersten Klasse möglich ist,
+
+Seite Nr.: 9457
+Trotz der ihnen angeborenen Neigung zum Gehorsam, lieben (vermöge einer lebhaften Phantasie, wie sie selbst den Kühen nicht versagt ist) es dennoch sehr viele von ihnen, sich für Bahnbrecher und Zerstörer zu halten und sich auf neue Ideen zu kaprizieren, und zwar durchaus in gutem Glauben. Und diejenigen, die wirklich neue Werte schaffen, werden von ihnen dabei oft gar nicht beachtet und sogar als rückständig
+
+Seite Nr.: 9458
+und niedrigdenkend geringgeschätzt.
+
+Seite Nr.: 9458
+Sie haben wirklich keinen Anlaß zur Besorgnis; denn besonders weit geht diese Sorte von Menschen in ihren Exzessen niemals. Für ihr verblendetes Handeln könnte man ihnen ja manchmal die Rute geben, damit sie nicht vergessen, an welchen Platz sie gehören; aber auch nicht mehr. Auch bedarf es dabei gar nicht einmal eines Vollstreckers der Strafe; sie werden sich schon selbst die Rute applizieren, weil sie sehr moralisch
+
+Seite Nr.: 9459
+sind: manche erweisen einander wechselseitig diesen Dienst, andere besorgen es bei sich eigenhändig …
+
+Seite Nr.: 9460
+»Menschen mit neuen Ideen, ja selbst Menschen, die auch nur einigermaßen fähig sind, etwas Neues zu sagen, werden überhaupt in außerordentlich geringer Anzahl geboren
+
+Seite Nr.: 9461
+Nur das eine ist klar: die Ordnung, in welcher die Menschen aller dieser Klassen und Unterabteilungen geboren werden, ist gewiß in bestimmter, genauer Weise durch ein Naturgesetz geregelt. Dieses Gesetz ist uns selbstverständlich zur Zeit unbekannt; aber ich glaube, daß es existiert und in der Folgezeit auch zu unserer Kenntnis gelangen kann.
+
+Seite Nr.: 9461
+Das gewaltige Gros der Menschen, das Material, existiert in der Welt nur zu dem Zwecke, um schließlich durch eine Art von Anstrengung, durch einen bis jetzt noch geheimnisvollen Vorgang, vermittels irgendwelcher Kreuzung der Familien und Arten ein bestimmtes Resultat zu erzielen,
+
+Seite Nr.: 9462
+nämlich einen einzigen, auch nur leidlich selbständig denkenden Menschen – sagen wir auf tausend einen – hervorzubringen.
+
+Seite Nr.: 9463
+Aber ein bestimmtes Gesetz existiert sicher und muß existieren; bloßer Zufall kann da nicht vorliegen.«
+
+Seite Nr.: 9465
+Diese, diese Erlaubnis, nach eigenem Gewissen Blut zu vergießen, die … die ist nach meiner Meinung schrecklicher, als es eine offizielle, gesetzliche Erlaubnis, Blut zu vergießen, sein würde …«
+
+Seite Nr.: 9467
+Lykurg oder ein Mohammed
+【Annotation】Gesetzgeber Spartas und gesetzgebergegr des islams
+
+Seite Nr.: 9468
+Er sagt sich, der Weg zum Ziele sei lang, und zur Zurücklegung dieses Weges brauche er Geld, … und nun fängt er an, sich das Geld zu diesem Wege zu beschaffen,
+【Annotation】roooote Armee fraktion
+
+Seite Nr.: 9469
+. Der hier« (er wies auf Rasumichin) »sagte eben, ich gäbe die Erlaubnis zum Blutvergießen. Nun, was macht das? Die Gesellschaft hat sich doch durch Verschickung nach Sibirien, durch Gefängnisse, Untersuchungskommissare und Zuchthäuser genug und übergenug gesichert: wozu sich da also beunruhigen? Mag man den Verbrecher suchen!«
+
+Seite Nr.: 9470
+Wer ein Gewissen hat, der mag leiden, wenn er zur Erkenntnis seines Irrtums kommt. Auch das ist eine Strafe für ihn, die noch zur Zuchthausstrafe hinzukommt.«
+
+Seite Nr.: 9474
+als Sie Ihren Aufsatz schrieben, da haben Sie selbst sich doch notwendigerweise, he-he-he, wenigstensstens ein ganz klein bißchen auch für einen außerordentlichen Menschen gehalten, der ›etwas Neues sprechen‹ könne, in dem Sinne, wie Sie diesen Ausdruck gebrauchen … Ist's nicht so?«
+
+Seite Nr.: 9494
+Reaumur
+【Annotation】Réaumur bezeichnet eine historische Temperaturskala, die 1730 vom französischen Naturforscher René-Antoine Ferchault de Réaumur entwickelt wurde. Die Réaumur-Skala basiert auf zwei Fixpunkten: Der Gefrierpunkt von Wasser liegt bei 0 °Ré und der Siedepunkt von Wasser bei normalem Luftdruck bei 80 °Ré. Die Skala wurde früher insbesondere in Frankreich, Deutschland und Russland verwendet, ist heute aber weitgehend durch die Celsius- und andere Temperaturskalen ersetzt worden und wird nur noch selten eingesetzt, zum Beispiel in der Käseherstellung in der Schweiz und zur Klassifizierung von Läuterzucker.wikipedia+3​
+
+Eigenschaften der Réaumur-Skala
+
+Ausgangspunkt ist der Gefrierpunkt von Wasser (0 °Ré).online-rechner+2​
+
+Der Siedepunkt von Wasser liegt bei 80 °Ré.chemie+2​
+
+Sie unterteilt den Temperaturbereich zwischen diesen Fixpunkten in 80 gleiche Teile.chemie​
+
+Zur Umrechnung in Celsius gilt: t∘C=t∘R⋅1,25t_{\mathrm{^\circ C}} = t_{\mathrm{^\circ R}} \cdot 1{,}25t∘C=t∘R⋅1,25 und umgekehrt t∘R=t∘C⋅0,8t_{\mathrm{^\circ R}} = t_{\mathrm{^\circ C}} \cdot 0{,}8t∘R=t∘C⋅0,8.wikipedia+1​
+
+Historischer Hintergrund
+
+René-Antoine Ferchault de Réaumur war ein vielseitiger französischer Forscher, der sich mit physikalischen und biologischen Fragen beschäftigte. Im Zuge seiner technischen Arbeiten zur Stahlerzeugung erkannte er die Notwendigkeit genauerer Temperaturmessungen und entwickelte daraufhin die Réaumur-Skala. Die Skala wurde im 19. Jahrhundert weit verbreitet verwendet, bis sie im 20. Jahrhundert durch Celsius ersetzt wurde, da diese präzisere Messergebnisse und eine einfachere Berechenbarkeit bietet.lernhelfer+3​
+
+Umrechnung in andere Temperaturskalen
+
+Umrechnung in Celsius:
+
+Formel: °C=(5/4)×°Reˊ\text{°C} = (5/4) \times \text{°Ré}°C=(5/4)×°Reˊ
+
+Umrechnung in Fahrenheit:
+
+Formel: °F=(9/5)×(5/4)×°Reˊ+32\text{°F} = (9/5) \times (5/4) \times \text{°Ré} + 32°F=(9/5)×(5/4)×°Reˊ+32
+
+Umrechnung in Kelvin:
+
+Formel: K=((5/4)×°Reˊ)+273,15\text{K} = ((5/4) \times \text{°Ré}) + 273,15K=((5/4)×°Reˊ)+273,15.online-rechner​
+
+Die Réaumur-Skala ist heute eine Kuriosität der Wissenschaftsgeschichte und hat kaum noch praktische Relevanz.wikipedia+2​
+
+https://de.wikipedia.org/wiki/R%C3%A9aumur-Skala
+
+http://www.lernhelfer.de/schuelerlexikon/physik/artikel/rene-antoine-reaumur
+
+https://www.online-rechner.net/temperatur/reaumur/
+
+https://blog.beamex.com/de/temperatureinheiten-und-umrechnung-temperatureinheiten
+
+https://www.helles-koepfchen.de/?suche=r%C3%A9aumur
+
+https://www.chemie.de/lexikon/R%C3%A9aumur-Skala.html
+
+https://www.marco-burmeister.de/helferlein/de_temperatur_grad.html
+
+http://www.lernhelfer.de/schuelerlexikon/physik/artikel/temperatur-von-koerpern
+
+
+
+Seite Nr.: 9523
+solche Menschen sind offenbar nicht von Fleisch und Blut, sondern von Erz!‹
+Ein plötzlicher Nebengedanke brachte ihn fast zum Lachen.
+›Napoleon, die Pyramiden, Waterloo – und eine verhutzelte, häßliche alte Registratorswitwe, eine Wucherin mit einer roten Truhe unter dem Bette; na, wie soll jemand dies alles verdauen können, zum Beispiel Porfirij Petrowitsch! … Wie sollten sie es auch verdauen! … Ihr ästhetisches Gefühl sträubt sich ja dagegen.
+
+Seite Nr.: 9525
+Die Tötung der Alten war vielleicht ein Fehler; aber darum handelt es sich jetzt nicht! Die Tötung der Alten war nur eine krankhafte Verirrung von mir, … ich wollte so schnell wie möglich über
+
+Seite Nr.: 9525
+die Hindernisse hinwegschreiten. … Ich habe nicht einen Menschen getötet; ein falsches Prinzip habe ich getötet! Das falsche Prinzip habe ich zwar getötet; aber über die Hindernisse bin ich doch nicht hinweggeschritten; ich bin auf dieser Seite geblieben … Nur zu töten habe ich verstanden!
+
+Seite Nr.: 9525
+Und auch das habe ich nicht verstanden, wie sich jetzt herausstellt … Das falsche Prinzip hätte ich getötet? Warum hat eigentlich vorhin der dumme Rasumichin so auf die Sozialisten geschimpft? Das ist ja ein fleißiges betriebsames Volk; sie beschäftigen
+
+Seite Nr.: 9526
+sich mit dem »allgemeinen Glücke«. Nein, einmal lebe ich nur und nie bekomme ich ein zweites Leben wieder; auf das »allgemeine Glück« zu warten, habe ich keine Lust. Ich will auch für mich selbst leben; sonst ist es schon das beste, gar nicht zu leben. Wie stimmt aber dazu das Verschenken des Geldes? Ich hatte einfach keine Lust, an einer hungernden Mutter vorüberzugehen und meinen Rubel in der Tasche festzuhalten, in Erwartung des »allgemeinen Glückes«. »Wir tragen«, so sagen diese Menschen, »Bausteine zu dem Gebäude des allgemeinen Glückes zusammen und empfinden davon eine innere Befriedigung.«
+
+Seite Nr.: 9528
+Ja, ich bin wirklich eine Laus‹,
+
+Seite Nr.: 9528
+erstens schon allein deshalb,
+
+Seite Nr.: 9528
+weil ich jetzt darüber philosophiere, daß ich eine Laus bin; zweitens, weil ich einen ganzen Monat lang die allgütige Vorsehung belästigt habe, indem ich sie als Zeugin dafür anrief, daß ich die Tat nicht um meines eigenen, persönlichen Vorteils willen unternähme, sondern im Hinblick auf ein herrliches, schönes Ziel, ha-ha! Drittens, weil ich mir vorgenommen hatte, bei der Ausführung der Tat auf rechnerischer Grundlage möglichste Gerechtigkeit in Maß und Gewicht zur Anwendung zu bringen: von allen Läusen suchte ich die 
+
+Seite Nr.: 9529
+allernutzloseste aus und beschloß, ihr nach der Tötung nur gerade soviel wegzunehmen, als ich zu meinem ersten Schritte nötig hätte, nicht mehr und nicht weniger (das übrige mochte dann also auf Grund des Testamentes dem Kloster zufallen, ha-ha!). Und schließlich bin ich deshalb eine Laus‹, fügte er zähneknirschend hinzu, ›weil ich selbst vielleicht noch garstiger und ekelhafter bin als die getötete Laus und schon im voraus ahnte, daß ich mir dies sagen würde, nachdem ich sie würde getötet haben!
+
+Seite Nr.: 9530
+Wie gemein, wie unwürdig das alles ist! … Oh, jetzt verstehe ich den »Propheten«, mit dem Säbel in der Hand, hoch zu Roß: Allah befiehlt, und du, zitternde Kreatur, gehorche! Er ist in seinem Rechte, ganz in seinem Rechte, der »Prophet«, wenn er irgendwo quer über die Straße eine tüchtige Batterie aufstellt und nun losschießt auf Gerechte und Ungerechte, ohne sich auch nur zu einer Erklärung herabzulassen! Gehorche, zitternde Kreatur, und erdreiste dich nicht, Wünsche zu hegen; denn das steht dir nicht zu! …
+【Annotation】?
+
+Seite Nr.: 9531
+Oh, nie kann ich es
+
+Seite Nr.: 9531
+dieser Alten verzeihen, daß sie die Ursache meiner Leiden geworden ist!‹
+
+Seite Nr.: 9533
+warum denke ich denn an sie fast gar nicht, als ob ich sie nicht auch ermordet hätte? … Lisaweta, Sonja! Ihr armen, schüchternen Mädchen mit den sanften Augen … Ihr lieben Wesen! … Warum weinen sie nicht? Warum stöhnen sie nicht? … Sie geben alles hin, … und sie blicken so sanft und still … Sonja, Sonja! Du stille Sonja!‹
+
+Seite Nr.: 9553
+et nihil humanum
+【Annotation】und nichts Menschliches
+
+Seite Nr.: 9554
+Die Vernunft ist ja eine Sklavin der Leidenschaft, und ich habe mir selbst mehr geschadet als sonst jemandem; das sollten Sie doch bedenken!«
+
+Seite Nr.: 9556
+»Marfa Petrowna haben Sie, wie es
+
+Seite Nr.: 9556
+heißt, auch umgebracht?« unterbrach ihn Raskolnikow in grobem Tone.
+
+Seite Nr.: 9557
+Das heißt, Sie brauchen nicht etwa zu denken, daß ich da noch irgendwelche äußeren Unannehmlichkeiten zu befürchten hätte; es ist alles durchaus ordnungsmäßig und mit peinlicher Genauigkeit erledigt worden; die ärztliche Untersuchung
+
+Seite Nr.: 9557
+konstatierte einen Schlagfluß, herbeigeführt durch das Baden unmittelbar nach einem reichlichen Mittagessen, bei dem sie fast eine ganze Flasche Wein ausgetrunken hatte; weiter konnte die Untersuchung nichts konstatieren …
+
+Seite Nr.: 9560
+Derartige Fälle kommen übrigens bei allen Menschen vor; der Mensch liebt es überhaupt sehr, beleidigt zu sein; haben Sie das nicht auch schon beobachtet? Aber bei den Frauen ist das besonders häufig. Man kann geradezu sagen, es ist für sie eine Art Zeitvertreib.«
+
+Seite Nr.: 9563
+Und Sie hatten wohl schon gedacht, ich wäre so ein Ungeheuer, ein Reaktionär, ein Verteidiger der Leibeigenschaft? Ha-ha-ha! … Apropos: erinnern Sie sich nicht, Rodion Romanowitsch, wie vor einigen Jahren bei uns über einen Edelmann – ich habe seinen Namen vergessen –, der eine Deutsche im Eisenbahncoupé geprügelt hatte, in
+
+Seite Nr.: 9564
+eine Bemerkung nicht unterdrücken: es kommen manchmal deutsche Frauenzimmer vor, die einem so die Galle erregen, daß meiner Ansicht nach selbst ein Vertreter der modernen Ideen für seine Selbstbeherrschung nicht einstehen kann.
+
+Seite Nr.: 9570
+uns hat ja die Aufhebung der Leibeigenschaft nicht schwer betroffen: wir haben viel Wald und Überschwemmungswiesen, diese Einnahmen gehen uns nicht verloren.
+
+Seite Nr.: 9571
+Eine Stadt der Bureaus und aller nur denkbaren Bildungsanstalten! Wahrhaftig, ich habe vieles hier früher nicht beachtet, als ich mich vor acht Jahren in der Stadt umhertrieb … Jetzt hoffe ich nur noch auf die Anatomie, weiß Gott!«
+
+Seite Nr.: 9572
+Aber was diese Klubs und diese französischen Restaurants und die ganze moderne Richtung anlangt«, fuhr er, wieder ohne die Frage zu beachten, fort, »so können mir die gestohlen bleiben.
+
+Seite Nr.: 9573
+Überhaupt findet man bei uns, in der russischen Gesellschaft, die besten Manieren bei denen, die
+
+Seite Nr.: 9573
+schon manchmal Prügel bekommen haben – haben Sie das nicht auch beobachtet?
+
+Seite Nr.: 9579
+aber später fürchtete sie immer, ich könnte mir durch das viele Studieren schaden.«
+
+Seite Nr.: 9595
+Ein gesunder Mensch hat selbstverständlich keine Veranlassung, sie zu sehen; denn der gesunde Mensch ist ein durchaus irdischer Mensch und soll daher lediglich ein irdisches Dasein führen; das ist ganz in der Ordnung. Na, sowie er nun aber erkrankt und die normale irdische Ordnung des Organismus gestört wird, dann tritt ihm sofort die Möglichkeit der Existenz einer andern Welt entgegen, und je kränker er wird, um so mehr nehmen seine Beziehungen zu der andern Welt zu, so daß, wenn er nun wirklich stirbt, er einfach selbst in
+
+Seite Nr.: 9596
+die andere Welt hinübergeht. Ich habe mir darüber schon seit langer Zeit meine Gedanken gemacht. Wenn Sie an ein zukünftiges Leben glauben, dann können Sie auch dieser Anschauung beipflichten.«
+
+Seite Nr.: 9649
+vor sechs Jahren, noch zur Zeit der Leibeigenschaft,
+【Annotation】mal Ende dee Leibeigenschaft in Russland checken
+
+Seite Nr.: 9650
+dieser Filipp wäre eine Art Hypochonder, so ein Dorfphilosoph gewesen; er hätte nach der Ansicht der Leute zuviel gelesen und hätte sich eher infolge der Spöttereien des Herrn Swidrigailow als infolge von erhaltenen Schlägen erhängt.
+【Annotation】Der Begriff **"Hypochonder"** hat sich im Laufe der Zeit sowohl in seiner Definition als auch in der Wahrnehmung gewandelt. Ursprünglich stammt der Begriff aus der antiken Medizin, insbesondere aus der Humoralpathologie von Hippokrates und Galen. "Hypochondrium" bezeichnete anatomisch die Region unterhalb der Rippen, die Milz und andere Organe umfassend. Damals glaubte man, dass ein Ungleichgewicht der vier Körpersäfte (Galle, Blut, Schleim und schwarze Galle) Krankheiten und Gemütszustände verursachten. Eine Überproduktion von "schwarzer Galle", die mit der Milz assoziiert wurde, galt als Ursache für **Melancholie** und "Milzsucht". Der Begriff „Hypochonder“ beschrieb somit Menschen, die an körperlichen Beschwerden litten und dabei melancholisch oder grüblerisch gestimmt waren.
+Im Laufe der Jahrhunderte und mit dem Aufkommen der modernen Medizin traten physiologische Interpretationen zurück. Der Begriff wandelte sich und beschreibt heute in der Regel nicht mehr reale körperliche Erkrankungen, sondern eine **psychische Störung**, bei der Menschen eine übersteigerte Angst haben, schwer krank zu sein (selbst wenn keine Erkrankung vorliegt). Diese Störung wird in der modernen Medizin als **Krankheitsangststörung** oder teilweise auch als Somatisierungsstörung klassifiziert.
+Der Zusammenhang zwischen dem früheren und dem heutigen Begriff liegt weiterhin in der körperlich-psychischen Verbindung: Auch moderne Hypochonder nehmen ihre Gesundheit und ihren Körper stark wahr. Der Wandel zeigt den historischen Fortschritt in der Medizin – weg von humoralpathologischen Erklärungen hin zu einem tiefergehenden psychologischen Verständnis. Dennoch bleibt das zentrale Element des krankhaften Grübelns und die Fokussierung auf den eigenen Gesundheitszustand bis heute bestehen.
+
+Seite Nr.: 9666
+»Wie!« rief Awdotja Romanowna erregt. »Ich stelle Ihre Interessen auf gleiche Stufe mit allem, was mir bisher im Leben teuer gewesen ist, was bisher meinen ganzen Lebensinhalt bildete, und da fühlen Sie sich gekränkt, weil ich Ihnen zu wenig Wert beimäße!«
+
+Seite Nr.: 9669
+Ich hatte mich nämlich dahin geäußert, daß die Heirat mit einem armen Mädchen, welches bereits die Sorgen des Lebens hat kosten müssen, meiner Ansicht nach hinsichtlich der Gestaltung des ehelichen
+
+Seite Nr.: 9669
+Lebens den Vorzug verdiene vor der Heirat mit einem Mädchen, das nur Wohlleben kennt; denn jene Situation sei in ethischer Hinsicht nützlicher.
+
+Seite Nr.: 9690
+III
+
+Seite Nr.: 9690
+Noch bis ganz zuletzt hatte er die Oberhand zu haben geglaubt und gar nicht an die Möglichkeit gedacht, daß sich zwei arme, schutzlose Frauen seiner Gewalt entziehen könnten. Zu dieser Überzeugung trugen seine Eitelkeit und jener hohe Grad
+
+Seite Nr.: 9691
+von Selbstbewußtsein viel bei, den man am treffendsten als ein »Verliebtsein in sich selbst« bezeichnen kann. Pjotr Petrowitsch, der sich aus sehr niedriger Lebenslage hinaufgearbeitet hatte, hatte sich eine übermäßige Bewunderung seiner eigenen Person angewöhnt; 
+
+Seite Nr.: 9691
+Mehr aber als alles andre in der Welt liebte und schätzte er sein Geld, das er sich durch Arbeit und mancherlei andre Mittel erworbenben hatte; denn dieses Geld stellte ihn, wie er meinte, mit allen, die ihn geistig überragten, doch wieder auf gleiche Stufe.
+
+Seite Nr.: 9693
+Aber trotzdem rechnete er sich seinen Entschluß, Dunja zu sich heraufzuheben, hoch an und hielt ihn für eine große, edle Tat. Indem er dies soeben Dunja gegenüber ausgesprochen hatte, hatte er einen
+
+Seite Nr.: 9694
+geheimen, gern gehegten Gedanken geäußert, an dem er selbst schon mehr als einmal seine Freude gehabt hatte, und er fand es unbegreiflich, daß andre seiner edlen Tat ihre Bewunderung versagten.
+
+Seite Nr.: 9695
+Mit Entzücken hatte er sich im geheimsten Winkel seines Innern das Bild eines Mädchens ausgemalt: wohlgesittet sollte sie sein und arm (arm unter allen Umständen), noch sehr jung, sehr hübsch, von guter Herkunft, gebildet, sehr schüchtern; sie müßte bereits sehr viel Not und Elend durchgemacht haben, sich völlig an ihn schmiegen, ihn ihr ganzes Leben lang als ihren Retter betrachten, voll Ehrfurcht zu ihm aufschauen, sich ihm unterordnen und ihn, einzig und allein ihn, bewundern.
+
+Seite Nr.: 9696
+Awdotja Romanownas Schönheit und Bildung hatten ihn in staunende Bewunderung versetzt, ihre hilflose Lage ihn
+
+Seite Nr.: 9696
+gewaltig gereizt.
+
+Seite Nr.: 9697
+Hier hatte er noch erheblich mehr gefunden als das, wovon er bisher geschwärmt hatte: er hatte ein stolzes, charakterfestes, tugendhaftes Mädchen gefunden, das ihn an Bildung und geistiger Entwicklung überragte (das fühlte er), und solch ein Wesen sollte ihm nun das ganze Leben lang für seine edle Tat in Sklavenart dankbar sein und sich in tiefster Ehrfurcht vor ihm beugen, und er würde ihr unumschränkter, allgewaltiger Herr und Gebieter sein! …
+【Annotation】...
+
+Seite Nr.: 9728
+»Ein böser, gefühlloser Egoist!« rief Dunja.
+»Verrückt ist er, nicht gefühllos! Er ist geisteskrank! Sehen Sie denn das nicht? Sonst wären Sie ja selbst gefühllos!hllos! …« flüsterte Rasumichin ihr in größter Erregung ins Ohr und drückte ihr kräftig die Hand.
+
+Seite Nr.: 9749
+als ob ihr Verstand gelitten hätte … von all dem Kummer. Und wie klug sie früher war, … wie hochherzig, … wie gut! Davon wissen Sie nichts, … ach!«
+
+Seite Nr.: 9775
+ Ja, ich bitte dich um alles in der Welt«, rief er beinahe wütend, »sage mir doch nur: wie kann solche Schande und Gemeinheit in deiner Seele neben andern, ganz entgegengesetzten, heiligen Empfindungen Raum finden? Da wäre es doch richtiger, tausendmal richtiger und vernünftiger, kopfüber ins Wasser zu springen und mit einem Schlage alledem ein Ende zu machen!«
+
+Seite Nr.: 9778
+Aber nicht minder klar war es ihm, daß Sonjas Charakter und die freilich nur mäßige Bildung, die sie genossen hatte, ihr hatten ein Antrieb sein müssen, sich aus dieser Lage zu befreien.
+
+Seite Nr.: 9779
+enn sie nicht die Kraft hatte, sich ins Wasser zu stürzen, wie hatte sie so lange schon in dieser Lage verbleiben können, ohne den Verstand zu verlieren?
+
+Seite Nr.: 9784
+»Du betest wohl viel zu Gott, Sonja?« fragte er sie.
+Sonja schwieg; er stand neben ihr und wartete auf ihre Antwort.
+»Was wäre ich ohne Gott?« flüsterte
+
+Seite Nr.: 9784
+sie schnell mit sicherer Stimme, blickte ihn einen Augenblick mit aufleuchtenden Augen an und drückte ihm fest die Hand,
+›So ist es also!‹ dachte er.
+»Und was empfängst du denn von Gott dafür?« examinierte er sie weiter.
+
+Seite Nr.: 9786
+Eine Gottesnärrin!‹ sagte er sich überzeugt und bestimmt.
+
+Seite Nr.: 9798
+Sie bezwang sich, unterdrückte den Krampf in der Kehle, der ihr beim ersten Verse die Stimme geraubt hatte, und las das elfte Kapitel aus dem Evangelium des Johannes weiter vor. So gelangte sie bis zum neunzehnten Verse:
+
+Seite Nr.: 9814
+Ich habe festgestellt, wo und in welcher Umgebung diese Mütter wohnen. Dort können die Kinder nicht Kinder bleiben. Da ist ein Knabe von sieben Jahren schon unsittlich und ein Dieb. Und doch sind die Kinder ein Ebenbild Christi: ›
+
+Seite Nr.: 9850
+c'est de rigueur;
+【Annotation】Das ist zwingend erforderlich
+
+Seite Nr.: 9922
+Paroxysmus von Wut
+
+Seite Nr.: 9951
+»He-he! Ein scharfsinniger Mann sind Sie, ein scharfsinniger Mann. Alles bemerken Sie! Ein überaus reger Verstand! Und Sie gewinnen einer Sache immer die komischste Seite ab … he-he! … Von den Schriftstellern besaß ja wohl Gogol diese Fähigkeit im höchsten Grade?«
+»Gewiß.«
+»Ja, ja, Gogol … Auf angenehmes Wiedersehen!«
+【Annotation】**Nikolai Wassiljewitsch Gogol** (1809–1852) war einer der bedeutendsten russischen Schriftsteller und Dramatiker des 19. Jahrhunderts. Seine Werke gelten als prägend für die russische Literatur und als Vorläufer des Realismus, doch enthalten sie zugleich Elemente des Fantastischen und der grotesken Satire. Gogols bekannteste Werke sind unter anderem die Novellensammlung *Abende auf einem Weiler bei Dikanka* (1831–1832), die Erzählung *Die Nase* (1836), das Drama *Der Revisor* (1836) und der unvollendete Roman *Die toten Seelen* (1842). 
+Gogol zeichnete sich besonders durch seinen unverwechselbaren Stil aus, der scharfe soziale Kritik mit Humor, Ironie und surrealen Elementen verband. Dabei richtete er seine Kritik oft auf die Korruption, Bürokratie und moralische Stagnation des zaristischen Russlands. Werke wie *Der Revisor* enthüllen den moralischen Verfall der Beamtenkaste, während *Die toten Seelen* eine absurde Reise durch die russische Provinz zeichnet, die die Leere und Heuchelei der Gesellschaft bloßstellt.
+Gogol war jedoch eine zutiefst komplexe und widersprüchliche Persönlichkeit. In spätere Jahren wandte er sich verstärkt der Religion zu, was seinen Stil und seine Themen veränderte. Dies führte auch zu einem Bruch mit manchen der progressiven Denker seiner Zeit, darunter Schriftsteller wie Wissarion Belinskij, der Gogol für seine konservativen Tendenzen in der zweiten Phase seines Lebens scharf kritisierte.
+Gogols Einfluss reicht weit über seine Zeit hinaus; er inspirierte Schriftsteller wie Dostojewski, Turgenjew und Kafka. Dostojewski soll gesagt haben: „Wir sind alle aus Gogols 'Mantel' hervorgegangen“ – ein Hinweis auf die immense Bedeutung seines Werks für die russische Literatur.
+
+Seite Nr.: 9976
+Er fürchtete, es könnte ihm die Galle ins Blut getreten sein. In dieser Hinsicht jedoch war vorläufig alles noch in guter Ordnung,
+
+Seite Nr.: 9989
+er sei einer der hervorragendsten jungen Reformer und spiele sogar in manchen interessanten, geheimnisvollen Klubs eine bedeutende Rolle.
+
+Seite Nr.: 9990
+ Er hatte, wie alle Leute, gehört, es gebe namentlich in Petersburg sogenannte Reformer, Nihilisten, Entlarver usw.;
+
+Seite Nr.: 9990
+Am allermeisten fürchtete er, und zwar schon seit einigen Jahren, die »Entlarvungen«, und dies war die hauptsächlichste Ursache seiner fortwährenden übermäßigen Unruhe gewesen,
+
+Seite Nr.: 9995
+Fast beständig litt er an den Augen.
+
+Seite Nr.: 9996
+Er hatte sich mit leidenschaftlichem Eifer den
+
+Seite Nr.: 9996
+Reformern und »unsrer jüngeren Generation« angeschlossen. Er gehörte zu der zahllosen, buntscheckigen Menge mittelmäßiger Menschen, kläglicher Frühgeburten und dünkelhafter Halbwisser, die sich eiligst zu Anhängern der modernsten, landläufigsten Idee machen und sie sofort verhunzen und alle Bestrebungen, denen sie (manchmal mit der besten Absicht) dienen, in eine Karikatur verwandeln.
+【Annotation】!!
+
+Seite Nr.: 9998
+Er versuchte, ihm Fouriers System und die Darwinsche Theorie auseinanderzusetzen; aber Pjotr Petrowitsch hörte, namentlich in der letzten Zeit, mit gar zu spöttischer Miene zu und fing in der allerletzten Zeit sogar an, ihn auszuschelten.
+【Annotation】?
+
+Seite Nr.: 9998
+Pjotr Petrowitsch hatte nämlich instinktmäßig herausgefühlt, daß Lebesjatnikow nicht nur ein recht gewöhnlicher, ziemlich dummer Mensch, sondern wohl noch dazu ein arger Aufschneider war und überhaupt keine einflußreichen Beziehungen, nicht einmal in seinem Klub, besaß, sondern nur von weitem etwas läuten hören, ja, daß er nicht einmal sein eigentliches Geschäft, die Propaganda, ordentlich verstand, weil er gar zu wirr und unverständlich redete; wie konnte der ein »Entlarver« sein!
+
+Seite Nr.: 10008
+Ja, ja, so ist's mit den theoretischen Grundsätzen! Die Frauenfrage scheint also auch noch sehr im argen zu liege
+
+Seite Nr.: 10011
+Ich habe früher sogar folgendermaßen gedacht: wenn man die These akzeptiert, daß die Frau dem Manne in allen Stücken gleichsteht, sogar hinsichtlich der Körperkraft (was manche bereits behaupten), so muß auch, wo es sich um Schlägerei zwischen Männern und Frauen handelt,
+
+Seite Nr.: 10011
+mit gleichem Maße gemessen werden. Natürlich aber habe ich mir nachher überlegt, daß eine solche Frage gar keine Existenzberechtigung hat, weil Schlägereien überhaupt keine Existenzberechtigung haben und das Vorkommen von Schlägereien in der künftigen Gesellschaft undenkbar ist … und weil es doch sonderbar wäre, auf eine Gleichberechtigung bei Schlägereien hinzustreben. So dumm bin ich nicht, … obwohl Schlägereien doch vorkommen, … das heißt, später werden keine mehr vorkommen, aber jetzt kommen noch welche vor,
+
+Seite Nr.: 10013
+Schade, daß keine Popen dabei sein werden. Sonst würde ich jedenfalls hingehen.«
+【Annotation】?
+
+Seite Nr.: 10014
+Jeder Mensch hat die Pflicht, die geistige Entwicklung seiner Mitmenschen zu fördern und Propaganda zu treiben, und je energischer er es tut,
+
+Seite Nr.: 10014
+um so besser ist es. Ich kann eine Idee wie ein Samenkorn hinstreuen … Aus dieser gesäten Idee erwächst dann etwas Tatsächliches. Inwiefern kränke ich da die Leute? Und wenn sie sich auch zunächst gekränkt fühlen, so werden sie nachher doch einsehen, daß ich ihnen Nutzen gebracht habe.
+
+Seite Nr.: 10020
+Das heißt: distinguons! In der jetzigen Gesellschaftsordnung ist dieser Zustand selbstverständlich nicht normal, weil er durch eine Notlage herbeigeführt wird; aber in der künftigen Gesellschaftsordnung wird er völlig normal sein, weil er da ein freiwilligerwilliger ist. Und auch unter jetzigen Verhältnissen hatte dieses Mädchen ein Recht, so zu handeln, wie sie gehandelt hat: sie litt Not, und ihr Körper war ihr Fonds, sozusagen ihr Anlagekapital, über das sie vollständig berechtigt war zu verfügen. Natürlich, in der künftigen Gesellschaftsordnung werden keine Fonds nötig sein; sondern die Stellung der Frau wird anderweitig festgesetzt und in harmonischer, vernunftgemäßer Weise geregelt sein. Was Sofja Semjonowna persönlich anlangt, so betrachte ich unter den gegenwärtigen Umständen ihre Handlungsweise als einen energischen, zur Tat gewordenen Protest gegen die bestehende Gesellschaftsordnung und empfinde vor ihr große Hochachtung deswegen; ich freue mich sogar jedesmal, wenn ich sie sehe!«
+【Annotation】sex work is work!
+
+Seite Nr.: 10024
+Derartige Berufe für Frauen gibt es in der Kommune nicht. Eben deshalb werden die Kommunen gegründet, damit es solche Berufe nicht mehr gibt. In der Kommune wird dieser Beruf seinen gesamten jetzigen Charakter verändern, und was hier dumm ist, wird dort vernünftig sein; was hier unter den jetzigen Verhältnissen unnatürlich ist, das wird dort durchaus natürlich sein. Es hängt alles davon ab,
+
+Seite Nr.: 10024
+in welcher Umgebung und in welchem Milieu ein Mensch lebt. Alles hängt von dem Milieu ab; an sich ist der Mensch nichts, weder gut noch schlecht. 
+
+Seite Nr.: 10025
+Dobroljubow
+【Annotation】mal den Text mit Licht geben:
+
+**Nikolaj Dobroljubow** (1836–1861) war ein russischer Literaturkritiker, Publizist und Vertreter des radikalen demokratischen Denkens. Er war eine führende Figur der revolutionären Bewegung der **„Rasnočincy“** (die Intellektuellen aus niederen Schichten) in Russland. Dobroljubow betrachtete Literatur vor allem als Werkzeug zur Analyse und Transformation der Gesellschaft. Sein Hauptanliegen war die soziale Gerechtigkeit und die Befreiung des Individuums von Unterdrückung.
+Seine Kritik konzentrierte sich oft auf die soziale Funktion von Literatur, wobei er großen Einfluss auf die Entwicklung des **realistischen¹ Sozialismus** und insbesondere auf den russischen Literaturkanon seiner Zeit hatte. Durch seine radikalen Analysen legte Dobroljubow den Grundstein für eine Generation von Intellektuellen und Revolutionären.
+Ein zentrales Werk von Dobroljubow ist sein berühmter Artikel **„Was ist das für ein Licht im dunklen Reich?“** (1860), in dem er Nikolai Leskows "qfamlja auch Konzepte! Gemeinsamarbeitsweise in kritik
+
+Seite Nr.: 10026
+Belinskij
+【Annotation】**Wissarion Grigorjewitsch Belinskij** (1811–1848) war ein bedeutender russischer Literaturkritiker und Philosoph des 19. Jahrhunderts. Er gilt als einer der einflussreichsten Denker der russischen Literaturgeschichte und als einer der Vorreiter des sozialen und politischen Denkens im zaristischen Russland.
+Belinskij sah Literatur nicht nur als ästhetisches, sondern vor allem als gesellschaftliches Werkzeug. Er vertrat die Überzeugung, dass Kunst und Literatur moralische und soziale Verantwortung tragen und zur Verbesserung der Gesellschaft beitragen müssen. In seinen Kritiken wollte er die russische Literatur hin zur Darstellung sozialer Missstände und ethischer Probleme lenken. Er war ein Befürworter des **kritischen Realismus**, der die gesellschaftliche Realität unverblümt darstellt, und kritisierte Werke, die nur ästhetische Schönheit ohne tiefere soziale Bedeutung anstrebten.
+Belinskijs berühmtestes Werk ist sein **„Brief an Gogol“ (1847)**, in dem er sich scharf gegen den Autor stellte, nachdem Gogol in späteren Werken konservative und reaktionäre Werte befürwortete. In diesem leidenschaftlichen Manifest prangerte Belinskij die Missstände im zaristischen Russland an, darunter Leibeigenschaft, Ungleichheit und die Macht der orthodoxen Kirche.
+Er war ein früher Vertreter des russischen Intelligenzija-Denkens und ein Wegbereiter für später aktivistische Schriftsteller wie Dobroljubow oder Tschernyschewski. Seine Ideen beeinflussten die Entwicklung des **sozialen Realismus** tiefgreifend und schufen eine Verbindung zwischen Literatur und der Frage nach sozialer Gerechtigkeit, die für die russischen Klassiker von Dostojewski bis Tolstoi prägend wurde.
+
+Seite Nr.: 10027
+Und Sie fördern selbstverständlich ihre geistige Entwicklung, he-he, und beweisen ihr, daß diese ganze Schamhaftigkeit Unsinn ist?«
+
+Seite Nr.: 10027
+»Durchaus nicht, durchaus nicht! Oh, in wie plumper, törichter Weise – verzeihen Sie den Ausdruck! – Sie das Wort Entwicklung auffassen
+
+Seite Nr.: 10028
+Natürlich, wenn sie selbst zu mir sagte: ›Ich will dich haben‹, so würde ich meinen, daß mir ein großes Glück zuteil geworden sei, weil das Mädchen mir wirklich sehr gefällt; aber sicherlich hat niemals jemand sie höflicher und korrekter und mit mehr Achtung vor ihrer weiblichen Würde behandelt, als ich es jetzt tue … Ich warte und hoffe nur; weiter gehe ich nicht!«
+【Annotation】was für ein beta
+
+Seite Nr.: 10030
+Sie verachten das Mädchen einfach. Weil Sie eine Tatsache sehen, die Sie irrtümlicherweise für verachtenswert halten, versagen Sie ohne weiteres einem menschlichen Wesen eine humane Würdigung.
+
+Seite Nr.: 10030
+Schade ist auch, daß sie bei all ihrer Energie und bei ihrer bereits einmal bewiesenen Entschlossenheit, gegen die bestehende Gesellschaftsordnung zu protestieren, doch immer noch nicht genug Selbständigkeit, sozusagen nicht genug Unabhängigkeit, nicht genug Drang zum Negieren besitzt, um sich von gewissen vorgefaßten Anschauungen und Dummheiten völlig loszureißen.
+【Annotation】Drang zum Negieren!
+
+Seite Nr.: 10033
+»Ja, das bringen Sie jedesmal vor! Immer kommen Sie mir mit ein und demselben, mit diesen verdammten ›Bedürfnissen‹!« rief er ingrimmig. »Ich ärgere mich und bereue es, daß ich damals, als ich Ihnen das System auseinandersetzte, verfrüht diese verdammten Bedürfnisse erwähnte! Das ist immer für Leute von Ihrem Schlage der Stein des Anstoßes, und das schlimmste ist: sie machen ihre Witze darüber, ehe sie den Kern der Sache begriffen haben! Und dann tun sie noch, als wenn sie recht hätten und stolz sein könnten! Ich habe schon wiederholt die Ansicht vertreten, daß man Neulingen diese Frage erst ganz zuletzt auseinandersetzen kann, wenn sie bereits von der Richtigkeit des Systems überzeugt sind und eine gewisse geistige Entwicklung erreicht haben und sich auf dem rechten Wege befinden.
+【Annotation】Thema: Bedürfnisse
+
+Seite Nr.: 10035
+Das ist einfach eine Arbeit, eine anständige, der Gesellschaft nützliche Tätigkeit, die jeder andern an Wert gleichkommt und zum Beispiel weit höher steht als die Tätigkeit eines Raffael oder Puschkin, weil sie nützlicher ist.«
+【Annotation】Das Zitat stammt aus **Nikolai Tschernyschewskis** Roman *"Was tun?"* (1863), einem Schlüsselwerk des russischen Utilitarismus und der radikalen intellektuellen Bewegung im zaristischen Russland. Der Satz spiegelt den zentralen Gedankengang des **materialistischen Denkens** und eines spezifischen Pragmatismus wider, der sich während dieser Zeit gegen traditionelle Vorstellungen von Kunst und Ästhetik wandte, um den Fokus auf die **Nützlichkeit für die Gesellschaft** zu lenken.
+Im Kontext stellt Tschernyschewski die Idee in Frage, dass die Kunst (repräsentiert durch Namen wie Raffael und Puschkin) als höchste menschliche Tätigkeit gelten sollte. Stattdessen wird eine nüchterne, alltägliche Arbeit, die direkt der Verbesserung der Gesellschaft dient, als wertvoller dargestellt. Dies spiegelt Tschernyschewskis Überzeugung wider, dass wahres menschliches Glück durch praktische, auf das Gemeinwohl gerichtete Aktivitäten verwirklicht werden kann, anstatt durch elitäre oder abstrakte künstlerische Errungenschaften.
+Dieser Gedanke ist ein direkter Angriff auf die traditionelle romantische und idealistische Auffassung von Literatur und Kunst als höchste Form menschlicher Kreativität. In Tschernyschewskis utilitaristischem Weltbild zählt vor allem die **soziale Funktion und der Nutzen einer Tätigkeit.** Dies steht im Einklang mit den aufkommenden sozialistischen Ideologien des 19. Jahrhunderts, die die Arbeit als Fundament des menschlichen Zusammenlebens und des Fortschritts definierten.
+Das Zitat zeigt also einen radikalen Bruch mit der ästhetischen Tradition und beeinflusste eine ganze Generation von Revolutionären, etwa Lenin, und Schriftsteller. Dennoch wird diese Reduktion von Kunst auf ihren Nutzen in späteren literarischen und philosophischen Strömungen vielfach kritisiert, etwa von Autoren wie Dostojewski oder Mitgliedern der Frankfurter Schule.
+
+Seite Nr.: 10036
+Alles, was der Menschheit nützlich ist, ist auch anständig.
+
+Seite Nr.: 10061
+Und wiewohl ich, offen gestanden, grundsätzlich kein Freund der privatenvaten Wohltätigkeit bin, weil sie, statt das Übel auszurotten, es sogar noch steigert,
+
+Seite Nr.: 10063
+Wozu haben Sie so unbedingt diese Gesetzlichkeit der Ehe nötig? Na, wenn Sie Lust haben, können Sie mich ja dafür prügeln; aber ich muß doch sagen: ich freue mich, freue mich geradezu, daß aus dieser Ehe nichts geworden ist, daß Sie frei sind, daß Sie noch nicht ganz für die Sache der Menschheit verloren sind;
+
+Seite Nr.: 10067
+Zum Kuckuck, ich begreife recht wohl, inwiefern es unangenehm ist, in einer gesetzlichen Ehe betrogen zu werden; aber das ist doch nur die schändliche Folge eines schändlichen faktischen Zustandes, durch welchen der Mann und die Frau in gleicher Weise erniedrigt werden. Wenn aber beim Aufsetzen der Hörner alles ganz offen zugeht wie in der freien Ehe,
+
+Seite Nr.: 10068
+dann gibt es gar keine Hörner mehr, sie haben keine Bedeutung mehr und verlieren auch den Namen Hörner.
+
+Seite Nr.: 10069
+so würde ich selbst
+
+Seite Nr.: 10069
+meiner Frau einen Liebhaber zuführen, wenn sie zu lange damit wartete, sich einen anzuschaffen. ›Liebe Frau‹, würde ich sagen, ›ich liebe dich; aber ich wünsche auch, daß du mich hochachtest; hier … nimm ihn!‹ Habe ich nicht recht?
+
+Seite Nr.: 10091
+a. D.
+
+Seite Nr.: 10125
+aber diese Deutschen haben alle so etwas Affektiertes, Ernsthaftes …
+
+Seite Nr.: 10127
+den Schleiertanz getanzt habe.
+【Annotation】Der Schleiertanz ist eine der ausdrucksstärksten und gefühlvollsten Formen des Tanzes, die die Verbindung zwischen Bewegung, Emotion und Symbolik verkörpert. Er hat seine Wurzeln in unterschiedlichen Kulturen, besonders im Orient, wo er als Teil der Bauchtanz-Tradition einen besonderen Stellenwert hat. Bei diesem Tanz trägt die Tänzerin einen dünnen, oft transparenten Schleier, der nicht nur ein ästhetisches Element darstellt, sondern auch eine tiefere Bedeutung hat.
+Der Schleier kann als Metapher für Geheimnisse, Intimität oder Transformation stehen. Er symbolisiert die Grenzziehung zwischen dem Verborgenen und dem Sichtbaren, zwischen Zurückhaltung und Offenbarung. Der Akt, den Schleier zu handhaben, mit ihm zu tanzen oder ihn abzulegen, wird oft als Ausdruck von Freiheit und Selbstbestimmung interpretiert.
+Technisch ist der Schleiertanz eine Herausforderung, da er Präzision, Körperbeherrschung und Kreativität erfordert. Die Bewegungen spielen mit dem Rhythmus und der Dynamik, die der Schleier bietet. Dabei wird er in fließenden, wellenartigen Bewegungen oder in plötzlichen, dramatischen Akzenten eingesetzt. Der Schleier scheint zu fliegen, zu schweben oder manchmal die Tänzerin zu umschlingen, was zu einem visuell fesselnden Erlebnis für das Publikum wird.
+Den Schleiertanz zu tanzen bedeutet, sich mit der tiefgründigen Symbolik und der Ästhetik des Tanzes zu verbinden. Es ist ein Wechselspiel von Intimität und Entfaltung, von Euphorie und Kontrolle. Die Tänzerin erzählt eine Geschichte — nicht nur mit ihrem Körper, sondern auch mit dem Schleier selbst, der zum verlängerten Ausdrucksmittel ihrer Seele wird. Der Moment, in dem der Schleier Teil des Tanzes ist, läutet eine hypnotische Verbindung zwischen Tänzerin, Musik und Publikum ein.
+
+Seite Nr.: 10132
+es müsse in dem künftigen Pensionat besondere Aufmerksamkeit auf die reine Wäsche der jungen Mädchen verwandt werden und es sei unbedingt eine tüchtige Dame erforderlich, die ordentlich auf die Wäsche zu achten habe und auch darauf, daß die jungen Mädchen nicht heimlich bei Nacht Romane läsen.
+
+Seite Nr.: 10137
+niemand wisse, wie Amalia Iwanowna eigentlich mit Vatersnamen heiße: Iwanowna oder Ludwigowna.
+
+Seite Nr.: 10192
+Piderit
+【Annotation】Moritz Piderit (1821–1880) war ein deutscher Arzt und Philosoph, der vor allem durch seine Beiträge zur Physiognomie bekannt wurde – der Lehre, bei der versucht wird, den Charakter eines Menschen anhand seines äußeren Erscheinungsbildes, insbesondere seines Gesichts, zu interpretieren. Piderit veröffentlichte 1867 sein wichtigstes Werk mit dem Titel **„Wissenschaftliches System der Mimik und Physiognomik“**, in dem er die Verbindung zwischen Emotionen, Gesichtsausdrücken und persönlichem Charakter untersucht.
+Piderit argumentierte, dass menschliche Emotionen und deren Ausdruck universell seien und dass Gesichtsausdrücke nicht nur ein vorübergehender Zustand des Gefühls darstellen, sondern auch langfristig die Persönlichkeit eines Menschen prägen könnten. In gewisser Hinsicht bereitete er mit seinen Ideen den Weg für spätere bahnbrechende Arbeiten, etwa die von Charles Darwin in *„The Expression of the Emotions in Man and Animals“* (1872). Piderits Ansatz verband systematische Beobachtungen mit der Idee, dass bestimmte Muskeln und Bewegungen im Gesicht direkt mit inneren emotionalen Zuständen korrespondieren.
+Obwohl Piderits Arbeiten später von der Wissenschaft häufig als spekulativ oder unzureichend empirisch fundiert kritisiert wurden, trug er wesentlich zur Entwicklung der späteren Psychologie und den Anfängen der Emotionsforschung bei. Seine Ideen beeinflussten nicht nur Wissenschaftler, sondern fanden auch Resonanz in der Kunst und Literatur des 19. Jahrhunderts, die sich ebenfalls für die Verbindung von innerem und äußerem Ausdruck beschäftigten. Piderits physiognomische Theorien sind heute als historische Meilensteine der Emotionsforschung und Psychologie bekannt, werden jedoch mit einem kritischen Blick betrachtet, gerade im Hinblick auf ihre oft deterministischen und vereinfachenden Annahmen.
+
+Seite Nr.: 10192
+Wagner
+【Annotation】**Richard Wagner** (1813–1883) war ein deutscher Komponist, Dramatiker und Schriftsteller, der vor allem durch seine Opern und Musikdramen bekannt wurde. Er revolutionierte die Oper durch seine Idee des "Gesamtkunstwerks", bei dem Musik, Text und Bühnenbild zu einer untrennbaren Einheit verschmelzen. Wagner schrieb sowohl die Libretti als auch die Musik für seine Werke selbst, was ihn zu einem der einflussreichsten und kontroversesten Künstler seiner Zeit machte.
+Zu seinen berühmtesten Werken zählen **"Der Ring des Nibelungen"** (ein vierteiliges Bühnenepos), **"Tristan und Isolde"**, **"Die Meistersinger von Nürnberg"** und **"Parsifal"**. Wagner führte innovative musikalische Techniken ein, darunter die Verwendung des Leitmotivs – wiederkehrender musikalischer Themen, die Figuren, Ideen oder Emotionen repräsentieren.
+Wagners Kunst war eng mit seiner politischen und philosophischen Weltanschauung verknüpft. Er war beeinflusst von Schopenhauer und den revolutionären Gedanken seiner Zeit, gleichzeitig stand seine Person und sein Werk aufgrund seiner antisemitischen Schriften (*Das Judentum in der Musik*) und seiner Nähe zur späteren nationalistischen Ideologie in der Kritik.
+Das Bayreuther Festspielhaus, das er speziell für die Aufführung seiner Werke entwarf, ist noch immer Zentrum der Wagner-Rezeption. Sein Musikeinsatz, seine Dissonanzen und der Umgang mit Harmonie hatten großen Einfluss auf die Musikgeschichte und inspirierten Komponisten wie Mahler, Strauss und Debussy.
+Trotz seines umstrittenen Erbes bleibt Wagner eine der prägendsten Figuren der Musikgeschichte, die die Grenzen dessen, was Oper und Musiktheater sein konnten, nachhaltig verschoben hat.
+
+Seite Nr.: 10237
+Es war nicht Haß gewesen; er hatte ein Gefühl für ein anderes gehalten. Die Ursache war nur gewesen, daß jetzt der verhängnisvolle Augenblick gekommen war.
+
+Seite Nr.: 10253
+Ein Gefühl, das er seit langer Zeit
+
+Seite Nr.: 10253
+nicht mehr gekannt hatte, flutete wie eine mächtige Welle in sein Herz hinein und machte es weich und milde. Er widerstrebte diesem Gefühle nicht: zwei Tränen quollen aus seinen Augen und blieben an den Wimpern hängen.
+
+Seite Nr.: 10272
+So war der Hergang, ganz genauso. Kommt dir das lächerlich vor? Ja, Sonja, das Lächerlichste ist dabei eben dies, daß sich die Sache wirklich so zugetragen hat.«
+Dem Mädchen kam es ganz und gar nicht lächerlich vor.
+»Sprechen Sie zu mir lieber unmittelbar, … ohne Beispiele«, bat sie ihn noch schüchterner und mit kaum hörbarer Stimme.
+【Annotation】unmittelbar / Erfahrung / un-bildung
+
+Seite Nr.: 10274
+Und was ist das für eine Existenz, wenn man sein ganzes Leben lang an allen Freuden vorbeigehen, sich von allen Genüssen abwenden muß, seiner Mutter nicht helfen kann und es sich demütig gefallen lassen muß, daß die Schwester beleidigt wird? Was hat ein solches Leben für einen Zweck? Etwa daß man, nachdem man seine Angehörigen begraben hat, sich neue anschafft, eine Frau und Kinder, und diese dann auch ohne einen Groschen Geld und ohne einen Bissen Brot zurückläßt? 
+
+Seite Nr.: 10280
+»Es war nicht richtig! Stelle dir lieber vor (es ist wirklich besser, wenn du das tust), daß ich ein egoistischer, neidischer, boshafter, schändlicher, rachsüchtiger Mensch sei, nun … meinetwegen auch, daß ich zum Irrsinn neige. (Wir wollen gleich alles zusammen nehmen; daß ich vielleicht verrückt wäre, davon haben andre schon früher gesprochen; ich habe es recht wohl bemerkt!)
+
+Seite Nr.: 10281
+Meine Mutter hätte mir das Geld für die Vorlesungen geschickt, und die Kosten für Schuhzeug, Kleidung und Essen hätte ich mir selbst durch Arbeit verdienen können, sicherlich! Ich konnte Unterricht erteilen; es wurde mir ein halber Rubel für die Stunde geboten. Rasumichin lebt ja auch von seiner Arbeit! Aber ich wurde verbissen und mochte nicht. Geradezu verbissen, das ist der richtige Ausdruck! Ich verkroch mich dann wie eine Spinne in meinen Winkel.
+
+Seite Nr.: 10282
+Oh, wie ich dieses Hundeloch gehaßt habe! Und trotzdem wollte ich nicht ausgehen. Absichtlich nicht! Ganze Tage lang ging ich nicht aus; ich mochte nicht arbeiten, nicht einmal essen mochte ich; ich lag immer nur da. Wenn mir Nastasja etwas brachte, nun, dann aß ich; brachte sie mir nichts, nun, dann ging der Tag auch so vorüber; aus Verbissenheit bat ich absichtlich um nichts! Da ich abends kein Licht hatte, lag ich im Dunkeln;
+
+Seite Nr.: 10283
+Ich hätte studieren sollen, aber ich verkaufte meine Bücher, und auf meinem Tische liegt auf meinen Nachschriften, auf meinen Kollegheften auch heute noch der Staub fingerdick! Ich mochte lieber so daliegen und grübeln. Immer grübelte ich, … und immer hatte ich solche seltsamen Träume, allerlei seltsame Träume, das läßt sich gar nicht erzählen!
+
+Seite Nr.: 10284
+Darauf gelangte ich zu der Erkenntnis, Sonja, daß, wenn man warten wollte, bis alle Menschen klug würden, dies doch gar zu lange dauern würde … Darauf erkannte ich, daß es dazu überhaupt niemals kommen wird, daß die Menschen sich nicht verändern und niemand sie umgestalten kann und der Versuch verlorene Mühe wäre. Ja, das ist nun einmal so! Es ist ein Naturgesetz, daß sie so sind, … ein Naturgesetz, Sonja! Das ist nun einmal so!
+
+Seite Nr.: 10285
+Und ich weiß jetzt, Sonja, daß, wer kräftig und stark ist an Geist und Verstand, daß der auch der Beherrscher der andern ist! Wer viel wagt, der ist nach ihrer Anschauung auch im Rechte. Wer der Masse dreist entgegentritt, der gilt ihnen als Gesetzgeber, und wer mehr als alle andern wagt, der hat auch das allergrößte Recht! So ist das bisher gewesen, und so wird das immer sein! Man muß blind sein, um das nicht einzusehen!«
+
+Seite Nr.: 10286
+düsterer Ekstase.
+
+Seite Nr.: 10286
+Er hatte wirklich allzu lange mit keinem Menschen geredet. Sonja sah ein, daß diese düsteren Dogmen sein Glaube und sein Gesetz geworden waren.
+
+Seite Nr.: 10287
+Ich … ich wollte es wagen, und so mordete ich, … ich wollte es nur einmal wagen, Sonja; das war mein ganzer Beweggrund!«
+
+Seite Nr.: 10288
+»Still, Sonja, ich spotte gar nicht; ich weiß ja selbst, daß mich der Teufel versuchte. Still, Sonja, still!« wiederholte er düster und mit Nachdruck. »Ich weiß das alles. All das habe ich schon durchdacht und vor mich hingeflüstert, als ich damals im Dunkeln so dalag; all das habe ich mit mir selbst bis zum letzten, kleinsten Pünktchen durchdebattiert, und ich weiß das alles, alles! Und dieses ganze Hin- und Herreden war mir damals so zum Ekel geworden, so zum Ekel! Ich wollte das alles vergessen, Sonja, und einen neuen Anfang machen und das Hin- und Herreden abgetan sein lassen!
+【Annotation】Dialektik des Mords
+
+Seite Nr.: 10291
+Und wenn ich mich so viele Tage lang mit der Frage abquälte, ob Napoleon wohl hingegangen wäre und es getan hätte oder nicht, da hatte ich ja doch das klare Gefühl, daß ich kein Napoleon bin. Die ganze lange Qual all dieses Hin- und Herdisputierens habe ich ertragen. Sonja, und sehnte mich danach, sie endlich von meinen Schultern abzuschütteln: es verlangte mich, Sonja, ohne Kasuistik zu
+
+Seite Nr.: 10291
+morden, nur für mich zu morden, einzig und allein für mich!
+
+Seite Nr.: 10307
+Ja, es war eine seltsame, furchtbare Empfindung! Als er zu Sonja hingegangen war, da hatte er gefühlt, daß auf ihr seine ganze Hoffnung beruhte und daß er bei ihr einen Ausweg finden werde; er hatte gemeint, sich wenigstens einen Teil seiner Qualen von der Seele wälzen zu können, und jetzt, wo ihr ganzes Herz sich ihm zugewandt hatte, fühlte und erkannte er auf einmal, daß er unvergleichlich viel unglücklicher geworden war als vorher.
+
+Seite Nr.: 10319
+aber haben Sie nicht davon gehört, daß man in Paris bereits ernsthafte Versuche hinsichtlich der Möglichkeit, Irrsinnige lediglich vermittelst logischer Überzeugung zu heilen, angestellt hat?
+
+Seite Nr.: 10320
+Sein Grundgedanke ist der, daß eine besondere Zerrüttung des Organismus bei den Irrsinnigen nicht vorliege, sondern daß der Irrsinn sozusagen ein logischer Fehler, ein Fehler der Urteilskraft, eine inkorrekte Art, die Dinge anzuschauen, sei. Er widerlegte also einen Kranken Schritt für Schritt, und denken Sie sich, er erzielte dabei, wie es heißt, gute Resultate.
+
+Seite Nr.: 10386
+eine eigenartige Zeit: es war, als hätte sich ein Nebel rings um ihn gebildet und hielte ihn in unentrinnbarer, drückender Vereinsamung gefangen. Wenn er sich später, lange nachher, an diese Zeit erinnerte, so war er der Überzeugung, daß sein Bewußtsein
+
+Seite Nr.: 10387
+damals manchmal verdunkelt gewesen sei und daß dieser Zustand – mit einigen helleren Zwischenzeiten – fast bis zu der abschließenden Katastrophe gedauert habe. Er war fest überzeugt, daß er sich damals in vieler Hinsicht geirrt habe, zum Beispiel über den Zeitpunkt und die Dauer mancher Ereignisse. Wenigstens erfuhr er in der Folgezeit, wenn er sich zu erinnern suchte und sich bemühte, in diese Erinnerungen Klarheit hineinzubringen, vieles über seine eigene Person nur aus Mitteilungen,
+
+Seite Nr.: 10387
+die er von andern empfing. Er verwechselte zum Beispiel ein Ereignis mit einem andern; oder er hielt auch eines für die Folge eines Vorfalles, der überhaupt nur in seiner Phantasie existierte. Manchmal bemächtigte sich seiner eine krankhafte, quälende Unruhe, die sogar in einen panischen Schrecken überging. Er entsann sich auch, daß, ganz im Gegensatz zu der sonstigen Angst, Minuten, Stunden, vielleicht sogar ganze Tage von einer Apathie, die ihn befallen hatte, ausgefüllt gewesen waren – von einer Apathie, ähnlich dem
+
+Seite Nr.: 10388
+krankhaft-teilnahmslosen Zustande mancher Sterbenden. Überhaupt war er in diesen letzten Tagen anscheinend selbst bemüht, eine vollständige, deutliche Erkenntnis seiner Lage zu vermeiden. Einige Ereignisse der allerletzten Zeit, die einer sofortigen Klarstellung bedurften, bedrückten ihn schwer; wie froh wäre er gewesen, sich von derartigen Sorgen befreien und losmachen zu können, mit denen er sich doch in seiner Lage beschäftigen mußte, wenn er sich nicht dem völligen, unvermeidlichen Untergange preisgeben wollte.
+【Annotation】sicher, der Protagonist hat gemordet, dostojewski selbst aber stand in spielschulden
+
+Seite Nr.: 10401
+Alles schlang sich zu einem unentwirrbaren Knäuel zusammen. ›Nein, lieber doch irgendein Kampf, … sei es wieder mit Porfirij oder mit Swidrigailow! … Wenn mich nur recht bald jemand herausforderte und anfiele! … Ja, ja!‹ dachte er.
+
+Seite Nr.: 10432
+(Raskolnikow hatte sich in diesen Tagen mitunter einzelne Bruchstücke der Szene mit Porfirij flüchtig durch den Kopf gehen lassen; die vollständige Erinnerung an den gesamten Vorgang hätte er nicht ertragen können.)
+
+Seite Nr.: 10440
+»Ja, ja, diese Zigaretten!« begann Porfirij Petrowitsch endlich, als die Zigarette brannte und er wieder Atem geschöpft hatte. »Es ist für mich verderblich, geradezu verderblich, aber ich kann's nicht lassen! Ich muß danach husten und bekomme Kratzen im Halse und Atembeschwerden
+
+Seite Nr.: 10441
+Das Tabakrauchen ist Ihnen nicht zuträglich; Ihre Lungen sind erweitert.‹ Aber wie soll ich das Rauchen unterlassen? Wie soll ich einen Ersatz dafür finden? Ich trinke nicht, das ist das ganze Malheur, he-he-he; ja, es ist ein Malheur, daß ich nicht trinke!
+
+Seite Nr.: 10461
+Ich habe mich damals darüber lustig gemacht, will Ihnen aber jetzt gern bekennen, daß ich solche jugendlichen, hitzigen schriftstellerischen Erstlingsversuche außerordentlich liebe, das heißt, so als stiller Beschauer. Ich möchte sagen: es ist das ein Dunst und Nebel, und aus dem Nebel heraus ertönt eine Saite. Ihre Abhandlung ist unsinnig und phantastisch; aber man spürt darin eine solche Überzeugungstreue, einen jugendlichen, unbestechlichen Stolz,
+
+Seite Nr.: 10461
+die Kühnheit der Verzweiflung.
+
+Seite Nr.: 10479
+Na also, im Gefängnis erinnerte er sich jetzt offenbar wieder an den ehrwürdigen Ältesten; auch die Bibel kam wieder zum Vorschein. Wissen Sie wohl, Rodion Romanowitsch, was bei manchen von diesen Leuten ›leiden‹ bedeutet? Das bedeutet nicht, daß man für einen Mitmenschen leiden muß, sondern schlechthin, daß man leiden muß, daß man das Leid auf sich nehmen muß, und ganz besonders ein Leid, das einem von der Obrigkeit zugefügt wird.
+【Annotation】!!
+
+Seite Nr.: 10484
+Was hier vorliegt, ist eine phantastische, finstere Tat, eine moderne Tat, ein Fall so recht im Charakter unserer Zeit, wo die Gefühle des Herzens eine Trübung erfahren haben, wo man die Phrase zitiert, daß Blut eine erfrischende Wirkung ausübe, wo ein ganzes Leben voll Komfort als das höchste Glück verkündet wird. Was hier vorliegt, das sind Zukunftsträumereien,umereien, die aus Büchern stammen, ein durch theoretische Studien aufgereiztes Herz; hier sieht man, wie jemand fest entschlossen ist, den ersten Schritt auf dieser Bahn zu tun; aber diese Entschlossenheit ist von einer besonderen Art: er hat sich entschlossen etwa so, wie man sich von einem Felsen oder einem Turme herabstürzt, und ist zu dem Verbrechen gegangen, wie von einer fremden Macht getrieben. Er hat vergessen, die Tür hinter sich zuzuschließen, und hat gemordet, zwei Menschen gemordet, auf Grund seiner Theorie.
+
+Seite Nr.: 10486
+nein, er geht nachher im halben Fieberwahn in die nun leere Wohnung, um sich dieses Läuten der Klingel ins Gedächtnis zurückzurufen; er hat ein Verlangen danach, das Kältegefühl im Rücken noch einmal zu verspüren …
+
+Seite Nr.: 10497
+»Hören Sie, Porfirij Petrowitsch, Sie sagten doch selbst, es sei alles nur Psychologie, und nun tun Sie, als wüßten Sie alles mit mathematischer Sicherheit. Wie aber, wenn Sie sich jetzt doch irren
+
+Seite Nr.: 10504
+»Was kann mir die Zukunft noch bringen?«
+»Ein gutes Stück Leben! Sie sind doch kein Prophet; was wissen Sie denn von der Zukunft? Suchet, so werdet ihr finden! Vielleicht hat Gott gerade an dieser Stelle Ihres Lebensweges auf Sie gewartet. Und Sie würden doch auch die Fesseln nicht lebenslänglich tragen …«
+»Ach so, wegen der Strafermäßigung …«, warf Raskolnikow lachend dazwischen
+
+Seite Nr.: 10505
+»Fürchten Sie sich etwa vor der Schande in den Augen der bürgerlichen Gesellschaft? Kann leicht sein, daß Sie sich davor fürchten, ohne es eigentlich selbst zu wissen; denn Sie sind eben noch jung! Aber dennoch sollte ein Mann wie Sie sich nicht davor fürchten und sich einer Selbstanzeige nicht schämen.«
+
+Seite Nr.: 10508
+. Ich weiß, daß es nicht jedermanns Sache ist, das zu glauben; aber lassen Sie sich nicht auf allzu schlaue philosophische Grübeleien ein; überlassen Sie sich einfach ohne viel Kopfzerbrechen dem Leben; seien Sie ohne Sorge: das Leben wird Sie schon ans Ufer tragen und wieder auf die Beine stellen
+
+Seite Nr.: 10509
+Es ist nur gut, daß Sie bloß ein armseliges altes Weib ermordet haben. Hätten Sie sich eine andere Theorie ausgedacht, so hätten Sie am Ende gar eine unendlich viel greulichere Tat begangen! Dafür müssen Sie vielleicht Gott noch dankbar sein; Sie können es ja nicht wissen: vielleicht spart Sie Gott noch zu einem guten Zwecke auf. Beweisen Sie eine hohe Gesinnung; bekämpfen Sie alle Furcht. Ist Ihnen bange vor
+
+Seite Nr.: 10510
+der Größe der Ihnen bevorstehenden Strafe? Nein, dieser Bangigkeit muß man sich schämen. Da Sie einmal einen solchen Schritt getan haben, so nehmen Sie nun auch Ihre Kraft zusammen! Darin besteht die Gerechtigkeit. Erfüllen Sie, was die Gerechtigkeit verlangt! Ich weiß, daß Sie mir das jetzt nicht glauben; aber das Leben wird Sie einst wieder ans Ufer tragen. Und Sie selbst werden sich später wieder des Lebens freuen. Sie haben jetzt nur Luft nötig, Luft, Luft!«
+
+Seite Nr.: 10517
+Denn das Leid, Rodion Romanowitsch, ist etwas Großes und Heiliges. Stoßen Sie sich nicht daran, daß ich so korpulent geworden bin; das hat damit nichts zu tun; darum kann ich doch damit Bescheid wissen. Lachen Sie nicht darüber: im Leide liegt ein erhabenes Lebensprinzip.
+
+Seite Nr.: 10542
+ Swidrigailow wohnte kaum eine Woche in Petersburg und stand doch schon mit seiner ganzen Umgebung in einer Art von patriarchalischem Verhältnis.
+
+Seite Nr.: 10547
+Es ist eben eine Stadt von Halbverrückten. Gäbe es bei uns einen ernstlichen Betrieb der Wissenschaften, so könnten die Ärzte, die Juristen und die Philosophen die wertvollsten Untersuchungen über die Petersburger Bevölkerung anstellen, jeder in seinem Fache. Es gibt wenige Orte, wo sich so viele düstere, starke, seltsame Momente, die auf die menschliche Seele wirken, vereinigt finden wie in Petersburg. 
+
+Seite Nr.: 10557
+le jeu ne vaut pas la chandelle,
+【Annotation】Das Spiel ist die Kerze nicht wert
+
+Seite Nr.: 10567
+Warum sollte ich mir die Weiber versagen, wenn das nun einmal meine Passion ist? Wenigstens habe ich doch eine Beschäftigung dadurch.«
+
+Seite Nr.: 10567
+Diese Unsittlichkeit hat wenigstens das Gute, daß sie etwas Dauerndes ist, sogar etwas in der Natur Begründetes, von aller Theorie Unabhängiges, etwas, was einem wie eine Art von stets glühender Kohle im Geblüte wohnt und sich nicht so bald auslöschen läßt, so besonders schnell vielleicht nicht einmal bei höherem Lebensalter. Sagen Sie selbst, ist das etwa nicht in seiner Art auch eine Beschäftigung?«
+
+Seite Nr.: 10568
+Ich gebe zu, daß es eine Krankheit ist, wie alles, was über das richtige Maß hinausgeht (und auf diesem Gebiete wird es unfehlbar oft vorkommen, daß das richtige Maß überschritten wird); aber erstens ist das doch bei verschiedenen Menschen verschieden; und zweitens möge man sich eben, wie bei allen Dingen, so selbstverständlich auch hierbei, des Maßhaltens befleißigen; Ökonomie, wenn auch in einer gemeinen Sphäre.
+
+Seite Nr.: 10573
+Sie, Sie reden mir von Unsittlichkeit und Ästhetik! Sie spielen sich als eine Art von Schiller auf, als Idealisten! Alles das hat natürlich seinen notwendigen inneren Zusammenhang, und man müßte sich wundern, wenn es anders wäre; aber trotzdem kommt es einem in der Wirklichkeit sonderbar vor …
+
+Seite Nr.: 10573
+Apropos, lieben Sie Schiller? Ich habe ihn außerordentlich gern.«
+»Aber was sind Sie für ein Prahler!« erwiderte Raskolnikow mit merklichem Widerwillen.
+
+Seite Nr.: 10579
+außerdem hatte sie beständig eine Gewürznelke im Munde.
+【Annotation】Das Zitat stammt aus **Nikolai Gogols** berühmter Novelle *"Die Nase"* (1836), einem Meisterwerk der russischen Literatur, das in seiner absurden und grotesken Darstellung scharfe Sozialkritik übt. Die Geschichte handelt davon, wie der Beamte Kowaljow eines Morgens feststellt, dass seine Nase verschwunden ist und ein Eigenleben führt. Dabei gerät er in zahlreiche bizarre Situationen, die die Absurdität und Oberflächlichkeit der damaligen Gesellschaft widerspiegeln.
+Der Satz über die „Gewürznelke im Munde“ beschreibt vermutlich eine Eigenheit oder Marotte einer der Figuren, die Gogol oft mit solch prägnanten, physischen Details charakterisiert. Solche Kleinigkeiten sind typisch für Gogols Stil, der die Eigenheiten von Menschen auf eine manchmal satirische Weise betont. Die Gewürznelke könnte als Hinweis auf Eitelkeit oder auf ein ständiges Bemühen um Erscheinung und äußere Wirkung interpretiert werden. Möglicherweise symbolisiert sie auch einen Versuch, unangenehme Gerüche (wie Mundgeruch) zu überdecken, was auf eine obsessive Selbstkontrolle und Sorge um die Wahrnehmung durch andere hindeutet – typisch für die Figuren Gogols, die oft von einer obsessiven Angst vor sozialer Stellung und Prestige getrieben sind.
+Gogol nutzt solche Details meisterhaft, um skurrile Charaktere zu schaffen, die gleichermaßen komisch und tragisch erscheinen. Diese Eigenschaft macht seine Werke zeitlos und relevant, da sie die menschlichen Schwächen und gesellschaftlichen Zwänge aufdecken, oft in einer grotesken, aber tiefgründigen Weise.
+
+
+KI kann eigentlich nicht mehr, als die ersten paar sucheinträge und notwendige Hintergrund infos logisch in die Antwort mit einbeziehen, bevor es in den kompletten schwurbel ubergeht, wie ein etwas zu sehr selbstbewusster abiturient
+
+Seite Nr.: 10581
+fünftens, unter keinen Umständen darf ich mich in ein weibliches Wesen aus unserem Stande verlieben;
+
+Seite Nr.: 10583
+oraison funèbre,
+【Annotation】Grabrede
+
+Seite Nr.: 10619
+sie wird in einem Monat sechzehn Jahre alt; also können ihr die Eltern in einem Monat einen Mann geben.‹
+
+Seite Nr.: 10630
+die Juden, die hier von überallher zusammenströmen, scharren heimlich Geld zusammen, und alles übrige sumpft.
+
+Seite Nr.: 10636
+Où va-t-elle la vertu se nicher?
+【Annotation】Wo wird sich die Tugend wohl verstecken?
+
+Seite Nr.: 10637
+Assez causé!«
+【Annotation】Genug geredet
+
+Seite Nr.: 10685
+Theorie eine Rolle (eine Theorie, die nach etwas klingt), nach der die Menschen in zwei Gruppen eingeteilt werden, sehen Sie wohl, in Material und in besondere Menschen, das heißt solche Menschen, für die wegen ihres hohen geistigen Ranges die Gesetze nicht geschrieben sind, sondern die vielmehr selbst für die übrigen Menschen, für dieses Material, für den Kehricht, Gesetzgeber sind. Man muß sagen: eine ganz leidliche Theorie, une théorie comme une autre.
+
+Seite Nr.: 10686
+Sehr niederdrückend war ihm und ist ihm auch noch der Gedanke, daß er zwar verstanden habe, eine Theorie aufzustellen, aber nicht imstande gewesen sei, über die Schranken ohne lange Reflexionen hinwegzuschreiten, und daß er somit kein genialer Mensch sei.
+
+Seite Nr.: 10723
+VI
+【Annotation】5. VI
+
+Seite Nr.: 10748
+Prospekt
+【Annotation】[pʁoˈspɛkt] nm.
+Zettel bis kleinere Zeitschrift, die als Werbung in der Wirtschaft dient
+Malerei: Darstellung von (Teilen von) Ortsansichten 
+in oft perspektivisch übertriebener (verkürzter) Weise
+Theater: perspektivisch gemalter Hintergrund der Bühne
+Hauptstraße in russischen Städten
+äußere Erscheinung einer Pfeifenorgel
+schriftliche Informationen über Aktien
+im 17. Jahrhundert von lateinisch prōspectus „Fern
+sicht, Aussicht, Hinsehen“ entlehnt
+
+Seite Nr.: 10762
+Raskolnikow, wahrhaftig! Hat doch viel auf seine Schultern genommen! Kann mit der Zeit ein großartiger Halunke werden, wenn er seine verrückten Ideen los wird;
+
+Seite Nr.: 10793
+Auf seinem Gesichte war jener ewige 
+
+Seite Nr.: 10794
+mürrische Kummer sichtbar, der bei dem jüdischen Typ allen Gesichtern ohne Ausnahme einen so säuerlichen Ausdruck verleiht.
+
+Seite Nr.: 10803
+Siehst du, ich … Ach, mein Gott! Was schwatze ich denn da kreuz und quer wie verdreht … Weißt du, Rodja, deinen Aufsatz in der Zeitschrift lese ich jetzt schon zum dritten Male; Dmitrij Prokofjitsch hat ihn mir gebracht. ›Ach so, ach so!‹ rief ich aus, als ich ihn las. ›Was bin ich für eine Närrin!‹ dachte ich bei mir. ›Also mit solchen Dingen beschäftigt er sich! Das ist die Lösung des Rätsels! Die Gelehrten sind alle so. Er hat vielleicht gerade neue Gedanken im Kopfe und überlegt sich die, und da komme ich ihm dazwischen und quäle und belästige ihn!‹ Ich lese deinen Aufsatz, lieber Sohn, aber verstehen tue ich natürlich nicht viel davon. Das ist ja auch ganz natürlich; wie sollte ich denn auch!«
+
+Seite Nr.: 10804
+Raskolnikow nahm die Zeitschrift und warf einen flüchtigen Blick auf seinen Aufsatz. So wenig das auch zu seiner Lage und zu seinem Zustande passen wollte, so empfand er doch
+
+Seite Nr.: 10805
+jenes eigentümliche, wonnig kitzelnde Gefühl, welches ein Verfasser durchkostet, der sich zum ersten Male gedruckt sieht; auch wirkten dabei seine dreiundzwanzig Jahre mit.
+
+Seite Nr.: 10845
+Ach, hätte ich doch allein dagestanden, und hätte niemand mich geliebt, und hätte ich selbst nie jemand geliebt! Dann wäre das alles nicht geschehen!
+
+Seite Nr.: 10845
+Ich möchte wohl wissen, ob diese bevorstehenden fünfzehn oder zwanzig Jahre meine Seele so niederbeugen werden, daß ich dann demütig vor den Leuten winsele und mich selbst fortwährend einen Räuber nenne. Jedenfalls! Darum eben schicken sie mich ja jetzt nach Sibirien; gerade das bezwecken sie
+
+Seite Nr.: 10875
+Es ist doch noch so ein junges Bürschchen!« meinte ein dritter.
+»Einer aus den höheren Ständen!« bemerkte jemand mit ernster, ruhiger Stimme.
+»Das kann man heutzutage nicht mehr unterscheiden, ob einer zu den höheren Ständen gehört oder nicht.«
+
+Seite Nr.: 10878
+›Vorläufig steige ich nur erst die Treppe hinauf‹, dachte er. Überhaupt hatte er die Vorstellung, als läge der Augenblick der Entscheidung noch in weiter Ferne, als bliebe ihm noch viel Zeit bis dahin und als könne er sich noch vieles überlegen
+
+Seite Nr.: 10885
+Aus anständiger Familie muß man natürlich sein; alles andere aber kann man durch Talent, Wissen, Verstandstand und Genie erreichen!
+
+Seite Nr.: 10889
+Herr Rasumichin, Sie sind ja ganz andere Leute! Ihre Laufbahn liegt auf dem Gebiete der Wissenschaft, und kein Mißerfolg kann Sie beirren! Alle Genüsse des Lebens sind Ihnen sozusagen ein wesenloses Nichts; Sie sind ein Asket, ein Mönch, ein Einsiedler! … Ihr ein und alles sind die Bücher, die Feder hinter dem Ohr, gelehrte Untersuchungen – in solchen Regionen schwebt Ihr Geist!
+
+Seite Nr.: 10890
+Aber ich habe sie gelesen. Übrigens haben sich heutzutage die Nihilisten ganz gewaltig ausgebreitet; na, es ist ja auch begreiflich; was sind das jetzt
+
+Seite Nr.: 10891
+für Zeiten? frage ich Sie. Übrigens, ich rede mit Ihnen so frei von der Leber weg, … Sie sind ja doch gewiß kein Nihilist!
+
+Seite Nr.: 10891
+das Gefühl,
+
+Seite Nr.: 10892
+daß man Bürger und Mensch ist, die Humanität und die Liebe zu Gott dem Allmächtigen. Ich kann eine offizielle Persönlichkeit sein und ein Amt bekleiden, bin aber dabei doch verpflichtet, mich als Bürger und Mensch zu fühlen und mich danach zu benehmen …
+
+Seite Nr.: 10912
+das Verbrechen könne nur in einem Zustande zeitweiliger Geistesverwirrung begangen sein, unter der Einwirkung einer krankhaften Manie zu rauben und zu morden, ohne weitere Zwecke und gewinnsüchtige Absichten. Gerade damals nämlich war die neumodische Theorie von der zeitweiligen Geistesverwirrung aufgekommen, die man in unserer Zeit so oft bemüht ist, bei manchen Verbrechern in Anwendung zu bringen. Außerdem wurde ein schon von längerer Zeit her datierender hypochondrischer Zustand Raskolnikows von vielen Zeugen, nämlichmlich von dem Arzte Sossimow, seinen früheren Kommilitonen, seiner Wirtin und ihrem Dienstmädchen, auf das bestimmteste bekundet.
+
+Seite Nr.: 10939
+Das Fieber nahm an Heftigkeit zu, und zwei Wochen darauf starb sie. Bei ihrem Irrereden waren ihr Worte entschlüpft, denen man entnehmen konnte, daß sie von dem schrecklichen Schicksale ihres Sohnes weit mehr ahnte, als man geglaubt hatte.
+
+Seite Nr.: 10940
+ Sonjas Briefe erschienen Dunja und Rasumichin anfangs etwas trocken und unbefriedigend; aber schließlich fanden sie beide, daß dies die beste überhaupt mögliche Art zu schreiben war, da sie aus diesen Briefen als Schlußergebnis doch eine sehr vollständige und genaue Vorstellung von dem Lose des unglücklichen Bruders und Freundes gewannen.
+
+Seite Nr.: 10942
+Irrtümer waren unmöglich, weil alles Vorliegende aus zuverlässigen Tatsachen bestand.
+
+Seite Nr.: 10946
+Daß er aber so elend und ärmlich lebe, das geschehe nicht nach irgendeinem vorbedachten Plane oder in bestimmter Absicht, sondern einfach aus Achtlosigkeit und Gleichgültigkeit gegenüber den Äußerlichkeiten seines Schicksals.
+
+Seite Nr.: 10951
+Und was machte ihm die Kost aus, diese Kohlsuppe ohne Fleisch, mit Schaben darin? In früheren Jahren, als Student, hatte er oft nicht einmal das gehabt.
+
+Seite Nr.: 10952
+ein Stolz war schwer verwundet, und diese Verwundung seines Stolzes war auch die Ursache seiner Krankheit.
+
+Seite Nr.: 10953
+Eine zweck- und ziellose Unruhe in der Gegenwart und in der Zukunft eine stete Selbstaufopferung, durch die nichts erreicht wurde: das war's, was ihm auf der Welt noch bevorstand.
+
+Seite Nr.: 10957
+›Inwiefern‹, dachte er, ›sollte meine Idee dümmer sein als andere Ideen und Theorien, die in der Welt, seit diese Welt besteht, umherschwirren und aufeinanderprallen?
+
+Seite Nr.: 10958
+Aber jene Männer führten ihre Schritte mit
+
+Seite Nr.: 10959
+Kraft und Ausdauer durch, und darum waren sie im Rechte; ich aber wurde dabei schwach, und folglich hatte ich kein Recht, mir diesen Schritt zu erlauben.‹
+Nur in diesem einen Punkte erkannte er sein Verbrechen an: nur darin, daß er es nicht zu ertragen vermocht und sich selbst angezeigt hatte.
+
+Seite Nr.: 10960
+Mit dieser Frage marterte er sich ab, ohne zu wissen, daß er vielleicht schon damals, als er am Flusse stand, den tiefen Irrtum in seinem ganzen Wesen und in seinen Anschauungen geahnt hatte. Er wußte nicht, daß dieses Vorgefühl möglicherweise der Vorbote einer künftigen Krisis in seinem Leben, der Vorbote seiner künftigen Wiedergeburt und seiner künftigen neuen Lebensanschauung
+
+Seite Nr.: 10961
+war.
+Er neigte mehr dazu, das Unterlassen des Selbstmordes auf die unbewußte Wirksamkeit des Instinktes zurückzuführen, über welche obzusiegen und hinwegzuschreiten er wieder einmal nicht die Kraft gehabt habe – er sei eben ein Schwächling und ein unbedeutender Mensch!
+
+Seite Nr.: 10961
+Welche entsetzlichen Leiden und Qualen hatte das Leben manchen von ihnen gebracht, zum Beispiel den Landstreichern; und doch hingen sie so am Dasein! War ihnen denn wirklich ein Sonnenstrahl so viel wert oder ein dichter Wald oder eine kühle, tief in der Wildnis versteckte Quelle?
+
+Seite Nr.: 10963
+Am meisten erstaunt war er über die gewaltige, unüberschreitbareberschreitbare Kluft, die zwischen ihm und all diesen Menschen lag.
+
+Seite Nr.: 10964
+Im Gefängnisse befanden sich auch einige verbannte Polen, politische Sträflinge; diese blickten auf die Leute geringeren Standes sehr von oben herab und verachteten sie als ungebildeten Pöbel. Raskolnikow jedoch konnte diese Anschauung nicht teilen; er sah deutlich, daß diese Ungebildeten in vielen Stücken weit verständiger waren als die besagten Polen
+
+Seite Nr.: 10972
+noch nie dagewesenen Seuche zum Opfer zu fallen, die aus dem inneren Asien ihren Weg nach Europa nehme. Alle Menschen sollten umkommen außer einigen ganz wenigen Auserwählten. Es war eine Art von neuen Trichinen erschienen, mikroskopische Wesen, die sich in den menschlichen Körpern ansiedelten. Aber diese Wesen waren Geister, mit Verstand und Willen begabt. Wer sie in sich aufnahm, wurde sofort rasend und wahnsinnig. Aber noch niemals vorher hatten sich die Menschen für so klug gehalten und sich mit solcher Bestimmtheit im Besitze der Wahrheit geglaubt, wie es diese Angesteckten taten. Niemals hatten sie ihre Urteilssprüche, ihre wissenschaftlichen Resultate, ihre moralischen Anschauungen und ihren Glauben für fester begründet gehalten. Ganze Dörfer, ganze Städte und Völker wurden angesteckt und verfielen dem Wahnsinn. Alle waren in Aufregung und verstanden einander nicht mehr; jeder glaubte im Alleinbesitze der Wahrheit zu sein und wollte verzweifeln, wenn er die anderen ansah, schlug sich entsetzt an die Brust, weinte und rang die Hände. 
+
+Seite Nr.: 10974
+man konnte sich nicht darüber einigen, was als schlecht und was als gut zu betrachten sei. Man wußte nicht, wen man verurteilen und wen man freisprechen sollte. Die Menschen töteten einander in einer Art von unsinnigem Grimme.
+
+Seite Nr.: 10975
+Die gewöhnlichen Handwerke wurden nicht mehr betrieben; denn jeder trug seine Ideen, seine Reformvorschläge vor, aber es kam zu keiner Einigung;
+
+Seite Nr.: 10976
+Die Seuche wuchs und verbreitete sich immer weiter. Es entgingen dem Verderben in der ganzen Welt nur sehr wenige Menschen; dies waren die Reinen und Auserwählten, die dazu bestimmt waren, ein neues Menschengeschlecht und ein neues Leben zu begründen und die Erde zu erneuern und zu reinigen;
+【Annotation】ohoh
+
+Seite Nr.: 10987
+Die Liebe war es, die diese Wiedergeburt bewirkt hatte; dem Herzen des einen entsprudelten unerschöpfliche Quellen des Lebens für das Herz des anderen.
+
+Seite Nr.: 10989
+ Indessendessen war er an diesem Abende nicht imstande, lange und dauernd an etwas zu denken und seine Gedanken auf einen bestimmten Gegenstand zu konzentrieren; auch hätte er jetzt keine Denkaufgabe lösen können; er konnte nur fühlen. An die Stelle des theoretischen Denkens war das wirkliche Leben getreten, und ganz neue Triebe begannen sich in seiner Seele zu regen.
+
+Seite Nr.: 10993
+Aber hier beginnt bereits eine neue Geschichte, die Geschichte der allmählichen Erneuerung eines Menschen, die Geschichte seiner allmählichen Sinneswandlung, des allmählichen Überganges aus einer Welt in eine andere, des Bekanntwerdens mit einer neuen, ihm bis dahin völlig unbekannten Wirklichkeit.
+
+Seite Nr.: 10996
+Erst seit Dostojewskij gibt es diese Verbindung packender Kriminalistik und eindringender psychologischer Betrachtung, dieses erbarmungslose Hineinleuchten in das düstere Doppeldasein eines Mörders, dieses Ergründen auch der letzten Ursachen und Motive der Bluttat, diese Beschreibung des ganzen Infernos von Gewissensqualen. Thomas Mann nannte den »Raskolnikow« den »größten Kriminalroman aller Zeiten«.
+
+Seite Nr.: 10996
+Dostojewskij hat das Werk 1866 inder Moskauer Zeitschrift »Russkij Westnik« veröffentlicht. Sieben Jahre vorher war er aus der politischen Verbannung zurückgekehrt.
+
+Seite Nr.: 10997
+Seine Anschauungen hatten sich gegenüber der Frühperiode seines Schaffens, als er mit der russischen Befreiungsbewegung sympathisierte, gewandelt. Erschüttert durch die furchtbaren Eindrücke im Zuchthaus und deprimiert durch die schleichende Nervenkrankheit, die sich zusehends verschlimmerte, neigte er zu Zweifeln und Pessimismus. Die freiheitlichen und sozialistischen Bestrebungen der russischen revolutionären Demokratenen fanden bei ihm kein Verständnis und keine Unterstützung mehr.
+
+Seite Nr.: 10998
+Seine publizistische Polemik gegen die Demokraten war scharf und bitter. Sie entsprang der Vorstellung, daß Kraft und Zukunft des Landes in der demütigen Ruhe und gottergebenen Gelassenheit des einfachen russischen Menschen lägen, einer Vorstellung, die in diesen Jahrzehnten, als Tausende und aber Tausende russischer Bauern revoltiertenvoltierten und Friedrich Engels das russische Volk als »instinktiven Revolutionär« bezeichnen konnte, durchaus fehl am Platze war.
+
+Seite Nr.: 10999
+Dostojewskijs politische Anschauungen begannen den Charakter jenes militanten Slawophilentums anzunehmen, das seine spätere Schaffensperiode kennzeichnet. Er verneinte die aufklärerische Vernunft, lehnte den Kampf für sozialen Fortschritt ab und idealisierte die Lehren der orthodoxen Kirche.
+
+Seite Nr.: 10999
+Aber weder das reaktionäre politische Programm Dostojewskijs noch dieseit dieser Zeit in seine künstlerischen Werke hineingetragene Polemik gegen Demokraten und Sozialisten bilden den ideellen Kern des grandiosen Romans. Dessen überzeugende Kraft stammt vielmehr aus der unversiegbaren Tiefe eines echten humanen Gefühls, der Sympathie für die Erniedrigten und Beleidigten und der schonungslosen Aufdeckung gesellschaftlicher Krebsschäden.
+
+Seite Nr.: 11001
+die Wirklichkeit sei langweilig, eintönig: um sich zu unterhalten, müsse man Zuflucht nehmen zur Kunst, zur Phantasie, Bücher lesen. Mir geht es umgekehrt: was gibt es Phantastischeres, Überraschenderes als die Wirklichkeit? Ist sie nicht manchmal am allerunwahrscheinlichsten?«
+
+Seite Nr.: 11001
+Das Leben in Rußland bot damals eine Fülle »allerunwahrscheinlichster« Probleme. Der Siegeszug des Kapitalismus bei gleichzeitig nur langsam fortschreitendem Zerfall des Leibeigenschaftssystems und weitgehender Aufrechterhaltung der verknöchertenöcherten absolutistischen Herrschaftsformen, machte alle Widersprüche verworrener, steigerte die Not der unteren Volksschichten ins Ungemessene und löste gesellschaftliche Erschütterungen aus, die zeitweise den Bestand der alten Ordnung in Frage stellten.
+
+Seite Nr.: 11002
+»Wenn in diesem Chaos, in dem sich das gesellschaftliche Leben schon lange und jetzt vor allem befindet«, schrieb er später, »es vielleicht selbst einem Künstler vom Range Shakespeares noch nicht möglich ist, das normale Gesetz und den leitenden Faden zu finden, wird dann nicht wenigstens irgend jemand einen Teil dieses Chaos aufhellen, auch wenn er nicht an den leitenden Faden denkt?«
+
+Seite Nr.: 11003
+Die Handlung des Romans »Raskolnikow« spielt während dieser Periode kapitalistischer Frühentwicklung in Petersburg, einer Stadt, die damals allmählich das Gesicht einer modernen kapitalistischen Metropole bekam. Mit der Entwicklung des Geschäftslebens, des Unternehmertums, des privatkapitalistischen Besitzes kamen auch alle anderen Begleiterscheinungen der Kapitalisierung nach Petersburg: der brutale Kampf um den Platz an der Sonne, die völlige Verarmung derer, die in diesem Kampf unterlagen, die Schutzlosigkeit der Besitzlosen, die moralische Degeneration, die Verbreitung von Trunksucht, Prostitution, Verbrechen. Nur in dieser hektischen Atmosphäre konnte ein Verbrechen wie das Raskolnikows ausgebrütet werden
+【Annotation】!!!
+
+Seite Nr.: 11004
+Dostojewskij verstand nicht, daß die kapitalistische Periode auch für Rußland unvermeidlich war, aber er ahnte, was seinem Lande, in dem viele Erscheinungen der bürgerlichen Ordnung schon offen zutage lagen, drohte.
+
+Seite Nr.: 11005
+Winterlichen Erinnerungen an Sommereindrücke«
+【Annotation】27490
+
+Seite Nr.: 11006
+Gewerbe hinführten.
+【Annotation】das student sein... erst spät probiert... sich abgegrenzt, doch gerade in dem Moment umso mehr einer von ihnen.
+
+Seite Nr.: 11008
+den Opfergang und das Martyrium jener Frauen, die noch halbe Kinder waren und schon keine andere Wahl mehr hatten, als sich auf der Straße zu verkaufen.
+
+Seite Nr.: 11008
+Das makabre Treiben in den Londoner Elendsvierteln hatte Dostojewskij mit den Worten charakterisiert: »Die vom Festmahl der Menschheit verjagten Millionen drängen und stoßen einander in der unterirdischen Finsternis, in die sie durch ihre höhergestellten Brüder gestürzt sind; tastend pochen sie an irgendwelche Tore, einen Ausweg suchend, um nicht im finsteren Keller zu ersticken.« Man könnte die gleichen Worte dem Roman »Raskolnikow« voranstellen, in dem das Thema der sozialen Ausweglosigkeit die ganze Handlung beherrscht.
+Hier, im Elend und in der Hoffnungslosigkeit, liegt der Ansatzpunkt zu Raskolnikows Verbrechen. Hier beginnt sein Plan sich zu kristallisieren. Er will es nicht wahrhaben, daß die Sonjas den Swidrigailows ausgeliefert sind, 
+
+Seite Nr.: 11010
+Er will nicht wahrhaben, daß Katerina Iwanowna, die Mutter von mehreren kleinen Kindern, schließlich doch am Hunger physisch zugrunde gehen muß. Er will den Tod des ewig betrunkenen Marmeladow nicht wahrhaben und nicht den Selbstmord jener unbekannten Frau, die sich vor seinen Augen in die Newa stürzt.
+【Annotation】nochmal Reaktion checken
+
+Seite Nr.: 11013
+Wenn man eine Million besitzt. Wann besitzt man eine Million? Gibt die Freiheit jedem eine Million? Nein. Was ist ein Mensch ohne eine Million? Ein Mensch ohne eine Million ist nicht der, der alles Beliebige tut, sondern mit dem alles Beliebige getan wird.«
+
+Seite Nr.: 11015
+reich werden, koste es, was es wolle, so lautet die idée fixe, die sich in Raskolnikows Kopf festgesetzt hat. Eine ganze Philosophie hat er sich in schlaflosen Nächten zurechtgelegt, eine Theorie, wie sie ähnlich später Nietzsche vertreten hat: von der Einteilung der Menschen in Herrscher und Beherrschte, von denen die ersteren Freiheit zu allen, auch den ungesetzlichsten Handlungen hätten, während den letzteren ein ewiges Sklavendasein beschieden sei.
+Es ist gelegentlich behauptet worden, Dostojewskij habe mit den Betrachtungentungen Raskolnikows direkt den antihumanen Theorien Nietzsches vorgearbeitet. Aber hier gibt es einen entscheidenden Unterschied: Dostojewski steht keineswegs auf der Seite seines Helden; er verurteilt das in diesem verkörperte individualistische Prinzip. Der Roman beweist es deutlich genug.
+【Annotation】#autor/nietzsche
+#philosophie/nietzsche
+
+Seite Nr.: 11016
+Und überhaupt nur vorübergehend gestattet Dostojewskij seinem Helden, aus dem Bereich des Humanen auszubrechen, nur vorübergehend versetzt er ihn in die fatale Grenzsituation: Er muß zurück, mag er sich noch so sehr dagegen auflehnen. Am Ende stürzt das ganze Kartenhaus antihumaner Sophistik in sich zusammen.
+
+Seite Nr.: 11017
+Nicht verfochten also, sondern angegriffen und verurteilt hat Dostojewskij den bürgerlich-individualistischen Protest gegen das Elend der bürgerlichen Gesellschaft. Der Dichter läßt Raskolnikow einen Ausweg aus den Gewissensqualen finden, indem dieser das Geständnis ablegt und sich wie Sonja demütig in sein Schicksal ergibt.
+
+Seite Nr.: 11017
+Der Abtrünnige – so lautet übrigens die wörtliche Übersetzung von "raskolnik" – kehrt zurück, indem er nicht nur die Sühne des Verbrechens, sondern fortan auch alles Leiden und alle Not freiwillig auf sich nimmt.
+
+Seite Nr.: 11018
+Eine tiefere, echtere Lösung des Humanitätsproblems als die des Verzichts auf jeglichen Machtanspruch, selbst auf den Machtanspruch des Guten, hat Dostojewskij nicht gefunden. Er sah nur zwei Möglichkeiten menschlichen Verhaltens: entweder Stolz, Empörung und damit maßlose Entfremdung vom Menschlichen oder christliche Demut, Liebe und bedingungslose Unterwerfung.
+
+Seite Nr.: 11018
+Die Grundfrage, die der Roman objektiv mit aufwirft: Wie soll man die Gesellschaftsordnung, die einen Raskolnikow zum Raubmord und eine Sonja zur Prostitution treibt, umgestalten und vermenschlichen, bleibt hier unbeantwortet.
+【Annotation】hier setzt dann Psychoanalyse und kt an
+
+Seite Nr.: 11019
+»Meine Aufmerksamkeit richte ich nur auf die in seinem Roman dargestellten Erscheinungen des gesellschaftlichen Lebens; sind diese Erscheinungen richtig erfaßt, entsprechen die Tatsachen,sachen, die den Grundzusammenhang des Romans ausmachen.
+
+AUTOBIOGRAPHISCHE SCHRIFTEN
+Seite Nr.: 28210
+Wann aber kann man alles tun, was man will? – Wenn man eine Million hat. Gibt die Freiheit jedem Menschen diese Million? – – Nein. Was ist ein Mensch ohne eine Million? – Ein Mensch ohne eine Million ist nicht jemand, der alles macht, was er will, sondern jemand, mit dem man macht, was man will. Was folgt daraus? – Daraus folgt, daß es außer der Freiheit noch Gleichheit gibt und zwar Gleichheit vor dem Gesetz. Von dieser Gleichheit vor dem Gesetz läßt sich freilich nur das eine sagen, nämlich: daß in der Form, wie sie jetzt angewandt wird, jeder Franzose sie nur für eine persönliche Beleidigung halten kann und muß. Was verbleib
+
+
+```
