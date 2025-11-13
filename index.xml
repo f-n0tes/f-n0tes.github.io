@@ -6,6 +6,12 @@
       <description>Letzte 10 Seiten on f_notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Schuld und Sühne (1866)</title>
+    <link>https://f-n0tes.github.io/Literatur/Dostojewski,-Fjodor/Schuld-und-S%C3%BChne-(1866)</link>
+    <guid>https://f-n0tes.github.io/Literatur/Dostojewski,-Fjodor/Schuld-und-S%C3%BChne-(1866)</guid>
+    <description><![CDATA[ Zum Entstehungshintergrund Wikipedia Dostojewski begann die Arbeit an Schuld und Sühne im Spätsommer 1865 während eines Auslandsaufenthalts, als er sich aufgrund seiner Spielsucht in einer prekären finanziellen Situation befand. ]]></description>
+    <pubDate>Thu, 13 Nov 2025 03:15:55 GMT</pubDate>
+  </item><item>
     <title>f-notes</title>
     <link>https://f-n0tes.github.io/</link>
     <guid>https://f-n0tes.github.io/</guid>
@@ -17,12 +23,6 @@
     <guid>https://f-n0tes.github.io/tutorialt-test</guid>
     <description><![CDATA[ 📜 Quartz Scroll-Fadeout-Effekt: Finales Tutorial Dieses Tutorial verwendet die Overlay-Methode (position: fixed und z-index), die in Ihrem komplexen Grid-Layout am stabilsten funktioniert, und stellt sicher, dass die JavaScript-Klasse korrekt mit den CSS-Regeln verknüpft wird. ]]></description>
     <pubDate>Wed, 12 Nov 2025 22:57:15 GMT</pubDate>
-  </item><item>
-    <title>Schuld und Sühne (1866)</title>
-    <link>https://f-n0tes.github.io/Literatur/Dostojewski,-Fjodor/Schuld-und-S%C3%BChne-(1866)</link>
-    <guid>https://f-n0tes.github.io/Literatur/Dostojewski,-Fjodor/Schuld-und-S%C3%BChne-(1866)</guid>
-    <description><![CDATA[ Zum Entstehungshintergrund Wikipedia Dostojewski begann die Arbeit an Schuld und Sühne im Spätsommer 1865 während eines Auslandsaufenthalts, als er sich aufgrund seiner Spielsucht in einer prekären finanziellen Situation befand. ]]></description>
-    <pubDate>Wed, 12 Nov 2025 04:04:38 GMT</pubDate>
   </item>
     </channel>
   </rss>
