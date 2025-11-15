@@ -24,7 +24,13 @@ PageTitle.css = `
   font-family: var(--titleFont);
   overflow: visible;
   line-height: 1.2;  /* Gibt mehr vertikalen Raum */
-  padding-top: 0.15em;  /* Extra Platz oben */
+  padding-top: 0.05em;  /* Extra Platz oben */
+}
+
+@media all and (max-width: 800px) { /* Mobile Anpassung */
+  .page-title {
+    font-size: 2.25rem;
+  }
 }
 
 /* Aurora Gradient Effekt */

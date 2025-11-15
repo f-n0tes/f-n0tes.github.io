@@ -93,3 +93,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700 !important;  // Oder 700
   font-style: normal;
 }
+
+// Fußnoten-Backlink Symbol ändern
+a.data-footnote-backref {
+  visibility: hidden;
+  position: relative;
+}
+
+a.data-footnote-backref::after {
+  visibility: visible;
+  content: "↑";
+  position: absolute;
+  left: 0;
+  color: var(--secondary);  // Farbe anpassen
+  font-size: 1.2em;         // Größe anpassen
+  transition: transform 0.2s ease;  // Smooth hover effect
+}
+
+a.data-footnote-backref:hover::after {
+  transform: translateY(-2px);  // Hebt sich beim Hover
+}
+

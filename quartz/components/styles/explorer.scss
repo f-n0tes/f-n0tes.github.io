@@ -7,22 +7,63 @@
       transition: transform 300ms ease-in-out;
     }
     &.lock-scroll > :not(.sidebar.left:has(.explorer)) {
-      transform: translateX(100dvw);
+      transform: translateX(50dvw);
       transition: transform 300ms ease-in-out;
+    }
+    & > .sidebar.left:has(.explorer) {
+      animation: shadowPulse 18s ease-in-out infinite;
     }
 
     // Sticky top bar (stays in place when scrolling down on mobile).
     .sidebar.left:has(.explorer) {
-      box-sizing: border-box;
       position: sticky;
-      background-color: var(--light);
-      padding: 1rem 0 1rem 0;
+      border-radius: 30rem;
+      background: var(--light);
+      box-sizing: border-box;
       margin: 0;
+      padding: .5rem 0;
+      isolation: isolate;
     }
 
-    .hide-until-loaded ~ .explorer-content {
-      display: none;
+    // Animierter Gradient-Border
+.sidebar.left:has(.explorer)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 0px 0px 2px; /* Breite der Kontur */
+  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  background-size: 300% 100%;
+  animation: gradient-shift 300s linear infinite;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.15 !important; /* 60% Deckkraft - anpassen nach Bedarf (0.0 bis 1.0) */
+  animation: gradient-shift 300s linear infinite, syncedFade 18s ease-in-out infinite;
+
+}
+
+    // Animation für den Farbverlauf
+    @keyframes gradient-shift {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 300% 50%;
+      }
     }
+  }
+}
+
+    @keyframes syncedFade {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.9;
   }
 }
 
@@ -243,7 +284,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       margin-top: 0;
       background-color: var(--light);
       max-width: 100vw;
-      width: 100vw;
+      width: 87vw;
       transform: translateX(-100vw);
       transition:
         transform 200ms ease,
