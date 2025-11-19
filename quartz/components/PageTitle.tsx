@@ -29,7 +29,7 @@ PageTitle.css = `
 
 @media all and (max-width: 800px) { /* Mobile Anpassung */
   .page-title {
-    font-size: 1.5rem;
+    font-size: 1.85rem;
   }
 }
 
