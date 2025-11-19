@@ -33,6 +33,19 @@ AuroraPageTitle.css = `
   font-family: var(--titleFont);
 }
 
+@media screen and (max-width: 800px) {
+  .aurora-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .aurora-title {
+    font-size: 1.25rem;
+    letter-spacing: -0.3px;
+  }
+}
+
 .aurora-title a {
   color: var(--dark);
   text-decoration: none;
