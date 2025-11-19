@@ -20,9 +20,10 @@
       border-radius: 30rem;
       background: var(--light);
       box-sizing: border-box;
-      margin: 0;
-      padding: .5rem 0;
+      margin: 0 1rem;
+      padding: .5rem;
       isolation: isolate;
+      top: 0.25rem;
     }
 
     // Animierter Gradient-Border
@@ -41,7 +42,7 @@
   animation: gradient-shift 300s linear infinite;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.15 !important; /* 60% Deckkraft - anpassen nach Bedarf (0.0 bis 1.0) */
+  opacity: 0.25 !important; /* 60% Deckkraft - anpassen nach Bedarf (0.0 bis 1.0) */
   animation: gradient-shift 300s linear infinite, syncedFade 18s ease-in-out infinite;
 
 }
@@ -158,7 +159,7 @@ button.desktop-explorer {
   & ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 1rem;
     overscroll-behavior: contain;
 
     & li > a {
@@ -285,7 +286,6 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       background-color: var(--light);
       max-width: 100vw;
       width: 87vw;
-      transform: translateX(-100vw);
       transition:
         transform 200ms ease,
         visibility 200ms ease;
@@ -308,8 +308,23 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   }
 }
 
-.mobile-no-scroll {
+html {
   @media all and ($mobile) {
-    overscroll-behavior: none;
+    transform: translate(0); // Basiswert hinzufügen
+    transition: transform 0.3s ease-out;
   }
+  
+  &.mobile-no-scroll {
+    @media all and ($mobile) {
+      overscroll-behavior: none;
+      transform: translateX(-2rem) translateY(-0.25rem);
+    }
+  }
+  
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+  width: 100vw;
+  overflow-x: hidden;
 }
