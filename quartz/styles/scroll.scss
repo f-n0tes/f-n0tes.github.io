@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+  .sidebar.left,
+  .sidebar.right {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  body.scrolled-down .sidebar.left,
+  body.scrolled-down .sidebar.right {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  body:not(.scrolled-down) .sidebar.left,
+  body:not(.scrolled-down) .sidebar.right {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

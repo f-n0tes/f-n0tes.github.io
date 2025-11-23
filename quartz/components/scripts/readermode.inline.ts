@@ -1,25 +1,44 @@
-let isReaderMode = false
+let isReaderMode = false;
+let lastScrollTop = 0;
 
 const emitReaderModeChangeEvent = (mode: "on" | "off") => {
   const event: CustomEventMap["readermodechange"] = new CustomEvent("readermodechange", {
     detail: { mode },
-  })
-  document.dispatchEvent(event)
-}
+  });
+  document.dispatchEvent(event);
+};
+
+const setReaderMode = (mode: "on" | "off") => {
+  isReaderMode = mode === "on";
+  document.documentElement.setAttribute("reader-mode", mode);
+  emitReaderModeChangeEvent(mode);
+};
 
 document.addEventListener("nav", () => {
-  const switchReaderMode = () => {
-    isReaderMode = !isReaderMode
-    const newMode = isReaderMode ? "on" : "off"
-    document.documentElement.setAttribute("reader-mode", newMode)
-    emitReaderModeChangeEvent(newMode)
-  }
-
+  // Button-Logik bleibt erhalten
   for (const readerModeButton of document.getElementsByClassName("readermode")) {
-    readerModeButton.addEventListener("click", switchReaderMode)
-    window.addCleanup(() => readerModeButton.removeEventListener("click", switchReaderMode))
+    readerModeButton.addEventListener("click", () => {
+      const newMode = isReaderMode ? "off" : "on";
+      setReaderMode(newMode);
+    });
+    window.addCleanup(() => readerModeButton.removeEventListener("click", () => {}));
   }
 
-  // Set initial state
-  document.documentElement.setAttribute("reader-mode", isReaderMode ? "on" : "off")
-})
+  // Scroll-Logik
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.scrollY;
+
+    if (window.innerWidth <= 800) {
+      if (currentScroll > lastScrollTop + 10) {
+        setReaderMode("on"); // Runterscrollen → ReaderMode aktiv
+      } else if (currentScroll < lastScrollTop - 10) {
+        setReaderMode("off"); // Hochscrollen → ReaderMode deaktiviert
+      }
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+
+  // Initialzustand setzen
+  setReaderMode(isReaderMode ? "on" : "off");
+});
