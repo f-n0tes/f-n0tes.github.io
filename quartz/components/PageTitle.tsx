@@ -3,197 +3,74 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 
+// ============================================================================
+// EFFEKT-AUSWAHL - Ändere hier den aktiven Effekt!
+// ============================================================================
+// Verfügbare Effekte:
+//   EFFECT_CRAZY    - Wilde Skalierung und Rotation (Original)
+//   EFFECT_WAVE     - Sanfte Wellen-Animation
+//   EFFECT_GLITCH   - Digitaler Glitch mit Farbverschiebung
+//   EFFECT_PULSE    - Sanftes Pulsieren mit Glow
+//   EFFECT_EXPLODE  - Rechtecke fliegen vom Cursor weg
+//   EFFECT_RAINBOW  - Regenbogen-Farbwechsel
+//   EFFECT_OUTLINE  - Wechsel von gefüllt zu Kontur
+//   EFFECT_MAGNETIC - Rechtecke werden zur Maus gezogen
+//   EFFECT_SHAKE    - Intensives Zittern
+//   EFFECT_FADE     - Distanz-basiertes Ausblenden
+//   EFFECT_RAINBOW_OUTLINE - Kombination aus Outline und Regenbogen-Glow
+//   EFFECT_NONE     - Kein Effekt
+//   EFFECT_GRAFFITI  - Graffiti-Spray-Effekt
+//   EFFECT_PIXELATE   - Pixel-Effekt
+//   EFFECT_BOOKSHELF   - Bücherregal-Effekt
+//   EFFECT_CONNECTING_LINES - Verbindungslinien-Effekt
+//   EFFECT_EXPANDING_CIRCLES - Expandierende Kreiseffekt
+//   EFFECT_EXPLODING_RAINBOW - Explodierender Regenbogen-Effekt
+// ============================================================================
+import { EFFECT_CONNECTING_LINES as CURRENT_EFFECT } from "./PageTitleEffects"
+
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
 
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir} class="split-link">
+      <a href={baseDir} class="icon-link">
+        <svg 
+          class="page-icon" 
+          id="interactive-logo"
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 800 800"
+        >
+          <rect class="logo-rect" x="244.2" y="433.8" width="30" height="218.1"/>
+          <rect class="logo-rect" x="227.2" y="226.5" width="30" height="218.1"/>
+          <rect class="logo-rect" x="301.5" y="302.9" width="30" height="178.6" transform="translate(708.6 75.7) rotate(90)"/>
+          <rect class="logo-rect" x="283.6" y="170.1" width="30" height="142.8" transform="translate(540.1 -57.1) rotate(90)"/>
+          <rect class="logo-rect" x="404.8" y="160.2" width="30" height="123.6" transform="translate(641.8 -197.8) rotate(90)"/>
+          <rect class="logo-rect" x="88.9" y="451.8" width="30" height="294.6"/>
+          <rect class="logo-rect" x="73.9" y="149.5" width="30" height="315"/>
+          <rect class="logo-rect" x="660.2" y="415.4" width="30" height="292.8"/>
+          <rect class="logo-rect" x="698" y="434.1" width="30" height="294.2"/>
+          <rect class="logo-rect" x="641.1" y="131.3" width="30" height="293.9"/>
+          <rect class="logo-rect" x="678.9" y="149.5" width="30" height="295.1"/>
+          <rect class="logo-rect" x="660" y="263.2" width="30" height="67.8" transform="translate(972.1 -377.9) rotate(90)"/>
+          <rect class="logo-rect" x="241.7" y="564.4" width="30" height="335.5" transform="translate(988.9 475.5) rotate(90)"/>
+          <rect class="logo-rect" x="471.2" y="473.3" width="30" height="483.6" transform="translate(1201.3 228.9) rotate(90)"/>
+          <rect class="logo-rect" x="612.6" y="596.9" width="30" height="200.9" transform="translate(1324.9 69.8) rotate(90)"/>
+          <rect class="logo-rect" x="206.1" y="17.3" width="30" height="294.4" transform="translate(385.7 -56.6) rotate(90)"/>
+          <rect class="logo-rect" x="518.5" y="-29.2" width="30" height="350.9" transform="translate(679.7 -387.2) rotate(90)"/>
+        </svg>
+        {/* 
+        Auskommentierter ursprünglicher Titel (Aurora-Text):
         <span class="split-link--top aurora-text">{title}</span>
         <span class="split-link--bottom aurora-text">{title}</span>
+        */}
       </a>
     </h2>
   )
 }
 
-PageTitle.css = `
-.page-title {
-  font-size: 3rem;
-  margin: 0;
-  font-family: var(--titleFont);
-  overflow: visible;
-  line-height: 1.2;  /* Gibt mehr vertikalen Raum */
-  padding-top: 0.05em;  /* Extra Platz oben */
-}
-
-@media all and (max-width: 800px) { /* Mobile Anpassung */
-  .page-title {
-    font-size: 2rem;
-  }
-}
-
-@media all and (max-width: 370px) {
-  .page-title {
-    font-size: 1.75rem;
-    line-height: 1.1;
-  }
-}
-
-/* Aurora Gradient Effekt */
-.aurora-text {
-  color: transparent;
-  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: aurora-shift 300s ease infinite;
-  padding-top: 0.05em;  /* Wichtig! */
-  padding-bottom: 0.05em;  /* Wichtig! */
-  display: inline-block;  /* Wichtig! */
-}
-
-@keyframes aurora-shift {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* Aurora Gradient für die Linien */
-@keyframes aurora-line-shift {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* Split Link Container */
-.split-link {
-  position: relative;
-  display: inline-block;
-  padding: 0;
-  line-height: 1em;
-  margin: 0;
-  text-decoration: none;
-  overflow: visible;
-}
-
-/* Oberer Teil des Split-Textes */
-.split-link--top {
-  position: absolute;
-  top: 0;
-  display: inline-block;
-  clip-path: polygon(0% 70%, 0% -10%, 110% -10%, 110% 45%);
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s;
-  overflow: visible;
-}
-
-/* Aurora Linie oben beim Hover */
-.split-link--top:after {
-  content: "";
-  position: absolute;
-  top: 52%;
-  left: -0.25em;
-  width: 127%;
-  height: 3%;
-  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
-  background-size: 400% 400%;
-  animation: aurora-line-shift 300s ease infinite;
-  transform: rotateZ(-2.2deg) scaleX(0%);
-  transform-origin: right top;
-  transition: transform 0.1s ease 0.11s;
-}
-
-/* Unterer Teil des Split-Textes */
-.split-link--bottom {
-  display: inline-block;
-  clip-path: polygon(0% 68%, 100% 43%, 110% 43%, 110% 120%, 0% 120%);
-  transition: background-position 0.1s ease 0.11s;
-  text-decoration: none;
-  position: relative;
-  overflow: visible;
-}
-
-/* Aurora Unterstrich (standardmäßig sichtbar) */
-.split-link--bottom:before {
-  content: "";
-  position: absolute;
-  bottom: 0.125em;
-  left: 0;
-  width: 106%;
-  height: 0.075em;
-  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
-  background-size: 400% 400%;
-  animation: aurora-line-shift 300s ease infinite;
-  transform: rotateZ(-2deg) scaleX(100%);
-  transform-origin: left;
-  transition: transform 0.1s ease;
-  clip-path: polygon(
-    0 50%, 
-    88% 0, 92% 0, 96% 5%, 100% 15%,  /* obere Rundung - sehr stark */
-    100% 85%, 96% 95%, 92% 100%, 88% 100%,  /* untere Rundung - sehr stark */
-    0 50%
-  );
-  filter: blur(0.3px);
-}
-
-/* Aurora Linie unten beim Hover */
-.split-link--bottom:after {
-  content: "";
-  position: absolute;
-  top: 10%;
-  left: 0;
-  width: 125%;
-  height: 4%;
-  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
-  background-size: 400% 400%;
-  animation: aurora-line-shift 300s ease infinite;
-  transform: rotateZ(-6deg) scaleX(0%);
-  transform-origin: right top;
-  transition: transform 0.1s ease 0.11s;
-}
-
-/* Hover Animationen */
-.split-link:hover .split-link--top {
-  transform: translateY(-0.2em) rotateZ(-1.4deg);
-  transition: transform 0.25s cubic-bezier(.12,.8,.57,1.00) 0.21s;
-}
-
-.split-link:hover .split-link--bottom:before {
-  transform: rotateZ(-6deg) scaleX(0%);
-  transition: transform 0.3s ease 0.22s;
-}
-
-.split-link:hover .split-link--top:after {
-  top: 70%;
-  transform-origin: left top;
-  transform: rotateZ(-4.2deg) scaleX(100%);
-}
-
-.split-link:hover .split-link--bottom:after {
-  top: 65%;
-  transform-origin: left top;
-  transform: rotateZ(-4.4deg) scaleX(100%);
-}
-
-/* Aurora nur im Text sichtbar */
-.aurora-text a {
-  position: relative;
-  display: inline-block;
-  color: transparent;
-  background: linear-gradient(90deg, #eb6f92, #e54cff, #b860d1, #9c27b0, #00c2ff, #40e0d0, #f5d625, #f7b733, #ea9d34, #cc66c1, #eb6f92);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: aurora-shift 12s ease infinite;
-  text-decoration: none;
-}
-
-/* Sanfte Bewegung */
-@keyframes aurora-shift {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-`
+// CSS und JavaScript aus der Effekt-Bibliothek verwenden
+PageTitle.css = CURRENT_EFFECT.css
+PageTitle.afterDOMLoaded = CURRENT_EFFECT.js
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor
