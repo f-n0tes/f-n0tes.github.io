@@ -25,8 +25,13 @@ import { i18n } from "../i18n"
 //   EFFECT_CONNECTING_LINES - Verbindungslinien-Effekt
 //   EFFECT_EXPANDING_CIRCLES - Expandierende Kreiseffekt
 //   EFFECT_EXPLODING_RAINBOW - Explodierender Regenbogen-Effekt
+//   EFFECT_CONNECTING_LINES_PULSE - Verbindungslinien mit Glow-Effekt
+//   EFFECT_CONNECTING_LINES_ORBIT - Verbindungslinien mit Orbit-Effekt
+//   EFFECT_CONNECTING_LINES_PARTICLE - Verbindungslinien mit Partikel-Effekt
+//   EFFECT_CONNECTING_LINES_WEB  - Verbindungslinien mit Spinnennetz-Effekt
+//   EFFECT_CONNECTING_LINES_CONSTELLATION  - Verbindungslinien mit Sternbild-Effekt
 // ============================================================================
-import { EFFECT_CONNECTING_LINES as CURRENT_EFFECT } from "./PageTitleEffects"
+import { EFFECT_CONNECTING_LINES_PULSE as CURRENT_EFFECT } from "./PageTitleEffects"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
@@ -35,8 +40,9 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   return (
     <h2 class={classNames(displayClass, "page-title")}>
       <a href={baseDir} class="icon-link">
+        {/* Desktop: Interaktives Logo */}
         <svg 
-          class="page-icon" 
+          class="page-icon desktop-logo" 
           id="interactive-logo"
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 800 800"
@@ -59,11 +65,13 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
           <rect class="logo-rect" x="206.1" y="17.3" width="30" height="294.4" transform="translate(385.7 -56.6) rotate(90)"/>
           <rect class="logo-rect" x="518.5" y="-29.2" width="30" height="350.9" transform="translate(679.7 -387.2) rotate(90)"/>
         </svg>
-        {/* 
-        Auskommentierter ursprünglicher Titel (Aurora-Text):
-        <span class="split-link--top aurora-text">{title}</span>
-        <span class="split-link--bottom aurora-text">{title}</span>
-        */}
+        
+        {/* Mobile: Logo-Grafik */}
+        <img 
+          class="mobile-logo-image" 
+          src={`${baseDir}/static/mobile-logo.png`}
+          alt={title}
+        />
       </a>
     </h2>
   )

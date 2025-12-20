@@ -24,7 +24,7 @@
       background: var(--light);
       box-sizing: border-box;
       margin: 0 1rem;
-      padding: .5rem;
+      padding: .15rem;
       isolation: isolate;
       top: 0.25rem;
 
@@ -316,6 +316,33 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
       .lucide-menu {
         stroke: var(--darkgray);
       }
+    }
+    
+    /* Mobile Logo verstecken - es wird im explorer-content gerendert */
+    .explorer-mobile-logo {
+      display: none;
+    }
+  }
+}
+
+/* Explorer Mobile Logo - nur auf Mobile sichtbar */
+.explorer-mobile-logo-inner {
+  display: none;
+}
+
+@media all and ($mobile) {
+  .explorer-mobile-logo-inner {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    
+    .explorer-mobile-logo-img {
+      height: 3.5rem;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+      object-fit: contain;
     }
   }
 }

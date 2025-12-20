@@ -97,6 +97,7 @@ export default ((userOpts?: Partial<Options>) => {
             <line x1="4" x2="20" y1="18" y2="18" />
           </svg>
         </button>
+        
         <button
           type="button"
           class="title-button explorer-toggle desktop-explorer"
@@ -120,6 +121,16 @@ export default ((userOpts?: Partial<Options>) => {
           </svg>
         </button>
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
+          {/* Mobile Logo - erscheint im geöffneten Menü */}
+          <div class="explorer-mobile-logo-inner">
+            <a href="/">
+              <img 
+          src="/static/mobile-logo.png"
+          alt="F_notes"
+          class="explorer-mobile-logo-img"
+              />
+            </a>
+          </div>
           <OverflowList class="explorer-ul" />
         </div>
         <template id="template-file">

@@ -48,6 +48,35 @@ const BASE_CSS = `
   line-height: 1em;
 }
 
+/* Desktop: Logo anzeigen, Aurora verstecken */
+.desktop-logo {
+  display: inline-block;
+}
+
+.mobile-logo-image {
+  display: none;
+}
+
+/* Mobile: Logo-Bild anzeigen, Desktop-Logo verstecken */
+@media all and (max-width: 800px) {
+  .desktop-logo {
+    display: none !important;
+  }
+  
+  .mobile-logo-image {
+    display: inline-block;
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+  }
+}
+
+@media all and (max-width: 370px) {
+  .mobile-logo-image {
+    height: 32px;
+  }
+}
+
 .page-icon {
   height: 8rem;
   width: auto;
@@ -931,7 +960,7 @@ export const EFFECT_CONNECTING_LINES: LogoEffect = {
   linesGroup.id = 'connection-lines';
   logo.appendChild(linesGroup);
   
-  const colors = ['#eb6f92', '#5a3164ff'];
+  const colors = ['#eb6f92', '#9f5cafff', '#db6194ff', '#aa9313ff'];
   
   logo.addEventListener('mousemove', (e) => {
     const svgRect = logo.getBoundingClientRect();
@@ -981,6 +1010,488 @@ export const EFFECT_CONNECTING_LINES: LogoEffect = {
 }
 
 // ============================================================================
+// EFFEKT: CONNECTING_LINES_PULSE
+// Linien pulsieren und atmen
+// ============================================================================
+export const EFFECT_CONNECTING_LINES_PULSE: LogoEffect = {
+  name: "Connecting Lines Pulse",
+  description: "Linien pulsieren rhythmisch",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.connection-line {
+  stroke: url(#lineGradient);
+  stroke-width: 2;
+  fill: none;
+  pointer-events: none;
+  opacity: 0.8;
+  animation: linePulse 1s ease-in-out infinite;
+}
+
+@keyframes linePulse {
+  0%, 100% { stroke-width: 2; opacity: 0.6; }
+  50% { stroke-width: 4; opacity: 1; }
+}
+
+#interactive-logo {
+  overflow: visible;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+  defs.innerHTML = '<linearGradient id="lineGradient"><stop offset="0%" stop-color="#eb6f92"/><stop offset="50%" stop-color="#00c2ff"/><stop offset="100%" stop-color="#f5d625"/></linearGradient>';
+  logo.insertBefore(defs, logo.firstChild);
+  
+  const linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  logo.appendChild(linesGroup);
+  
+  const colors = ['#eb6f92', '#e54cff', '#00c2ff', '#40e0d0', '#f5d625'];
+  
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    linesGroup.innerHTML = '';
+    
+    rects.forEach((rect, i) => {
+      const bounds = rect.getBoundingClientRect();
+      const rectCX = ((bounds.left - svgRect.left) + bounds.width/2) * scaleX;
+      const rectCY = ((bounds.top - svgRect.top) + bounds.height/2) * scaleY;
+      const dist = Math.hypot(e.clientX - (bounds.left + bounds.width/2), e.clientY - (bounds.top + bounds.height/2));
+      
+      if (dist < 100) {
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', mouseX);
+        line.setAttribute('y1', mouseY);
+        line.setAttribute('x2', rectCX);
+        line.setAttribute('y2', rectCY);
+        line.setAttribute('class', 'connection-line');
+        line.style.stroke = colors[i % colors.length];
+        linesGroup.appendChild(line);
+        
+        rect.style.fill = colors[i % colors.length];
+        rect.style.filter = 'drop-shadow(0 0 8px ' + colors[i % colors.length] + ')';
+      } else {
+        rect.style.fill = '';
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseleave', () => { linesGroup.innerHTML = ''; rects.forEach(r => { r.style.fill = ''; r.style.filter = ''; }); });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: CONNECTING_LINES_ORBIT
+// Rechtecke orbiten um die Maus
+// ============================================================================
+export const EFFECT_CONNECTING_LINES_ORBIT: LogoEffect = {
+  name: "Connecting Lines Orbit",
+  description: "Rechtecke umkreisen die Maus",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.connection-line {
+  stroke: url(#lineGradient);
+  stroke-width: 2;
+  fill: none;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+#interactive-logo {
+  overflow: visible;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+  defs.innerHTML = '<linearGradient id="lineGradient"><stop offset="0%" stop-color="#eb6f92"/><stop offset="50%" stop-color="#00c2ff"/><stop offset="100%" stop-color="#f5d625"/></linearGradient>';
+  logo.insertBefore(defs, logo.firstChild);
+  
+  const linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  logo.appendChild(linesGroup);
+  
+  const colors = ['#eb6f92', '#e54cff', '#00c2ff', '#40e0d0', '#f5d625'];
+  
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    linesGroup.innerHTML = '';
+    
+    rects.forEach((rect, i) => {
+      const bounds = rect.getBoundingClientRect();
+      const rectCX = ((bounds.left - svgRect.left) + bounds.width/2) * scaleX;
+      const rectCY = ((bounds.top - svgRect.top) + bounds.height/2) * scaleY;
+      const dist = Math.hypot(e.clientX - (bounds.left + bounds.width/2), e.clientY - (bounds.top + bounds.height/2));
+      
+      if (dist < 120) {
+        const angle = Math.atan2(rectCY - mouseY, rectCX - mouseX);
+        const orbitX = mouseX + Math.cos(angle + Date.now() / 300) * 25;
+        const orbitY = mouseY + Math.sin(angle + Date.now() / 300) * 25;
+        
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', mouseX);
+        line.setAttribute('y1', mouseY);
+        line.setAttribute('x2', orbitX);
+        line.setAttribute('y2', orbitY);
+        line.setAttribute('class', 'connection-line');
+        line.style.stroke = colors[i % colors.length];
+        linesGroup.appendChild(line);
+        
+        rect.style.fill = colors[i % colors.length];
+        rect.style.transform = 'scale(1.2)';
+        rect.style.filter = 'drop-shadow(0 0 10px ' + colors[i % colors.length] + ')';
+      } else {
+        rect.style.fill = '';
+        rect.style.transform = '';
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseleave', () => { linesGroup.innerHTML = ''; rects.forEach(r => { r.style.fill = ''; r.style.transform = ''; r.style.filter = ''; }); });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: CONNECTING_LINES_WEB
+// Spinnenweb-ähnliche Struktur
+// ============================================================================
+export const EFFECT_CONNECTING_LINES_WEB: LogoEffect = {
+  name: "Connecting Lines Web",
+  description: "Spinnenweb mit verbundenen Rechtecken",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.connection-line {
+  stroke: url(#lineGradient);
+  stroke-width: 1;
+  fill: none;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+#interactive-logo {
+  overflow: visible;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+  defs.innerHTML = '<linearGradient id="lineGradient"><stop offset="0%" stop-color="#eb6f92"/><stop offset="50%" stop-color="#00c2ff"/><stop offset="100%" stop-color="#f5d625"/></linearGradient>';
+  logo.insertBefore(defs, logo.firstChild);
+  
+  const linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  logo.appendChild(linesGroup);
+  
+  const colors = ['#eb6f92', '#e54cff', '#00c2ff', '#40e0d0', '#f5d625'];
+  
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    linesGroup.innerHTML = '';
+    
+    const activeRects = [];
+    rects.forEach((rect, i) => {
+      const bounds = rect.getBoundingClientRect();
+      const rectCX = ((bounds.left - svgRect.left) + bounds.width/2) * scaleX;
+      const rectCY = ((bounds.top - svgRect.top) + bounds.height/2) * scaleY;
+      const dist = Math.hypot(e.clientX - (bounds.left + bounds.width/2), e.clientY - (bounds.top + bounds.height/2));
+      
+      if (dist < 130) {
+        activeRects.push({ i, rectCX, rectCY, rect, color: colors[i % colors.length] });
+        
+        // Verbindung zur Maus
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', mouseX);
+        line.setAttribute('y1', mouseY);
+        line.setAttribute('x2', rectCX);
+        line.setAttribute('y2', rectCY);
+        line.setAttribute('class', 'connection-line');
+        line.style.stroke = colors[i % colors.length];
+        linesGroup.appendChild(line);
+        
+        rect.style.fill = colors[i % colors.length];
+        rect.style.filter = 'drop-shadow(0 0 8px ' + colors[i % colors.length] + ')';
+      } else {
+        rect.style.fill = '';
+        rect.style.filter = '';
+      }
+    });
+    
+    // Verbindungen zwischen Rechtecken
+    for (let i = 0; i < activeRects.length; i++) {
+      for (let j = i + 1; j < activeRects.length; j++) {
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', activeRects[i].rectCX);
+        line.setAttribute('y1', activeRects[i].rectCY);
+        line.setAttribute('x2', activeRects[j].rectCX);
+        line.setAttribute('y2', activeRects[j].rectCY);
+        line.setAttribute('class', 'connection-line');
+        line.style.stroke = colors[(i + j) % colors.length];
+        line.style.opacity = '0.3';
+        linesGroup.appendChild(line);
+      }
+    }
+  });
+  
+  logo.addEventListener('mouseleave', () => { linesGroup.innerHTML = ''; rects.forEach(r => { r.style.fill = ''; r.style.filter = ''; }); });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: CONNECTING_LINES_PARTICLE
+// Partikel-Effekt mit schwebenden Punkten
+// ============================================================================
+export const EFFECT_CONNECTING_LINES_PARTICLE: LogoEffect = {
+  name: "Connecting Lines Particle",
+  description: "Partikel-Trail zwischen Maus und Rechtecken",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.connection-line {
+  stroke: url(#lineGradient);
+  stroke-width: 1.5;
+  fill: none;
+  pointer-events: none;
+  stroke-dasharray: 5 3;
+  opacity: 0.7;
+}
+
+.particle {
+  fill: url(#lineGradient);
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+#interactive-logo {
+  overflow: visible;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+  defs.innerHTML = '<linearGradient id="lineGradient"><stop offset="0%" stop-color="#eb6f92"/><stop offset="50%" stop-color="#00c2ff"/><stop offset="100%" stop-color="#f5d625"/></linearGradient>';
+  logo.insertBefore(defs, logo.firstChild);
+  
+  const linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  logo.appendChild(linesGroup);
+  
+  const colors = ['#eb6f92', '#e54cff', '#00c2ff', '#40e0d0', '#f5d625'];
+  
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    linesGroup.innerHTML = '';
+    
+    rects.forEach((rect, i) => {
+      const bounds = rect.getBoundingClientRect();
+      const rectCX = ((bounds.left - svgRect.left) + bounds.width/2) * scaleX;
+      const rectCY = ((bounds.top - svgRect.top) + bounds.height/2) * scaleY;
+      const dist = Math.hypot(e.clientX - (bounds.left + bounds.width/2), e.clientY - (bounds.top + bounds.height/2));
+      
+      if (dist < 110) {
+        // Linie
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', mouseX);
+        line.setAttribute('y1', mouseY);
+        line.setAttribute('x2', rectCX);
+        line.setAttribute('y2', rectCY);
+        line.setAttribute('class', 'connection-line');
+        line.style.stroke = colors[i % colors.length];
+        linesGroup.appendChild(line);
+        
+        // Partikel entlang der Linie
+        for (let p = 0; p < 5; p++) {
+          const t = p / 5;
+          const px = mouseX + (rectCX - mouseX) * t + (Math.random() - 0.5) * 10;
+          const py = mouseY + (rectCY - mouseY) * t + (Math.random() - 0.5) * 10;
+          
+          const particle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+          particle.setAttribute('cx', px);
+          particle.setAttribute('cy', py);
+          particle.setAttribute('r', '1.5');
+          particle.setAttribute('class', 'particle');
+          particle.style.fill = colors[i % colors.length];
+          linesGroup.appendChild(particle);
+        }
+        
+        rect.style.fill = colors[i % colors.length];
+        rect.style.filter = 'drop-shadow(0 0 10px ' + colors[i % colors.length] + ')';
+      } else {
+        rect.style.fill = '';
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseleave', () => { linesGroup.innerHTML = ''; rects.forEach(r => { r.style.fill = ''; r.style.filter = ''; }); });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: CONNECTING_LINES_CONSTELLATION
+// Sternenbild-ähnlich mit dicken Linien
+// ============================================================================
+export const EFFECT_CONNECTING_LINES_CONSTELLATION: LogoEffect = {
+  name: "Connecting Lines Constellation",
+  description: "Sternenbild mit leuchtenden Verbindungen",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: #fff;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.connection-line {
+  stroke: url(#lineGradient);
+  stroke-width: 2.5;
+  fill: none;
+  pointer-events: none;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 4px currentColor);
+}
+
+#interactive-logo {
+  overflow: visible;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+  defs.innerHTML = '<linearGradient id="lineGradient"><stop offset="0%" stop-color="#eb6f92"/><stop offset="50%" stop-color="#00c2ff"/><stop offset="100%" stop-color="#f5d625"/></linearGradient>';
+  logo.insertBefore(defs, logo.firstChild);
+  
+  const linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  logo.appendChild(linesGroup);
+  
+  const colors = ['#eb6f92', '#e54cff', '#00c2ff', '#40e0d0', '#f5d625'];
+  
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    linesGroup.innerHTML = '';
+    
+    const activeRects = [];
+    rects.forEach((rect, i) => {
+      const bounds = rect.getBoundingClientRect();
+      const rectCX = ((bounds.left - svgRect.left) + bounds.width/2) * scaleX;
+      const rectCY = ((bounds.top - svgRect.top) + bounds.height/2) * scaleY;
+      const dist = Math.hypot(e.clientX - (bounds.left + bounds.width/2), e.clientY - (bounds.top + bounds.height/2));
+      
+      if (dist < 140) {
+        activeRects.push({ i, rectCX, rectCY, rect, color: colors[i % colors.length] });
+        
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', mouseX);
+        line.setAttribute('y1', mouseY);
+        line.setAttribute('x2', rectCX);
+        line.setAttribute('y2', rectCY);
+        line.setAttribute('class', 'connection-line');
+        line.style.stroke = colors[i % colors.length];
+        linesGroup.appendChild(line);
+        
+        rect.style.fill = colors[i % colors.length];
+        rect.style.filter = 'drop-shadow(0 0 12px ' + colors[i % colors.length] + ')';
+      } else {
+        rect.style.fill = '';
+        rect.style.filter = '';
+      }
+    });
+    
+    // Verbindungen zwischen allen aktiven Rechtecken
+    for (let i = 0; i < activeRects.length; i++) {
+      for (let j = i + 1; j < activeRects.length; j++) {
+        const d = Math.hypot(activeRects[i].rectCX - activeRects[j].rectCX, activeRects[i].rectCY - activeRects[j].rectCY);
+        if (d < 150) {
+          const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+          line.setAttribute('x1', activeRects[i].rectCX);
+          line.setAttribute('y1', activeRects[i].rectCY);
+          line.setAttribute('x2', activeRects[j].rectCX);
+          line.setAttribute('y2', activeRects[j].rectCY);
+          line.setAttribute('class', 'connection-line');
+          line.style.stroke = colors[(i * j) % colors.length];
+          line.style.opacity = '0.5';
+          linesGroup.appendChild(line);
+        }
+      }
+    }
+  });
+  
+  logo.addEventListener('mouseleave', () => { linesGroup.innerHTML = ''; rects.forEach(r => { r.style.fill = ''; r.style.filter = ''; }); });
+})();
+`
+}
+
+// ============================================================================
 // ALLE EFFEKTE ALS ARRAY (für einfache Iteration)
 // ============================================================================
 export const ALL_EFFECTS: LogoEffect[] = [
@@ -1001,6 +1512,11 @@ export const ALL_EFFECTS: LogoEffect[] = [
   EFFECT_PIXELATE,
   EFFECT_BOOKSHELF,
   EFFECT_CONNECTING_LINES,
+  EFFECT_CONNECTING_LINES_PULSE,
+  EFFECT_CONNECTING_LINES_ORBIT,
+  EFFECT_CONNECTING_LINES_WEB,
+  EFFECT_CONNECTING_LINES_PARTICLE,
+  EFFECT_CONNECTING_LINES_CONSTELLATION,
 ]
 
 // ============================================================================
