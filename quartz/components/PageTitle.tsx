@@ -66,10 +66,15 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
           <rect class="logo-rect" x="518.5" y="-29.2" width="30" height="350.9" transform="translate(679.7 -387.2) rotate(90)"/>
         </svg>
         
-        {/* Mobile: Logo-Grafik */}
+        {/* Mobile: Logo-Grafik - Light/Dark Mode */}
         <img 
-          class="mobile-logo-image" 
-          src={`${baseDir}/static/mobile-logo.png`}
+          class="mobile-logo-image mobile-logo-light" 
+          src={`${baseDir}/static/mobile-logo-light.png`}
+          alt={title}
+        />
+        <img 
+          class="mobile-logo-image mobile-logo-dark" 
+          src={`${baseDir}/static/mobile-logo-dark.png`}
           alt={title}
         />
       </a>

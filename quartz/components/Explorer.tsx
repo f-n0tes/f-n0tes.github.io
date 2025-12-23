@@ -125,9 +125,14 @@ export default ((userOpts?: Partial<Options>) => {
           <div class="explorer-mobile-logo-inner">
             <a href="/">
               <img 
-          src="/static/mobile-logo.png"
-          alt="F_notes"
-          class="explorer-mobile-logo-img"
+                src="/static/mobile-logo-light.png"
+                alt="F_notes"
+                class="explorer-mobile-logo-img explorer-mobile-logo-light"
+              />
+              <img 
+                src="/static/mobile-logo-dark.png"
+                alt="F_notes"
+                class="explorer-mobile-logo-img explorer-mobile-logo-dark"
               />
             </a>
           </div>

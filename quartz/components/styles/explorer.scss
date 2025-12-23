@@ -271,7 +271,7 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
 .explorer {
   @media all and ($mobile) {
     &.collapsed {
-      flex: 0 0 34px;
+      flex: 0 0 14px;
 
       &>.explorer-content {
         transform: translateX(-100vw);
@@ -309,13 +309,8 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
     }
 
     .mobile-explorer {
-      margin: 0;
-      padding: 2px;
-      z-index: 101;
-
-      .lucide-menu {
-        stroke: var(--darkgray);
-      }
+      /* Hamburger-Button ausblenden - PageTitle übernimmt diese Funktion */
+      display: none !important;
     }
     
     /* Mobile Logo verstecken - es wird im explorer-content gerendert */
@@ -341,8 +336,35 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
       height: 3.5rem;
       width: auto;
       margin: 0 auto;
-      display: block;
       object-fit: contain;
+    }
+    
+    /* Light Mode: Light-Logo anzeigen, Dark-Logo verstecken */
+    .explorer-mobile-logo-light {
+      display: block;
+    }
+    .explorer-mobile-logo-dark {
+      display: none;
+    }
+    
+    /* Dark Mode: Dark-Logo anzeigen, Light-Logo verstecken */
+    :root[saved-theme="dark"] & .explorer-mobile-logo-light {
+      display: none;
+    }
+    :root[saved-theme="dark"] & .explorer-mobile-logo-dark {
+      display: block;
+    }
+  }
+}
+
+/* PageTitle als Mobile-Menü-Button stylen */
+@media all and ($mobile) {
+  .page-title {
+    cursor: pointer;
+    
+    /* Visueller Hinweis, dass es klickbar ist */
+    &:active {
+      opacity: 0.7;
     }
   }
 }

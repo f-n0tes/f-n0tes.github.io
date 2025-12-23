@@ -64,10 +64,25 @@ const BASE_CSS = `
   }
   
   .mobile-logo-image {
-    display: inline-block;
     height: 48px;
     width: auto;
     object-fit: contain;
+  }
+  
+  /* Light Mode: Light-Logo anzeigen, Dark-Logo verstecken */
+  .mobile-logo-light {
+    display: inline-block;
+  }
+  .mobile-logo-dark {
+    display: none;
+  }
+  
+  /* Dark Mode: Dark-Logo anzeigen, Light-Logo verstecken */
+  :root[saved-theme="dark"] .mobile-logo-light {
+    display: none;
+  }
+  :root[saved-theme="dark"] .mobile-logo-dark {
+    display: inline-block;
   }
 }
 

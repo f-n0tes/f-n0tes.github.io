@@ -274,7 +274,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     const mobileExplorer = explorer.querySelector(".mobile-explorer")
     if (!mobileExplorer) return
 
-    if (mobileExplorer.checkVisibility()) {
+    if (mobileExplorer.checkVisibility() || window.innerWidth <= 800) {
       explorer.classList.add("collapsed")
       explorer.setAttribute("aria-expanded", "false")
 
@@ -284,7 +284,47 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
     mobileExplorer.classList.remove("hide-until-loaded")
   }
+
+  // PageTitle als Mobile-Menü-Button einrichten
+  setupPageTitleAsMenuToggle()
 })
+
+// PageTitle als Mobile-Menü-Toggle einrichten
+function setupPageTitleAsMenuToggle() {
+  const pageTitle = document.querySelector(".page-title") as HTMLElement
+  if (!pageTitle) return
+
+  // Handler-Funktion für den Click
+  const handlePageTitleClick = (e: MouseEvent) => {
+    // Nur im Mobile-Modus aktiv (entspricht $mobile: max-width 800px)
+    if (window.innerWidth > 800) return
+    
+    // Verhindern, dass der Link zur Startseite navigiert
+    e.preventDefault()
+    e.stopPropagation()
+    
+    // Explorer finden und togglen
+    const explorer = document.querySelector(".explorer") as HTMLElement
+    if (!explorer) return
+    
+    const explorerCollapsed = explorer.classList.toggle("collapsed")
+    explorer.setAttribute(
+      "aria-expanded",
+      explorer.getAttribute("aria-expanded") === "true" ? "false" : "true",
+    )
+
+    if (!explorerCollapsed) {
+      // Stop <html> from being scrollable when mobile explorer is open
+      document.documentElement.classList.add("mobile-no-scroll")
+    } else {
+      document.documentElement.classList.remove("mobile-no-scroll")
+    }
+  }
+
+  // Event-Listener hinzufügen
+  pageTitle.addEventListener("click", handlePageTitleClick)
+  window.addCleanup(() => pageTitle.removeEventListener("click", handlePageTitleClick))
+}
 
 window.addEventListener("resize", function () {
   // Desktop explorer opens by default, and it stays open when the window is resized
