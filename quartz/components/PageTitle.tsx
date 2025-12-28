@@ -30,8 +30,9 @@ import { i18n } from "../i18n"
 //   EFFECT_CONNECTING_LINES_PARTICLE - Verbindungslinien mit Partikel-Effekt
 //   EFFECT_CONNECTING_LINES_WEB  - Verbindungslinien mit Spinnennetz-Effekt
 //   EFFECT_CONNECTING_LINES_CONSTELLATION  - Verbindungslinien mit Sternbild-Effekt
+//   EFFECT_NOTES_REVEAL - Nach Hover erscheinen N-O-T-E-S nacheinander animiert
 // ============================================================================
-import { EFFECT_CONNECTING_LINES_PULSE as CURRENT_EFFECT } from "./PageTitleEffects"
+import { EFFECT_NOTES_REVEAL as CURRENT_EFFECT } from "./PageTitleEffects"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title

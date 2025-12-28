@@ -1507,6 +1507,201 @@ export const EFFECT_CONNECTING_LINES_CONSTELLATION: LogoEffect = {
 }
 
 // ============================================================================
+// EFFEKT: NOTES_REVEAL
+// Nach kurzem Hover erscheinen N-O-T-E-S nacheinander animiert
+// ============================================================================
+export const EFFECT_NOTES_REVEAL: LogoEffect = {
+  name: "Notes Reveal",
+  description: "Nach Hover erscheinen die Buchstaben N-O-T-E-S nacheinander kreativ animiert",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.1s ease, filter 0.1s ease, transform 0.1s ease;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+#interactive-logo:hover .logo-rect {
+  /* Kein Glow beim Hover */
+}
+
+/* Container für die Buchstaben */
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Dark/Light Mode für Buchstaben */
+.notes-letter .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark {
+  display: block;
+}
+
+/* Animation Keyframes für jeden Buchstaben - sanftes Einblenden ohne Glow */
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  30% { transform: scale(1); }
+  70% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.5s ease-out forwards;
+}
+
+/* F-Logo bleibt während der Animation sichtbar */
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  // Wrap rects in a container for easier control
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  // Create container for letter images
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.appendChild(letterContainer);
+  
+  // Get base path from the mobile logo
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  // Letter image paths mit Dark/Light Varianten
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  // Create letter elements mit Dark/Light Varianten
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  let hoverTimeout = null;
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    
+    // Animate each letter sequentially
+    const delays = [0, 800, 1600, 2400, 3200];
+    const duration = 1000; // Match CSS animation duration
+    
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        // Reset and start animation
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth; // Force reflow
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    // After all letters have animated, mark as complete
+    const totalDuration = delays[delays.length - 1] + 1000 + 100;
+    setTimeout(() => {
+      letterElements.forEach(letter => {
+        letter.el.classList.remove(letter.animClass);
+      });
+      
+      isAnimating = false;
+      animationComplete = true;
+    }, totalDuration);
+  }
+  
+  logo.addEventListener('mouseenter', () => {
+    if (isAnimating || animationComplete) return;
+    
+    // Start animation immediately
+    startNotesAnimation();
+  });
+  
+  logo.addEventListener('mouseleave', () => {
+    // Clear hover timer
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+      hoverTimeout = null;
+    }
+    
+    // Reset animation state after leaving (allow re-trigger on next hover)
+    if (!isAnimating) {
+      animationComplete = false;
+    }
+  });
+})();
+`
+}
+
+// ============================================================================
 // ALLE EFFEKTE ALS ARRAY (für einfache Iteration)
 // ============================================================================
 export const ALL_EFFECTS: LogoEffect[] = [
@@ -1532,6 +1727,7 @@ export const ALL_EFFECTS: LogoEffect[] = [
   EFFECT_CONNECTING_LINES_WEB,
   EFFECT_CONNECTING_LINES_PARTICLE,
   EFFECT_CONNECTING_LINES_CONSTELLATION,
+  EFFECT_NOTES_REVEAL,
 ]
 
 // ============================================================================
