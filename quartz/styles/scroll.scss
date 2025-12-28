@@ -15,4 +15,20 @@
     opacity: 1;
     transform: translateY(0);
   }
+  
+  /* Wenn das Explorer-Menü geöffnet ist, Sidebar NICHT ausblenden */
+  body.scrolled-down .sidebar.left:has(.explorer:not(.collapsed)) {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+    visibility: visible !important;
+  }
+  
+  /* Auch html.mobile-no-scroll als Indikator nutzen (wird gesetzt wenn Menü offen) */
+  html.mobile-no-scroll body.scrolled-down .sidebar.left {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+    visibility: visible !important;
+  }
 }

@@ -369,6 +369,17 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
   }
 }
 
+/* KRITISCH: Wenn Menü offen ist, Sidebar NICHT ausblenden beim Scrollen */
+@media all and ($mobile) {
+  html.mobile-no-scroll .sidebar.left,
+  .sidebar.left:has(.explorer:not(.collapsed)) {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+}
+
 html {
   @media all and ($mobile) {
     transform: translate(0); // Basiswert hinzufügen

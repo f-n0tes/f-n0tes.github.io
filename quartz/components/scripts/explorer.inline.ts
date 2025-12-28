@@ -287,7 +287,44 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   // PageTitle als Mobile-Menü-Button einrichten
   setupPageTitleAsMenuToggle()
+  
+  // Click außerhalb des Menüs schließt es
+  setupClickOutsideToClose()
 })
+
+// Click außerhalb des Menüs schließt das Menü (nur Mobile)
+function setupClickOutsideToClose() {
+  const handleClickOutside = (e: MouseEvent) => {
+    // Nur im Mobile-Modus aktiv
+    if (window.innerWidth > 800) return
+    
+    const explorer = document.querySelector(".explorer") as HTMLElement
+    if (!explorer) return
+    
+    // Wenn Menü geschlossen ist, nichts tun
+    if (explorer.classList.contains("collapsed")) return
+    
+    const target = e.target as HTMLElement
+    
+    // Prüfen ob der Klick innerhalb des Explorers war
+    const explorerContent = explorer.querySelector(".explorer-content")
+    const isInsideExplorer = explorer.contains(target) && 
+      (explorerContent?.contains(target) || target.closest(".explorer-toggle"))
+    
+    // Prüfen ob der Klick auf dem PageTitle war (der auch das Menü togglet)
+    const isOnPageTitle = target.closest(".page-title")
+    
+    // Wenn Klick außerhalb des Explorers und nicht auf PageTitle -> Menü schließen
+    if (!isInsideExplorer && !isOnPageTitle) {
+      explorer.classList.add("collapsed")
+      explorer.setAttribute("aria-expanded", "false")
+      document.documentElement.classList.remove("mobile-no-scroll")
+    }
+  }
+  
+  document.addEventListener("click", handleClickOutside)
+  window.addCleanup(() => document.removeEventListener("click", handleClickOutside))
+}
 
 // PageTitle als Mobile-Menü-Toggle einrichten
 function setupPageTitleAsMenuToggle() {

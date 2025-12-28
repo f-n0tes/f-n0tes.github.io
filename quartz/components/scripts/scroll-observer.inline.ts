@@ -12,6 +12,14 @@ function initScrollObserver() {
         body.classList.remove("scrolled-down");
         return;
     }
+    
+    // Wenn das Explorer-Menü geöffnet ist, scrolled-down NICHT anwenden
+    const explorer = document.querySelector(".explorer");
+    if (explorer && !explorer.classList.contains("collapsed")) {
+      body.classList.remove("scrolled-down");
+      lastScroll = currentScroll;
+      return;
+    }
 
     if (currentScroll <= 50) {
       body.classList.remove("scrolled-down");
