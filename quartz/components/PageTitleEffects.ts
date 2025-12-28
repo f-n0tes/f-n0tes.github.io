@@ -1518,7 +1518,6 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
   fill: #f35a86;
   stroke: none;
   cursor: pointer;
-  transition: fill 0.1s ease, filter 0.1s ease, transform 0.1s ease;
 }
 
 #interactive-logo {
@@ -1526,11 +1525,7 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
   position: relative;
 }
 
-#interactive-logo:hover .logo-rect {
-  /* Kein Glow beim Hover */
-}
-
-/* Container für die Buchstaben */
+/* Container für die Buchstaben - HINTER dem Logo */
 .notes-letter-container {
   position: absolute;
   top: 0;
@@ -1538,19 +1533,18 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 1;
 }
 
+/* Einzelne Buchstaben - innerhalb des Rahmens */
 .notes-letter {
   position: absolute;
-  width: 60%;
-  height: 60%;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
+  width: 65%;
+  height: 65%;
+  top: 25%;
+  left: 25%;
   transform: scale(0.9);
+  opacity: 0;
   transition: none;
 }
 
@@ -1558,27 +1552,91 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  /* Pink Färbung für die Buchstaben */
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
 }
 
-/* Dark/Light Mode für Buchstaben */
-.notes-letter .letter-light {
-  display: block;
+/* Im Dark Mode: weiße Buchstaben auch pink färben */
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
 }
-.notes-letter .letter-dark {
-  display: none;
+
+/* Innere F-Rects - können ausgeblendet werden */
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
 }
-:root[saved-theme="dark"] .notes-letter .letter-light {
-  display: none;
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
 }
-:root[saved-theme="dark"] .notes-letter .letter-dark {
+
+/* Container für NOTES Schriftzug - VOR dem Logo */
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Vollständiges NOTES Bild - untere Kante */
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
   display: block;
 }
 
-/* Animation Keyframes für jeden Buchstaben - sanftes Einblenden ohne Glow */
+/* SVG und F-Logo im Vordergrund über den Buchstaben */
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+/* Dark/Light Mode für Buchstaben und Full Notes */
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+/* Animation Keyframes für jeden Buchstaben - groß im Rahmen */
 @keyframes letterReveal {
   0% { opacity: 0; transform: scale(0.9); }
-  30% { transform: scale(1); }
-  70% { opacity: 1; transform: scale(1); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
   100% { opacity: 0; transform: scale(0.98); }
 }
 
@@ -1587,7 +1645,7 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
 .notes-letter.animate-t,
 .notes-letter.animate-e,
 .notes-letter.animate-s {
-  animation: letterReveal 0.5s ease-out forwards;
+  animation: letterReveal 0.35s ease-out forwards;
 }
 
 /* F-Logo bleibt während der Animation sichtbar */
@@ -1611,11 +1669,35 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
   rects.forEach(rect => rect.remove());
   logo.appendChild(rectsContainer);
   
-  // Create container for letter images
+  // Get actual rects from container for hover effects
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  
+  // Die ersten 5 Rects bilden das innere "F" - markiere sie
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  // Speichere Original-Positionen für jeden Rect
+  activeRects.forEach(rect => {
+    const x = rect.getAttribute('x') || '0';
+    const y = rect.getAttribute('y') || '0';
+    const w = rect.getAttribute('width') || '0';
+    const h = rect.getAttribute('height') || '0';
+    rect.dataset.origX = x;
+    rect.dataset.origY = y;
+    rect.dataset.origW = w;
+    rect.dataset.origH = h;
+  });
+  
+  // Create container for letter images - VOR dem SVG (dahinter)
   const letterContainer = document.createElement('div');
   letterContainer.className = 'notes-letter-container';
   logo.parentElement.style.position = 'relative';
-  logo.parentElement.appendChild(letterContainer);
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  // Create container for notes-full - NACH dem SVG (davor)
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
   
   // Get base path from the mobile logo
   const mobileLogo = document.querySelector('.mobile-logo-light');
@@ -1644,6 +1726,12 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
     return { el: div, animClass: letter.class };
   });
   
+  // Create full NOTES image element - im notesFullContainer (vor dem Logo)
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
   let hoverTimeout = null;
   let isAnimating = false;
   let animationComplete = false;
@@ -1653,49 +1741,1511 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
     isAnimating = true;
     animationComplete = false;
     
-    // Animate each letter sequentially
-    const delays = [0, 800, 1600, 2400, 3200];
-    const duration = 1000; // Match CSS animation duration
+    // Verstecke das vollständige NOTES Bild falls sichtbar
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    
+    // Verstecke das innere F während der Buchstaben-Animation
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    // Animate each letter sequentially - SCHNELLER: 300ms statt 800ms
+    const delays = [0, 300, 600, 900, 1200];
     
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
-        // Reset and start animation
         letter.el.classList.remove(letter.animClass);
-        void letter.el.offsetWidth; // Force reflow
+        void letter.el.offsetWidth;
         letter.el.classList.add(letter.animClass);
       }, delays[index]);
     });
     
-    // After all letters have animated, mark as complete
-    const totalDuration = delays[delays.length - 1] + 1000 + 100;
+    const totalDuration = delays[delays.length - 1] + 400;
     setTimeout(() => {
       letterElements.forEach(letter => {
         letter.el.classList.remove(letter.animClass);
       });
-      
       isAnimating = false;
       animationComplete = true;
+      
+      // Zeige das innere F wieder
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      
+      // Zeige das vollständige NOTES Bild
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
     }, totalDuration);
   }
   
+  // Hover-Effekt: Rechtecke werden größer wo die Maus ist
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 80) {
+        const force = (80 - dist) / 80;
+        const grow = force * 8;
+        rect.setAttribute('x', (ox - grow / 2).toString());
+        rect.setAttribute('y', (oy - grow / 2).toString());
+        rect.setAttribute('width', (ow + grow).toString());
+        rect.setAttribute('height', (oh + grow).toString());
+        rect.style.filter = 'drop-shadow(0 0 ' + (force * 5) + 'px #f35a86)';
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.setAttribute('width', rect.dataset.origW);
+        rect.setAttribute('height', rect.dataset.origH);
+        rect.style.filter = '';
+      }
+    });
+  });
+  
   logo.addEventListener('mouseenter', () => {
     if (isAnimating || animationComplete) return;
-    
-    // Start animation immediately
     startNotesAnimation();
   });
   
   logo.addEventListener('mouseleave', () => {
-    // Clear hover timer
     if (hoverTimeout) {
       clearTimeout(hoverTimeout);
       hoverTimeout = null;
     }
     
-    // Reset animation state after leaving (allow re-trigger on next hover)
+    // Reset alle Rechtecke auf Original
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.setAttribute('width', rect.dataset.origW);
+      rect.setAttribute('height', rect.dataset.origH);
+      rect.style.filter = '';
+    });
+    
+    // Blende das vollständige NOTES Bild langsam aus
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    
     if (!isAnimating) {
       animationComplete = false;
     }
+  });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_FADE
+// Wie NOTES_REVEAL, aber Rechtecke verblassen bei Mausnähe
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_FADE: LogoEffect = {
+  name: "Notes Reveal - Fade",
+  description: "Rechtecke verblassen bei Mausnähe",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 300, 600, 900, 1200];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  // FADE HOVER EFFEKT: Rechtecke verblassen bei Mausnähe (nicht inner-f wenn hidden) (nicht inner-f wenn hidden)
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      // Skip inner-f rects wenn sie hidden sind
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 120) {
+        const opacity = 0.2 + (dist / 120) * 0.8;
+        rect.style.opacity = opacity.toString();
+      } else {
+        rect.style.opacity = '1';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseenter', () => {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  });
+  
+  logo.addEventListener('mouseleave', () => {
+    activeRects.forEach(rect => {
+      rect.style.opacity = '1';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_RAINBOW
+// Wie NOTES_REVEAL, aber mit Regenbogenfarben bei Hover
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_RAINBOW: LogoEffect = {
+  name: "Notes Reveal - Rainbow",
+  description: "Rechtecke wechseln zu Regenbogenfarben bei Mausnähe",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.15s ease, filter 0.15s ease;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 300, 600, 900, 1200];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  // RAINBOW HOVER EFFEKT: Regenbogenfarben bei Mausnähe
+  const colors = ['#eb6f92', '#e54cff', '#00c2ff', '#40e0d0', '#f5d625', '#f7b733'];
+  
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect, i) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 100) {
+        const colorIndex = (i + Math.floor(Date.now() / 200)) % colors.length;
+        rect.style.fill = colors[colorIndex];
+        rect.style.filter = 'drop-shadow(0 0 8px ' + colors[colorIndex] + ')';
+      } else {
+        rect.style.fill = '';
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseenter', () => {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  });
+  
+  logo.addEventListener('mouseleave', () => {
+    activeRects.forEach(rect => {
+      rect.style.fill = '';
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_MAGNETIC
+// Rechtecke werden zur Maus hingezogen
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_MAGNETIC: LogoEffect = {
+  name: "Notes Reveal - Magnetic",
+  description: "Rechtecke werden magnetisch zur Maus gezogen",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 300, 600, 900, 1200];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  // MAGNETIC HOVER EFFEKT: Rechtecke werden zur Maus gezogen
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 150 && dist > 0) {
+        const force = (150 - dist) / 150;
+        const angle = Math.atan2(mouseY - cy, mouseX - cx);
+        const moveX = Math.cos(angle) * force * 12;
+        const moveY = Math.sin(angle) * force * 12;
+        rect.setAttribute('x', (ox + moveX).toString());
+        rect.setAttribute('y', (oy + moveY).toString());
+        rect.style.filter = 'brightness(' + (1 + force * 0.4) + ') drop-shadow(0 0 ' + (force * 5) + 'px #f35a86)';
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseenter', () => {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  });
+  
+  logo.addEventListener('mouseleave', () => {
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_GLOW
+// Rechtecke glühen intensiv bei Mausnähe
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_GLOW: LogoEffect = {
+  name: "Notes Reveal - Glow",
+  description: "Rechtecke glühen intensiv bei Mausnähe",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+  transition: filter 0.15s ease;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 300, 600, 900, 1200];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  // GLOW HOVER EFFEKT: Rechtecke glühen intensiv
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 100) {
+        const force = (100 - dist) / 100;
+        rect.style.filter = 'drop-shadow(0 0 ' + (force * 15) + 'px #f35a86) drop-shadow(0 0 ' + (force * 30) + 'px #ff69b4) brightness(' + (1 + force * 0.5) + ')';
+      } else {
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseenter', () => {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  });
+  
+  logo.addEventListener('mouseleave', () => {
+    activeRects.forEach(rect => {
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  });
+})();
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_REPEL
+// Rechtecke werden von der Maus abgestoßen
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_REPEL: LogoEffect = {
+  name: "Notes Reveal - Repel",
+  description: "Rechtecke werden von der Maus abgestoßen",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+(function() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 300, 600, 900, 1200];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  // REPEL HOVER EFFEKT: Rechtecke werden abgestoßen
+  logo.addEventListener('mousemove', (e) => {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 120 && dist > 0) {
+        const force = (120 - dist) / 120;
+        const angle = Math.atan2(cy - mouseY, cx - mouseX);
+        const moveX = Math.cos(angle) * force * 20;
+        const moveY = Math.sin(angle) * force * 20;
+        rect.setAttribute('x', (ox + moveX).toString());
+        rect.setAttribute('y', (oy + moveY).toString());
+        rect.style.filter = 'drop-shadow(0 0 ' + (force * 8) + 'px #f35a86)';
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.style.filter = '';
+      }
+    });
+  });
+  
+  logo.addEventListener('mouseenter', () => {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  });
+  
+  logo.addEventListener('mouseleave', () => {
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
   });
 })();
 `
@@ -1728,10 +3278,15 @@ export const ALL_EFFECTS: LogoEffect[] = [
   EFFECT_CONNECTING_LINES_PARTICLE,
   EFFECT_CONNECTING_LINES_CONSTELLATION,
   EFFECT_NOTES_REVEAL,
+  EFFECT_NOTES_REVEAL_FADE,
+  EFFECT_NOTES_REVEAL_RAINBOW,
+  EFFECT_NOTES_REVEAL_MAGNETIC,
+  EFFECT_NOTES_REVEAL_GLOW,
+  EFFECT_NOTES_REVEAL_REPEL,
 ]
 
 // ============================================================================
 // STANDARD-EXPORT (aktuell aktiver Effekt)
 // Ändere hier, welcher Effekt standardmäßig verwendet wird!
 // ============================================================================
-export const ACTIVE_EFFECT = EFFECT_CRAZY
+export const ACTIVE_EFFECT = EFFECT_NOTES_REVEAL

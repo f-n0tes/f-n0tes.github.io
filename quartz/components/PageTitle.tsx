@@ -31,8 +31,13 @@ import { i18n } from "../i18n"
 //   EFFECT_CONNECTING_LINES_WEB  - Verbindungslinien mit Spinnennetz-Effekt
 //   EFFECT_CONNECTING_LINES_CONSTELLATION  - Verbindungslinien mit Sternbild-Effekt
 //   EFFECT_NOTES_REVEAL - Nach Hover erscheinen N-O-T-E-S nacheinander animiert
+//   EFFECT_NOTES_REVEAL_FADE - Nach Hover erscheinen N-O-T-E-S nacheinander mit Fade-Effekt
+//   EFFECT_NOTES_REVEAL_RAINBOW - Nach Hover erscheinen N-O-T-E-S nacheinander mit Regenbogen-Effekt
+//   EFFECT_NOTES_REVEAL_MAGNETIC - Nach Hover erscheinen N-O-T-E-S nacheinander mit Magnet-Effekt
+//   EFFECT_NOTES_REVEAL_GLOW - Nach Hover erscheinen N-O-T-E-S nacheinander mit Glow-Effekt
+//   EFFECT_NOTES_REVEAL_REPEL - Nach Hover erscheinen N-O-T-E-S nacheinander mit Abstoß-Effekt
 // ============================================================================
-import { EFFECT_NOTES_REVEAL as CURRENT_EFFECT } from "./PageTitleEffects"
+import { EFFECT_NOTES_REVEAL_REPEL as CURRENT_EFFECT } from "./PageTitleEffects"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
