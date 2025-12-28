@@ -279,17 +279,85 @@ Das mit mit Arctos und alles.
 > Ich finde es schon wichtig auch zu erwähnen, dass antisemitismus auch on the rise ist, weil er auf pro palästinensischen Demos geäußert wird, im Gewand der palästinensischen Solidarität. Auch da geht es Leuten mitunter nicht, um die Menschen in Gaza, sondern um die Befeuerung ihrer eigenen antisemitischen Ideologie.
 
 
-> 	Es gibt innerhalb der linken, sogenannten pro-palästinensischen Protestbewegung auch keinerlei wahrnehmbare Distanz zum Begriff der Intifada. Vielmehr fordert man offen, sie zu "globalizen". Der Antisemitismus ist der linken Palisoli inhärent, seit dem 7. Oktober umso offensichtlicher. Wer es mit seiner Kritik des Antisemitismus und mit politischer Emanzipation ernst meint, kann das nicht "einfach nebeneinanderstehen" lassen, während sich die Globalisierung der Intifada real vollzieht.
+> Es gibt innerhalb der linken, sogenannten pro-palästinensischen Protestbewegung auch keinerlei wahrnehmbare Distanz zum Begriff der Intifada. Vielmehr fordert man offen, sie zu "globalizen". Der Antisemitismus ist der linken Palisoli inhärent, seit dem 7. Oktober umso offensichtlicher. Wer es mit seiner Kritik des Antisemitismus und mit politischer Emanzipation ernst meint, kann das nicht "einfach nebeneinanderstehen" lassen, während sich die Globalisierung der Intifada real vollzieht.
 
-> 		@frederix wirklich ganz offene Frage, weil ich zu wenig dazu gelesen hab um zu irgendeiner eindeutigen Meinung zu gelangen und sicherlich auch nem bias in den zum Nahost Konflikt konsumierten Medien unterliege: kannst du mir genuinely erklären warum du findest das Intifada per se antisemitisch ist ? Weil ich hab irgendwie (mind die erste) Intifada auch als Sinnbild zivilen widerstand von unten gegen eine Besatzung die Knochen bricht im Kopf. Sag gerne wo ich da falsch liege bzw warum?
+> @frederix wirklich ganz offene Frage, weil ich zu wenig dazu gelesen hab um zu irgendeiner eindeutigen Meinung zu gelangen und sicherlich auch nem bias in den zum Nahost Konflikt konsumierten Medien unterliege: kannst du mir genuinely erklären warum du findest das Intifada per se antisemitisch ist ? Weil ich hab irgendwie (mind die erste) Intifada auch als Sinnbild zivilen widerstand von unten gegen eine Besatzung die Knochen bricht im Kopf. Sag gerne wo ich da falsch liege bzw warum?
 
-> 			Aufgrund der damit verbundenen Ereignisse, ist Intifada ein historisch feststehender Begriff und kann in diesem Kontext nicht als ein bloß deskriptiver ("Aufstand") verwendet werden, ohne die real geschehenen Auswirkungen zu ignorieren (zumal er in der "Palisoli" ohnehin normativ ist). Die Grenze des legitimen zivilen Ungehorsams wurde bereits in der 1., u.a. auch antisemitisch motivierten, Intifada überschritten, spätestens seit der 2. steht der Begriff auch für die Vernichtung jüdischen Lebens.
+> Aufgrund der damit verbundenen Ereignisse, ist Intifada ein historisch feststehender Begriff und kann in diesem Kontext nicht als ein bloß deskriptiver ("Aufstand") verwendet werden, ohne die real geschehenen Auswirkungen zu ignorieren (zumal er in der "Palisoli" ohnehin normativ ist). Die Grenze des legitimen zivilen Ungehorsams wurde bereits in der 1., u.a. auch antisemitisch motivierten, Intifada überschritten, spätestens seit der 2. steht der Begriff auch für die Vernichtung jüdischen Lebens.
 
 
 > Die sogenannten pro-palästinensischen Proteste delegitimieren sich bereits selbst durch die fraglos hingenommenen antisemitischen (unter Linken gerne als antizionistisch gerechtfertigte) Tendenzen sowie durch den eklatanten Geschichtsrevisionismus. Dafür braucht es weder Netanjahu noch BILD. Nutzt JPK hier nicht umgekehrt und gerade nicht ideologiekritisch irgendeine News als Futterquelle dazu, die Kritik an der linken Palisoli, deren Parolen sich an anderer Stelle real vollziehen, zu umgehen?
 
 > Ich vermisse den "Ich bin da ambivalent. Ich will mich nicht äußern."-Joppel. Es ist einfach ein Fakt, dass das was unter dem Label "propalästinensischer Protest" läuft ein riesiges Problem mit Antisemitismus hat und Antisemitismus ist Antisemitismus ist Antisemitismus egal was in Gaza passiert. Israelbezogener Antisemitismus ist keine Kritik sondern Antisemitismus. Wenn die Kritik nicht ohne Antisemitismus auskommen kann ist es keine gute Kritik.
 
-> 	Ist Kritik am Staat Israel für dich automatisch antisemitisch?
+> Ist Kritik am Staat Israel für dich automatisch antisemitisch?
 
-> 		Kritik am Staat Israel ist dann antisemitisch wenn Antisemitismus die Basis der Kritik ist
+> Kritik am Staat Israel ist dann antisemitisch wenn Antisemitismus die Basis der Kritik ist
+
+
+# Gedanken
+
+
+
+==Hi Freaks ist definitiv nicht der Ort für eine Nahostdebatte und niemand braucht eine Meinung zum Nahostkonflikt haben.==
+
+
+Ja, das soll ja auch so sein. Also das ist ja das Ziel, dann hat das Ziel ist ja Distinktion so.
+
+==Wäre das Ziel Distinktion, würde ich mir nicht die Mühe machen, in die dms zu sliden. Es geht um Reflexion des Dargebotenen, nicht um distinktion.==
+
+47:19 • Sprecher*in 2
+
+Dann ist das Ziel erreicht worden. Aber ich habe wirklich versucht, das dann zu verstehen, weil ich frage mich ja dann auch, bin ich hier irgendwie intellektuell nicht kritisch genug oder müsste ich da irgendwie noch mal mehr nachfragen oder so.
+
+==Simon hat eine stabile reflektierte Haltung, sich zu Dingen nicht zu äußern, zu denen er sich nicht äußern kann oder möchte. Simon wird halt zunächst mit jappels Takis konfrontiert, bevor die Kommentarspalte offensichtlich ein Bedürfnis an Kritik hat.==
+
+==Das Problem, was ich emotional auch habe bei dem Thema ist, dass es mir so nahe geht und ich gleichzeitig auch Angst kriege und so, weil ich weiß, dass es ja auch immer heiß gekocht wird, vor==
+
+47:41
+
+allem von denen, die es nicht essen müssen, dass ich kann ich, ich find es total schwer dazu ne irgendwas zu sagen wo wo ich denke, hier hab ich gerade n Gefühl zu dem was ich da grade sage weißt du wie ich meine?
+
+==Zunächst braucht man keine Meinung zum Nahostkonflikt zu haben und es ist kritisch festzustellen, dass man zu Netanjahu und Antisemitismus nichts sagen möchte bzw. kann, um einen halbgaren Fakt zu droppen, der von Teilen der Hörerschaft natürlich diskutiert werden kann.==
+
+47:55 • Sprecher*in 1
+
+Ich werd es mir vielleicht für die nächste Folge noch mal genauer anschauen. Ich hab es natürlich auch überflogen und ich hab es auch aufmerksam gelesen und wie immer, wenn irgendwas in meine Richtung zurückkommt, die Leute meinten ja in erster Linie mich und meine Ausführung nehm ich mir das schon zu Herzen.
+
+==Immunisierung. Ich hab es nur überflogen, aber natürlich auch aufmerksam gelesen.==
+
+Für diese Folge war es mir ehrlich gesagt egal, ich bin da auch so n bisschen bei dieser
+
+48:12
+
+Ja, stehen auch ganz viel, sehr überakademisierte Sprache. Mittlerweile habe ich da auch wirklich so bei-Bereflexe, dass dass ich so denke als so. Ja also Glückwunsch, du wirst nicht verstanden, Glückwunsch, also herzlichen Glückwunsch, du hast es geschafft so.
+
+==Die eigentliche Frechheit. In keinem entsprechenden Kommentar findet überhaupt so wirklich akademisierte Sprache statt. Wer die paar Kommentare hier als "überakademisierte Sprache" bezeichnet, sollte sich vielleicht gar nicht erst zum Nahostkonflikt vor 19890 Zuhörern äußern. Ich bemühe mich um präzise Sprache und ein knappes Gegenargument; viel mehr geben die 500 Zeichen auch nicht her.==
+
+==Glückwunsch, du willst nichts verstehen. Allerdings halte ich die Community für aufgeschlossen genug, ihnen==
+
+48:28 • Sprecher*in 2
+
+Ich finde Glückwunsch. Du wirst nicht verstanden, auch einen tollen Folgentitel.
+
+48:32 • Sprecher*in 1
+
+Ja, ist. Aber ich nehme es trotzdem ernst, auch wenn ich jetzt hier gerade so ein bisschen, so ein bisschen. Zynisch darüber spreche. Einen Kommentar will ich noch mal herausgreifen, so wo jemand geschrieben hat, ne hat der Jappe!
+
+48:47
+
+besser gefallen, der sich nicht zu diesen Dingen geäußert hat. So also ich wollte sagen, dass ich möchte nur an diese Person einmal richten, du sagst im Prinzip ja nichts anderes als jetzt wo er seine Meinung sagt, möchte ich bitte, dass er nichts mehr sagt und.
+
+49:05 • Sprecher*in 2
+
+H s sgl. auch von der Meinung ab, wahrscheinlich die man sagt ne.
+
+49:07 • Sprecher*in 1
+
+Ja, natürlich. Und ich mein. Wenn ich es geschafft habe, mir diese Überheblichkeit abzutrainieren, schaffst du es vielleicht ja auch.
+
+49:17 • Sprecher*in 2
+
+=="Sagte er völlig unüberheblich".== ==Danke Simon!==
+
+Ich, ich hoffe auch nicht, dass du das Gefühl, ich hoffe auch nicht, dass du das Gefühl hast, dadurch, dass ich es noch mal hier in den Podcast reinzieh, dass ich damit in den Rücken fallen möchte oder es irgendwie immer wenn dieses Thema aufkommt.
