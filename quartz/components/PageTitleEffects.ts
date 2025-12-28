@@ -3103,9 +3103,23 @@ export const EFFECT_NOTES_REVEAL_REPEL: LogoEffect = {
 }
 `,
   js: `
-(function() {
+document.addEventListener("nav", function initNotesRevealRepel() {
   const logo = document.getElementById('interactive-logo');
   if (!logo) return;
+  
+  // Cleanup alte Elemente falls vorhanden
+  const oldLetterContainer = logo.parentElement?.querySelector('.notes-letter-container');
+  const oldNotesFullContainer = logo.parentElement?.querySelector('.notes-full-container');
+  const oldRectsContainer = logo.querySelector('.logo-rects-container');
+  if (oldLetterContainer) oldLetterContainer.remove();
+  if (oldNotesFullContainer) oldNotesFullContainer.remove();
+  if (oldRectsContainer) {
+    // Restore original rects
+    const oldRects = Array.from(oldRectsContainer.querySelectorAll('.logo-rect'));
+    oldRects.forEach(rect => logo.appendChild(rect));
+    oldRectsContainer.remove();
+  }
+  
   const rects = Array.from(logo.querySelectorAll('.logo-rect'));
   
   const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
@@ -3196,7 +3210,7 @@ export const EFFECT_NOTES_REVEAL_REPEL: LogoEffect = {
   }
   
   // REPEL HOVER EFFEKT: Rechtecke werden abgestoßen
-  logo.addEventListener('mousemove', (e) => {
+  function handleMouseMove(e) {
     const svgRect = logo.getBoundingClientRect();
     const scaleX = 800 / svgRect.width;
     const scaleY = 800 / svgRect.height;
@@ -3228,14 +3242,14 @@ export const EFFECT_NOTES_REVEAL_REPEL: LogoEffect = {
         rect.style.filter = '';
       }
     });
-  });
+  }
   
-  logo.addEventListener('mouseenter', () => {
+  function handleMouseEnter() {
     if (isAnimating || animationComplete) return;
     startNotesAnimation();
-  });
+  }
   
-  logo.addEventListener('mouseleave', () => {
+  function handleMouseLeave() {
     activeRects.forEach(rect => {
       rect.setAttribute('x', rect.dataset.origX);
       rect.setAttribute('y', rect.dataset.origY);
@@ -3246,8 +3260,982 @@ export const EFFECT_NOTES_REVEAL_REPEL: LogoEffect = {
       notesFullDiv.classList.remove('visible');
     }
     if (!isAnimating) animationComplete = false;
+  }
+  
+  logo.addEventListener('mousemove', handleMouseMove);
+  logo.addEventListener('mouseenter', handleMouseEnter);
+  logo.addEventListener('mouseleave', handleMouseLeave);
+  
+  // Cleanup bei nächster Navigation
+  window.addCleanup(() => {
+    logo.removeEventListener('mousemove', handleMouseMove);
+    logo.removeEventListener('mouseenter', handleMouseEnter);
+    logo.removeEventListener('mouseleave', handleMouseLeave);
   });
-})();
+});
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_REPEL_GLOW
+// Rechtecke werden abgestoßen mit intensivem pulsierendem Glow
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_REPEL_GLOW: LogoEffect = {
+  name: "Notes Reveal - Repel Glow",
+  description: "Rechtecke werden abgestoßen mit intensivem Glow",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { filter: drop-shadow(0 0 8px #f35a86) drop-shadow(0 0 15px #f35a86); }
+  50% { filter: drop-shadow(0 0 20px #f35a86) drop-shadow(0 0 40px #ff6b9d) drop-shadow(0 0 60px #f35a86); }
+}
+`,
+  js: `
+document.addEventListener("nav", function initNotesRevealRepelGlow() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  
+  const oldLetterContainer = logo.parentElement?.querySelector('.notes-letter-container');
+  const oldNotesFullContainer = logo.parentElement?.querySelector('.notes-full-container');
+  const oldRectsContainer = logo.querySelector('.logo-rects-container');
+  if (oldLetterContainer) oldLetterContainer.remove();
+  if (oldNotesFullContainer) oldNotesFullContainer.remove();
+  if (oldRectsContainer) {
+    const oldRects = Array.from(oldRectsContainer.querySelectorAll('.logo-rect'));
+    oldRects.forEach(rect => logo.appendChild(rect));
+    oldRectsContainer.remove();
+  }
+  
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 225, 450, 675, 900];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  function handleMouseMove(e) {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 150 && dist > 0) {
+        const force = (150 - dist) / 150;
+        const angle = Math.atan2(cy - mouseY, cx - mouseX);
+        const moveX = Math.cos(angle) * force * 25;
+        const moveY = Math.sin(angle) * force * 25;
+        rect.setAttribute('x', (ox + moveX).toString());
+        rect.setAttribute('y', (oy + moveY).toString());
+        // Intensiver pulsierender Glow
+        const glowSize = 10 + force * 25;
+        const glowSize2 = 20 + force * 40;
+        rect.style.filter = 'drop-shadow(0 0 ' + glowSize + 'px #f35a86) drop-shadow(0 0 ' + glowSize2 + 'px #ff6b9d)';
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.style.filter = '';
+      }
+    });
+  }
+  
+  function handleMouseEnter() {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  }
+  
+  function handleMouseLeave() {
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  }
+  
+  logo.addEventListener('mousemove', handleMouseMove);
+  logo.addEventListener('mouseenter', handleMouseEnter);
+  logo.addEventListener('mouseleave', handleMouseLeave);
+  
+  window.addCleanup(() => {
+    logo.removeEventListener('mousemove', handleMouseMove);
+    logo.removeEventListener('mouseenter', handleMouseEnter);
+    logo.removeEventListener('mouseleave', handleMouseLeave);
+  });
+});
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_REPEL_MAGNETIC
+// Rechtecke werden erst abgestoßen, dann bei langem Hover angezogen
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_REPEL_MAGNETIC: LogoEffect = {
+  name: "Notes Reveal - Repel Magnetic",
+  description: "Rechtecke werden abgestoßen, bei langem Hover angezogen",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+document.addEventListener("nav", function initNotesRevealRepelMagnetic() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  
+  const oldLetterContainer = logo.parentElement?.querySelector('.notes-letter-container');
+  const oldNotesFullContainer = logo.parentElement?.querySelector('.notes-full-container');
+  const oldRectsContainer = logo.querySelector('.logo-rects-container');
+  if (oldLetterContainer) oldLetterContainer.remove();
+  if (oldNotesFullContainer) oldNotesFullContainer.remove();
+  if (oldRectsContainer) {
+    const oldRects = Array.from(oldRectsContainer.querySelectorAll('.logo-rect'));
+    oldRects.forEach(rect => logo.appendChild(rect));
+    oldRectsContainer.remove();
+  }
+  
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  let hoverStartTime = 0;
+  let isMagnetic = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 225, 450, 675, 900];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  function handleMouseMove(e) {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    // Nach 1.5 Sekunden Hover wechselt zu Magnetic
+    const hoverDuration = Date.now() - hoverStartTime;
+    const magneticStrength = Math.min(1, (hoverDuration - 1500) / 1000);
+    isMagnetic = hoverDuration > 1500;
+    
+    activeRects.forEach((rect) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 140 && dist > 0) {
+        const force = (140 - dist) / 140;
+        const angle = Math.atan2(cy - mouseY, cx - mouseX);
+        
+        // Übergang von Repel zu Magnetic
+        const direction = isMagnetic ? -1 * magneticStrength + (1 - magneticStrength) : 1;
+        const moveX = Math.cos(angle) * force * 22 * direction;
+        const moveY = Math.sin(angle) * force * 22 * direction;
+        
+        rect.setAttribute('x', (ox + moveX).toString());
+        rect.setAttribute('y', (oy + moveY).toString());
+        
+        // Farbwechsel bei Magnetic
+        if (isMagnetic) {
+          const hue = 330 - magneticStrength * 60; // Pink zu Lila
+          rect.style.filter = 'drop-shadow(0 0 ' + (force * 15) + 'px hsl(' + hue + ', 80%, 60%)) brightness(' + (1 + magneticStrength * 0.3) + ')';
+        } else {
+          rect.style.filter = 'drop-shadow(0 0 ' + (force * 8) + 'px #f35a86)';
+        }
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.style.filter = '';
+      }
+    });
+  }
+  
+  function handleMouseEnter() {
+    hoverStartTime = Date.now();
+    isMagnetic = false;
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  }
+  
+  function handleMouseLeave() {
+    hoverStartTime = 0;
+    isMagnetic = false;
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  }
+  
+  logo.addEventListener('mousemove', handleMouseMove);
+  logo.addEventListener('mouseenter', handleMouseEnter);
+  logo.addEventListener('mouseleave', handleMouseLeave);
+  
+  window.addCleanup(() => {
+    logo.removeEventListener('mousemove', handleMouseMove);
+    logo.removeEventListener('mouseenter', handleMouseEnter);
+    logo.removeEventListener('mouseleave', handleMouseLeave);
+  });
+});
+`
+}
+
+// ============================================================================
+// EFFEKT: NOTES_REVEAL_REPEL_GROW
+// Rechtecke werden abgestoßen und wachsen dabei
+// ============================================================================
+export const EFFECT_NOTES_REVEAL_REPEL_GROW: LogoEffect = {
+  name: "Notes Reveal - Repel Grow",
+  description: "Rechtecke werden abgestoßen und wachsen",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-letter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.notes-letter {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: none;
+}
+
+.notes-letter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+:root[saved-theme="dark"] .notes-letter img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(75%) saturate(1057%) hue-rotate(307deg) brightness(101%) contrast(93%);
+}
+
+.logo-rect.inner-f {
+  transition: opacity 0.3s ease-out;
+}
+
+.logo-rect.inner-f.hidden {
+  opacity: 0 !important;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-letter .letter-light,
+.notes-full .letter-light {
+  display: block;
+}
+.notes-letter .letter-dark,
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-light,
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-letter .letter-dark,
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+@keyframes letterReveal {
+  0% { opacity: 0; transform: scale(0.9); }
+  40% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.98); }
+}
+
+.notes-letter.animate-n,
+.notes-letter.animate-o,
+.notes-letter.animate-t,
+.notes-letter.animate-e,
+.notes-letter.animate-s {
+  animation: letterReveal 0.35s ease-out forwards;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+document.addEventListener("nav", function initNotesRevealRepelGrow() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  
+  const oldLetterContainer = logo.parentElement?.querySelector('.notes-letter-container');
+  const oldNotesFullContainer = logo.parentElement?.querySelector('.notes-full-container');
+  const oldRectsContainer = logo.querySelector('.logo-rects-container');
+  if (oldLetterContainer) oldLetterContainer.remove();
+  if (oldNotesFullContainer) oldNotesFullContainer.remove();
+  if (oldRectsContainer) {
+    const oldRects = Array.from(oldRectsContainer.querySelectorAll('.logo-rect'));
+    oldRects.forEach(rect => logo.appendChild(rect));
+    oldRectsContainer.remove();
+  }
+  
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  const innerFRects = activeRects.slice(0, 5);
+  innerFRects.forEach(rect => rect.classList.add('inner-f'));
+  
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+  });
+  
+  const letterContainer = document.createElement('div');
+  letterContainer.className = 'notes-letter-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.insertBefore(letterContainer, logo);
+  
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const letters = [
+    { id: 'n', lightSrc: basePath + '/static/f-icon/1n-a-light.png', darkSrc: basePath + '/static/f-icon/1n-a-dark.png', class: 'animate-n' },
+    { id: 'o', lightSrc: basePath + '/static/f-icon/2o-a-light.png', darkSrc: basePath + '/static/f-icon/2o-a-dark.png', class: 'animate-o' },
+    { id: 't', lightSrc: basePath + '/static/f-icon/3t-a-light.png', darkSrc: basePath + '/static/f-icon/3t-a-dark.png', class: 'animate-t' },
+    { id: 'e', lightSrc: basePath + '/static/f-icon/4e-a-light.png', darkSrc: basePath + '/static/f-icon/4e-a-dark.png', class: 'animate-e' },
+    { id: 's', lightSrc: basePath + '/static/f-icon/5s-a-light.png', darkSrc: basePath + '/static/f-icon/5s-a-dark.png', class: 'animate-s' }
+  ];
+  
+  const letterElements = letters.map(letter => {
+    const div = document.createElement('div');
+    div.className = 'notes-letter';
+    div.id = 'letter-' + letter.id;
+    div.innerHTML = '<img class="letter-light" src="' + letter.lightSrc + '" alt="' + letter.id.toUpperCase() + '"><img class="letter-dark" src="' + letter.darkSrc + '" alt="' + letter.id.toUpperCase() + '">';
+    letterContainer.appendChild(div);
+    return { el: div, animClass: letter.class };
+  });
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  
+  function startNotesAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    innerFRects.forEach(rect => rect.classList.add('hidden'));
+    
+    const delays = [0, 225, 450, 675, 900];
+    letterElements.forEach((letter, index) => {
+      setTimeout(() => {
+        letter.el.classList.remove(letter.animClass);
+        void letter.el.offsetWidth;
+        letter.el.classList.add(letter.animClass);
+      }, delays[index]);
+    });
+    
+    setTimeout(() => {
+      letterElements.forEach(letter => letter.el.classList.remove(letter.animClass));
+      isAnimating = false;
+      animationComplete = true;
+      innerFRects.forEach(rect => rect.classList.remove('hidden'));
+      notesFullDiv.classList.remove('fade-out');
+      notesFullDiv.classList.add('visible');
+    }, delays[delays.length - 1] + 400);
+  }
+  
+  function handleMouseMove(e) {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      if (rect.classList.contains('hidden')) return;
+      
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 130 && dist > 0) {
+        const force = (130 - dist) / 130;
+        const angle = Math.atan2(cy - mouseY, cx - mouseX);
+        const moveX = Math.cos(angle) * force * 20;
+        const moveY = Math.sin(angle) * force * 20;
+        
+        // Grow-Effekt: Rechteck wird größer
+        const growFactor = 1 + force * 0.8; // Bis zu 80% größer
+        const newW = ow * growFactor;
+        const newH = oh * growFactor;
+        // Position anpassen damit es zentriert wächst
+        const offsetX = (newW - ow) / 2;
+        const offsetY = (newH - oh) / 2;
+        
+        rect.setAttribute('x', (ox + moveX - offsetX).toString());
+        rect.setAttribute('y', (oy + moveY - offsetY).toString());
+        rect.setAttribute('width', newW.toString());
+        rect.setAttribute('height', newH.toString());
+        rect.style.filter = 'drop-shadow(0 0 ' + (force * 12) + 'px #f35a86)';
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.setAttribute('width', rect.dataset.origW);
+        rect.setAttribute('height', rect.dataset.origH);
+        rect.style.filter = '';
+      }
+    });
+  }
+  
+  function handleMouseEnter() {
+    if (isAnimating || animationComplete) return;
+    startNotesAnimation();
+  }
+  
+  function handleMouseLeave() {
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.setAttribute('width', rect.dataset.origW);
+      rect.setAttribute('height', rect.dataset.origH);
+      rect.style.filter = '';
+    });
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    if (!isAnimating) animationComplete = false;
+  }
+  
+  logo.addEventListener('mousemove', handleMouseMove);
+  logo.addEventListener('mouseenter', handleMouseEnter);
+  logo.addEventListener('mouseleave', handleMouseLeave);
+  
+  window.addCleanup(() => {
+    logo.removeEventListener('mousemove', handleMouseMove);
+    logo.removeEventListener('mouseenter', handleMouseEnter);
+    logo.removeEventListener('mouseleave', handleMouseLeave);
+  });
+});
 `
 }
 
@@ -3283,6 +4271,9 @@ export const ALL_EFFECTS: LogoEffect[] = [
   EFFECT_NOTES_REVEAL_MAGNETIC,
   EFFECT_NOTES_REVEAL_GLOW,
   EFFECT_NOTES_REVEAL_REPEL,
+  EFFECT_NOTES_REVEAL_REPEL_GLOW,
+  EFFECT_NOTES_REVEAL_REPEL_MAGNETIC,
+  EFFECT_NOTES_REVEAL_REPEL_GROW,
 ]
 
 // ============================================================================

@@ -36,8 +36,11 @@ import { i18n } from "../i18n"
 //   EFFECT_NOTES_REVEAL_MAGNETIC - Nach Hover erscheinen N-O-T-E-S nacheinander mit Magnet-Effekt
 //   EFFECT_NOTES_REVEAL_GLOW - Nach Hover erscheinen N-O-T-E-S nacheinander mit Glow-Effekt
 //   EFFECT_NOTES_REVEAL_REPEL - Nach Hover erscheinen N-O-T-E-S nacheinander mit Abstoß-Effekt
+//   EFFECT_NOTES_REVEAL_REPEL_GLOW - Repel mit intensivem pulsierendem Glow
+//   EFFECT_NOTES_REVEAL_REPEL_MAGNETIC - Repel, dann Magnetic nach 1.5s Hover
+//   EFFECT_NOTES_REVEAL_REPEL_GROW - Repel mit wachsenden Rechtecken
 // ============================================================================
-import { EFFECT_NOTES_REVEAL_REPEL as CURRENT_EFFECT } from "./PageTitleEffects"
+import { EFFECT_NOTES_REVEAL_REPEL_GROW as CURRENT_EFFECT } from "./PageTitleEffects"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
