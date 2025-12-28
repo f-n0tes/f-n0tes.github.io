@@ -1748,7 +1748,7 @@ export const EFFECT_NOTES_REVEAL: LogoEffect = {
     innerFRects.forEach(rect => rect.classList.add('hidden'));
     
     // Animate each letter sequentially - SCHNELLER: 300ms statt 800ms
-    const delays = [0, 300, 600, 900, 1200];
+    const delays = [0, 225, 450, 675, 900];
     
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
@@ -2055,7 +2055,7 @@ export const EFFECT_NOTES_REVEAL_FADE: LogoEffect = {
     notesFullDiv.classList.remove('visible', 'fade-out');
     innerFRects.forEach(rect => rect.classList.add('hidden'));
     
-    const delays = [0, 300, 600, 900, 1200];
+    const delays = [0, 225, 450, 675, 900];
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
         letter.el.classList.remove(letter.animClass);
@@ -2333,7 +2333,7 @@ export const EFFECT_NOTES_REVEAL_RAINBOW: LogoEffect = {
     notesFullDiv.classList.remove('visible', 'fade-out');
     innerFRects.forEach(rect => rect.classList.add('hidden'));
     
-    const delays = [0, 300, 600, 900, 1200];
+    const delays = [0, 225, 450, 675, 900];
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
         letter.el.classList.remove(letter.animClass);
@@ -2614,7 +2614,7 @@ export const EFFECT_NOTES_REVEAL_MAGNETIC: LogoEffect = {
     notesFullDiv.classList.remove('visible', 'fade-out');
     innerFRects.forEach(rect => rect.classList.add('hidden'));
     
-    const delays = [0, 300, 600, 900, 1200];
+    const delays = [0, 225, 450, 675, 900];
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
         letter.el.classList.remove(letter.animClass);
@@ -2900,7 +2900,7 @@ export const EFFECT_NOTES_REVEAL_GLOW: LogoEffect = {
     notesFullDiv.classList.remove('visible', 'fade-out');
     innerFRects.forEach(rect => rect.classList.add('hidden'));
     
-    const delays = [0, 300, 600, 900, 1200];
+    const delays = [0, 225, 450, 675, 900];
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
         letter.el.classList.remove(letter.animClass);
@@ -3176,7 +3176,7 @@ export const EFFECT_NOTES_REVEAL_REPEL: LogoEffect = {
     notesFullDiv.classList.remove('visible', 'fade-out');
     innerFRects.forEach(rect => rect.classList.add('hidden'));
     
-    const delays = [0, 300, 600, 900, 1200];
+    const delays = [0, 225, 450, 675, 900];
     letterElements.forEach((letter, index) => {
       setTimeout(() => {
         letter.el.classList.remove(letter.animClass);
