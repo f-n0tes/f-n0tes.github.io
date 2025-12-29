@@ -38,13 +38,13 @@ JPK kritisiert also, "dass man wirklich so News konsumiert", um diese "als Futte
 > [!QUOTE]
 > Unideologisch ist aber der Gedanke, der sich nicht auf operational terms bringen läßt, sondern versucht, rein der Sache selbst zu jener Sprache zu verhelfen, welche ihr die herrschende sonst abschneidet.
 
-Simon schafft an dieser Stelle (glücklicherweise) einen gelungenen Übergang zu einer Anekdote. Das Thema wird im weiteren Verlauf der Folge nicht mehr angesprochen.
+Simon schafft an dieser Stelle (glücklicherweise) einen gelungenen Übergang zu einer thematisch mehr oder weniger passenden Anekdote. Das Thema wird im weiteren Verlauf der Folge nicht mehr angesprochen.
 
 # Wieso kann das nicht einfach nebeneinanderstehen?
 
 Zusammengefasst: JPK hat
 
-- Natürlich ist es unsinnig, einen direkten Zusammenhang zwischen der Terrortat in Sydney und irgendeinem pro-palästinensischen Aktivismus in den westlichen Gesellschaften herzustellen, zumal man weiß, dass die Täter Verbindungen zum *Islamischen Staat* hatten. Dass man aber gerade den Anschlag in Sydney dazu zum Anlass nehmen könnte, sich konsequent von einer Protestbewegung zu distanzieren, die mit "GLOBALIZE THE INTIFA"-Transparenten demonstriert und dabei Sprechchöre zu einer "INTIFADA REVOLUTION" anstimmt, die sich in so vielen Fällen geschichtsrevisionistisch gezeigt hat; dass man einen pro-palästinensischen Protest möglicherweise woanders verorten muss, dass eine Kritik des Antisemitismus innerhalb dieser Proteste nicht geben kann, kommt JPK nicht in den Sinn.
+- Natürlich ist es unsinnig, einen direkten Zusammenhang zwischen der Terrortat in Sydney und irgendeinem pro-palästinensischen Aktivismus in den westlichen Gesellschaften herzustellen, zumal man weiß, dass die Täter Verbindungen zum *Islamischen Staat* hatten. Dass man aber gerade den Anschlag in Sydney dazu zum Anlass nehmen könnte, sich konsequent von einer Protestbewegung, die sich in so vielen Fällen geschichtsrevisionistisch gezeigt hat, die mit "GLOBALIZE THE INTIFA"-Transparenten demonstriert und dabei Sprechchöre zu einer "INTIFADA REVOLUTION" anstimmt, zu distanzieren; dass man einen pro-palästinensischen Protest möglicherweise woanders verorten muss, dass eine Kritik des Antisemitismus innerhalb dieser Proteste nicht geben kann, kommt JPK nicht in den Sinn.
 # Der Vorwurf: Bloßes Distinktionsbedürfnis und „überakademisierten Sprache“ in der Kommentarspalte
 
 46:23
