@@ -42,7 +42,9 @@ Simon schafft an dieser Stelle (glücklicherweise) einen gelungenen Übergang zu
 
 # Wieso kann das nicht einfach nebeneinanderstehen?
 
-Zusammengefasst: JPK hat 
+Zusammengefasst: JPK hat
+
+- Natürlich ist es unsinnig, einen direkten Zusammenhang zwischen der Terrortat in Sydney und irgendeinem pro-palästinensischen Aktivismus in den westlichen Gesellschaften herzustellen, zumal man weiß, dass die Täter Verbindungen zum *Islamischen Staat* hatten. Dass man aber gerade den Anschlag in Sydney dazu zum Anlass nehmen könnte, sich konsequent von einer Protestbewegung zu distanzieren, die mit "GLOBALIZE THE INTIFA"-Transparenten demonstriert und dabei Sprechchöre zu einer "INTIFADA REVOLUTION" anstimmt, die sich in so vielen Fällen geschichtsrevisionistisch gezeigt hat; dass man einen pro-palästinensischen Protest möglicherweise woanders verorten muss, dass eine Kritik des Antisemitismus innerhalb dieser Proteste nicht geben kann, kommt JPK nicht in den Sinn.
 # Der Vorwurf: Bloßes Distinktionsbedürfnis und „überakademisierten Sprache“ in der Kommentarspalte
 
 46:23
