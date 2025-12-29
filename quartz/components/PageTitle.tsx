@@ -39,8 +39,9 @@ import { i18n } from "../i18n"
 //   EFFECT_NOTES_REVEAL_REPEL_GLOW - Repel mit intensivem pulsierendem Glow
 //   EFFECT_NOTES_REVEAL_REPEL_MAGNETIC - Repel, dann Magnetic nach 1.5s Hover
 //   EFFECT_NOTES_REVEAL_REPEL_GROW - Repel mit wachsenden Rechtecken
+//   EFFECT_LOGO_VARIATIONS_SEQUENCE - Schnelle Abfolge von 10 Logo-Variationen
 // ============================================================================
-import { EFFECT_NOTES_REVEAL_REPEL_GROW as CURRENT_EFFECT } from "./PageTitleEffects"
+import { EFFECT_LOGO_VARIATIONS_SEQUENCE as CURRENT_EFFECT } from "./PageTitleEffects"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title

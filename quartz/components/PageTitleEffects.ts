@@ -3922,6 +3922,490 @@ document.addEventListener("nav", function initNotesRevealRepelMagnetic() {
 // EFFEKT: NOTES_REVEAL_REPEL_GROW
 // Rechtecke werden abgestoßen und wachsen dabei
 // ============================================================================
+// ============================================================================
+// EFFEKT: LOGO VARIATIONS SEQUENCE
+// Bei Hover: Schnelle Abfolge von 10 Logo-Variationen + NOTES-Schriftzug
+// ============================================================================
+export const EFFECT_LOGO_VARIATIONS_SEQUENCE: LogoEffect = {
+  name: "Logo Variations Sequence",
+  description: "Schnelle Abfolge von 10 Logo-Variationen bei Hover mit Repel-Grow-Effekt",
+  css: BASE_CSS + `
+.logo-rect {
+  fill: #f35a86;
+  stroke: none;
+  cursor: pointer;
+}
+
+#interactive-logo {
+  overflow: visible;
+  position: relative;
+}
+
+.notes-full-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.notes-full {
+  position: absolute;
+  width: 135%;
+  height: auto;
+  bottom: 10%;
+  left: -5%;
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+
+.notes-full.visible {
+  opacity: 1;
+}
+
+.notes-full.fade-out {
+  opacity: 0;
+  transition: opacity 1.8s ease-out;
+}
+
+.notes-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#interactive-logo {
+  position: relative;
+  z-index: 5;
+}
+
+.notes-full .letter-light {
+  display: block;
+}
+.notes-full .letter-dark {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-full .letter-light {
+  display: none;
+}
+:root[saved-theme="dark"] .notes-full .letter-dark {
+  display: block;
+}
+
+.logo-rects-container .logo-rect {
+  opacity: 1;
+}
+`,
+  js: `
+document.addEventListener("nav", function initLogoVariationsSequence() {
+  const logo = document.getElementById('interactive-logo');
+  if (!logo) return;
+  
+  // Cleanup vorheriger Container
+  const oldNotesFullContainer = logo.parentElement?.querySelector('.notes-full-container');
+  const oldRectsContainer = logo.querySelector('.logo-rects-container');
+  if (oldNotesFullContainer) oldNotesFullContainer.remove();
+  if (oldRectsContainer) {
+    const oldRects = Array.from(oldRectsContainer.querySelectorAll('.logo-rect'));
+    oldRects.forEach(rect => logo.appendChild(rect));
+    oldRectsContainer.remove();
+  }
+  
+  const rects = Array.from(logo.querySelectorAll('.logo-rect'));
+  
+  // Container für die Rechtecke erstellen
+  const rectsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  rectsContainer.classList.add('logo-rects-container', 'visible');
+  rects.forEach(rect => {
+    const clone = rect.cloneNode(true);
+    rectsContainer.appendChild(clone);
+  });
+  rects.forEach(rect => rect.remove());
+  logo.appendChild(rectsContainer);
+  
+  const activeRects = Array.from(rectsContainer.querySelectorAll('.logo-rect'));
+  
+  // Original-Positionen speichern
+  activeRects.forEach(rect => {
+    rect.dataset.origX = rect.getAttribute('x') || '0';
+    rect.dataset.origY = rect.getAttribute('y') || '0';
+    rect.dataset.origW = rect.getAttribute('width') || '0';
+    rect.dataset.origH = rect.getAttribute('height') || '0';
+    rect.dataset.origTransform = rect.getAttribute('transform') || '';
+  });
+  
+  // NOTES-Schriftzug Container
+  const notesFullContainer = document.createElement('div');
+  notesFullContainer.className = 'notes-full-container';
+  logo.parentElement.style.position = 'relative';
+  logo.parentElement.appendChild(notesFullContainer);
+  
+  const mobileLogo = document.querySelector('.mobile-logo-light');
+  let basePath = '';
+  if (mobileLogo) {
+    const src = mobileLogo.getAttribute('src');
+    basePath = src.replace('/static/mobile-logo-light.png', '');
+  }
+  
+  const notesFullDiv = document.createElement('div');
+  notesFullDiv.className = 'notes-full';
+  notesFullDiv.innerHTML = '<img class="letter-light" src="' + basePath + '/static/f-icon/notes-full-light.png" alt="NOTES"><img class="letter-dark" src="' + basePath + '/static/f-icon/notes-full-dark.png" alt="NOTES">';
+  notesFullContainer.appendChild(notesFullDiv);
+  
+  // 10 Logo-Variationen (Original + 9 weitere)
+  // Jede Variation enthält 17 rect-Definitionen: [x, y, width, height, transform]
+  const logoVariations = [
+    // Variation 0: Original (aus PageTitle.tsx)
+    [
+      [244.2, 433.8, 30, 218.1, ''],
+      [227.2, 226.5, 30, 218.1, ''],
+      [301.5, 302.9, 30, 178.6, 'translate(708.6 75.7) rotate(90)'],
+      [283.6, 170.1, 30, 142.8, 'translate(540.1 -57.1) rotate(90)'],
+      [404.8, 160.2, 30, 123.6, 'translate(641.8 -197.8) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [73.9, 149.5, 30, 315, ''],
+      [660.2, 415.4, 30, 292.8, ''],
+      [698, 434.1, 30, 294.2, ''],
+      [641.1, 131.3, 30, 293.9, ''],
+      [678.9, 149.5, 30, 295.1, ''],
+      [660, 263.2, 30, 67.8, 'translate(972.1 -377.9) rotate(90)'],
+      [241.7, 564.4, 30, 335.5, 'translate(988.9 475.5) rotate(90)'],
+      [471.2, 473.3, 30, 483.6, 'translate(1201.3 228.9) rotate(90)'],
+      [612.6, 596.9, 30, 200.9, 'translate(1324.9 69.8) rotate(90)'],
+      [206.1, 17.3, 30, 294.4, 'translate(385.7 -56.6) rotate(90)'],
+      [518.5, -29.2, 30, 350.9, 'translate(679.7 -387.2) rotate(90)']
+    ],
+    // Variation 1: f_logo_final_2
+    [
+      [227.2, 433.8, 30, 218.1, ''],
+      [227.2, 226.5, 30, 218.1, ''],
+      [301.5, 302.9, 30, 178.6, 'translate(708.6 75.7) rotate(90)'],
+      [283.6, 170.1, 30, 142.8, 'translate(540.1 -57.1) rotate(90)'],
+      [409.5, 194.7, 30, 123.6, 'translate(681 -168) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [103.9, 149.5, 30, 315, ''],
+      [660.2, 415.4, 30, 292.8, ''],
+      [675.2, 434.1, 30, 294.2, ''],
+      [641.1, 150.1, 30, 293.9, ''],
+      [698, 149.5, 30, 295.1, ''],
+      [660.2, 288.1, 30, 67.8, 'translate(997.2 -353.1) rotate(90)'],
+      [241.7, 564.4, 30, 335.5, 'translate(988.9 475.5) rotate(90)'],
+      [448.4, 471.4, 30, 483.6, 'translate(1176.6 249.8) rotate(90)'],
+      [589.8, 592.7, 30, 200.9, 'translate(1297.9 88.4) rotate(90)'],
+      [236.1, 17.3, 30, 294.4, 'translate(415.7 -86.6) rotate(90)'],
+      [518.5, -10.9, 30, 350.9, 'translate(698 -368.9) rotate(90)']
+    ],
+    // Variation 2: f_logo_final_3
+    [
+      [227.2, 433.8, 30, 218.1, ''],
+      [227.2, 226.5, 30, 218.1, ''],
+      [301.5, 302.9, 30, 178.6, 'translate(708.6 75.7) rotate(90)'],
+      [283.6, 170.1, 30, 142.8, 'translate(540.1 -57.1) rotate(90)'],
+      [409.5, 194.7, 30, 123.6, 'translate(681 -168) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [63.6, 139.6, 30, 315, ''],
+      [660.2, 415.4, 30, 292.8, ''],
+      [698, 434.1, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [705.2, 149.5, 30, 295.1, ''],
+      [683, 202.4, 30, 67.8, 'translate(934.3 -461.7) rotate(90)'],
+      [241.7, 564.4, 30, 335.5, 'translate(988.9 475.5) rotate(90)'],
+      [448.4, 490.4, 30, 483.6, 'translate(1195.6 268.8) rotate(90)'],
+      [589.8, 607.7, 30, 200.9, 'translate(1312.9 103.4) rotate(90)'],
+      [195.8, 2.9, 30, 294.4, 'translate(360.9 -60.7) rotate(90)'],
+      [518.5, -10.9, 30, 350.9, 'translate(698 -368.9) rotate(90)']
+    ],
+    // Variation 3: f_logo_final_4
+    [
+      [241.7, 433.8, 30, 218.1, ''],
+      [227.2, 226.5, 30, 218.1, ''],
+      [301.5, 272.9, 30, 178.6, 'translate(678.6 45.7) rotate(90)'],
+      [283.6, 170.1, 30, 142.8, 'translate(540.1 -57.1) rotate(90)'],
+      [409.5, 179.7, 30, 123.6, 'translate(666 -183) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [88.9, 164.5, 30, 315, ''],
+      [660.2, 415.4, 30, 292.8, ''],
+      [698, 434.1, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [705.2, 149.5, 30, 295.1, ''],
+      [683, 202.4, 30, 67.8, 'translate(934.3 -461.7) rotate(90)'],
+      [241.7, 564.4, 30, 335.5, 'translate(988.9 475.5) rotate(90)'],
+      [448.4, 490.4, 30, 483.6, 'translate(1195.6 268.8) rotate(90)'],
+      [589.8, 607.7, 30, 200.9, 'translate(1312.9 103.4) rotate(90)'],
+      [237.8, 17.3, 30, 294.4, 'translate(417.3 -88.3) rotate(90)'],
+      [518.5, -10.9, 30, 350.9, 'translate(698 -368.9) rotate(90)']
+    ],
+    // Variation 4: f_logo_final_5
+    [
+      [237.8, 433.8, 30, 218.1, ''],
+      [252.8, 233.7, 30, 218.1, ''],
+      [327.1, 272.9, 30, 178.6, 'translate(704.3 20.1) rotate(90)'],
+      [309.2, 170.1, 30, 142.8, 'translate(565.7 -82.7) rotate(90)'],
+      [404.8, 194.7, 30, 123.6, 'translate(676.3 -163.3) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [88.9, 164.5, 30, 315, ''],
+      [660.2, 434.7, 30, 292.8, ''],
+      [705.2, 434.1, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [660.2, 149.5, 30, 295.1, ''],
+      [683, 414.5, 30, 67.8, 'translate(1146.4 -249.6) rotate(90)'],
+      [241.7, 564.4, 30, 335.5, 'translate(988.9 475.5) rotate(90)'],
+      [448.4, 490.4, 30, 483.6, 'translate(1195.6 268.8) rotate(90)'],
+      [604.8, 631.7, 30, 200.9, 'translate(1351.9 112.4) rotate(90)'],
+      [237.8, 17.3, 30, 294.4, 'translate(417.3 -88.3) rotate(90)'],
+      [489.3, -10.9, 30, 350.9, 'translate(668.9 -339.8) rotate(90)']
+    ],
+    // Variation 5: f_logo_final_6
+    [
+      [252.8, 433.8, 30, 218.1, ''],
+      [252.8, 233.7, 30, 218.1, ''],
+      [327.1, 272.9, 30, 178.6, 'translate(704.3 20.1) rotate(90)'],
+      [313.9, 177.3, 30, 142.8, 'translate(577.6 -80.1) rotate(90)'],
+      [404.8, 179.7, 30, 123.6, 'translate(661.3 -178.3) rotate(90)'],
+      [103.9, 451.8, 30, 294.6, ''],
+      [88.9, 164.5, 30, 315, ''],
+      [660.2, 434.7, 30, 292.8, ''],
+      [705.2, 434.1, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [690.2, 149.5, 30, 295.1, ''],
+      [683, 476.9, 30, 67.8, 'translate(1208.8 -187.2) rotate(90)'],
+      [258.4, 564.4, 30, 335.5, 'translate(1005.5 458.8) rotate(90)'],
+      [448.4, 490.4, 30, 483.6, 'translate(1195.6 268.8) rotate(90)'],
+      [604.8, 631.7, 30, 200.9, 'translate(1351.9 112.4) rotate(90)'],
+      [237.8, 17.3, 30, 294.4, 'translate(417.3 -88.3) rotate(90)'],
+      [489.3, -10.9, 30, 350.9, 'translate(668.9 -339.8) rotate(90)']
+    ],
+    // Variation 6: f_logo_final_7
+    [
+      [267.8, 438.1, 30, 218.1, ''],
+      [252.8, 233.7, 30, 218.1, ''],
+      [327.1, 272.9, 30, 178.6, 'translate(704.3 20.1) rotate(90)'],
+      [313.9, 177.3, 30, 142.8, 'translate(577.6 -80.1) rotate(90)'],
+      [432.3, 194.7, 30, 123.6, 'translate(703.8 -190.8) rotate(90)'],
+      [103.9, 451.8, 30, 294.6, ''],
+      [88.9, 164.5, 30, 315, ''],
+      [660.2, 434.7, 30, 292.8, ''],
+      [690.2, 429, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [705.2, 169.7, 30, 295.1, ''],
+      [683, 150.8, 30, 67.8, 'translate(882.7 -513.3) rotate(90)'],
+      [258.4, 564.4, 30, 335.5, 'translate(1005.5 458.8) rotate(90)'],
+      [453.7, 470.8, 30, 483.6, 'translate(1181.3 243.9) rotate(90)'],
+      [604.8, 631.7, 30, 200.9, 'translate(1351.9 112.4) rotate(90)'],
+      [221.1, 7.5, 30, 294.4, 'translate(390.8 -81.4) rotate(90)'],
+      [489.3, -10.9, 30, 350.9, 'translate(668.9 -339.8) rotate(90)']
+    ],
+    // Variation 7: f_logo_final_8
+    [
+      [237.8, 458.3, 30, 218.1, ''],
+      [252.8, 256.5, 30, 218.1, ''],
+      [347.7, 330.4, 30, 178.6, 'translate(782.4 57.1) rotate(90)'],
+      [313.9, 200.1, 30, 142.8, 'translate(600.4 -57.4) rotate(90)'],
+      [432.3, 194.7, 30, 123.6, 'translate(703.8 -190.8) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [88.9, 164.5, 30, 315, ''],
+      [660.2, 434.7, 30, 292.8, ''],
+      [690.2, 404.7, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [705.2, 124.7, 30, 295.1, ''],
+      [683, 165.8, 30, 67.8, 'translate(897.7 -498.3) rotate(90)'],
+      [258.4, 564.4, 30, 335.5, 'translate(1005.5 458.8) rotate(90)'],
+      [462.9, 470.8, 30, 483.6, 'translate(1190.5 234.6) rotate(90)'],
+      [604.8, 612.1, 30, 200.9, 'translate(1332.3 92.8) rotate(90)'],
+      [221.1, 7.5, 30, 294.4, 'translate(390.8 -81.4) rotate(90)'],
+      [529.7, -35.7, 30, 350.9, 'translate(684.5 -405) rotate(90)']
+    ],
+    // Variation 8: f_logo_final_9
+    [
+      [227.4, 442.8, 30, 218.1, ''],
+      [237.8, 233.7, 30, 218.1, ''],
+      [313.9, 325.7, 30, 178.6, 'translate(743.9 86.1) rotate(90)'],
+      [313.9, 162.3, 30, 142.8, 'translate(562.6 -95.1) rotate(90)'],
+      [432.3, 194.7, 30, 123.6, 'translate(703.8 -190.8) rotate(90)'],
+      [88.9, 451.8, 30, 294.6, ''],
+      [103.9, 164.5, 30, 315, ''],
+      [660.2, 434.7, 30, 292.8, ''],
+      [706.4, 433.4, 30, 294.2, ''],
+      [660.2, 150.1, 30, 293.9, ''],
+      [706.4, 156.8, 30, 295.1, ''],
+      [683, 288.1, 30, 67.8, 'translate(1020 -375.9) rotate(90)'],
+      [258.4, 564.4, 30, 335.5, 'translate(1005.5 458.8) rotate(90)'],
+      [462.9, 470.8, 30, 483.6, 'translate(1190.5 234.6) rotate(90)'],
+      [591, 582.1, 30, 200.9, 'translate(1288.6 76.6) rotate(90)'],
+      [236.1, 17.3, 30, 294.4, 'translate(415.7 -86.6) rotate(90)'],
+      [546, -10.9, 30, 350.9, 'translate(725.5 -396.4) rotate(90)']
+    ],
+    // Variation 9: f_logo_final_10
+    [
+      [244.2, 433.8, 30, 218.1, ''],
+      [244.2, 226.5, 30, 218.1, ''],
+      [318.5, 302.9, 30, 178.6, 'translate(725.6 58.7) rotate(90)'],
+      [300.6, 170.1, 30, 142.8, 'translate(557.1 -74.1) rotate(90)'],
+      [404.8, 179.7, 30, 123.6, 'translate(661.3 -178.3) rotate(90)'],
+      [88.9, 432.7, 30, 294.6, ''],
+      [88.9, 149.5, 30, 315, ''],
+      [678.9, 414.6, 30, 292.8, ''],
+      [678.9, 423, 30, 294.2, ''],
+      [678.9, 150.1, 30, 293.9, ''],
+      [678.9, 149.5, 30, 295.1, ''],
+      [678.9, 282.1, 30, 30, 'translate(991 -396.8) rotate(90)'],
+      [241.7, 544.6, 30, 335.5, 'translate(969.1 455.7) rotate(90)'],
+      [452.1, 470.6, 30, 483.6, 'translate(1179.5 245.2) rotate(90)'],
+      [583.6, 611.9, 30, 200.9, 'translate(1311 113.8) rotate(90)'],
+      [221.1, 17.3, 30, 294.4, 'translate(400.7 -71.6) rotate(90)'],
+      [518.5, -10.9, 30, 350.9, 'translate(698 -368.9) rotate(90)']
+    ]
+  ];
+  
+  let isAnimating = false;
+  let animationComplete = false;
+  let currentVariationIndex = 0;
+  let variationTimeout = null;
+  
+  function applyVariation(index) {
+    const variation = logoVariations[index];
+    activeRects.forEach((rect, i) => {
+      if (i < variation.length) {
+        const [x, y, w, h, transform] = variation[i];
+        rect.dataset.origX = x.toString();
+        rect.dataset.origY = y.toString();
+        rect.dataset.origW = w.toString();
+        rect.dataset.origH = h.toString();
+        rect.dataset.origTransform = transform;
+        rect.setAttribute('x', x.toString());
+        rect.setAttribute('y', y.toString());
+        rect.setAttribute('width', w.toString());
+        rect.setAttribute('height', h.toString());
+        if (transform) {
+          rect.setAttribute('transform', transform);
+        } else {
+          rect.removeAttribute('transform');
+        }
+      }
+    });
+  }
+  
+  function startVariationAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animationComplete = false;
+    notesFullDiv.classList.remove('visible', 'fade-out');
+    currentVariationIndex = 0;
+    
+    const intervalTime = 80; // 80ms pro Variation = schnelle Abfolge
+    let step = 0;
+    
+    function nextVariation() {
+      if (step < logoVariations.length) {
+        applyVariation(step);
+        step++;
+        variationTimeout = setTimeout(nextVariation, intervalTime);
+      } else {
+        // Zurück zum Original
+        applyVariation(0);
+        isAnimating = false;
+        animationComplete = true;
+        notesFullDiv.classList.remove('fade-out');
+        notesFullDiv.classList.add('visible');
+      }
+    }
+    
+    nextVariation();
+  }
+  
+  function handleMouseMove(e) {
+    const svgRect = logo.getBoundingClientRect();
+    const scaleX = 800 / svgRect.width;
+    const scaleY = 800 / svgRect.height;
+    const mouseX = (e.clientX - svgRect.left) * scaleX;
+    const mouseY = (e.clientY - svgRect.top) * scaleY;
+    
+    activeRects.forEach((rect) => {
+      const ox = parseFloat(rect.dataset.origX);
+      const oy = parseFloat(rect.dataset.origY);
+      const ow = parseFloat(rect.dataset.origW);
+      const oh = parseFloat(rect.dataset.origH);
+      const cx = ox + ow / 2;
+      const cy = oy + oh / 2;
+      const dist = Math.hypot(mouseX - cx, mouseY - cy);
+      
+      if (dist < 130 && dist > 0) {
+        const force = (130 - dist) / 130;
+        const angle = Math.atan2(cy - mouseY, cx - mouseX);
+        const moveX = Math.cos(angle) * force * 20;
+        const moveY = Math.sin(angle) * force * 20;
+        
+        // Grow-Effekt: Rechteck wird größer
+        const growFactor = 1 + force * 0.8;
+        const newW = ow * growFactor;
+        const newH = oh * growFactor;
+        const offsetX = (newW - ow) / 2;
+        const offsetY = (newH - oh) / 2;
+        
+        rect.setAttribute('x', (ox + moveX - offsetX).toString());
+        rect.setAttribute('y', (oy + moveY - offsetY).toString());
+        rect.setAttribute('width', newW.toString());
+        rect.setAttribute('height', newH.toString());
+        rect.style.filter = 'drop-shadow(0 0 ' + (force * 12) + 'px #f35a86)';
+      } else {
+        rect.setAttribute('x', rect.dataset.origX);
+        rect.setAttribute('y', rect.dataset.origY);
+        rect.setAttribute('width', rect.dataset.origW);
+        rect.setAttribute('height', rect.dataset.origH);
+        rect.style.filter = '';
+      }
+    });
+  }
+  
+  function handleMouseEnter() {
+    if (isAnimating || animationComplete) return;
+    startVariationAnimation();
+  }
+  
+  function handleMouseLeave() {
+    // Animation abbrechen wenn noch läuft
+    if (variationTimeout) {
+      clearTimeout(variationTimeout);
+      variationTimeout = null;
+    }
+    
+    // Zurück zum Original
+    applyVariation(0);
+    
+    activeRects.forEach(rect => {
+      rect.setAttribute('x', rect.dataset.origX);
+      rect.setAttribute('y', rect.dataset.origY);
+      rect.setAttribute('width', rect.dataset.origW);
+      rect.setAttribute('height', rect.dataset.origH);
+      rect.style.filter = '';
+    });
+    
+    if (notesFullDiv.classList.contains('visible')) {
+      notesFullDiv.classList.add('fade-out');
+      notesFullDiv.classList.remove('visible');
+    }
+    
+    if (!isAnimating) animationComplete = false;
+    isAnimating = false;
+  }
+  
+  logo.addEventListener('mousemove', handleMouseMove);
+  logo.addEventListener('mouseenter', handleMouseEnter);
+  logo.addEventListener('mouseleave', handleMouseLeave);
+  
+  window.addCleanup(() => {
+    logo.removeEventListener('mousemove', handleMouseMove);
+    logo.removeEventListener('mouseenter', handleMouseEnter);
+    logo.removeEventListener('mouseleave', handleMouseLeave);
+    if (variationTimeout) clearTimeout(variationTimeout);
+  });
+});
+`
+}
+
 export const EFFECT_NOTES_REVEAL_REPEL_GROW: LogoEffect = {
   name: "Notes Reveal - Repel Grow",
   description: "Rechtecke werden abgestoßen und wachsen",
@@ -4274,6 +4758,7 @@ export const ALL_EFFECTS: LogoEffect[] = [
   EFFECT_NOTES_REVEAL_REPEL_GLOW,
   EFFECT_NOTES_REVEAL_REPEL_MAGNETIC,
   EFFECT_NOTES_REVEAL_REPEL_GROW,
+  EFFECT_LOGO_VARIATIONS_SEQUENCE,
 ]
 
 // ============================================================================
