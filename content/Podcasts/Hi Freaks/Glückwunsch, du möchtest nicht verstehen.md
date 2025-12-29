@@ -12,112 +12,37 @@ aliases:
   - hifreaks
   - jeanphilippekindler
 subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
+cssclasses:
 ---
-# Die Ideologiekritik des JPKs
+![[wallpaper_1_1920x1080.jpg]]
+# Zum Podcast "Hi Freaks" und JPKs Unverständnis über die "Art und Weise, wie auf politische News reagiert wird" 
 
-1:00:59
+Im Laufe der Folge kommt JPK auf "politische Absurditäten" zu sprechen und kritisiert, dass "Absurdität nur von denen produziert wird", die gleichzeitig "auch die Macht haben, um \[von\] Absurdität zu profitieren", während Menschen gleichzeitig von dieser Politik betroffen sind und mit den Absurditäten schon irgendwie auf je eigene Art und Weise zurechtkommen müssen (1:00:59). Was genau mit politischen Absurditäten gemeint ist, wird nicht weiter ausgeführt, was keine große Überraschung ist. Gewissermaßen zeichnet sich das meist wöchentliche Gespräch zwischen Jean-Philippe Kindler und Simon Slomma gerade dadurch aus, dass ein Thema selten die Gelegenheit bekommt, schon direkt die volle Aufmerksamkeit der beiden zu erhalten. Es wird sich gegenseitig, durchaus harmonisch und meist mit Wortwitzen oder Metaphern, ins Wort gefallen und im Laufe der jeweiligen Erzählung ergeben sich in der Regel weitere Themen, denen dann in der Regel sofort nachgegangen wird, was nicht unbedingt heißt, dass das vorherige Thema nicht doch irgendwann im Laufe der Folge wieder zur Sprache kommen wird.
 
-Sprecher\*in 2
+So ist es auch nicht überraschend, dass sich Simon unmittelbar vor den "politischen Absurditäten" darüber Gedanken machte, dass er hofft, im Alter nicht verschwurbelt zu sein, wie die ein oder andere Personen des öffentlichen Lebens und JPK hierauf mit der Betroffenheit der Menschen von "politischer Absurdität" antwortet, um dann Sekunden später "die Art und Weise, wie auf politische News reagiert wird" zu thematisieren. So leitet JPK zu dem antisemitischen Terroranschlag in Sydney mit 16 Toten über. Er findet es schrecklich, wie auf diese Nachrichten reagiert wird und ist traurig darüber, dass für "so viele Leute" nicht etwa das Entsetzen oder die Trauer im Vordergrund stehen, sondern häufig "wie kann ich das für meine eigene Ideologie jetzt verwenden, wie kann ich daraus jetzt dann doch noch mal sagen, irgendwie die pro-palästinensische Bewegung, die hat das ausgelöst" der erste Gedanke sei (01:01:30).
 
-Weißt du was?
+-  hier ggf. was hin zu dem hintergrund (infoposts, presse, BILD, Netanyahu, intifada)
 
-Ich halt einfach so traurig finde ist, das ist ja eben, es ist ja nicht so, dass halt irgendwie die Absurdität nur von denen produziert wird, die sozusagen auch die Macht haben, um Absurdität zu profitieren und damit durchzukommen so, sondern auch auf der Seite derer die Absurdität konsumieren, also halt sozusagen als Menschen, die betroffen sind von Politik.
+JPK bezweifelt also, dass es jenen, die versuchen einen Zusammenhang zwischen der pro-palästinensischen Protestbewegung und der islamistischen Terrortat in Sydney herzustellen, wirklich um Anteilnahme geht und äußert die Vermutung, dass sie vielmehr die schreckliche Tat für ihre eigene Ideologie instrumentalisieren (01:01:43).
 
-1:01:19
+Anschließend möchte JPK seinen Gedanken und seiner Kritik Ausdruck verleihen und erwähnt ein Video, in dem der Protagonist, der "jüdisch aufgewachsen" ist, von seinen persönlichen Erfahrungen in den letzten Jahren berichtet, dass "Antisemitismus on the rise" ist, "dass Antisemitismus sich natürlich gerade vermehrt gewaltvoll ausagiert" dass das aber von niemanden dazu verwendet werden sollte, die "pro-palästinensische Protestbewegung zu delegitimieren". Es ginge der Person dann eben nicht um "die Sache", nicht um Antisemitismus (1:02:24). Die Message der Person in dem Video war: "was ist das Problem von euch Leuten, wieso kann das nicht nebeneinander stehen?" – "und ich verstehe das auch gar nicht", fährt JPK fort (01:03:30).
 
-So also wir alle, also die Art und Weise, wie auf politische News reagiert wird, ist ja auch wirklich einfach schrecklich, so ne also.
+- hier ggf. zu meinem Kommentar "Wer ist mit der Kritik des Antisemitismus ernst meint, kritisiert ihn, anstelle darüber zu reden, wer die Kritik des Antisemitismus instrumentell, für eine eigene Ideologie verwendet."
 
-Es war jetzt gar nicht so, dass ich das Gefühl hatte, man muss das jetzt mal erwähnen, aber es gab ja diesen Terroranschlag in Sydney, ja, und was mich wieder wirklich einfach, ehrlich gesagt, einfach traurig gemacht hat, ist, dass der erste Gedanke bei so vielen Leuten ist.
+Warum kann es nicht einfach nebeneinanderstehen? Also der pro-palästinensische Protest, ein antisemitischer Terrorangriff in Sydney und eben der Antisemitismus bzw. dessen Kritik? Warum kann man nicht einfach "ne genozidale \[sic!\] Politik von einem Netanjahu" (01:03:50) kritisieren und gleichzeitig erschrocken über den Anstieg von Antisemitismus in den westlichen Gesellschaften sowie solidarisch mit der pro-palästinensischen Protestbewegung sein? Wer nun überhaupt genau den Anschlag in Sydney mit der pro-palästinensischen Protestbewegung in einen Zusammenhang gesetzt hat, bleibt im Grunde unklar. Netanjahu habe das allerdings getan, so JPK. Es werden wohl noch einige andere, mal mehr und vermutlich auch mal weniger fundiert, getan haben, die hier allerdings ebenso wie ihre Kontexte unerwähnt bleiben.
 
-1:01:43
+Simon ist mit dem plötzlichen Themenwechsel offensichtlich leicht überfordert, es ist nun mal der Nahostkonflikt, geht aber kurz und selbstreflektiert auf das Gesagte ein, was für den weiteren Text unerheblich sein wird. (01:04:30)
 
-Wie kann ich das für meine eigene Ideologie jetzt verwenden, wie kann ich daraus jetzt dann doch noch mal sagen, irgendwie die propalästinensische Bewegung, die hat das ausgelöst so.
+JPK kritisiert also, "dass man wirklich so News konsumiert", um diese "als Futterquelle" für die "eigene Ideologie" zu verwenden (01:04:15). Er betont, dass es falsch ist, dass "Jüdinnen und Juden verantwortlich für \[...\] die Politik eines Staates" gemacht werden, möchte gleichzeitig "aber auch hingehen und sagen, man muss diese Politik aufs Schärfste kritisieren, und da kann man dann nicht die ganze Zeit kommen mit 'ja das ist dann israelbezogener Antisemitismus'". Weiter kritisiert JPK das "Weaponizing", dass sich darin ausdrückt, dass die "ganze Zeit \[...\] schreckliche Ereignisse zur Waffe gemacht" werden, "mit der man die eigene politische Ideologie"  im Diskurs durchsetzen will (01:05:15).
 
-Das ist jetzt das, was das die, die die, das ist jetzt die direkte Folge, also wenn das dein erster Gedanke ist, dann kann man sich ja mal schon fragen, geht es mir hier wirklich darum, irgendwie Anteil zu nehmen oder bin ich so schreckliche Tat, die sind das Schuld, das kann ich für meine Ideologie verwenden, also ich finde das wirklich so unfassbar, wie das mittlerweile im Internet abläuft, es ist so unglaublich und ich habe ein tolles Video gesehen.
+> [!QUOTE]
+> Unideologisch ist aber der Gedanke, der sich nicht auf operational terms bringen läßt, sondern versucht, rein der Sache selbst zu jener Sprache zu verhelfen, welche ihr die herrschende sonst abschneidet.
 
-1:02:24
+Simon schafft an dieser Stelle (glücklicherweise) einen gelungenen Übergang zu einer Anekdote. Das Thema wird im weiteren Verlauf der Folge nicht mehr angesprochen.
 
-Von jemandem, der sich hingestellt hat und so gesagt hat und und da da dachte ich so, ja wirklich, man muss jetzt wirklich mal ganz, man muss jetzt wirklich Back to the roots und so richtig basal zwischendurch mal über sowas sprechen, er hat halt so gesagt, so ey Leute, Antisemitismus is on the Rise war halt so n englischsprachiges Video ist völlig klar, ich bin selber irgendwie.
+# Wieso kann das nicht einfach nebeneinanderstehen?
 
-1:02:46
-
-Ne, irgendwie jüdisch aufgewachsen natürlich, und es hat Effekte auf mich.
-
-Ich weiß jetzt nicht, ob ich heute Abend zu dieser Veranstaltung, zu dieser öffentlichen gehen will oder nicht, weil ich hab n bisschen Angst so ne und natürlich das ist n Fakt gar keine Frage und er war dann so, wer das aber verwendet um halt die ganze Zeit ne propalästinensische Protestbewegung zu delegitimieren, dem geht es nicht um die Sache und er hat dieses Video bestand wirklich nur daraus, dass er erklärt hat, warum es vollkommen möglich ist.
-
-1:03:15
-
-Zu erklären, dass Antisemitismus natürlich gerade wieder sich gewaltvoll ausagiert oder vermehrt Gewaltvoll ausagiert und dass man das nicht nutzen darf, um propalästinensischen Protest zu delegitimieren und es dieses Video war wirklich halt so, was ist das Problem von euch Leuten, wieso kann das nicht nebeneinander stehen und ich verstehe das auch gar nicht.
-
-1:03:45
-
-Also er war dann auch so in dem Video halt so.
-
-Es kann doch einfach, man kann doch hingehen und sagen, es gibt halt irgendwie ne genozidale Politik von einem Netanjahu und er hat ja das jetzt auch direkt wiederverwendet um zu sagen, ja das ist der Propalästinensische Protest, der hat die Leute da umgebracht, warum kann das nicht einfach nebeneinander stehen?
-
-1:04:03
-
-Es ist mir unbegreiflich und ich verstehe nicht wie man so.
-
-Bitter sein kann.
-
-Ich verstehe es, weil ich auch so bitter war in der Vergangenheit.
-
-Ich will mich da gar nicht drüber stellen, ehrlich gesagt, aber es schockiert mich auch im Rückblick auf mich selbst vor einigen Jahren, dass man wirklich so News konsumiert, als wie kann ich das eigentlich als Futterquelle für meine eigene Ideologie verwenden, das finde ich einfach krass.
-
-1:04:30
-
-Sprecher\*in 1
-
-Ja, und ich glaube, wenn wir auch irgendwie immer danach streben, die Dinge zu vereindeutigen und zu.
-
-Irgendwie einer einzigen Lösung zu kommen und zu einer einzigen Antwort.
-
-Dann werden wir wirklich einfach nie auf irgendeinen grünen Zweig kommen, weil weil wir müs
-en es irgendwie aushalten, dass Dinge so nebeneinander stehen können.
-
-1:04:48
-
-Ich find es auch anstrengend, ich muss zugeben, dass ich in in den letzten Tagen einfach ir
-endwie das einzige, was ich mitbekommen habe, war, wenn ich hier mein Radio angemacht habe und Friedrich Merz und so, ich hab natürlich in den Nachrichten auch gehört, dass das passiert ist und ich find es schrecklich und ich hab auch mitbekommen, dass dann auch in Deutschland Lichterfeste abgesagt wurden und sowas.
-
-1:05:05
-
-Das ist doch einfach die Hölle.
-
-Das ist doch.
-
-1:05:07
-
-Sprecher\*in 2
-
-Einfach?
-
-Ja, das ist Scheiße.
-
-Es ist ne absolute Katastrophe.
-
-1:05:10
-
-Sprecher\*in 1
-
-Ja.
-
-1:05:11
-
-Sprecher\*in 2
-
-Und natürlich werden da Jüdinnen und Juden verantwortlich gemacht für die Politik eines Sta
-tes, und gleichzeitig muss man dann aber auch hingehen und sagen, man muss diese Politik aufs Schärfste kritisieren, und da kann man dann nicht die ganze Zeit kommen, mit der, das ist dann israelbezogener Antisemitismus.
-
-1:05:33
-
-Also das geht doch einfach nicht.
-
-Also was ist das für n Weaponizing die ganze Zeit?
-
-Das ist es vielleicht halt so ne, also die ganze Zeit werden schreckliche Ereignisse zur Waffe gemacht, mit der man die eigene politische Ideologie durchsetzen will im Diskurs und ich finde das ist einfach schlimm.
-
+Zusammengefasst: JPK hat 
 # Der Vorwurf: Bloßes Distinktionsbedürfnis und „überakademisierten Sprache“ in der Kommentarspalte
 
 46:23
@@ -299,8 +224,11 @@ Das mit mit Arctos und alles.
 
 
 
-==Hi Freaks ist definitiv nicht der Ort für eine Nahostdebatte und niemand braucht eine Meinung zum Nahostkonflikt haben.==
+==Hi Freaks ist definitiv nicht der Ort für eine Nahostdebatte und niemand braucht eine Meinung zum Nahostkonflikt haben.== Und wenn, dann [tu es gut](https://www.youtube.com/watch?v=VpGk5_ESwic) 
 
+```
+[![Watch the video](img.youtube.com)](www.youtube.com)
+```
 
 Ja, das soll ja auch so sein. Also das ist ja das Ziel, dann hat das Ziel ist ja Distinktion so.
 
