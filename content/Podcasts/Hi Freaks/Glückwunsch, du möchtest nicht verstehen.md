@@ -45,11 +45,13 @@ JPK vollzieht hier keine Ideologiekritik, sondern kritisiert die politische Auss
 > [!QUOTE] Obligatorisches Alphonso-Zitat zum Flexen
 > Unideologisch ist aber der Gedanke, der sich nicht auf operational terms bringen läßt, sondern versucht, rein der Sache selbst zu jener Sprache zu verhelfen, welche ihr die herrschende sonst abschneidet.
 
-# Der Vorwurf: Bloßes Distinktionsbedürfnis und „überakademisierten Sprache“ in der Kommentarspalte
+# Der Vorwurf: Bloßes Distinktionsbedürfnis und „überakademisierte Sprache“
 
 Die Äußerungen von JPK führten zu einigen, wenigen kritischen Kommentaren in der Spotify-Kommentarspalte (andere Plattformen habe ich nicht durchsucht), die mit der von ihm eingenommenen Solidarität für die "pro-palästinensische Bewegung" ihre Schwierigkeiten hatten.
 
-> [!NOTE] Besagte Kommentare (Benutzernamen entfernt):
+
+
+> [!NOTE]- Besagte Kommentare (Benutzernamen entfernt):
 > > A: „*Ich finde es schon wichtig auch zu erwähnen, dass antisemitismus auch on the rise ist, weil er auf pro palästinensischen Demos geäußert wird, im Gewand der palästinensischen Solidarität. Auch da geht es Leuten mitunter nicht, um die Menschen in Gaza, sondern um die Befeuerung ihrer eigenen antisemitischen Ideologie.*“
 > > 
 > >  1. B: „*Es gibt innerhalb der linken, sogenannten pro-palästinensischen Protestbewegung auch keinerlei wahrnehmbare Distanz zum Begriff der Intifada. Vielmehr fordert man offen, sie zu "globalizen". Der Antisemitismus ist der linken Palisoli inhärent, seit dem 7. Oktober umso offensichtlicher. Wer es mit seiner Kritik des Antisemitismus und mit politischer Emanzipation ernst meint, kann das nicht "einfach nebeneinanderstehen" lassen, während sich die Globalisierung der Intifada real vollzieht.*“
