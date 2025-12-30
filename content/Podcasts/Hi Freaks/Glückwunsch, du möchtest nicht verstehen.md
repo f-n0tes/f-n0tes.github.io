@@ -40,18 +40,16 @@ Und natürlich ist es unsinnig, einen direkten Zusammenhang zwischen der Terrort
 
 Dass JPK hier möglicherweise einen pro-palästinensischen Protest vor Augen hat, in dem sich diese antisemitischen Positionen nicht auffinden lassen, scheint unwahrscheinlich, wenn von der "pro-palästinensischen Bewegung" die Rede ist. Denn innerhalb jener gegenwärtiger Proteste, die den pro-palästinensischen Aktivismus in den westlichen Gesellschaften vollends dominieren, und die scheinbar von einigen, inklusive Netanjahu (wenngleich er als israelischer Ministerpräsident natürlich eine politische Ideologie verfolgt), in einen Kontext mit den Morden in Sydney gesetzt werden, ist eine Distanz zu antisemitischen Positionen kaum auszumachen. Kommt es innerhalb dieser Protestbewegung dann doch mal zur Kritik des Antisemitismus, ist dieses stets instrumentell zu verstehen, insofern es eher um das Durchsetzen neuer Definitionen von Antisemitismus geht, in antizionistischen Juden die Wahrheit verortet wird oder Argumentationsmuster aus dem Antirassismus auf das ideologisch anders gelagerte Phänomen des Antisemitismus übertragen werden. Man stelle sich eine pro-palästinensische Protestbewegung in dieser Größenordnung vor, die sich konsequent für die Entwaffnung der Hamas und für die Freilassung der Geiseln ausgesprochen hätte, die sich gegen das islamische Regime im Iran und die Hisbollah ausgesprochen hätte, die Sprechchöre wie bspw. "Yemen, Yemen make us proud, turn another ship around" konsequent unterbunden hätte, anstelle einzig und allein auf Israel, seine Regierung und seine (auch aus israelsolidarischer Perspektive zugegebenermaßen schwer zu rechtfertigende) Kriegsführung zu fokussieren.
 
-JPK vollzieht hier keine Ideologiekritik, sondern kritisiert die politische Ausschlachtung solch schrecklicher Ereignisse für die eigene Ideologie. Es gibt aber keinen Grund anzunehmen, dass die seit nun zwei Jahren ausufernden antisemitischen Positionen, die durch die sogenannte pro-palästinensischen Proteste ins Internet, in die Innenstädte und an die Campi (Campusse?) getragen wurden, nicht zu einer allgemeinen antisemitischen Grundstimmung, die sich vermehrt gewaltvoll ausagiert, beigetragen haben. Sicherlich waren die Täter in Sydney wahnsinnige, religiös radikalisierte und ideologisierte Einzeltäter, die nicht im Namen der palästinensischen Sache handelten. Ideologiekritik würde allerdings gerade hier ansetzen, denn sonst könnte man die Täter in den Fällen Hanau, Halle oder Walter Lübcke auch bloß als irre Einzeltäter begreifen und in keinen übergreifenden ideologischen Zusammenhang stellen – sie handelten ja auch nicht aus irgendeinen Parteibeschluss der AfD oder unmittelbar aus einer migrationsfeindlichen und rassistischen Protestbewegung heraus. Der Zusammenhang zwischen einer Protestbewegung, in der sich keinerlei wahrnehmbare Distanz zum Begriff der Intifada, der vor allem für Selbstmordattentate auf ziviles, jüdische Leben Anfang der 2000er Jahre in Israel steht, ausmachen lässt und einem (selbst-)mörderischen Anschlag auf eine Hanukkah-Feier in Sydney kann also durchaus ideologiekritisch hergestellt werden, wenngleich Netanjahu, Böhmermann oder die BILD-Zeitung sich vordergründig ähnlich dazu äußern. Wer es mit der Kritik des Antisemitismus ernst meint, kritisiert ihn, anstelle darüber zu reden, wer die Kritik des Antisemitismus instrumentell für eine eigene Ideologie verwendet; erst dann geht es um "die Sache".
+JPK vollzieht hier keine Ideologiekritik, sondern kritisiert die politische Ausschlachtung solch schrecklicher Ereignisse für die jeweils eigene Ideologie. Es gibt aber keinen Grund anzunehmen, dass die seit nun zwei Jahren ausufernden antisemitischen Positionen, die durch die sogenannte pro-palästinensischen Proteste ins Internet, in die Innenstädte und an die Campi (Campusse?) getragen wurden, nicht zu einer allgemeinen antisemitischen Grundstimmung, die sich vermehrt gewaltvoll ausagiert, beigetragen haben. Sicherlich waren die Täter in Sydney wahnsinnige, religiös radikalisierte und ideologisierte Einzeltäter, die nicht im Namen der palästinensischen Sache handelten. Ideologiekritik würde allerdings gerade hier ansetzen, denn sonst könnte man die Täter in den Fällen Hanau, Halle oder Walter Lübcke auch bloß als irre Einzeltäter begreifen und in keinen übergreifenden ideologischen Zusammenhang stellen – sie handelten ja auch nicht aus irgendeinen Parteibeschluss der AfD oder unmittelbar aus einer migrationsfeindlichen und rassistischen Protestbewegung heraus. Der Zusammenhang zwischen einer Protestbewegung, in der sich keinerlei wahrnehmbare Distanz zum Begriff der Intifada, der vor allem für Selbstmordattentate auf ziviles, jüdische Leben Anfang der 2000er Jahre in Israel steht, ausmachen lässt und einem (selbst-)mörderischen Anschlag auf eine Hanukkah-Feier in Sydney kann also durchaus ideologiekritisch hergestellt werden, wenngleich Netanjahu, Böhmermann oder die BILD-Zeitung sich vordergründig ähnlich dazu äußern. Wer es mit der Kritik des Antisemitismus ernst meint, kritisiert ihn, anstelle darüber zu reden, wer die Kritik des Antisemitismus instrumentell für eine eigene Ideologie verwendet; erst dann geht es um "die Sache".
 
 > [!QUOTE] Obligatorisches Alphonso-Zitat zum Flexen
 > Unideologisch ist aber der Gedanke, der sich nicht auf operational terms bringen läßt, sondern versucht, rein der Sache selbst zu jener Sprache zu verhelfen, welche ihr die herrschende sonst abschneidet.
 
 # Der Vorwurf: Bloßes Distinktionsbedürfnis und „überakademisierte Sprache“
 
-Die Äußerungen von JPK führten zu einigen, wenigen kritischen Kommentaren in der Spotify-Kommentarspalte (andere Plattformen habe ich nicht durchsucht), die mit der von ihm eingenommenen Solidarität für die "pro-palästinensische Bewegung" ihre Schwierigkeiten hatten.
+Die Äußerungen von JPK führten zu einigen, wenigen kritischen Kommentaren in der Spotify-Kommentarspalte (andere Plattformen habe ich nicht durchsucht), die etwas an der von ihm eingenommenen Solidarität für die "pro-palästinensische Bewegung" auszusetzen hatten.
 
-
-
-> [!NOTE]- Besagte Kommentare (Benutzernamen entfernt):
+> [!NOTE]- Besagte (überakademisierte) Kommentare (Benutzernamen entfernt):
 > > A: „*Ich finde es schon wichtig auch zu erwähnen, dass antisemitismus auch on the rise ist, weil er auf pro palästinensischen Demos geäußert wird, im Gewand der palästinensischen Solidarität. Auch da geht es Leuten mitunter nicht, um die Menschen in Gaza, sondern um die Befeuerung ihrer eigenen antisemitischen Ideologie.*“
 > > 
 > >  1. B: „*Es gibt innerhalb der linken, sogenannten pro-palästinensischen Protestbewegung auch keinerlei wahrnehmbare Distanz zum Begriff der Intifada. Vielmehr fordert man offen, sie zu "globalizen". Der Antisemitismus ist der linken Palisoli inhärent, seit dem 7. Oktober umso offensichtlicher. Wer es mit seiner Kritik des Antisemitismus und mit politischer Emanzipation ernst meint, kann das nicht "einfach nebeneinanderstehen" lassen, während sich die Globalisierung der Intifada real vollzieht.*“
@@ -65,159 +63,16 @@ Die Äußerungen von JPK führten zu einigen, wenigen kritischen Kommentaren in 
 > > 1. E: „*Ist Kritik am Staat Israel für dich automatisch antisemitisch?“*
 > > 2. D: *„Kritik am Staat Israel ist dann antisemitisch wenn Antisemitismus die Basis der Kritik ist“*
 
-46:23
+Am Ende der darauffolgenden Folge kommt Simon, der sich von diesen Kommentaren berechtigterweise auch angesprochen fühlte, noch einmal auf diese zu sprechen und möchte klarstellen, dass er nicht genau verstanden hat, worauf die geäußerte Kritik so wirklich zielte:
 
-Sprecher*in 2
+>Simon: *„Ich hab mich mal \[...\] durch Kommentarspalte der letzten Folge gearbeitet und \[...\] was ich nur sagen will Leute ist, ich kenn mich da mit vielem auch nicht so richtig aus \[...\] und ich muss sagen, es gab eigentlich nur ganz wenig Kommentare zu dem Thema, was da kritisch besprochen wurde, die ich verstanden habe, wenn ich ehrlich bin*“ (ca. min 47).
 
-K ich glaub, wir haben das für den Moment mit der aktuellen Erkenntnislage ganz gut zusammengefasst.
+Er hat sich Mühe dabei gegeben und fragt sich, ob er "intellektuell nicht kritisch genug" sei oder an der Stelle nochmal hätte nachhaken sollen (anstelle mit einer Anekdote das Gespräch in eine andere Richtung zu bewegen) (ca. min 47). Meiner Ansicht nach, war das überhaupt kein Problem – ich höre *Hi Freaks* ja vor allem als ADHS-freundlichen, leichten Laberpodcast, mag die Wortspiele, die Konzeptlosigkeit, das Durcheinanderreden und das Mäandern (das andere in meinem Umfeld verrückt macht, weil selten ein Punkt zu Ende geführt wird) und interessiere mich beim Hören vor allem für die Anekdoten und das Bewältigen eines freiberuflichen Kleinkünstlerlebens, das die zwei Podcasthosts regelmäßig schildern.
 
-Und wenn ich wieder sage, mein ich zu 95 prozentig.
+Keiner der Kommentatoren kritisierte Simon und ich für meinen Teil (Kommentator B) fand Simons Reaktion auf die Aussagen von JPK durchaus reflektiert. JPK weiß natürlich, dass er mit der Kritik angesprochen wird und scheint sich bereits darüber im Klaren zu sein, worum es hier genau geht. Denn dass Simon diese Kommentare nicht ganz versteht oder kontextualisieren kann, liege daran, dass die Kommentare gar nicht aus einer kritischen oder aufklärerischen Absicht, sondern aus einem Distinktionsbedürfnis heraus formuliert wurden. Dass er die Kommentare nicht versteht, soll gerade so sein:
 
-Und ja, meine Frage wäre jetzt noch, wir haben jetzt schon 12:47 Uhr, wir könnten theoretisch noch einen Kleinen.
+> JPK: „Ja, das soll ja auch so sein. Also das \[...\] Ziel ist ja Distinktion“ (ca. min 47).
 
-46:38
-
-Kommentarspalten-Kritik und die Kunst des Nicht-Verstehens
-
-Schwenker machen, das ist aber, könnte aber inhaltlich vielleicht größer werden.
-
-Das können wir auch sonst noch mal verschieben.
-
-Ich hab mich mal, ich hab mich mal so allgemein durch die Kommentarspalte der letzten Folge gearbeitet und da könnte man noch mal irgendwie, also ich glaub was ich nur sagen will Leute ist ich kenn mich da mit vielem auch nicht so richtig aus und da wurde ja viel noch mal kritisch besprochen und ich muss sagen es gab eigentlich nur ganz wenig Kommentare zu dem Thema was da kritisch besprochen wurde die ich verstanden habe wenn ich ehrlich bin.
-
-47:06
-
-Sprecher*in 1
-
-Ach so, du meinst zum Thema hier antisemitischer Anschlag Sydney, Israel Palästinakonflikt meinst du?
-
-47:12
-
-Sprecher*in 2
-
-Ja, und da war aber da waren halt Kommentare, das war eine Sprache, die ich, habe ich einfach nicht verstanden.
-
-47:18
-
-Sprecher*in 1
-
-Ja, das soll ja auch so sein.
-
-Also das ist ja das Ziel, dann hat das Ziel ist ja distinktion so.
-
-47:23
-
-Sprecher*in 2
-
-Dann ist das Ziel erreicht worden.
-
-Aber ich habe wirklich versucht, das dann zu verstehen, weil ich frage mich ja dann auch, bin ich hier irgendwie manchmal nicht kritisch genug oder müsste ich da irgendwie noch mal mehr nachfragen oder so.
-
-Das Problem, was ich emotional auch habe bei dem Thema ist, dass es mir so nahe geht und ich gleichzeitig auch Angst kriege und so, weil ich weiß, dass es ja auch immer heiß gekocht wird, vor allem von denen, die es nicht essen müssen, dass ich kann ich, ich find es total schwer dazu ne irgendwas zu sagen wo wo ich denke, hier hab ich gerade n Gefühl zu dem was ich da gerade sage weißt du wie ich meine?
-
-47:55
-
-Sprecher*in 1
-
-Ich werd es mir vielleicht für die nächste Folge noch mal genauer anschauen.
-
-Ich hab es natürlich auch überflogen und ich hab es auch aufmerksam gelesen und wie immer, wenn irgendwas in meine Richtung zurückkommt, die Leute meinten da ja in erster Linie mich und meine Ausführung nehm ich mir das schon zu Herzen.
-
-Für diese Folge war es mir ehrlich gesagt egal.
-
-Ich bin da auch so n bisschen bei dieser.
-
-48:12
-
-Ja, schon auch gewählt, sehr überakademisierten Sprache.
-
-Mittlerweile habe ich da auch wirklich so beißreflexe, also dass ich so denke als so.
-
-Ja also Glückwunsch, du wirst nicht verstanden, Glückwunsch, also herzlichen Glückwunsch, du hast es geschafft so.
-
-48:28
-
-Sprecher*in 2
-
-Ich finde Glückwunsch.
-
-Du wirst nicht verstanden, auch einen tollen Folgentitel.
-
-48:32
-
-Sprecher*in 1
-
-Ja, so.
-
-Aber ich nehme es trotzdem ernst, auch wenn ich jetzt hier gerade so ein bisschen, so ein bisschen.
-
-Zynisch darüber spreche.
-
-Einen Kommentar will ich noch mal herausgreifen, so wo jemand geschrieben hat, mir hat der Joppel besser gefallen, der sich nicht zu diesen Dingen geäußert hat.
-
-48:50
-
-So also ich wollte sagen, also ich möchte nur an diese Person einmal richten, du sagst im Prinzip ja nichts anderes als jetzt wo er seine Meinung sagt, möchte ich bitte, dass er nichts mehr sagt und.
-
-49:05
-
-Sprecher*in 2
-
-Hängt auch von der Meinung ab, wahrscheinlich die man sagt ne.
-
-49:07
-
-Sprecher*in 1
-
-Ja, natürlich.
-
-Und ich mein.
-
-Wenn ich es geschafft habe, mir diese Überheblichkeit abzutrainieren, schaffst du es vielleicht ja auch.
-
-49:17
-
-Sprecher*in 2
-
-Sagte er völlig unüberheblich ich.
-
-Ich hoffe auch nicht, dass du das Gefühl, ich hoffe auch nicht, dass du das Gefühl hast, dadurch, dass ich es noch mal hier in den Podcast reinzieht, dass dir damit in den Rücken fallen möchte oder so irgendwie immer wenn dieses Thema aufkommt.
-
-49:32
-
-Übrigens hinter dir hängt so ein kleiner Mistelzweig und es sieht ein bisschen aus, als wärst du gerade so ein.
-
-So ein Männchen, was an der Schnur aufgehangen hat.
-
-Ja kannst du mal kurz diese Hampelmann Figuren machen für mich nur für mich.
-
-49:44
-
-Sprecher*in 1
-
-Ich finde Marionette a, das ist antisemitisch.
-
-Jetzt auch krass.
-
-49:46
-
-Sprecher*in 2
-
-Ja, nein, das ist mir zu heiß.
-
-Ich kann das nicht, also wirklich, ich will auch nur noch mal sagen, wenn wir irgendwie immer in diese Richtung rutschen, ich werd sofort nervös, es ging mir eigentlich eher darum, das emotionale davon zu besprechen.
-
-Ich merke sofort, dass ich angespannt werde und dann überlege ich immer, was kann ich dazu sagen?
-
-50:04
-
-Wo ich, wo ich n Überblick habe, wo ich was von verstehe und dann muss ich mir Aspekte raussuchen.
-
-So und das für mich ist das immer n bisschen wie dieses letzte Spiel bei bei Tabaluga wo die da sich merken müssen wie der Weg ist über diese, über diese Eisplanken da und dann wird der Weg einmal kurz beleuchtet und dann wird er wieder dunkel gemacht und man muss sich merken wo die Stellen sind wo man hintreten kann.
-
-50:24
-
-Das mit mit Arctos und alles.
 
 # Die "überakademisierten" Kommentare
 
@@ -234,7 +89,7 @@ Das mit mit Arctos und alles.
 [![Watch the video](img.youtube.com)](www.youtube.com)
 ```
 
-Ja, das soll ja auch so sein. Also das ist ja das Ziel, dann hat das Ziel ist ja Distinktion so.
+
 
 ==Wäre das Ziel Distinktion, würde ich mir nicht die Mühe machen, in die dms zu sliden. Es geht um Reflexion des Dargebotenen, nicht um distinktion.==
 
