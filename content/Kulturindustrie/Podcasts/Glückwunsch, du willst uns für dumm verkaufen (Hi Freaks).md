@@ -49,6 +49,8 @@ JPK vollzieht hier keine Ideologiekritik, sondern kritisiert die politische Auss
 
 # Distinktionsbedürfnis und „überakademisierte Sprache“
 
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/73fFFg6NxHfM2Fdeo9maAn/video?utm_source=generator&t=2802" width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 Die Äußerungen von JPK führten zu einigen wenigen, kritischen Kommentaren in der Spotify-Kommentarspalte, die etwas an der von ihm eingenommenen Solidarität für die "pro-palästinensische Bewegung" auszusetzen hatten. Am Ende der darauffolgenden Folge kommt Simon, der sich von diesen Kommentaren berechtigterweise auch angesprochen fühlte, noch einmal auf diese zu sprechen und möchte klarstellen, dass er nicht genau verstanden hat, worauf die geäußerte Kritik so wirklich zielte:
 
 >Simon: *„Ich hab mich mal \[...\] durch Kommentarspalte der letzten Folge gearbeitet und \[...\] was ich nur sagen will Leute ist, ich kenn mich da mit vielem auch nicht so richtig aus \[...\] und ich muss sagen, es gab eigentlich nur ganz wenig Kommentare zu dem Thema, was da kritisch besprochen wurde, die ich verstanden habe, wenn ich ehrlich bin*“ (ca. min 47).
