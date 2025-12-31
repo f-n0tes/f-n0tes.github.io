@@ -14,7 +14,7 @@ aliases:
 subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
 cssclasses:
 ---
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4nZZXd49Yr8E6K43WWuyTi?utm_source=generator&t=3659" width="340" height?="191" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4nZZXd49Yr8E6K43WWuyTi?utm_source=generator&t=3659" width="340" height="191" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 In dem Podcast
 # Rekonstruktion und Einordnung
