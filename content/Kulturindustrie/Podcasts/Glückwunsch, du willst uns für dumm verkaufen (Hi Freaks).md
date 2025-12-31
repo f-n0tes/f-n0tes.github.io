@@ -14,7 +14,7 @@ aliases:
 subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
 cssclasses:
 ---
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4nZZXd49Yr8E6K43WWuyTi?utm_source=generator&t=3659" width="340" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4nZZXd49Yr8E6K43WWuyTi?utm_source=generator&t=3659" width="340" height?="191" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 In dem Podcast
 # Rekonstruktion und Einordnung
@@ -49,7 +49,7 @@ JPK vollzieht hier keine Ideologiekritik, sondern kritisiert die politische Auss
 
 # Distinktionsbedürfnis und „überakademisierte Sprache“
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/73fFFg6NxHfM2Fdeo9maAn?utm_source=generator&t=2802" width="340" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/73fFFg6NxHfM2Fdeo9maAn?utm_source=generator&t=2802" width="340" height="191" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Die Äußerungen von JPK führten zu einigen wenigen, kritischen Kommentaren in der Spotify-Kommentarspalte, die etwas an der von ihm eingenommenen Solidarität für die "pro-palästinensische Bewegung" auszusetzen hatten. Am Ende der darauffolgenden Folge kommt Simon, der sich von diesen Kommentaren berechtigterweise auch angesprochen fühlte, noch einmal auf diese zu sprechen und möchte klarstellen, dass er nicht genau verstanden hat, worauf die geäußerte Kritik so wirklich zielte:
 
