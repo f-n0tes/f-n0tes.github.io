@@ -14,13 +14,13 @@ aliases:
 subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
 cssclasses:
 ---
-<div align="center" style="max-width:440px; height:150px; overflow:hidden; margin:0 auto;">
+<div align="center" style="max-width:440px; height:152px; overflow:hidden; margin:0 auto;">
   <iframe data-testid="embed-iframe" style="border-radius:12px; border:none; overflow:hidden; width:100%; height:100%;" src="https://open.spotify.com/embed/episode/4nZZXd49Yr8E6K43WWuyTi?utm_source=generator&t=3659" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
 
 In dem Podcast
-1. # Rekonstruktion und Einordnung
+# Rekonstruktion und Einordnung
 
 Im Laufe der Folge kommt JPK auf "politische Absurditäten" zu sprechen und kritisiert, dass "Absurdität nur von denen produziert wird", die gleichzeitig "auch die Macht haben, um \[von\] Absurdität zu profitieren", während Menschen gleichzeitig von dieser Politik betroffen sind und mit den Absurditäten schon irgendwie auf je eigene Art und Weise zurechtkommen müssen (1:00:59). Was genau mit politischen Absurditäten gemeint ist, wird nicht weiter ausgeführt, was keine große Überraschung ist. Gewissermaßen zeichnet sich das meist wöchentliche Gespräch zwischen Jean-Philippe Kindler und Simon Slomma gerade dadurch aus, dass ein Thema selten die Gelegenheit dazu hat, sich schon direkt vollends zu entfalten und die volle Aufmerksamkeit der beiden zu erhalten. Es wird sich gegenseitig, durchaus harmonisch (und mit eine bemerkenswerten Wortspiel- und Metapherdichte), ins Wort gefallen und im Laufe der jeweiligen Erzählung ergeben sich in der Regel weitere Themen, denen dann in der Regel sofort nachgegangen wird, was nicht unbedingt heißt, dass das vorherige Thema nicht doch irgendwann im Laufe der Folge wieder zur Sprache kommen wird.
 
