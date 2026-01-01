@@ -59,11 +59,18 @@ function sluggify(s: string): string {
     .split("/")
     .map((segment) =>
       segment
+        // Deutsche Umlaute und Sonderzeichen ersetzen
+        .replace(/ä/g, "ae")
+        .replace(/ö/g, "oe")
+        .replace(/ü/g, "ue")
+        .replace(/Ä/g, "Ae")
+        .replace(/Ö/g, "Oe")
+        .replace(/Ü/g, "Ue")
+        .replace(/ß/g, "ss")
         .replace(/\s/g, "-")
         .replace(/&/g, "-and-")
         .replace(/%/g, "-percent")
-        .replace(/\?/g, "")
-        .replace(/#/g, ""),
+        .replace(/[?#,;:!'"„"]/g, ""),  // Sonderzeichen entfernen
     )
     .join("/") // always use / as sep
     .replace(/\/$/, "")
