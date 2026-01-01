@@ -5,6 +5,7 @@ title: f-notes
 enableToc: true
 showDate: false
 showReadingTime: false
+draft: true
 
 ---
 
