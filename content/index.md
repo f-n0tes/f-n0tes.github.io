@@ -5,7 +5,7 @@ showDate: false
 showReadingTime: false
 draft: false
 ---
-![[f-notes-intrografik-1.jpg]]
+![[f-notes-intro-2.jpg]]
 
 # F-NOTES: Kulturindustrie, Pädagogik und Graffiti
 
