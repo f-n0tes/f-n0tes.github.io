@@ -1,6 +1,6 @@
 ---
 title: f-notes
-enableToc: true
+enableToc: false
 showDate: false
 showReadingTime: false
 draft: false
