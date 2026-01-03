@@ -1,6 +1,6 @@
 ---
 creator: Fred
-year: 2025-12-28
+year: 2026-01-01
 genre: Podcast
 tags:
   - thema/politik
