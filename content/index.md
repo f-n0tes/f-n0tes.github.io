@@ -12,5 +12,5 @@ Hier sollen über kurz oder lang Notizen, Reflexionen und Texte entstehen, die s
 Der erste hier veröffentliche Text dient vor allem der Reflexion meines Kommentarspaltentourettes und der Einordnung meiner Kritik an der pro-palästinensischen Protestbewegung, auf die Jean-Philippe Kindler in dem Podcast *Hi Freaks* Bezug genommen hat:
 
 > [!hint] Kulturindustrie/Podcasts
->- [[Glückwunsch, du willst uns für dumm verkaufen (Hi Freaks)]]
+>- [[Glückwunsch, du willst uns für dumm verkaufen]]
 

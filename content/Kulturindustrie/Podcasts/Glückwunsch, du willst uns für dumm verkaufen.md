@@ -8,6 +8,7 @@ tags:
   - thema/antisemitismus
   - thema/israel
   - thema/palästina
+  - kulturindustrie/podcast/hifreaks
 aliases:
   - hifreaks
   - jeanphilippekindler
