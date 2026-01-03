@@ -1,5 +1,5 @@
 ---
-title: F_NOTES: Kulturindustrie, Pädagogik, Graffiti
+title: "F_NOTES: Kulturindustrie, Pädagogik, Graffiti"
 enableToc: true
 showDate: false
 showReadingTime: false
