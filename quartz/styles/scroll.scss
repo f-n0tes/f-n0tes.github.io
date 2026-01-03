@@ -1,19 +1,25 @@
 @media (max-width: 800px) {
-  .sidebar.left,
-  .sidebar.right {
+  .sidebar.left {
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
-  body.scrolled-down .sidebar.left,
-  body.scrolled-down .sidebar.right {
+  body.scrolled-down .sidebar.left {
     opacity: 0;
     transform: translateY(-100%);
   }
 
-  body:not(.scrolled-down) .sidebar.left,
-  body:not(.scrolled-down) .sidebar.right {
+  body:not(.scrolled-down) .sidebar.left {
     opacity: 1;
     transform: translateY(0);
+  }
+  
+  /* Rechte Sidebar (Graphansicht, Backlinks) vom Scroll-Effekt KOMPLETT ausnehmen */
+  .sidebar.right {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
   }
   
   /* Wenn das Explorer-Menü geöffnet ist, Sidebar NICHT ausblenden */

@@ -44,7 +44,8 @@
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
+    height: 100dvh; // Dynamic viewport height for mobile (accounts for address bar)
     backdrop-filter: blur(4px);
     display: none;
     overflow: hidden;
@@ -63,6 +64,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       height: 80vh;
+      height: 80dvh; // Dynamic viewport height for mobile
       width: 80vw;
 
       @media all and not ($desktop) {

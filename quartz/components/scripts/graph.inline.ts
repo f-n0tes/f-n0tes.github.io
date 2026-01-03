@@ -600,6 +600,12 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     const slug = getFullSlug(window)
     for (const container of containers) {
       container.classList.add("active")
+      // Prevent body scroll on mobile when graph is open
+      document.body.style.overflow = "hidden"
+      document.body.style.position = "fixed"
+      document.body.style.width = "100%"
+      document.body.style.top = `-${window.scrollY}px`
+      
       const sidebar = container.closest(".sidebar") as HTMLElement
       if (sidebar) {
         sidebar.style.zIndex = "1"
@@ -617,6 +623,14 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     cleanupGlobalGraphs()
     for (const container of containers) {
       container.classList.remove("active")
+      // Restore body scroll
+      const scrollY = document.body.style.top
+      document.body.style.overflow = ""
+      document.body.style.position = ""
+      document.body.style.width = ""
+      document.body.style.top = ""
+      window.scrollTo(0, parseInt(scrollY || "0") * -1)
+      
       const sidebar = container.closest(".sidebar") as HTMLElement
       if (sidebar) {
         sidebar.style.zIndex = ""
