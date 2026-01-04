@@ -333,10 +333,12 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
     margin-bottom: 0.5rem;
     
     .explorer-mobile-logo-img {
-      height: 3.5rem;
+      height: 2.75rem;
       width: auto;
       margin: 0 auto;
       object-fit: contain;
+      padding: 0 0.5rem;
+      display: block;
     }
     
     /* Light Mode: Light-Logo anzeigen, Dark-Logo verstecken */
