@@ -4396,9 +4396,9 @@ document.addEventListener("nav", function initLogoVariationsSequence() {
   logo.addEventListener('mouseenter', handleMouseEnter);
   logo.addEventListener('mouseleave', handleMouseLeave);
   
-  // Animation beim Laden der Seite automatisch starten
+  // Animation beim Laden der Seite automatisch starten (nur Desktop)
   setTimeout(() => {
-    if (!isAnimating && !animationComplete) {
+    if (!isAnimating && !animationComplete && window.innerWidth > 800) {
       startVariationAnimation();
       // Nach Animation + 1 Sekunde automatisch ausblenden
       setTimeout(() => {

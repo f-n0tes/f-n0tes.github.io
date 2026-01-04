@@ -31,4 +31,16 @@
       opacity: 1;
     }
   }
+  
+  /* Rechte Sidebar im Desktop Reader Mode ausblenden */
+  @media (min-width: 801px) {
+    & .sidebar.right {
+      opacity: 0;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
