@@ -114,3 +114,14 @@ a.data-footnote-backref:hover::after {
   transform: translateY(-2px);  // Hebt sich beim Hover
 }
 
+// Content Fade-Out Effekt am unteren Rand
+#content-fade-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  pointer-events: none;
+  z-index: 9999;
+  background: linear-gradient(to bottom, transparent, var(--light));
+}
