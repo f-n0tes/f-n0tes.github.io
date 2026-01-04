@@ -4396,6 +4396,21 @@ document.addEventListener("nav", function initLogoVariationsSequence() {
   logo.addEventListener('mouseenter', handleMouseEnter);
   logo.addEventListener('mouseleave', handleMouseLeave);
   
+  // Animation beim Laden der Seite automatisch starten
+  setTimeout(() => {
+    if (!isAnimating && !animationComplete) {
+      startVariationAnimation();
+      // Nach Animation + 1 Sekunde automatisch ausblenden
+      setTimeout(() => {
+        if (animationComplete && notesFullDiv.classList.contains('visible')) {
+          notesFullDiv.classList.add('fade-out');
+          notesFullDiv.classList.remove('visible');
+          animationComplete = false;
+        }
+      }, logoVariations.length * 80 + 1000); // Animation-Dauer + 1 Sekunde
+    }
+  }, 300);
+  
   window.addCleanup(() => {
     logo.removeEventListener('mousemove', handleMouseMove);
     logo.removeEventListener('mouseenter', handleMouseEnter);
