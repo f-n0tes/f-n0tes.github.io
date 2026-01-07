@@ -1,0 +1,212 @@
+.accessibility-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 12px;
+}
+
+.accessibility-toggle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--secondary);
+  border: 2px solid var(--tertiary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  color: var(--darkgray);
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  &:focus {
+    outline: 2px solid var(--tertiary);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 28px;
+    height: 28px;
+    fill: currentColor;
+  }
+}
+
+.accessibility-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.accessibility-container.open .accessibility-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.accessibility-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--light);
+  border: 2px solid var(--tertiary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+  color: var(--darkgray);
+  font-weight: bold;
+  font-size: 14px;
+
+  &:hover {
+    transform: scale(1.1);
+    background: var(--secondary);
+  }
+
+  &:focus {
+    outline: 2px solid var(--tertiary);
+    outline-offset: 2px;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+
+  span {
+    user-select: none;
+  }
+}
+
+.font-increase span {
+  font-size: 18px;
+}
+
+.font-decrease span {
+  font-size: 12px;
+}
+
+.tts-tooltip {
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  background: var(--light);
+  border: 2px solid var(--tertiary);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: var(--darkgray);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 280px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px) translateX(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.tts-tooltip.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) translateX(0);
+}
+
+/* Mobile Anpassungen */
+@media (max-width: 800px) {
+  .accessibility-container {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .accessibility-toggle {
+    width: 52px;
+    height: 52px;
+
+    svg {
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  .accessibility-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .tts-tooltip {
+    right: 16px;
+    bottom: 90px;
+    max-width: calc(100vw - 40px);
+    font-size: 13px;
+  }
+}
+
+/* Animation für den Haupt-Button wenn Menü offen */
+.accessibility-container.open .accessibility-toggle {
+  background: var(--tertiary);
+  color: var(--light);
+
+  svg {
+    transform: rotate(45deg);
+  }
+}
+
+.accessibility-toggle svg {
+  transition: transform 0.3s ease;
+}
+
+/* Dark Mode Anpassungen */
+:root[saved-theme="dark"] {
+  .accessibility-toggle {
+    background: var(--dark);
+    border-color: var(--gray);
+    color: var(--lightgray);
+
+    &:hover {
+      background: var(--darkgray);
+    }
+  }
+
+  .accessibility-container.open .accessibility-toggle {
+    background: var(--tertiary);
+    color: var(--dark);
+  }
+
+  .accessibility-btn {
+    background: var(--dark);
+    border-color: var(--gray);
+    color: var(--lightgray);
+
+    &:hover {
+      background: var(--darkgray);
+    }
+  }
+
+  .tts-tooltip {
+    background: var(--dark);
+    border-color: var(--gray);
+    color: var(--lightgray);
+  }
+}
