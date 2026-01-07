@@ -1,9 +1,9 @@
 // @ts-ignore
 import accessibilityScript from "./scripts/accessibility.inline"
 import styles from "./styles/accessibility.scss"
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor } from "./types"
 
-const AccessibilityMenu: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+const AccessibilityMenu: QuartzComponent = () => {
   return (
     <div class="accessibility-container">
       {/* Haupt-Button */}
@@ -15,8 +15,8 @@ const AccessibilityMenu: QuartzComponent = ({ displayClass }: QuartzComponentPro
           width="24"
           height="24"
         >
-          <title>Barrierefreiheit</title>
-          <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9H15V22H13V16H11V22H9V9H3V7H21V9Z" />
+          <title>Einstellungen</title>
+          <path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
         </svg>
       </button>
 
@@ -33,23 +33,24 @@ const AccessibilityMenu: QuartzComponent = ({ displayClass }: QuartzComponentPro
         </button>
 
         {/* Text-to-Speech (WIP) */}
-        <button class="accessibility-btn tts-btn" aria-label="Text vorlesen">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            width="20"
-            height="20"
-          >
-            <title>Text vorlesen</title>
-            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" />
-          </svg>
-        </button>
-      </div>
-
-      {/* TTS Tooltip/Meldung */}
-      <div class="tts-tooltip">
-        🚧 Die Text-to-Speech Funktion befindet sich noch in Entwicklung.
+        <div class="tts-wrapper">
+          <button class="accessibility-btn tts-btn" aria-label="Text vorlesen">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="20"
+              height="20"
+            >
+              <title>Text vorlesen</title>
+              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" />
+            </svg>
+          </button>
+          {/* TTS Tooltip/Meldung */}
+          <div class="tts-tooltip">
+            🚧 TTS in Entwicklung
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -57,5 +58,6 @@ const AccessibilityMenu: QuartzComponent = ({ displayClass }: QuartzComponentPro
 
 AccessibilityMenu.afterDOMLoaded = accessibilityScript
 AccessibilityMenu.css = styles
+AccessibilityMenu.displayName = "AccessibilityMenu"
 
 export default (() => AccessibilityMenu) satisfies QuartzComponentConstructor

@@ -259,6 +259,11 @@ export function renderPage(
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
+  
+  // Separate afterBody components into fixed and regular
+  const fixedComponents = afterBody.filter((c) => c.displayName === "AccessibilityMenu")
+  const regularAfterBody = afterBody.filter((c) => c.displayName !== "AccessibilityMenu")
+  
   const doc = (
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
@@ -283,7 +288,7 @@ export function renderPage(
               <Content {...componentData} />
               <hr />
               <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
+                {regularAfterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />
                 ))}
               </div>
@@ -292,6 +297,10 @@ export function renderPage(
             <Footer {...componentData} />
           </Body>
         </div>
+        {/* Fixed position components rendered outside the page grid */}
+        {fixedComponents.map((FixedComponent) => (
+          <FixedComponent {...componentData} />
+        ))}
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

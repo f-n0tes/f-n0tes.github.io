@@ -1,31 +1,44 @@
 .accessibility-container {
-  position: fixed;
+  position: sticky;
   bottom: 24px;
   right: 24px;
   z-index: 9999;
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
+  align-items: flex-end;
   gap: 12px;
+  margin: 0 1.5rem 0 0;
+  height: 0;
+  overflow: visible;
+  align-self: flex-end;
+  margin-left: auto;
+  
+  // Buttons aus dem 0-height Container "herausragen" lassen
+  > * {
+    flex-shrink: 0;
+  }
 }
 
 .accessibility-toggle {
-  width: 56px;
-  height: 56px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background: var(--secondary);
+  background: var(--clr-4);
   border: 2px solid var(--tertiary);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-  color: var(--darkgray);
+  transition: all 0.3s ease, opacity 0.2s ease;
+  color: var(--lightgraysoft);
+  opacity: 0.8;
 
-  &:hover {
+  &:hover,
+  &:active {
     transform: scale(1.1);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    opacity: 1;
   }
 
   &:focus {
@@ -59,8 +72,8 @@
 }
 
 .accessibility-btn {
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: var(--light);
   border: 2px solid var(--tertiary);
@@ -76,7 +89,7 @@
 
   &:hover {
     transform: scale(1.1);
-    background: var(--secondary);
+    background: var(--cinqe);
   }
 
   &:focus {
@@ -107,21 +120,27 @@
   font-size: 12px;
 }
 
+.tts-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .tts-tooltip {
-  position: fixed;
-  bottom: 100px;
-  right: 24px;
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%);
   background: var(--light);
   border: 2px solid var(--tertiary);
   border-radius: 8px;
-  padding: 12px 16px;
-  font-size: 14px;
+  padding: 8px 12px;
+  font-size: 13px;
   color: var(--darkgray);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  max-width: 280px;
+  white-space: nowrap;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(10px) translateX(10px);
   transition: all 0.3s ease;
   pointer-events: none;
   z-index: 10000;
@@ -130,7 +149,6 @@
 .tts-tooltip.show {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0) translateX(0);
 }
 
 /* Mobile Anpassungen */
@@ -138,16 +156,28 @@
   .accessibility-container {
     bottom: 20px;
     right: 20px;
+    margin-right: 0.75rem;
   }
 
   .accessibility-toggle {
-    width: 52px;
-    height: 52px;
+    width: 44px;
+    height: 44px;
+    opacity: 0.8;
+    transition: all 0.3s ease, opacity 0.2s ease;
+
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
 
     svg {
       width: 26px;
       height: 26px;
     }
+  }
+  
+  .accessibility-container.open .accessibility-toggle {
+    opacity: 1;
   }
 
   .accessibility-btn {
@@ -156,16 +186,15 @@
   }
 
   .tts-tooltip {
-    right: 16px;
-    bottom: 90px;
-    max-width: calc(100vw - 40px);
-    font-size: 13px;
+    right: calc(100% + 8px);
+    font-size: 12px;
+    padding: 6px 10px;
   }
 }
 
 /* Animation für den Haupt-Button wenn Menü offen */
 .accessibility-container.open .accessibility-toggle {
-  background: var(--tertiary);
+  background: var(--clr-4);
   color: var(--light);
 
   svg {
@@ -185,13 +214,13 @@
     color: var(--lightgray);
 
     &:hover {
-      background: var(--darkgray);
+      background: var(--cinqe);
     }
   }
 
   .accessibility-container.open .accessibility-toggle {
-    background: var(--tertiary);
-    color: var(--dark);
+    background: var(--cinqe);
+    color: var(--lightgray);
   }
 
   .accessibility-btn {
@@ -200,7 +229,7 @@
     color: var(--lightgray);
 
     &:hover {
-      background: var(--darkgray);
+      background: var(--cinqe);
     }
   }
 

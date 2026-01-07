@@ -8,6 +8,7 @@ export interface ColorScheme {
   secondary: string
   tertiary: string
   quatro: string
+  cinqe: string
   highlight: string
   textHighlight: string
 }
@@ -156,6 +157,7 @@ ${stylesheet.join("\n\n")}
   --secondary: ${theme.colors.lightMode.secondary};
   --tertiary: ${theme.colors.lightMode.tertiary};
   --quatro: ${theme.colors.lightMode.quatro};
+  --cinqe: ${theme.colors.lightMode.cinqe};
   --highlight: ${theme.colors.lightMode.highlight};
   --textHighlight: ${theme.colors.lightMode.textHighlight};
 
@@ -175,6 +177,7 @@ ${stylesheet.join("\n\n")}
   --secondary: ${theme.colors.darkMode.secondary};
   --tertiary: ${theme.colors.darkMode.tertiary};
   --quatro: ${theme.colors.darkMode.quatro};
+  --cinqe: ${theme.colors.darkMode.cinqe};
   --highlight: ${theme.colors.darkMode.highlight};
   --textHighlight: ${theme.colors.darkMode.textHighlight};
 }
