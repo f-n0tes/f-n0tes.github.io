@@ -3,8 +3,10 @@ document.addEventListener("nav", () => {
   const toggleBtn = document.querySelector(".accessibility-toggle")
   const fontIncrease = document.querySelector(".font-increase")
   const fontDecrease = document.querySelector(".font-decrease")
-  const ttsBtn = document.querySelector(".tts-btn")
-  const ttsTooltip = document.querySelector(".tts-tooltip")
+  const tocBtn = document.querySelector(".toc-btn")
+  const tocPopup = document.querySelector(".toc-popup")
+  const tocPopupClose = document.querySelector(".toc-popup-close")
+  const tocPopupContent = document.querySelector(".toc-popup-content")
 
   if (!container || !toggleBtn) return
 
@@ -27,14 +29,62 @@ document.addEventListener("nav", () => {
   // Schriftgröße beim Laden anwenden
   applyFontSize()
 
+  // TOC Popup befüllen
+  function populateTocPopup() {
+    if (!tocPopupContent) return
+    
+    // Versuche das existierende TOC zu finden
+    const existingToc = document.querySelector(".toc-content ul, .toc ul, #toc ul")
+    
+    if (existingToc) {
+      // Kopiere das existierende TOC
+      tocPopupContent.innerHTML = existingToc.outerHTML
+    } else {
+      // Fallback: Generiere TOC aus Überschriften
+      const headings = document.querySelectorAll("article h1, article h2, article h3, article h4")
+      
+      if (headings.length === 0) {
+        tocPopupContent.innerHTML = "<p class='toc-empty'>Kein Inhaltsverzeichnis verfügbar</p>"
+        return
+      }
+      
+      const ul = document.createElement("ul")
+      headings.forEach((heading) => {
+        const li = document.createElement("li")
+        const level = parseInt(heading.tagName.charAt(1))
+        li.className = `depth-${level}`
+        
+        const link = document.createElement("a")
+        link.href = `#${heading.id}`
+        link.textContent = heading.textContent || ""
+        link.addEventListener("click", () => {
+          tocPopup?.classList.remove("show")
+        })
+        
+        li.appendChild(link)
+        ul.appendChild(li)
+      })
+      
+      tocPopupContent.innerHTML = ""
+      tocPopupContent.appendChild(ul)
+    }
+    
+    // Event-Listener für Links im Popup hinzufügen
+    tocPopupContent.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        tocPopup?.classList.remove("show")
+      })
+    })
+  }
+
   // Haupt-Button Toggle
   toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation()
     container.classList.toggle("open")
 
-    // Tooltip ausblenden wenn Menü geschlossen wird
+    // TOC Popup ausblenden wenn Menü geschlossen wird
     if (!container.classList.contains("open")) {
-      ttsTooltip?.classList.remove("show")
+      tocPopup?.classList.remove("show")
     }
   })
 
@@ -42,7 +92,7 @@ document.addEventListener("nav", () => {
   document.addEventListener("click", (e) => {
     if (!container.contains(e.target as Node)) {
       container.classList.remove("open")
-      ttsTooltip?.classList.remove("show")
+      tocPopup?.classList.remove("show")
     }
   })
 
@@ -50,7 +100,7 @@ document.addEventListener("nav", () => {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       container.classList.remove("open")
-      ttsTooltip?.classList.remove("show")
+      tocPopup?.classList.remove("show")
     }
   })
 
@@ -76,23 +126,20 @@ document.addEventListener("nav", () => {
     }
   })
 
-  // TTS Button - zeigt Tooltip
-  let tooltipTimeout: ReturnType<typeof setTimeout> | null = null
-
-  ttsBtn?.addEventListener("click", (e) => {
+  // TOC Button - zeigt Popup
+  tocBtn?.addEventListener("click", (e) => {
     e.stopPropagation()
+    
+    // Popup befüllen
+    populateTocPopup()
+    
+    // Popup toggle
+    tocPopup?.classList.toggle("show")
+  })
 
-    // Tooltip anzeigen
-    ttsTooltip?.classList.add("show")
-
-    // Vorherigen Timeout löschen falls vorhanden
-    if (tooltipTimeout) {
-      clearTimeout(tooltipTimeout)
-    }
-
-    // Tooltip nach 4 Sekunden ausblenden
-    tooltipTimeout = setTimeout(() => {
-      ttsTooltip?.classList.remove("show")
-    }, 4000)
+  // TOC Popup schließen Button
+  tocPopupClose?.addEventListener("click", (e) => {
+    e.stopPropagation()
+    tocPopup?.classList.remove("show")
   })
 })
