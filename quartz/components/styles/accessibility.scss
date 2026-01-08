@@ -23,6 +23,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  border: 2px solid var(--secondary);
   background: var(--darkgray);
   cursor: pointer;
   display: flex;
@@ -35,19 +36,21 @@
 
   &:hover,
   &:active {
+    background: var(--tertiary);
+    border: 2px solid var(--tertiary);
     transform: scale(1.1);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
     opacity: 1;
   }
 
   &:focus {
-    outline: 2px solid var(--tertiary);
+    outline: 2px solid var(--clr-2);
     outline-offset: 2px;
   }
 
   svg {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     fill: currentColor;
   }
 }
@@ -74,7 +77,7 @@
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: var(--light);
+  background: var(--clr-2);
   border: 2px solid var(--tertiary);
   cursor: pointer;
   display: flex;
@@ -82,17 +85,17 @@
   justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease;
-  color: var(--darkgray);
+  color: var(--light);
   font-weight: bold;
   font-size: 14px;
 
   &:hover {
     transform: scale(1.1);
-    background: var(--cinqe);
+    background: var(--tertiary);
   }
 
   &:focus {
-    outline: 2px solid var(--tertiary);
+    outline: 2px solid var(--clr-2);
     outline-offset: 2px;
   }
 
@@ -101,8 +104,8 @@
   }
 
   svg {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
     fill: currentColor;
   }
 
@@ -131,7 +134,7 @@
   top: 5%;
   transform: translateY(50%) translateX(10px);
   background: var(--light);
-  border: 2px solid var(--tertiary);
+  border: 2px solid var(--clr-2);
   border-radius: 12px;
   padding: 0;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -254,6 +257,7 @@
   }
   
   .accessibility-container.open .accessibility-toggle {
+    border: var(--tertiary);
     opacity: 1;
   }
 
@@ -289,8 +293,10 @@
 
 /* Animation für den Haupt-Button wenn Menü offen */
 .accessibility-container.open .accessibility-toggle {
-  background: var(--darkgray);
+  background: var(--tertiary);
+  border: 2px solid var(--tertiary);
   color: var(--light);
+  opacity: 1;
 
   svg {
     transform: rotate(45deg);
@@ -311,6 +317,11 @@
     &:hover {
       background: var(--cinqe);
     }
+    
+    &:focus {
+      outline: 2px solid var(--clr-4);
+      outline-offset: 2px;
+    }
   }
 
   .accessibility-container.open .accessibility-toggle {
@@ -320,11 +331,16 @@
 
   .accessibility-btn {
     background: var(--dark);
-    border-color: var(--clr-4);
+    border-color: var(--cinqe);
     color: var(--lightgray);
 
     &:hover {
       background: var(--cinqe);
+    }
+    
+    &:focus {
+      outline: 2px solid var(--clr-4);
+      outline-offset: 2px;
     }
   }
 
