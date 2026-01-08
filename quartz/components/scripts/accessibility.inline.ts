@@ -1,14 +1,21 @@
 document.addEventListener("nav", () => {
-  const container = document.querySelector(".accessibility-container")
-  const toggleBtn = document.querySelector(".accessibility-toggle")
-  const fontIncrease = document.querySelector(".font-increase")
-  const fontDecrease = document.querySelector(".font-decrease")
-  const tocBtn = document.querySelector(".toc-btn")
-  const tocPopup = document.querySelector(".toc-popup")
-  const tocPopupClose = document.querySelector(".toc-popup-close")
-  const tocPopupContent = document.querySelector(".toc-popup-content")
+  const container = document.querySelector(".accessibility-container") as HTMLElement | null
+  if (!container) return
 
-  if (!container || !toggleBtn) return
+  // Scope all lookups to the container to avoid stale references across navigations
+  const toggleBtn = container.querySelector(".accessibility-toggle") as HTMLElement | null
+  const fontIncrease = container.querySelector(".font-increase") as HTMLElement | null
+  const fontDecrease = container.querySelector(".font-decrease") as HTMLElement | null
+  const tocBtn = container.querySelector(".toc-btn") as HTMLElement | null
+  const tocPopup = container.querySelector(".toc-popup") as HTMLElement | null
+  const tocPopupClose = container.querySelector(".toc-popup-close") as HTMLElement | null
+  const tocPopupContent = container.querySelector(".toc-popup-content") as HTMLElement | null
+
+  if (!toggleBtn) return
+
+  // Ensure fresh state on navigation
+  container.classList.remove("open")
+  tocPopup?.classList.remove("show")
 
   // Aktuelle Schriftgröße aus localStorage oder Standard
   const STORAGE_KEY = "accessibility-font-size"
@@ -78,68 +85,76 @@ document.addEventListener("nav", () => {
   }
 
   // Haupt-Button Toggle
-  toggleBtn.addEventListener("click", (e) => {
+  const onToggleClick = (e: Event) => {
     e.stopPropagation()
     container.classList.toggle("open")
-
-    // TOC Popup ausblenden wenn Menü geschlossen wird
     if (!container.classList.contains("open")) {
       tocPopup?.classList.remove("show")
     }
-  })
+  }
+  toggleBtn.addEventListener("click", onToggleClick)
+  window.addCleanup(() => toggleBtn.removeEventListener("click", onToggleClick))
 
   // Außerhalb klicken schließt das Menü
-  document.addEventListener("click", (e) => {
+  const onDocumentClick = (e: Event) => {
     if (!container.contains(e.target as Node)) {
       container.classList.remove("open")
       tocPopup?.classList.remove("show")
     }
-  })
+  }
+  document.addEventListener("click", onDocumentClick)
+  window.addCleanup(() => document.removeEventListener("click", onDocumentClick))
 
   // Escape-Taste schließt das Menü
-  document.addEventListener("keydown", (e) => {
+  const onKeyDown = (e: KeyboardEvent) => {
     if (e.key === "Escape") {
       container.classList.remove("open")
       tocPopup?.classList.remove("show")
     }
-  })
+  }
+  document.addEventListener("keydown", onKeyDown)
+  window.addCleanup(() => document.removeEventListener("keydown", onKeyDown))
 
   // Schriftgröße vergrößern
-  fontIncrease?.addEventListener("click", (e) => {
+  const onFontIncrease = (e: Event) => {
     e.stopPropagation()
     if (currentSize < MAX_SIZE) {
       currentSize = Math.min(MAX_SIZE, currentSize + STEP)
-      currentSize = Math.round(currentSize * 10) / 10 // Rundung auf eine Dezimalstelle
+      currentSize = Math.round(currentSize * 10) / 10
       localStorage.setItem(STORAGE_KEY, currentSize.toString())
       applyFontSize()
     }
-  })
+  }
+  fontIncrease?.addEventListener("click", onFontIncrease)
+  window.addCleanup(() => fontIncrease?.removeEventListener("click", onFontIncrease))
 
   // Schriftgröße verkleinern
-  fontDecrease?.addEventListener("click", (e) => {
+  const onFontDecrease = (e: Event) => {
     e.stopPropagation()
     if (currentSize > MIN_SIZE) {
       currentSize = Math.max(MIN_SIZE, currentSize - STEP)
-      currentSize = Math.round(currentSize * 10) / 10 // Rundung auf eine Dezimalstelle
+      currentSize = Math.round(currentSize * 10) / 10
       localStorage.setItem(STORAGE_KEY, currentSize.toString())
       applyFontSize()
     }
-  })
+  }
+  fontDecrease?.addEventListener("click", onFontDecrease)
+  window.addCleanup(() => fontDecrease?.removeEventListener("click", onFontDecrease))
 
   // TOC Button - zeigt Popup
-  tocBtn?.addEventListener("click", (e) => {
+  const onTocBtnClick = (e: Event) => {
     e.stopPropagation()
-    
-    // Popup befüllen
     populateTocPopup()
-    
-    // Popup toggle
     tocPopup?.classList.toggle("show")
-  })
+  }
+  tocBtn?.addEventListener("click", onTocBtnClick)
+  window.addCleanup(() => tocBtn?.removeEventListener("click", onTocBtnClick))
 
   // TOC Popup schließen Button
-  tocPopupClose?.addEventListener("click", (e) => {
+  const onTocPopupClose = (e: Event) => {
     e.stopPropagation()
     tocPopup?.classList.remove("show")
-  })
+  }
+  tocPopupClose?.addEventListener("click", onTocPopupClose)
+  window.addCleanup(() => tocPopupClose?.removeEventListener("click", onTocPopupClose))
 })

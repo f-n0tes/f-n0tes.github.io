@@ -24,6 +24,18 @@ document.addEventListener("nav", () => {
     window.addCleanup(() => readerModeButton.removeEventListener("click", () => {}));
   }
 
+  // Klicks auf die Accessibility-UI deaktivieren direkt den Reader Mode
+  const accessibilityContainer = document.querySelector(".accessibility-container");
+  const onAccessibilityClick = () => {
+    if (isReaderMode) {
+      setReaderMode("off");
+    }
+  };
+  accessibilityContainer?.addEventListener("click", onAccessibilityClick, { capture: true });
+  window.addCleanup(() =>
+    accessibilityContainer?.removeEventListener("click", onAccessibilityClick, true)
+  );
+
   // Scroll-Logik
   window.addEventListener("scroll", () => {
     const currentScroll = window.scrollY;

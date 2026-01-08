@@ -355,7 +355,7 @@
     border-color: var(--light);
     
     span {
-      color: var(--dark);
+      color: var(--lightgraysoft);
       font-size: 18px;
       font-weight: 700;
     }
@@ -401,7 +401,7 @@
 
 /* Reader Mode: Accessibility Container ausblenden */
 :root[reader-mode="on"] .accessibility-container {
-  opacity: 0;
-  pointer-events: none;
+  opacity: 0.3;
+  pointer-events: auto;
   transition: opacity 0.2s ease;
 }
