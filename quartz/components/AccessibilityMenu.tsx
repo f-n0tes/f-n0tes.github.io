@@ -25,15 +25,68 @@ const AccessibilityMenu: QuartzComponent = () => {
 
       {/* Erweitertes Menü */}
       <div class="accessibility-menu">
+        {/* Scroll to Top Button */}
+        <button class="accessibility-btn scroll-to-top" aria-label="Nach oben scrollen" title="Nach oben scrollen">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            width="18"
+            height="18"
+          >
+            <title>Nach oben</title>
+            <path d="M12 5l8 10H4z" />
+          </svg>
+        </button>
+
+        {/* Dark Mode Toggle */}
+        <button class="accessibility-btn theme-toggle" aria-label="Design ändern">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            width="20"
+            height="20"
+            class="sun-icon"
+          >
+            <title>Zum dunklen Modus wechseln</title>
+            <circle cx="12" cy="12" r="5" fill="currentColor" />
+            <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" />
+            <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" />
+            <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" />
+            <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            width="20"
+            height="20"
+            class="moon-icon"
+            style="display: none;"
+          >
+            <title>Zum hellen Modus wechseln</title>
+            <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+
         {/* Schriftgröße verkleinern */}
-        <button class="accessibility-btn font-decrease" aria-label="Schriftgröße verkleinern">
+        <button class="accessibility-btn font-decrease" aria-label="Schriftgröße verkleinern" title="Schriftgröße verkleinern">
           <svg width="20" height="20" viewBox="0 0 76 76" xmlns="http://www.w3.org/2000/svg">
             <path fill="currentColor" fill-opacity="1" stroke-linejoin="round" d="M 45,25L 59,25L 59,29L 45,29L 45,25 Z M 52.1429,56L 45.4571,56L 42.283,46.7429L 28.4375,46.7429L 25.4,56L 18.7143,56L 32.1339,20L 38.8277,20L 52.1429,56 Z M 40.7402,42.1143L 35.8464,27.417C 35.7018,26.9455 35.5464,26.1875 35.3804,25.1429L 35.2759,25.1429C 35.1313,26.1018 34.9679,26.8598 34.7857,27.417L 29.9563,42.1143L 40.7402,42.1143 Z "/>
           </svg>
         </button>
 
         {/* Schriftgröße vergrößern */}
-        <button class="accessibility-btn font-increase" aria-label="Schriftgröße vergrößern">
+        <button class="accessibility-btn font-increase" aria-label="Schriftgröße vergrößern" title="Schriftgröße vergrößern">
           <svg width="20" height="20" viewBox="0 0 76 76" xmlns="http://www.w3.org/2000/svg">
             <path fill="currentColor" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 45.0001,25L 50,25L 50,20L 54,20L 54,25L 59.0001,25L 59.0001,29L 54,29L 54,34L 50,34L 50,29L 45.0001,29L 45.0001,25 Z M 52.1429,56L 45.4571,56L 42.283,46.7429L 28.4375,46.7429L 25.4,56L 18.7143,56L 32.1339,20L 38.8277,20L 52.1429,56 Z M 40.7402,42.1143L 35.8464,27.417C 35.7018,26.9455 35.5464,26.1875 35.3804,25.1429L 35.2759,25.1429C 35.1313,26.1018 34.9679,26.8598 34.7857,27.417L 29.9563,42.1143L 40.7402,42.1143 Z "/>
           </svg>

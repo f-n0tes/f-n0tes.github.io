@@ -122,6 +122,29 @@
   font-size: 12px;
 }
 
+.theme-toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .sun-icon {
+    stroke: currentColor;
+  }
+
+  .moon-icon {
+    stroke: currentColor;
+  }
+}
+
 .toc-wrapper {
   position: relative;
   display: flex;

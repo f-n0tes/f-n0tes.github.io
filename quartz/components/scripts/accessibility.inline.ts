@@ -6,6 +6,10 @@ document.addEventListener("nav", () => {
   const toggleBtn = container.querySelector(".accessibility-toggle") as HTMLElement | null
   const fontIncrease = container.querySelector(".font-increase") as HTMLElement | null
   const fontDecrease = container.querySelector(".font-decrease") as HTMLElement | null
+  const scrollToTopBtn = container.querySelector(".scroll-to-top") as HTMLElement | null
+  const themeToggleBtn = container.querySelector(".theme-toggle") as HTMLElement | null
+  const sunIcon = container.querySelector(".sun-icon") as HTMLElement | null
+  const moonIcon = container.querySelector(".moon-icon") as HTMLElement | null
   const tocBtn = container.querySelector(".toc-btn") as HTMLElement | null
   const tocPopup = container.querySelector(".toc-popup") as HTMLElement | null
   const tocPopupClose = container.querySelector(".toc-popup-close") as HTMLElement | null
@@ -157,4 +161,50 @@ document.addEventListener("nav", () => {
   }
   tocPopupClose?.addEventListener("click", onTocPopupClose)
   window.addCleanup(() => tocPopupClose?.removeEventListener("click", onTocPopupClose))
+
+  // Scroll to Top Button
+  const onScrollToTop = (e: Event) => {
+    e.stopPropagation()
+    window.scrollTo({ top: 0, behavior: "smooth" })
+    container.classList.remove("open")
+  }
+  scrollToTopBtn?.addEventListener("click", onScrollToTop)
+  window.addCleanup(() => scrollToTopBtn?.removeEventListener("click", onScrollToTop))
+
+  // Theme Toggle Button
+  const updateThemeIcons = () => {
+    const currentTheme = document.documentElement.getAttribute("saved-theme")
+    if (currentTheme === "dark" && sunIcon && moonIcon) {
+      sunIcon.style.display = "none"
+      moonIcon.style.display = "inline"
+    } else if (sunIcon && moonIcon) {
+      sunIcon.style.display = "inline"
+      moonIcon.style.display = "none"
+    }
+  }
+
+  updateThemeIcons()
+
+  const onThemeToggle = (e: Event) => {
+    e.stopPropagation()
+    const currentTheme = document.documentElement.getAttribute("saved-theme")
+    const newTheme = currentTheme === "dark" ? "light" : "dark"
+    document.documentElement.setAttribute("saved-theme", newTheme)
+    localStorage.setItem("theme", newTheme)
+    updateThemeIcons()
+    
+    // Emit theme change event for other components
+    const event: CustomEventMap["themechange"] = new CustomEvent("themechange", {
+      detail: { theme: newTheme },
+    })
+    document.dispatchEvent(event)
+  }
+  themeToggleBtn?.addEventListener("click", onThemeToggle)
+  window.addCleanup(() => themeToggleBtn?.removeEventListener("click", onThemeToggle))
+
+  // Listen for theme changes from other sources
+  document.addEventListener("themechange", () => {
+    updateThemeIcons()
+  })
+  window.addCleanup(() => document.removeEventListener("themechange", updateThemeIcons))
 })
