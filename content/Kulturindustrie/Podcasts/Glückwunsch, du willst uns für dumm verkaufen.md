@@ -3,12 +3,11 @@ creator: Fred
 year: 2026-01-01
 genre: Podcast
 tags:
-  - thema/politik
   - thema/ideologie
   - thema/antisemitismus
-  - thema/israel
-  - thema/palästina
   - kulturindustrie/podcast/hifreaks
+  - thema/palisoli
+  - medien/podcast
 aliases:
   - hifreaks
   - jeanphilippekindler
