@@ -5,8 +5,9 @@ genre: Podcast
 tags:
   - thema/ideologie
   - thema/antisemitismus
-  - kulturindustrie/podcast/hifreaks
+  - thema/palisoli
   - medien/podcast
+  - kulturindustrie/podcast/hifreaks
 aliases:
   - hifreaks
   - jeanphilippekindler
