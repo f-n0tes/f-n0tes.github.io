@@ -7,7 +7,6 @@ tags:
   - thema/antisemitismus
   - thema/palisoli
   - medien/podcast
-  - kulturindustrie/podcast/hifreaks
 aliases:
   - hifreaks
   - jeanphilippekindler
