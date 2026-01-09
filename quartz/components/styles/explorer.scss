@@ -27,7 +27,7 @@
       padding: .15rem;
       isolation: isolate;
       top: 0.25rem;
-
+      z-index: 10001;
     }
 
     // Animierter Gradient-Border
@@ -290,7 +290,7 @@ li:has(> .folder-outer:not(.open))>.folder-container>svg {
 
     .explorer-content {
       box-sizing: border-box;
-      z-index: 100;
+      z-index: 10000;
       position: absolute;
       top: 0;
       left: 0;

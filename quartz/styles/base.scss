@@ -265,6 +265,7 @@ body.scrolled-down & > #quartz-body {
         flex-direction: row;
         padding: 0;
         padding-top: 2rem;
+        z-index: 10001;
       }
     }
 
