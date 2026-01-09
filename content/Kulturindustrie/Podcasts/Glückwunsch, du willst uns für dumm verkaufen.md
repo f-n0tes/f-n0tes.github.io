@@ -1,12 +1,11 @@
 ---
 creator: Fred
-year: 2026-01-01
+published: 2026-01-01
 genre: Podcast
 tags:
   - thema/ideologie
   - thema/antisemitismus
   - kulturindustrie/podcast/hifreaks
-  - thema/palisoli
   - medien/podcast
 aliases:
   - hifreaks
