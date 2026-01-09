@@ -10,6 +10,8 @@ tags:
 aliases:
   - hifreaks
   - jeanphilippekindler
+  - simonslomma
+  - studiorot
 subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
 cssclasses:
 ---
