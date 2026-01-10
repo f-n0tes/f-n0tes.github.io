@@ -1,18 +1,22 @@
 ---
-creator: Fred
+title:
+subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
 created: 2026-01-01
 genre: Podcast
+aliases:
+  - Jean-Philippe Kindler
+  - JPK
+  - Simon Slomma
+  - Studio Rot
+  - Hi Freaks
 tags:
   - thema/ideologie
   - thema/antisemitismus
   - thema/palilinke
   - medien/podcast
-aliases:
-  - hifreaks
-  - jeanphilippekindler
-  - simonslomma
-  - studiorot
-subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
+enableToc: true
+showReadingTime: false
+draft: false
 cssclasses:
 ---
 # Vorweg
