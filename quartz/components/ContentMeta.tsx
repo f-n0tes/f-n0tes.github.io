@@ -33,8 +33,13 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
-      // Display reading time if enabled
-      if (options.showReadingTime) {
+      // Display reading time if enabled (check both global option and frontmatter)
+      const frontmatterShowReadingTime = fileData.frontmatter?.showReadingTime
+      const shouldShowReadingTime = frontmatterShowReadingTime !== undefined 
+        ? frontmatterShowReadingTime 
+        : options.showReadingTime
+
+      if (shouldShowReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),

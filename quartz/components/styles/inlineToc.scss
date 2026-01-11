@@ -1,11 +1,35 @@
 @use "../../styles/variables.scss" as *;
 
+// ===== INLINE TOC FARBEN =====
+// Light-Mode Farben (hier anpassen!)
+$toc-light-bg: var(--quatro);
+$toc-light-border: var(--clr-2);
+$toc-light-text: var(--secondary);
+$toc-light-hover: var(--tertiary);
+
+// Dark-Mode Farben (hier anpassen!)
+$toc-dark-bg: var(--lightgraysoft);
+$toc-dark-border: var(--gray);
+$toc-dark-text: var(--primary);
+$toc-dark-hover: var(--tertiary);
+// =============================
+
 .inline-toc {
-  background-color: var(--lightgraysoft);
-  border: 1px solid var(--lightgray);
   border-radius: 8px;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
+
+  // Light-Mode Styles
+  :root[saved-theme="light"] & {
+    background-color: $toc-light-bg;
+    border: 1px solid $toc-light-border;
+  }
+
+  // Dark-Mode Styles
+  :root[saved-theme="dark"] & {
+    background-color: $toc-dark-bg;
+    border: 1px solid $toc-dark-border;
+  }
   
   & > summary {
     display: flex;
@@ -21,15 +45,27 @@
     & h2 {
       font-size: 1.1rem;
       margin: 0;
-      color: var(--darkgray);
       font-weight: 600;
+
+      :root[saved-theme="light"] & {
+        color: $toc-light-text;
+      }
+      :root[saved-theme="dark"] & {
+        color: $toc-dark-text;
+      }
     }
     
     & .fold-icon {
       margin-left: 0.5rem;
       transition: transform 0.3s ease;
       opacity: 0.6;
-      color: var(--darkgray);
+
+      :root[saved-theme="light"] & {
+        color: $toc-light-text;
+      }
+      :root[saved-theme="dark"] & {
+        color: $toc-dark-text;
+      }
     }
   }
   
@@ -44,7 +80,13 @@
   & .inline-toc-content {
     margin-top: 0.75rem;
     padding-top: 0.75rem;
-    border-top: 1px solid var(--lightgray);
+
+    :root[saved-theme="light"] & {
+      border-top: 1px solid $toc-light-border;
+    }
+    :root[saved-theme="dark"] & {
+      border-top: 1px solid $toc-dark-border;
+    }
     
     & ul {
       list-style: none;
@@ -56,12 +98,20 @@
         line-height: 1.4;
         
         & a {
-          color: var(--darkgray);
           text-decoration: none;
           transition: color 0.2s ease;
-          
-          &:hover {
-            color: var(--secondary);
+
+          :root[saved-theme="light"] & {
+            color: $toc-light-text;
+            &:hover {
+              color: $toc-light-hover;
+            }
+          }
+          :root[saved-theme="dark"] & {
+            color: $toc-dark-text;
+            &:hover {
+              color: $toc-dark-hover;
+            }
           }
         }
       }
