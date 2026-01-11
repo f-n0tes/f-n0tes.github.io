@@ -1,0 +1,80 @@
+@use "../../styles/variables.scss" as *;
+
+.inline-toc {
+  background-color: var(--lightgraysoft);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  
+  & > summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    
+    &::-webkit-details-marker {
+      display: none;
+    }
+    
+    & h2 {
+      font-size: 1.1rem;
+      margin: 0;
+      color: var(--darkgray);
+      font-weight: 600;
+    }
+    
+    & .fold-icon {
+      margin-left: 0.5rem;
+      transition: transform 0.3s ease;
+      opacity: 0.6;
+      color: var(--darkgray);
+    }
+  }
+  
+  &[open] > summary .fold-icon {
+    transform: rotateZ(0deg);
+  }
+  
+  &:not([open]) > summary .fold-icon {
+    transform: rotateZ(-90deg);
+  }
+  
+  & .inline-toc-content {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--lightgray);
+    
+    & ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+      & li {
+        margin: 0.35rem 0;
+        line-height: 1.4;
+        
+        & a {
+          color: var(--darkgray);
+          text-decoration: none;
+          transition: color 0.2s ease;
+          
+          &:hover {
+            color: var(--secondary);
+          }
+        }
+      }
+      
+      @for $i from 0 through 6 {
+        & .depth-#{$i} {
+          padding-left: calc(1rem * #{$i});
+          
+          @if $i > 0 {
+            font-size: calc(1rem - 0.02rem * #{$i});
+          }
+        }
+      }
+    }
+  }
+}

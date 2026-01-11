@@ -18,7 +18,7 @@ const defaultOptions: Options = {
   collapseByDefault: false,
 }
 
-interface TocEntry {
+export interface TocEntry {
   depth: number
   text: string
   slug: string // this is just the anchor (#some-slug), not the canonical slug
@@ -37,15 +37,29 @@ export const TableOfContents: QuartzTransformerPlugin<Partial<Options>> = (userO
             if (display) {
               slugAnchor.reset()
               const toc: TocEntry[] = []
+              const tocFull: TocEntry[] = []
               let highestDepth: number = opts.maxDepth
+              let highestDepthFull: number = 6
+              
               visit(tree, "heading", (node) => {
+                const text = toString(node)
+                const slug = slugAnchor.slug(text)
+                
+                // Vollständiges TOC (alle Tiefen bis 6)
+                highestDepthFull = Math.min(highestDepthFull, node.depth)
+                tocFull.push({
+                  depth: node.depth,
+                  text,
+                  slug,
+                })
+                
+                // Sidebar TOC (begrenzt durch maxDepth)
                 if (node.depth <= opts.maxDepth) {
-                  const text = toString(node)
                   highestDepth = Math.min(highestDepth, node.depth)
                   toc.push({
                     depth: node.depth,
                     text,
-                    slug: slugAnchor.slug(text),
+                    slug,
                   })
                 }
               })
@@ -56,6 +70,14 @@ export const TableOfContents: QuartzTransformerPlugin<Partial<Options>> = (userO
                   depth: entry.depth - highestDepth,
                 }))
                 file.data.collapseToc = opts.collapseByDefault
+              }
+              
+              // Vollständiges TOC für Inline-Anzeige (wenn enableInlineToc im Frontmatter)
+              if (tocFull.length > 0 && file.data.frontmatter?.enableInlineToc) {
+                file.data.tocFull = tocFull.map((entry) => ({
+                  ...entry,
+                  depth: entry.depth - highestDepthFull,
+                }))
               }
             }
           }
@@ -68,6 +90,7 @@ export const TableOfContents: QuartzTransformerPlugin<Partial<Options>> = (userO
 declare module "vfile" {
   interface DataMap {
     toc: TocEntry[]
+    tocFull: TocEntry[]
     collapseToc: boolean
   }
 }
