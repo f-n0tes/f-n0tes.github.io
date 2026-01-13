@@ -1,13 +1,11 @@
 ---
-title: Der linke Theorieatze, der nie einer war und keiner mehr sein möchte
-subtitle: Sprache und Objektivität nach Jean-Philippe Kindler
+title: Der linke Theorieatze, der nie einer war und keiner mehr sein möchte zweifelt an der Objektivität der Krise
+subtitle: Es ist so dumm, man muss etwas dazu sagen
 created: 2026-01-11
 genre: Podcast
 aliases:
   - Jean-Philippe Kindler
   - JPK
-  - Simon Slomma
-  - Hi Freaks
   - Studio Rot
 tags:
   - thema/krise
@@ -20,6 +18,8 @@ showReadingTime: true
 draft: true
 cssclasses:
 ---
+![[Pasted image 20260113042956.png]]
+
 0:00
 
 Jean-Philippe Kindler kehrt zurück, fokussiert auf politische Sprache
@@ -166,17 +166,17 @@ Und es wird immer damit gerechtfertigt, dass es ja nicht anders geht, dass sie j
 
 Und damit werden wir uns in dieser Folge ausführlich beschäftigen.
 
-Wir haben Pushbacks auf dem Mittelmeer, ja, man kann sich mal den Film kein Land für niemand anschauen, an dieser Stelle, wo man einfach sieht, dass halt irgendwie eine libysche Küstenwache, finanziert von der EU, dann einfach mal so ein Boot mit geflüchteten umstößt, damit die Halt im Mittelmeer ertrinken, das ist die Realität, wir haben die neue Grundsicherung eben schon erwähnt, massiven Anstieg von Obdachlosigkeit, und wir haben natürlich halt eine.
-
-8:32
-
-Verbrechen ganz anderer Art noch mal, wir haben das Vorgehen Israels gegen die palästinensische Zivilbevölkerung, was man einfach als genozidal bezeichnen muss, und all diese Gräueltaten werden nicht länger mit Bauchschmerzen vollzogen.
-
-8:48
-
-Nee, man rechtfertigt sie damit, dass man sagt, Wir haben hier eine Krise, wir haben eine Notfallsituation, wir haben keine andere Wahl, als radikal zu handeln.
-
-Und diese Notwehrpolitik, die in konservativen, neoliberalen und rechten Kreisen komplett an der Tagesordnung zu sein scheint, die kostet überall auf der Welt Menschenleben.
+> Wir haben Pushbacks auf dem Mittelmeer, ja, man kann sich mal den Film kein Land für niemand anschauen, an dieser Stelle, wo man einfach sieht, dass halt irgendwie eine libysche Küstenwache, finanziert von der EU, dann einfach mal so ein Boot mit geflüchteten umstößt, damit die Halt im Mittelmeer ertrinken, das ist die Realität, wir haben die neue Grundsicherung eben schon erwähnt, massiven Anstieg von Obdachlosigkeit, und wir haben natürlich halt eine.
+> 
+> 8:32
+> 
+> Verbrechen ganz anderer Art noch mal, wir haben das Vorgehen Israels gegen die palästinensische Zivilbevölkerung, was man einfach als genozidal bezeichnen muss, und all diese Gräueltaten werden nicht länger mit Bauchschmerzen vollzogen.
+> 
+> 8:48
+> 
+> Nee, man rechtfertigt sie damit, dass man sagt, Wir haben hier eine Krise, wir haben eine Notfallsituation, wir haben keine andere Wahl, als radikal zu handeln.
+> 
+> Und diese Notwehrpolitik, die in konservativen, neoliberalen und rechten Kreisen komplett an der Tagesordnung zu sein scheint, die kostet überall auf der Welt Menschenleben.
 
 9:09
 
@@ -218,31 +218,14 @@ Der Objektiv feststellbare Realität beschreibt und dann wurde mir das so langsa
 
 10:53
 
-Natürlich gibt es das nicht, Krise ist niemals objektiv, Krise ist immer rhetorisches Mittel mit einem bestimmten rhetorischen Ziel, Menschen sagen Krise um ganz um was ganz bestimmtes zu bezwecken, meistens um eine politische Entscheidung zu rechtfertigen oder Andersdenkende zu diffamieren oder etwas als absolut.
+> Natürlich gibt es das nicht, Krise ist niemals objektiv, Krise ist immer rhetorisches Mittel mit einem bestimmten rhetorischen Ziel, Menschen sagen Krise um ganz um was ganz bestimmtes zu bezwecken, meistens um eine politische Entscheidung zu rechtfertigen oder Andersdenkende zu diffamieren oder etwas als absolut unumstößlich politisch notwendig darzustellen.
+> 
+> Krise als Begriff bereitet Notwehrpolitik vor wir können nicht anders, als radikal zu handeln, das fand ich ganz wichtig, am Anfang zu sagen, es geht nicht darum, Realität zu beschreiben, es geht darum, Realität zu konstruieren, die Leute sollen.
 
-11:16
-
-Unumstößlich politisch notwendig darzustellen.
-
-Krise als Begriff bereitet Notwehrpolitik vor wir können nicht anders, als radikal zu handeln, das fand ich ganz wichtig, am Anfang zu sagen, es geht nicht darum, Realität zu beschreiben, es geht darum, Realität zu konstruieren, die Leute sollen.
-
-11:37
-
-Gesagt bekommen, das hier ist so schlimm, die Not ist so groß, die Gefahr ist so präsent, wir müssen jetzt aus Notwehr auf eine ganz bestimmte Weise radikal reagieren und auf diese Weise wurde im Jahr 2025 und in den Jahren davor allerlei Schreckliches gerechtfertigt.
-
-11:57
-
-Und ich will es noch mal festhalten, damit es wirklich auch verstanden wird, weil ich bin ehrlich, Leute, ich hatte große Schwierigkeiten, das zu verstehen am Anfang, deswegen wiederhole ich es einfach noch mal.
-
-Vielleicht denke ich euch jetzt, wir haben es sofort verstanden, du warst einfach dumm, das kann sein, Leute, ich war 19 oder 20, es ist ja ewig her, 7 oder 8 Jahre ist gar nicht so ewig her, aber um es noch mal festzuhalten.
 
 12:19
 
-Bevor wir hier in einen Regen aus wirklich schrecklichen Clips einsteigen.
-
-Krise bezeichnet keinen objektiven, messbaren, krisenhaften Zustand.
-
-Es ist ein rhetorisches Instrument, meist eingesetzt von den Herrschenden, um eine bestimmte Politik durchzusetzen und anschließend zu rechtfertigen.
+> Krise bezeichnet keinen objektiven, messbaren, krisenhaften Zustand. Es ist ein rhetorisches Instrument, meist eingesetzt von den Herrschenden, um eine bestimmte Politik durchzusetzen und anschließend zu rechtfertigen.
 
 12:39
 
@@ -1261,3 +1244,43 @@ Es war natürlich schlimm, das zu sehen, aber es war das Thema, was mich das let
 Und dagegen Aufzubegehren, in welcher Art auch immer, damit kennen sich Leute aus.
 
 Ich gehöre nicht zu diesen Leuten, vielen Dank auf jeden Fall fürs Zuhören an dieser Stelle, das war Folge 34 von Studio Kindler, Wir werden uns hier mit Sicherheit bald wiedersehen, ich danke euch fürs Zuhören, schickt es gern weiter, wenn es euch gefallen hat, Danke für die Geduld, danke, dass ihr noch am Start seid und bis zum nächsten Mal.
+
+# Essay-Entwurf: Die Konstruktion der Krise in der Kritischen Theorie
+
+Thema: Krise als Konstruktion einer gewünschten Realität vs. objektiver Zustand
+
+Perspektive: Kritische Theorie der alten Frankfurter Schule (Horkheimer, Adorno, Marcuse)
+
+Essay-Typ: Argumentativ
+
+Akademisches Niveau: Doktor (PhD)
+
+Zitierstil: APA
+
+## Einleitung
+
+Die zeitgenössische Debatte um den Krisenbegriff oszilliert häufig zwischen einer objektivistischen Zustandsbeschreibung und einer konstruktivistischen Diskursanalyse. Die vorliegende These, wonach Krise niemals objektiv sei, sondern vielmehr eine gewünschte Realität konstruiere, fordert das klassische Verständnis gesellschaftlicher Verwerfungen heraus. Aus der Perspektive der Kritischen Theorie der alten Frankfurter Schule – primär repräsentiert durch Max Horkheimer und Theodor W. Adorno – erweist sich diese Problemstellung als dialektisches Spannungsfeld. Während die Kritische Theorie die Krise als immanentes Resultat systemischer Widersprüche begreift, erkennt sie zugleich deren ideologische Instrumentalisierung zur Stabilisierung von Herrschaftsverhältnissen an.
+
+## Die Objektivität des Widerspruchs
+
+Entgegen einer rein konstruktivistischen Lesart insistiert die frühe Kritische Theorie auf der materiellen Realität der Krise. In Anlehnung an die Marxsche Kritik der politischen Ökonomie begreifen Horkheimer und Adorno die Krise als Ausdruck der objektiven Antagonismen des Kapitalismus (Horkheimer, 1937/1992). Die Krise ist hier kein bloßes Sprachspiel, sondern das notwendige Resultat einer irrationalen Totalität, in der die Produktivkräfte mit den Produktionsverhältnissen kollidieren. Eine Leugnung der objektiven Krisenhaftigkeit würde Gefahr laufen, die realen Leiden der Subjekte zu marginalisieren und die Theorie in einen folgenlosen Subjektivismus zu überführen.
+
+## Krise als ideologisches Konstrukt und Instrument der Verwaltung
+
+Gleichwohl bietet die Kritische Theorie Anknüpfungspunkte für die These der Krisenkonstruktion. In der Dialektik der Aufklärung beschreiben Adorno und Horkheimer (1947/1969) die „verwaltete Welt“, in der Krisenphänomene durch die Kulturindustrie und staatliche Interventionen nicht nur bewältigt, sondern funktionalisiert werden. Hier nähert sich die Theorie der These an: Die Proklamation einer Krise dient oft dazu, einen Ausnahmezustand zu normalisieren und eine „gewünschte Realität“ – nämlich die der totalen Integration und Disziplinierung – zu festigen. Herbert Marcuse (1964/1991) verdeutlicht in Der eindimensionale Mensch, wie das System potenzielle Krisenherde absorbiert und den Krisendiskurs nutzt, um Alternativlosigkeit zu suggerieren. Die Krise wird somit zum Narrativ, das die bestehende Ordnung paradoxerweise legitimiert, indem sie als alternativloses Management des Unvermeidbaren erscheint.
+
+## Synthese: Die Dialektik der Krisenwahrnehmung
+
+Die Frankfurter Schule würde die These daher dialektisch erweitern: Die Krise ist objektiv in ihren Ursachen, aber konstruiert in ihrer Erscheinungsform und politischen Verwertung. Die „gewünschte Realität“, die durch den Krisendiskurs konstruiert wird, ist die Perpetuierung des Bestehenden unter dem Deckmantel der Notwendigkeit. Eine rein subjektivistische Sichtweise verkennt die strukturelle Gewalt, während eine rein objektivistische Sichtweise die manipulative Kraft des Krisennarrativs übersieht.
+
+## Fazit
+
+Zusammenfassend lässt sich festhalten, dass die Kritische Theorie die These der Krisenkonstruktion stützt, sofern sie als Kritik der instrumentellen Vernunft verstanden wird. Krise beschreibt zwar reale, objektive Widersprüche, doch ihre diskursive Rahmung fungiert als machtvolles Instrument zur Konstruktion einer Realität, die systemimmanente Transformationen verhindert. Für eine Promotion im Bereich der Sozialphilosophie bietet dieser Ansatz die Möglichkeit, die Grenze zwischen Materialismus und Konstruktivismus kritisch zu hinterfragen.
+
+## Literaturverzeichnis
+
+Adorno, T. W., & Horkheimer, M. (1969). Dialektik der Aufklärung: Philosophische Fragmente. Querido. (Originalarbeit veröffentlicht 1947)
+
+Horkheimer, M. (1992). Traditionelle und kritische Theorie: Fünf Aufsätze. Fischer Taschenbuch Verlag. (Originalarbeit veröffentlicht 1937)
+
+Marcuse, H. (1991). Der eindimensionale Mensch: Studien zur Ideologie der fortgeschrittenen Industriegesellschaft. Luchterhand. (Originalarbeit veröffentlicht 1964)
