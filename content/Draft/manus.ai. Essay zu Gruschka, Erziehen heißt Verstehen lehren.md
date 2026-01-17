@@ -1,4 +1,12 @@
+---
 
+title: f-notes
+enableToc: true
+showDate: false
+showReadingTime: false
+draft: true
+
+---
 # Die Erosion des Verstehens: Eine kritische Analyse der pädagogischen Modernisierungsideologie
 
 Die zeitgenössische Bildungslandschaft ist geprägt von einer **pädagogischen Modernisierungsideologie**, die unter dem Banner von Effizienz, Messbarkeit und Kompetenzorientierung einen tiefgreifenden Wandel der schulischen Praxis vollzieht. Basierend auf Andreas Gruschkas Werk *Erziehen heißt Verstehen lehren* lässt sich diese Ideologie als eine fundamentale **Verzerrung des Bildungsauftrags** beschreiben, bei der das genuine Verstehen zugunsten einer instrumentellen Konditionierung geopfert wird [1].

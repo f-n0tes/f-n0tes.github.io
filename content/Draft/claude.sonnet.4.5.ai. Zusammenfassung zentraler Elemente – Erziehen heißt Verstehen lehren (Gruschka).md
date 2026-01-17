@@ -1,3 +1,12 @@
+---
+
+title: f-notes
+enableToc: true
+showDate: false
+showReadingTime: false
+draft: true
+
+---
 # [[Andreas Gruschka]] - Erziehen heißt Verstehen lehren
 
 ## Übersichtliche Zusammenfassung nach Schlüsselkategorien

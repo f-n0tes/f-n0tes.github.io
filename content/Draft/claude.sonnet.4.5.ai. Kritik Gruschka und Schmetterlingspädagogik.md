@@ -1,3 +1,13 @@
+---
+
+title: f-notes
+enableToc: true
+showDate: false
+showReadingTime: false
+draft: true
+
+---
+
 # ==[[Andreas Gruschka]]s Kritik an der [[Schmetterlingspädagogik]] der [[Alemanenschule ASW]]==
 
   
@@ -1128,27 +1138,48 @@ Die Kinder müssen:
 
   
 
-> "Ich habe eine Woche lang protokolliert, wer wen wie gegrüßt hat. Und es gab Lehrkräfte, die haben über 90 Prozent der Kinder nicht gegrüßt … Dann wollte ich das **Grüßexperiment** um eine zweite Woche zu verlängern. Mit den Ergebnissen bin ich dann in die Konferenz. **Gar keine gute Idee!** Das Kollegium war empört. Das ginge gar nicht, das seien ja **fast Stasimethoden**: die Kinder auf sie anzusetzen und das auch noch dokumentieren zu lassen."
+> "Ich habe eine Woche lang protokolliert, wer 
+üßt hat. Und es gab Lehrkräfte, die haben über 90 Prozent der Kinder nicht gegrüßt … Dann wollte ich das **Grüßexperiment** um eine zweite Woche zu verlängern. Mit den Ergebnissen bin ich dann in die Konferenz. **Gar keine gute Idee!** Das Kollegium war empört. Das ginge gar nicht, das seien ja **fast Stasimethoden**: die Kinder auf sie anzusetzen und das auch noch dokumentieren zu lassen."
+
+
 
   
 
-> "Vielleicht war ich zu weit gegangen? Kurz darauf habe ich mich entschuldigt."
+
+> "Vielleicht war ich zu weit gegangen? Kurz da
+h mich entschuldigt."
+
+
 
   
 
-**Interessant:** [[Ruppaner]] verlangt **Disziplin** beim Grüßen - aber nennt es nicht so. Er **instrumentalisiert** die Kinder für sein Ziel (freundliche Atmosphäre). Und als das Kollegium das kritisiert, **lenkt er ein**.
+
+**Interessant:** [[Ruppaner]] verlangt **Diszip
+rüßen - aber nennt es nicht so. Er **instrumentalisiert** die Kinder für sein Ziel (freundliche Atmosphäre). Und als das Kollegium das kritisiert, **lenkt er ein**.
+
+
 
   
+
 
 **Wo ist hier die pädagogische Reflexion?**
 
+
+
+
   
+
 
 ---
 
+
+
+
   
 
-## 9. ==DIGITALISIERUNG UND TECHNIK== {#digitalisierung-und-technik}
+
+## 9. ==DIGITALISIERUNG UND TECHNIK== {#digital
+-technik}
 
   
 
