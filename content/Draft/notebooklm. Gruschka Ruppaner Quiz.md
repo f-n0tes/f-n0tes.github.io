@@ -7,7 +7,7 @@ tags:
 aliases:
 enableToc: true
 showReadingTime:
-draft: true
+draft: false
 cssclasses:
 ---
 # Quiz A: Gruschka vs. Ruppaner
