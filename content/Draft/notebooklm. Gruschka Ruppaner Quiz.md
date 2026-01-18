@@ -32,7 +32,7 @@ Stefan Ruppaner vergleicht das traditionelle Lernen mit einem ,,Standardmenü "u
 > Gruschka würde argumentieren ,dass die scheinbare Freiheit am Buffet nichts an der Qualität der Speisen ändert .Wenn alle Angebote didaktisch vereinfacht und aufbereitet sind ,führt die Wahl nicht zu mehr Bildung ,sondern nur zu einer individualisierten Form des Konsums von aufbereitetem Wissen.
 
 
-Quiz 3: Stille
+## Quiz 3: Stille
 
 An der ASW herrscht in den Lernateliers eine bemerkenswerte Stille .Gruschka kritisiert die Streitschlichterprogramme ,weil sie Konflikte durch prozedurale Regelungen zu befrieden suchen ,anstatt sie als pädagogische Herausforderung zu begreifen .Wie könnte man diese beiden Beobachtungen aus Gruschkas Sicht verbinden ?
 

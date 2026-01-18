@@ -1487,8 +1487,7 @@ rüßen - aber nennt es nicht so. Er **instrumentalisiert** die Kinder für sein
 
 **Genau das ist der Punkt:**
 
-  
-
+> [!important]
 > ==**[[Gruschka]]:**== "Die Bildungsstandards müssen deshalb, weil sie blind bleiben für die Eigenlogik der subjektiven Bildung, Kompetenzentwicklung zirkulär anstreben, nämlich letztlich als **»[[training on the test]]«** der Kompetenzen. Mit anderen Worten: **»Die Katze beißt sich in den Schwanz.«**"
 
   
@@ -1572,9 +1571,6 @@ Die **[[Schmetterlingspädagogik]]** ist kein innovatives Modell, sondern ein **
 **Nein!** Es ist **hochgradig konform** mit der bildungspolitischen Modernisierungsideologie, die [[Gruschka]] kritisiert.
 
   
-
-**Die Schmetterlinge fliegen nicht frei - sie fliegen im Käfig des Neoliberalismus.**
-
   
 
 > **==Meine Annotation zu Ruppaner, S. 766:==**

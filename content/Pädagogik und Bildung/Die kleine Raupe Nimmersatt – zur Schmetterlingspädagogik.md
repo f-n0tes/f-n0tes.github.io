@@ -22,6 +22,40 @@ showReadingTime:
 draft: true
 cssclasses:
 ---
+# Gliederung
+
+1. Ruppaner (ASW)
+2. Gruschka, Kritische Bildungstheorie (kurz)
+3. Vergleich
+	1. Leitbild, Rituale, Verträge und Unterschriftenleitungen
+	2. Konkurrenzdenken und außerpädagogische Interessen, Graduierungssystem und Meritentafeln
+		1. Entgrenzung der Pädagogik
+	3. Bildungsstandards, Kompetenzen und training-on-the-test statt Verstehen, PISA
+	4. Entsorgung des Inhalts: What works, nicht was ist
+	5. Methodenwahn und Schülerbuffets
+	6. Bildungsfunktion: Integration in den Arbeitsmarkt (kritisch oder affirmativ als Beleg für die Wirkung der Schmetterlingspädagogik)
+	7. Selbststeuerung, -disziplinierung, -organisation (bzw. Fremd- …), Gouvernementalität und betriebswirtschaftliches Management
+	8. Emanzipatorische Seite der Pädagogik? Gähnende Leere
+4. Fazit
+	1. Anders oder neuer als die anderen Konzeptionen im Sinne einer „neuen Erziehung“? Nein.
+	2. Aber sie kann für Außenstehende, liberal und progressiv denkende und weniger auf den bekannten Disziplinierungsverfahren bestehende, durchaus innovativ und fortschrittlich eingeordnet werden
+	3. dabei ist es gar nicht mal so neu, so revolutionär, weil es sich perfekt eingliedert in die nun seit gut 30 Jahren bildungspolitisch anvisierte und erziehungswissenschaftlich vielseitig bearbeitete sogenannte „neue Lernkultur“; in die Ideologie des Lebenslangen Lernens.
+
+# Zur Schmetterlingspädagogik an der ASW
+
+- Lerndorf, sogar an mehreren Orten der Gemeinde, betreut von ehrenamtlichen Lernhelfern ⇨ Kritik: Quiz A.1, Schonraum geht verloren
+- Lernateliers, Marktplatz, Baumhäuser und Co-Working-Spaces: Erziehungsräume Als Wohlfühloasen, Stille und keine beschmierten Wände ⇨ Kritik: Quiz A.3, Selbstdisziplinierung sorgt für Stille, was nicht unbedingt auf eine pädagogische Einsicht hindeuten muss
+- Lernbegleiter, Lernpartner und Quadriga
+- SOL-Reader, Lernpläne (die früher ja alle scheiße fanden) und Bildungspfade, formale Rationalität von Verfahren ⇨ Kritik: Quiz A.12, Technik ist hier nicht nur Mittel, sondern Voraussetzung, technisches Verfahren statt pädadgogischer Beziehung bzw. Auseinandersetzung mit dem Inhalt
+- weitestgehend frei terminierbare Gelingensnachweise statt Klassenarbeiten und Klausuren, ein bisschen wie an der Uni
+- Graduierungssystem und dennoch Noten ⇨ Kritik: Quiz A.18: Social-Credit-System
+- Lernbuffet, Nachfrageorientierung (Schüler wählen vom Buffet) statt Angebotsorientierung (Frontalunterricht, das Thema der Stunde steht fest) ⇨ Kritik 1: Ja, wobei nicht jeder Scheiß nachgefragt werden kann; Kritik 2: Quiz A.2, „teacher-proofed-pupil-food“: Wahlfreiheit verschleiert, dass die Angebote/Speisen didaktisch vorverdaut sind und die Konfrontation mit der Sache vermeidbar, variabel, aufschiebbar machen; Kritik 3: Welche Inhalte? Welche pädagogische Substanz?
+- Es wird auf Kompetenzen gesetzt (Weinert, Hattie), Kompetenzraster
+- Disziplinprobleme und Bändigung der Rabauken
+- Leitbild, Rituale und Verträge
+
+
+* * *
 # Spotify Kommentar als Ausgangspunkt
 
 Zum Thema Schmetterlingspädagogik: diese ist eine Spielart des selbstgesteuerten, "lebenslangen Lernens", und ist weder ein neuer noch ein exklusiver Bildungsansatz, sondern seit ungefähr 30 Jahren das zentrale Prinzip der Bildungsorganisation. Es geht einher mit der Neoliberalisierung der Bildung(sinstitutionen) und ist vor allem ökonomisch und politisch, jedoch kaum pädagogisch begründet. Klingt zunächst emanzipatorisch, bedeutet jedoch die Implementierung von Marktprinzipien in der Pädagogik. Habe zwei Jahre dazu erziehungswissenschaftlich, anfänglich noch auf der Suche nach einer besseren Organisation von Bildung und einer Alternative zur Benotung, geforscht und werde äußerst skeptisch bei den verschiedenen, sich neuhumanistisch und emanzipatorisch gebenden Bildungskonzepten. Falls Interesse besteht, kann ich meine BA oder weiterführende Literatur zur Verfügung stellen. Simons Intuition ("Waldorfschule" und darüber erst noch nachdenken zu müssen) war hier auf jeden Fall angebracht
