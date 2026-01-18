@@ -82,12 +82,6 @@ Die ASW legt Wert darauf, dass Lernbegleiter und Lernpartner gemeinsam „Bildun
 
 # Gruschka beschreibt die paradoxe Situation, dass die moderne Didaktik den Lehrer entlasten will, ihn aber dadurch seiner eigentlichen Aufgabe beraubt. Wie spiegelt sich dieses Paradox in der Beschreibung der Herausforderungen für die Lernbegleiter an der ASW wider?
 
-A.
-
-Die Lernbegleiter müssen höchst flexibel sein und sich kontinuierlich an veränderte Schülerbedürfnisse anpassen.
-
-B.
-
 Die Lernbegleiter sind durch die Reduktion des Unterrichts zwar vom direkten Lehren „entlastet“, aber gleichzeitig durch die Erstellung unzähliger digitaler Kompendien und Materialpakete an ihre Belastungsgrenzen gebracht.
 
 Das stimmt.
