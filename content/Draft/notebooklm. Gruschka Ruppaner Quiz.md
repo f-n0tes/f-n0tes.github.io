@@ -7,7 +7,7 @@ tags:
 aliases:
 enableToc: true
 showReadingTime:
-draft: false
+draft: true
 cssclasses:
 ---
 # Quiz A: Gruschka vs. Ruppaner
@@ -24,6 +24,7 @@ Perspektive ,der die Schule als einen vom „,alltäglichen Lebensvollzug bewuss
 >[!info] Die [[Entgrenzung der Pädagogik]] ist auch deshalb ein Problem für die Erziehung, weil sie zu einer Ausweitung des pädagogischen Prinzips auf das gesamte Leben geführt hat und weiterhin führt, weshalb es gerade aufgrund seine allgegenwärtigen Anwesenheit paradoxerweise zu einer Abnahme der Möglichkeiten, pädagogisch wirksam sein zu können.
 
 ## Quiz 2: Das Lernbuffet
+
 Stefan Ruppaner vergleicht das traditionelle Lernen mit einem ,,Standardmenü "und das ASW -Konzept mit einem „Buffet ".Gruschka kritisiert die moderne Didaktik ,sie biete nur noch ,,teacher -proofed pupil -food ".Wie lassen sich diese beiden .Metaphern aus Gruschkas Sicht in Beziehung setzen ?
 
 > Ruppaners „Buffet "ist aus Gruschkas Sicht lediglich eine variantenreichere Anordnung von „pupil -food "-die Wahlfreiheit verschleiert ,dass die angebotenen „Speisen "didaktisch vorverdaut sind und die Konfrontation mit der komplexen Sache vermeiden .
@@ -38,6 +39,7 @@ An der ASW herrscht in den Lernateliers eine bemerkenswerte Stille .Gruschka kri
 > Die Stille könnte nicht das Ergebnis von Bildung und Konzentration auf die Sache sein ,sondern von effektiven Selbst-und Fremdregulierungstechniken ,die Konflikte und Störungen von vornherein unterbinden und so eine pädagogische Auseinandersetzung damit vermeiden.
 
 ## Quiz 4: Kompetenz
+
 Gruschka kritisiert ,dass das Konzept der „,Kompetenz "oft vage bleibt und Unbestimmtes durch Unbestimmtes erklärt wird (vgl .Weinert -Definition ).Die ASW will „,Problemlösungskompetenzen "fördern .Welches Problem würde Gruschka bei der Umsetzung dieses Ziels an der ASW sehen ?
 
 > Dass nicht geklärt wird ,welches substanzielle Wissen und welche spezifischen Fertigkeiten für die Lösung bestimmter Probleme notwendig sind ,wodurch „,Problemlösung "zu einer leeren ,inhaltsunabhängigen Floskel wird .
@@ -80,23 +82,19 @@ Die ASW legt Wert darauf, dass Lernbegleiter und Lernpartner gemeinsam „Bildun
 
 ## Quiz 10: Lernbegleitung Schwierigkeiten 2
 
-# Gruschka beschreibt die paradoxe Situation, dass die moderne Didaktik den Lehrer entlasten will, ihn aber dadurch seiner eigentlichen Aufgabe beraubt. Wie spiegelt sich dieses Paradox in der Beschreibung der Herausforderungen für die Lernbegleiter an der ASW wider?
+Gruschka beschreibt die paradoxe Situation, dass die moderne Didaktik den Lehrer entlasten will, ihn aber dadurch seiner eigentlichen Aufgabe beraubt. Wie spiegelt sich dieses Paradox in der Beschreibung der Herausforderungen für die Lernbegleiter an der ASW wider?
 
-Die Lernbegleiter sind durch die Reduktion des Unterrichts zwar vom direkten Lehren „entlastet“, aber gleichzeitig durch die Erstellung unzähliger digitaler Kompendien und Materialpakete an ihre Belastungsgrenzen gebracht.
-
-Das stimmt.
-
-Dies illustriert Gruschkas Punkt perfekt: Die Kernaufgabe des Lehrens im direkten Austausch wird durch die zeitaufwändige, aber pädagogisch oft weniger substanzielle Aufgabe der Materialproduktion ersetzt. Die Belastung verschiebt sich von der Interaktion zur Vorproduktion.
+> Die Lernbegleiter sind durch die Reduktion des Unterrichts zwar vom direkten Lehren „entlastet“, aber gleichzeitig durch die Erstellung unzähliger digitaler Kompendien und Materialpakete an ihre Belastungsgrenzen gebracht.
+> 
+> Dies illustriert Gruschkas Punkt perfekt: Die Kernaufgabe des Lehrens im direkten Austausch wird durch die zeitaufwändige, aber pädagogisch oft weniger substanzielle Aufgabe der Materialproduktion ersetzt. Die Belastung verschiebt sich von der Interaktion zur Vorproduktion.
 
 ## Quiz 11: Meritentafeln und das Graduierung system
 
 Gruschka kritisiert, dass Erziehung in der Schule oft auf die Herstellung von pro-sozialem Verhalten in Trainingsräumen oder durch Meritentafeln abzielt, losgelöst von der Arbeit an der Sache. Welche Praxis an der ASW könnte man als eine moderne, subtilere Form einer solchen Meritentafel interpretieren?
 
-A.
-
-Das System der „Graduierung“, das über allen Regeln steht und vermutlich den Lernfortschritt oder das Verhalten der Schüler in sichtbaren Stufen dokumentiert.
-
-Ein Graduierungssystem, das Verhalten oder Leistung in Stufen einteilt und öffentlich macht, funktioniert nach derselben Logik wie eine Meritentafel: Es schafft einen Wettbewerb und macht den Status jedes Einzelnen im Kollektiv sichtbar, was erzieherisch wirken soll.
+> Das System der „Graduierung“, das über allen Regeln steht und vermutlich den Lernfortschritt oder das Verhalten der Schüler in sichtbaren Stufen dokumentiert.
+> 
+> Ein Graduierungssystem, das Verhalten oder Leistung in Stufen einteilt und öffentlich macht, funktioniert nach derselben Logik wie eine Meritentafel: Es schafft einen Wettbewerb und macht den Status jedes Einzelnen im Kollektiv sichtbar, was erzieherisch wirken soll.
 
 ## Quiz 12: formale Rationalität von Verfahren
 
@@ -118,46 +116,43 @@ Gruschka stellt fest, dass in der modernen [[Didaktik]] die „didaktische Verpa
 
 Gruschka kritisiert, dass Disziplinprobleme oft eine Reaktion auf einen „sachlich diffusen, vor allem auf einen unterfordernden Unterricht“ sind. Wie könnte man aus dieser Perspektive die Notwendigkeit von detaillierten iPad-Nutzungsregeln an der ASW erklären?
 
-Die Texte deuten darauf hin, dass die ASW in der Gestaltung ihrer Pädagogik und Regeln relativ autonom ist. Gruschkas Erklärung wäre zudem immer eine pädagogische, keine administrative.
-
-Die detaillierten Regeln sind möglicherweise notwendig, weil das selbstgesteuerte Lernen ohne die ständige Anleitung durch einen Lehrenden für manche Schüler zu wenig Struktur bietet und unterfordernd wirken kann, was zu Ablenkung und Störungen durch die Geräte führt.
-
-Aus Gruschkas Sicht könnte die Freiheit des selbstgesteuerten Lernens in eine inhaltliche Leere und Unterforderung münden. Die iPads bieten dann eine willkommene Ablenkung, deren Nutzung extern reguliert werden muss, weil die Sache selbst nicht mehr fesselt
+> Die Texte deuten darauf hin, dass die ASW in der Gestaltung ihrer Pädagogik und Regeln relativ autonom ist. Gruschkas Erklärung wäre zudem immer eine pädagogische, keine administrative.
+> 
+> Die detaillierten Regeln sind möglicherweise notwendig, weil das selbstgesteuerte Lernen ohne die ständige Anleitung durch einen Lehrenden für manche Schüler zu wenig Struktur bietet und unterfordernd wirken kann, was zu Ablenkung und Störungen durch die Geräte führt.
+> 
+> Aus Gruschkas Sicht könnte die Freiheit des selbstgesteuerten Lernens in eine inhaltliche Leere und Unterforderung münden. Die iPads bieten dann eine willkommene Ablenkung, deren Nutzung extern reguliert werden muss, weil die Sache selbst nicht mehr fesselt
 
 ## Quiz 15: Abschaffung des Unterrichts
 
 Die ASW rühmt sich, den 45-Minuten-Takt abgeschafft zu haben, damit das Lernen „individuell und selbstbestimmt“ gestaltet werden kann. Gruschka argumentiert, dass guter Unterricht „die lebendige Arbeit einer Klasse an einer sachlichen Problemstellung“ erfordert. Wo liegt aus Gruschkas Sicht der potenzielle Verlust bei der Abschaffung des gemeinsamen Taktes?
 
-Es geht die Möglichkeit des gemeinsamen, synchronen Denkprozesses einer Gruppe an einem Gegenstand verloren, der durch die Impulse eines Lehrers und die Reaktionen der Mitschüler dynamisiert wird.
+> Es geht die Möglichkeit des gemeinsamen, synchronen Denkprozesses einer Gruppe an einem Gegenstand verloren, der durch die Impulse eines Lehrers und die Reaktionen der Mitschüler dynamisiert wird.
+> 
+> Für Gruschka ist der Unterricht ein sozialer Prozess, in dem durch die gemeinsame, von einem Lehrer angeleitete Auseinandersetzung mit der Sache Verstehen entsteht. Die reine Individualisierung löst diesen kollektiven Erkenntnisprozess auf
 
-Für Gruschka ist der Unterricht ein sozialer Prozess, in dem durch die gemeinsame, von einem Lehrer angeleitete Auseinandersetzung mit der Sache Verstehen entsteht. Die reine Individualisierung löst diesen kollektiven Erkenntnisprozess auf
-
-## Quiz 15: Erziehungsräume als wohlfuhloasen
+## Quiz 16: Erziehungsräume als Wohlfühloasen
 
 Der Text über die ASW zitiert die Innenarchitektin Fratton: „Wer vandalensichere Schulen baut, erzieht Vandalen.“ Gruschka argumentiert, dass Erziehung aus der gemeinsamen Aufgabe erwächst. Wie würde Gruschka Frattons Aussage kommentieren?
 
-Obwohl er sozialen Ursachen Bedeutung beimessen würde, liegt sein Fokus auf der pädagogischen Interaktion in der Schule. Er würde argumentieren, dass die Art des Unterrichts entscheidend für das Verhalten der Schüler ist.
+>Obwohl er sozialen Ursachen Bedeutung beimessen würde, liegt sein Fokus auf der pädagogischen Interaktion in der Schule. Er würde argumentieren, dass die Art des Unterrichts entscheidend für das Verhalten der Schüler ist.
+> 
+>Er würde zustimmen, aber ergänzen, dass eine schöne Umgebung allein nicht erzieht. Echte Erziehung zur Achtung des Eigentums entsteht erst, wenn die Schüler die Umgebung als notwendigen Raum für ihre wichtige, gemeinsame Bildungsarbeit wertschätzen lernen.
+>
+>Gruschka würde die Kausalität umdrehen: Nicht der schöne Raum erzieht, sondern die wertgeschätzte, sinnvolle Tätigkeit im Raum führt zur Achtung des Raumes. Die Erziehung ist an die Sache gebunden, nicht an die Architektur.
+## Quiz 17: Rituale
 
-D.
-
-Er würde zustimmen, aber ergänzen, dass eine schöne Umgebung allein nicht erzieht. Echte Erziehung zur Achtung des Eigentums entsteht erst, wenn die Schüler die Umgebung als notwendigen Raum für ihre wichtige, gemeinsame Bildungsarbeit wertschätzen lernen.
-
-Gruschka würde die Kausalität umdrehen: Nicht der schöne Raum erzieht, sondern die wertgeschätzte, sinnvolle Tätigkeit im Raum führt zur Achtung des Raumes. Die Erziehung ist an die Sache gebunden, nicht an die Architektur.
-## Rituale
 In der Lernhausordnung heißt es: 'Der Vormittag beginnt immer mit einer persönlichen Begrüßung zwischen Lernpartner und Lernbegleiter.' Welches von Gruschka kritisierte Phänomen spiegelt sich in dieser rituellen Vorgabe wider?
 
-Die Kompensation der institutionellen Kälte durch pädagogische Wärme.
+> Die Kompensation der institutionellen Kälte durch pädagogische Wärme.
+> 
+> Gruschka argumentiert, dass solche Rituale oft dazu dienen, die sachliche Distanz und institutionelle Härte der Schule emotional zu überlagern, anstatt die Sache selbst zum Zentrum zu machen
 
-Gruschka argumentiert, dass solche Rituale oft dazu dienen, die sachliche Distanz und institutionelle Härte der Schule emotional zu überlagern, anstatt die Sache selbst zum Zentrum zu machen
+## Quiz 18: Erziehung durch Social Credits
 
-## Quiz 17: Erziehung durch Social Credits
 Die Lernhausordnung schreibt vor: 'Der Lernplan und dein Statusschild hängen gut sichtbar an deinem Arbeitsplatz.' In welchem Zusammenhang steht dies zu Gruschkas Kritik an der 'neuen Erziehung'?
 
+> Es dient der symbolischen Sichtbarkeit von Graduierung und administrativer Kontrolle.
+> 
+> Gruschka kritisiert, dass durch solche Instrumente die Erziehung in ein System von Status, Punkten und ständiger Sichtbarkeit (Monitoring) überführt wird
 
-Die öffentliche Anzeige von Status und Plänen kann laut Gruschka den Wettbewerb und die soziale Selektion eher verschärfen.
-
-Es dient der symbolischen Sichtbarkeit von Graduierung und administrativer Kontrolle.
-
-Gruschka kritisiert, dass durch solche Instrumente die Erziehung in ein System von Status, Punkten und ständiger Sichtbarkeit (Monitoring) überführt wird
-
-## Quiz 18:
+## Quiz 19:
