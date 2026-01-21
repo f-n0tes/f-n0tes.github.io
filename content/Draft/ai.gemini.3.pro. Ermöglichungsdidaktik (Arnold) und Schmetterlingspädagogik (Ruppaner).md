@@ -1,3 +1,15 @@
+---
+title:
+subtitle:
+created:
+genre:
+tags:
+aliases:
+enableToc: true
+showReadingTime:
+draft: true
+cssclasses:
+---
 
 Hier ist eine vergleichende Analyse zwischen der **Schmetterlingspädagogik** (primär vertreten durch Stefan Ruppaner und das Konzept der Alemannenschule Wutöschingen) und der **Ermöglichungsdidaktik** (begründet durch Rolf Arnold).
 
