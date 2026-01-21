@@ -54,6 +54,17 @@ cssclasses:
 - Disziplinprobleme und Bändigung der Rabauken
 - Leitbild, Rituale und Verträge
 
+# Podcast Lernbegleitung
+
+- Schule als Zeit der Muße, frei von Geschäft. Als der Ruppaner das bei Aristoteles gelesen hat, dachte er sich, Schule ist ein tolles Wort und wir haben es versaut. Er will zurück zu Aristoteles.
+- Er will Begrifflichkeiten Ändern, weil es notwendig sei, für seine Pädagogik. Er möchte das Wort Lehrer nicht mehr hören, denn gute Lernbegleiter BELEHREN nicht. Nun heißt das Wort aber Lehrer und nicht Belehrer, das Lehren ist fundamental anders gelagert als zu Belehren, wenngleich auch Lehrer natürlich nicht davor gefeit sind, an der ein oder anderen Stelle die Schüler zurechtzuweisen, sie eines Besseren zu belehren.
+- Generell unterscheide sich die Lernbegleitung an der ASW nochmal von den anderen Lernbegleitungen. Es geht um Coaching, das sich allerdings auch nochmal von allen anderen Coachingformen unterscheidet.
+- Von der Bildungspolitik fühlt er sich im Stich gelassen, und das, obwohl Lernbegleitung gerade en vogue ist.
+- Lernbegleitung und Coaching sind quasi synonym zu verstehen, wobei Lernbegleitung sich noch etwas mehr um das Lernen (nicht um die Lerninhalte!) kümmert, während der Coach den Lernenden als gesamten Menschen im Blick hat. Vor allem geht es aber um LIEBE.
+- Für den Ruppaner gibt es nur noch Haltung, eine gemeinsame Haltung aller Lernbegleiterinnen an der Schule. Dass er diese Haltung auch erst lernen musste, erfuhr er durch den „Papst der Pädagogik“ – Peter Fratton.
+- Zu der Haltung gehört: Weg von dem, was die Lehrpläne vorgeben, weg von dem Unterricht. Denn entledigt man sich dem Unterricht, dann braucht es weder mehr Geld noch mehr Personal, da so die Zeit für ein wirklich selbstgorganisiertes Lernen frei geworden ist. So ist es auch im Sinne der geforderten Haltung, den einzelnen Lernenden zu zentrieren und zu erkennen, was jeder einzelne Lernende in der jeweiligen Situation benötigt.
+	- Die konkrete Haltung bleibt also im Grunde weitestgehend unklar, bezieht sich auf irgendeinen Papst der Pädagogik und kann im Zirkel damit begründet werden, dass die richtige Haltung des Lernbegleiters auch zu einer guten, dem einzelnen Schüler gerechtwerdenden Pädagogik führen wird.
+
 
 * * *
 # Spotify Kommentar als Ausgangspunkt
