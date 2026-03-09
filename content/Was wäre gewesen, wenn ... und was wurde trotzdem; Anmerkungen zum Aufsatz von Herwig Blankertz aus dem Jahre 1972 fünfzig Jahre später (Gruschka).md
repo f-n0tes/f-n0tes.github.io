@@ -110,5 +110,5 @@ https://www.pedocs.de/volltexte/2025/33209/pdf/PaeK_2022_66_Blankertz_Kollegstuf
 
 
 Alphonso: 
-- Die Integration des weiterhin Nicht-Integrierten
+- Die Integration des gleichwohl weiter nicht Integrierten
 - Ich würde eine Erziehung zum Nicht-Mitmachen außerordentlich advodzieren
