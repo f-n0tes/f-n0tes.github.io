@@ -1,5 +1,5 @@
 ---
-title:
+title: Glückwunsch, du willst uns für dumm verkaufen
 subtitle: Jean-Philippe Kindler und die „überakademisierte Sprache“ in der Kommentarspalte
 created: 2026-01-01
 genre: Podcast
