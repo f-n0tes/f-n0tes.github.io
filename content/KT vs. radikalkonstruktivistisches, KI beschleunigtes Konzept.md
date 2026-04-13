@@ -124,7 +124,7 @@ Was mich an der mathematischen Seite überzeugt hat: Um diesen ganzen Raum korre
 
 [Miki](https://smalltalk.neuezwanziger.de/u/Miki) 4. April 2026 um 09:49 7
 
-Danke. Habe das hyper Volumen erstmal nur kurz von der LLM in den Kontext passen lassen. Wird ne Weile dauern das in der Potenzialität zu prozessieren. Aber die konkreten Auswirkungen für die bisherigen Gedanken sind sehr zufriedenstellend ![:slight_smile:](https://smalltalk.neuezwanziger.de/images/emoji/twitter/slight_smile.png?v=15 ":slight_smile:")
+Danke. Habe das hyper Volumen erstmal nur kurz von der LLM in den Kontext passen lassen. Wird ne Weile dauern das in der Potenzialität zu prozessieren. Aber die konkreten Auswirkungen für die bisherigen Gedanken sind sehr zufriedenstellend! :)
 
 Werde den potentiellen Prozess paar Tage im Cache Unterprozess laufen lassen, irgendwann im Schlaf kommt dann meistens eine Aha Sprungmarke.
 
