@@ -7,10 +7,18 @@ draft: false
 ---
 ![[f-notes-intro-2.jpg]]
 
-Hier sollen über kurz oder lang Notizen, Reflexionen und Texte entstehen, die sich dabei mehr oder weniger an diesen Überbegriffen orientieren. Ein konkretes Konzept liegt dabei nicht vor, thematisch werden sich die einzelnen Beiträge jedoch vor allem im sozial- und erziehungswissenschaftlichen sowie im bildungstheoretischen Feld bewegen.
+> [!quote] [RETROGOTT](https://www.youtube.com/watch?v=VES2pm1JZns)
+> Sie stehen sich im Weg, um den Willen zu umgehen
+> Viele kommen als Missgebildete aus dem Bildungssystem
+> Das sie selektiert und systematisiert
+> Ihre Beine amputiert und ihnen Krücken anmontiert
+> Diese Revolution frisst nicht die Kinder, die sie hat
+> Sondern verstümmelt sie und gibt dann Behindertenrabatt
+> Ich ecke an in eingeweihten Zirkeln
+> Gott setzt 'ne weitere Runde aus, ach, würde er doch würfeln
+> Doch weil sein Abbild der schlechteste Verlierer ist
+> Lässt er Regeln ändern, bis der Zufall programmierbar ist
+> Ich drehe euer Einbahnstraßenschild um
+> Und willkommen in der Sackgasse der systematisierten Bildung
 
-Der erste hier veröffentliche Text dient vor allem der Reflexion meines Kommentarspaltentourettes und der Einordnung meiner Kritik an der pro-palästinensischen Protestbewegung, auf die Jean-Philippe Kindler in dem Podcast *Hi Freaks* Bezug genommen hat:
-
-> [!hint] Kulturindustrie/Podcasts
->- [[Glückwunsch, du willst uns für dumm verkaufen]]
 
