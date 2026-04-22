@@ -409,7 +409,7 @@ Zunächst ergibt sich aus dem Umstand, daß die Aussicht auf eine begriffliche D
 
 Adorno findet für den damit angedeuteten Strukturwandel von Subjektivität eine Reihe von verschiedenen Formulierungen (38, 49, 52), die aber alle in der Idee münden, daß das Subjekt mit der Wendung zur negativen Dialektik seine Fähigkeit zur autonomen Sinnsetzung verliert; (!!!)
 
-> [!NOTE]
+> [!note]
 > nachschlagen und Notizen machen !!!
 
 ==stattdessen muß es sich, weil es stets ein Stück unbegriffener Wirklichkeit vorauszusetzen hat==, seiner *„als eines (seinerseits) Vermittelten bewußt"* (49) werden.
