@@ -73,7 +73,7 @@ das ==Ziel vor Augen==, (…) eine ==umfassende Begründung für diese eigenwill
 
 in der knappen „Vorrede" heißt es zwar,
 
-daß sie den Begriff der *„philosophischen Erfahrung" (10)[^1]* exponieren soll, aber das deckt bei weitem nicht die Vielzahl an Themen und Überlegungen ab, (…) 
+daß sie den Begriff der *„philosophischen Erfahrung"* (10) exponieren soll, aber das deckt bei weitem nicht die Vielzahl an Themen und Überlegungen ab, (…) 
 
 Sieht man also von dieser Aufgabenbestimmung Adornos ab, die ein wenig gewollt erscheint, (…) ==vor der konkreten Durchführung durchaus schon einmal ein Vorbegriff der Absicht und des Sinns einer „negativen" Dialektik geliefert werden soll.==
 
@@ -107,7 +107,7 @@ Aus diesem Scheitern zieht Adorno noch in demselben Zusammenhang ==die Konsequen
 muß sie, wie es heißt, 
 
 > [!quote] Adorno (1966). ND, S. 16
-> *„sich selber rücksichtslos ... kritisieren" (16).*[^2]
+> *„sich selber rücksichtslos ... kritisieren" (16).*
 
 warum sollte aus der historischen Tatsache, daß ein einziges philosophisches Projekt, der Linkshegelianismus, bei dem Versuch einer praktischen Verwirklichung der Vernunft gescheitert ist, für die Philosophie im Ganzen die Notwendigkeit einer zukünftigen Beschränkung auf pure Selbstkritik folgen?
 
