@@ -147,7 +147,6 @@ weil dieser in seinen Revolutionsabsichten nur dessen Zielsetzung praktisch umse
 
 daher besiegelt das Scheitern der Revolution das Schicksal aller der in Hegels System mündenden Bestrebungen, das Ganze der Welt begrifflich einzuholen.
 
-
 > [!ai]- Zum sozial- und philosophiegeschichtlichen Argument?
 > **„Mit dem ersten, sozialgeschichtlichen Argument hängt diese fragmentarische Skizze einer Philosophiegeschichte insofern zusammen, als sie das Scheitern der Marxschen Revolutionsideale zu einem Schicksalsmoment aller ernstzunehmenden philosophischen Bemühungen macht"**
 > 

@@ -4,7 +4,11 @@ function toggleCallout(this: HTMLElement) {
   const content = outerBlock.getElementsByClassName("callout-content")[0] as HTMLElement
   if (!content) return
   const collapsed = outerBlock.classList.contains("is-collapsed")
-  content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
+  if (collapsed) {
+    content.style.height = "0"
+  } else {
+    content.style.height = content.scrollHeight + "px"
+  }
 }
 
 function setupCallout() {
@@ -20,7 +24,11 @@ function setupCallout() {
     window.addCleanup(() => title.removeEventListener("click", toggleCallout))
 
     const collapsed = div.classList.contains("is-collapsed")
-    content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
+    if (collapsed) {
+      content.style.height = "0"
+    } else {
+      content.style.height = content.scrollHeight + "px"
+    }
   }
 }
 

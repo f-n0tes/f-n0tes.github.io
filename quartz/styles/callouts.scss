@@ -10,8 +10,8 @@
   box-sizing: border-box;
 
   & > .callout-content {
-    display: grid;
-    transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+    display: block;
+    transition: height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
     overflow: hidden;
 
     & > :first-child {
@@ -128,15 +128,6 @@
   &.is-collapsed {
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);
-    }
-
-    .callout-content > :first-child {
-      transition:
-        height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
-        margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
-      overflow-y: clip;
-      height: 0;
-      margin-top: -1rem;
     }
   }
 }
