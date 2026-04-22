@@ -465,9 +465,9 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 </div>`,
                 }
 
-                const blockquoteContent: (BlockContent | DefinitionContent)[] = [titleHtml]
+                const contentChildren: (BlockContent | DefinitionContent)[] = []
                 if (remainingText.length > 0) {
-                  blockquoteContent.push({
+                  contentChildren.push({
                     type: "paragraph",
                     children: [
                       {
@@ -477,24 +477,15 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     ],
                   })
                 }
+                contentChildren.push(...calloutContent)
 
-                // For the rest of the MD callout elements other than the title, wrap them with
-                // two nested HTML <div>s (use some hacked mdhast component to achieve this) of
-                // class `callout-content` and `callout-content-inner` respectively for
-                // grid-based collapsible animation.
-                if (calloutContent.length > 0) {
-                  node.children = [
-                    node.children[0],
-                    {
-                      data: { hProperties: { className: ["callout-content"] }, hName: "div" },
-                      type: "blockquote",
-                      children: [...calloutContent],
-                    },
-                  ]
+                const contentBlockquote = {
+                  data: { hProperties: { className: ["callout-content"] }, hName: "div" },
+                  type: "blockquote",
+                  children: contentChildren,
                 }
 
-                // replace first line of blockquote with title and rest of the paragraph text
-                node.children.splice(0, 1, ...blockquoteContent)
+                node.children = [titleHtml, contentBlockquote]
 
                 const classNames = ["callout", calloutType]
                 if (collapse) {
