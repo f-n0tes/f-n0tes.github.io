@@ -127,11 +127,11 @@ weil es einerseits deren immanenten Anspruch auf begriffliche Durchdringung der 
 
 exakt dieses Bild einer im Punkt des Scheiterns Hegels sich umkehrenden Bewegung, (!!!)
 
-die nun anstatt auf immer umfassendere Totalitätserkenntnis auf die möglichst genaue Erschlie ßung konkreter Phänomene zuläuft;
+die nun anstatt auf immer umfassendere Totalitätserkenntnis auf die möglichst genaue Erschließung konkreter Phänomene zuläuft;
 
 ausführlich stellt Adorno daher in seinem Text Bergson (20), Husserl (21) und Sartre (59 f.) dar,
 
-deren philosophischelosophische Ansätze ihm als gescheiterte Versuche erscheinen, in Reaktion auf den Vernunftidealismus einen direkten, begrifflich möglichst unverstellten Zugang zur Wirklichkeit zu erhalten.
+deren philosophische Ansätze ihm als gescheiterte Versuche erscheinen, in Reaktion auf den Vernunftidealismus einen direkten, begrifflich möglichst unverstellten Zugang zur Wirklichkeit zu erhalten.
 
 dem ersten, sozialgeschichtlichen Argument
 
