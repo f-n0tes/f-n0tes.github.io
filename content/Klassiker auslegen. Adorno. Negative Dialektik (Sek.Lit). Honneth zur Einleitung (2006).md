@@ -1,6 +1,6 @@
 ---
 title: 2. Einleitung. Zum Begriff der Philosophie
-subtitle:
+subtitle: Kommentierungen zur Negativen Dialektik des Adornos
 created: 2026-04-21
 genre:
 tags:
@@ -811,10 +811,211 @@ Sobald die Einsicht in die Insuffizienz begrifflicher Bestimmungen einmal vollzo
 
 ## 2.3 Negative Dialektik und Modellanalyse
 
+Wendung zur negativen Dialektik nun aber nicht nur Konsequenzen für eine Neubestimmung der Erkenntnisbeziehung,
+
+sondern auch für die Darstellungsform der Philosophie im Ganzen;
+
+die Überlegungen, die er diesem Komplex des Stils philosophischen Argumentierens widmet, stellen zusammengenommen die dritte These dar,
+
+### 3. These der Einleitung: Adornos Überlegungen des Stils philosophischen Argumentierens
+
+Zwei Themen sind es vor allem, die Adorno an den hier relevanten Stellen erörtert:
+
+Zum einen
+
+beschäftigt er sich mit der Frage, welche Sprache eine Selbstkritik der Philosophie zu wählen habe, die die Gestalt einer „negativen Dialektik" besitzt,
+
+zum anderen
+
+zum anderen
+
+mit der Frage, in welcher Form eine derartige Lehre durchzuführen sei.
+
+Für die Lösung beider Probleme finden sich im Text der „Einleitung" auch entsprechende Schlüsselbegriffe, die es ermöglichen, den Überblick zu bewahren:
+
+#### Schlüsselbegriffe der Sprache und Form einer negativen Dialektik
+
+  
+
+1. welche Sprache hat eine Selbstkritik der Philosophie?
+
+2. welche Form hat eine derartige Lehre? [[Vorlesungen zur Negativen Dialektik]]
+
+  
+
+(!!!l
+
+Der Titel, der für die Sprache einer „negativen Dialektik" herangezogen wird, lautet
+
+„Ausdruckdruck und Stringenz" (29),
+
+die Bezeichnung für ihre Darstellungsform hingegen
+
+„Modellanalyse" (39)
+
+Schon die Verknüpfung der beiden entgegengesetzten Begriffe „Ausdruck" und „Stringenz" macht deutlich, daß Adorno den Charakter seiner philosophischen Sprache aus demselben Prinzip heraus zu bestimmentimmen versucht, welches auch seine Überlegungen zur Erkenntnis leitete.
+
+Wie zu jeder wirklichen Erkenntnis die Resonanz des Objekts in der subjektiven Erfahrung dazugehören muß, so darf nach seiner Meinung auch in der philosophischen Sprache das Element der Subjektivität nicht fehlen; (!!!)
+
+> **Annotation:** *!!!! zentrale theoretisches Argument für Subjektivität*
+
+der Gegenstand zwingt, wenn er „in der engsten Fühlung" (29) erlebt wird, dem Subjekt eine affektive Reaktion auf, die in der expressiven Schicht der Sprache, im „Ausdruck", zur Darstellung gelangt.
+
+!notes (!!!)
+
+Dieses Ausdrucksmoment darf freilich in der philosophischen Sprache nicht die Vorherrschaft erlangen, weil sie dann nach Adorno zum bloßen Träger von „Weltanschauungen" verkommt;
+
+> **Annotation:** *materialistisches Moment und trotz Subjektivität der „Vorrang des Objekts”*
+
+  
+
+„Weltanschauungen” als verbindendes element zur frühen kt in der Antrittsrede!! S. 29
+
+!?!
+
+vielmehr bedarf ihr expressives Element stets der Kontrolle durch ein Bemühen um theoretische Exaktheit, für das im Text der Begriff der „Stringenz" einsteht.
+
+> **Annotation:** *Stringenz für theoretische Exaktheit und den Vorrang des objekts*
+
+Adorno ist also der Überzeugung, daß die Philosophie die ihr angemessene Sprache dort findet, wo die subjektive Empfindung imgewählten Begriff noch mitschwingt, ohne dessen Vermögen zur exakten Bestimmung von Sachverhalten zu beeinträchtigen; und die Formulierung, die er für dieses stilistische Ideal heranzieht, spricht dementsprechend von einer Synthese aus „Ausdruck und Stringenz".
+
+!notes (!!!)
+
+außer Zweifel steht aber, daß er im folgenden Text stets darum bemüht ist, an den zentralentralen Begriffen der philosophischen Tradition die Ausdrucksgehalte freizulegen, die davon zeugen, welche emotionalen Affekte in sie eingeflossen sind.
+
+### Die Darstellungsform in der Entwicklung Adornos Negativer Dialektik
+
+In gewisser Weise besagt dieser letzte Hinweis auch schon etwas über die Darstellungsform,
+
+> **Annotation:** *emotionale Affekte und zentrale Begriffe der philosophischen Tradition*
+
+Bislang wissen wir aus der „Einleitung" nur,
+
+welche Reflexionsebenen eine derart gewandelte Dialektik enthalten können soll;
+
+daß hier nicht nach der üblichen Form
+
+einer geradlinigen Präsentation von Argumenten, sondern in der eigentümlichen Form einer Ellipse
+
+verfahren wird, (!!!)
+
+so daß alle vorgebrachten Überlegungen gleich nah zu einem geistigen Mittelpunkt zu stehen scheinen.
+
+ (!!!)
+
+!notes
+
+Aber die „Einleitung" soll eben im Vorgriff auch nur die Idee einer „negativen Dialektik" vermitteln, für sie gelten möglicherweise noch ganz andere Darstellungsprinzipien, als sie dem Hauptteil des Buches, der Durchführung des Programms, zugrunde liegen sollen.
+
+> **Annotation:** *wichtig zur Bedeutung der Einleitung für die ND selbst !!!!*
+
+Wie also stellt sich Adorno den Vollzug einer Selbstkritik der Philosophie vor, die die Gestalt einer „negativen Dialektik" besitzt?
+
+### Wie also stellt sich Adorno den Vollzug einer Selbstkritik der Philosophie vor, die die Gestalt einer „negativen Dialektik" besitzt?
+
+Die Idee,
+
+der „Modellanalyse" oder des „Denkmodells" (39).
+
+Beide Begriffe besagen zunächst, daß in „Modellen" vorgeführt werden soll, wie sich der Gang einer negativen Dialektik vollzieht; und „Modell" soll hier wohl heißen, daß an exemplarischen Fällen philosophisch zentraler Ideen vorgeführt wird, wie anders sich das darunter gefaßte Phänomen darstellt, wenn es nicht unter dem Gesichtspunkt begrifflicher Totalvermittlung, sondern am Leitfaden begrifflicher Insuffizienz erschlossen wird.
+
+Allerdings bleibt es im Text relativ unklar, wie wir uns die Durchführung solcher Modellanalysen im einzelnen vorzustellen haben;
+
+wenige Hinweise werden gegeben, die sich als Erläuterungen eines konkreten Verfahrens verstehen lassen (39 f.).
+
+> [!notes]
+
+> nachschlagen
+
+Wahrscheinlich hält es Adorno auch hier wieder mit der Hegelschen Maxime, derzufolge sich erst in der Durchführung selber die Prinzipien der zugrunde liegenden Methode offenbaren können.
+
+> **Annotation:** *hegelschen Maxime !!!!*
+
+lassen sich immerhin die groben Umrisse dessen erkennen, was solche Modellanalysen als Vollzugsform negativer Dialektik zu leisten haben.
+
+Als eine Selbstkritik der Philosophie setzen sie nie an einem Phänomen selber an, sondern stets nur an dessen philosophisch tradierter Formulierung; weil sich in derartigen Ideen niedergeschlagen hat, wie im Systemdenken ein bestimmter Sachverhalt begrifflich vermittelt worden ist, bilden sie den exemplarischen Ausgangspunkt einer negativ verfahrenden Dialektik.
+
+### Zum exemplarischen Ausgangspunkt einer negativ verfahrenden Dialektik
+
+  
+
+!!!!!!!
+
+  
+
+zentrale theorie
+
+Im Nachvollzug der begrifflichen Synthesen, mit dem im philosophischen System der entsprechendeSachverhalt bestimmt worden ist, muß das kritische Verfahren dann mindestens an zwei Stellen die traditionellen Bestimmungen in Richtung begriffsjenseitiger Komponenten, des Nichtidentischen, transzendieren:
+
+Erstens
+
+> **Annotation:** *1.*
+
+kann die negativ ansetzende Analyse die begrifflichen Vermittlungen eines Phänomens bis zu dem Punkt zurückverfolgen, an dem genealogisch ihre Verwurzelung in „vorgeistigen" Reaktionsbildungen und Triebbesetzungen ans Licht tritt;
+
+> [!notes]
+
+> vorgeistige Reaktionsbildungen und Triebbesetzungen
+
+  
+
+!!!
+
+auf diese Weise vermag deutlich zu werden, daß philosophische Ideen nicht einer autarken, unabhängigen Sphäre menschlicher Vernunftleistungen angehören, sondern sich an einer bislang undurchschauten Stelle des Anstoßes von natürlichen Regungen des Menschen verdanken.
+
+Zweitens (?!)
+
+> **Annotation:** *2.*
+
+kann das kritische Verfahren die begrifflichen Vermittlungen eines Phänomens bis zu dem Punkt verfolgen, an dem sich in den Resonanzen der subjektiven Erfahrung seine qualitativen Eigenschaften abzuzeichnen beginnen;
+
+> **Annotation:** *!!! Subjektivität und begriff*
+
+auch auf diese Weise wird deutlich, in welchem Maße die herkömmlichen Bestimmungen aufgrund ihrer Reduktion aufs Begriffliche die nicht vermittelbaren Randzonen von Sachverhalten abgeschnitten haben.
+
+> [!notes]
+
+> ?!?
+
+Beide Transzendierungsbewegungen zusammengenommenmen bilden wohl den Grundbestand dessen, was Adorno „Modellanalyse" nennt:
+
+> **Annotation:** *2 Transzendierungsbewegungen als Grundbestand Adornos Modellanalyse*
+
+Exemplarisch soll am Einzelfall zentraler Ideen der philosophischen Tradition vorgeführt werden, inwiefern die begrifflichen Bestimmungen dem gemeinten Sachverhalt nicht gerecht werden, weil sie sowohl seine Herkunft aus Situationennen ursprünglicher Triebbefriedigung als auch seine nur subjektiv zugänglichen Qualitäten in Abrede stellen.
+
+!notes nachdenken (!!!)
+
+In ihrem Vollzug reiht die „negative Dialektik" daher nur derartige Denkmodelle aneinander; sie ist, wie es bei Adorno heißt, „ein Ensemble von Modellanalysen" (31).
+
+### Zur „normative(n) Intention” der negativen Dialektik
+
+  
+
+ND: eine Reihe an denkmodellen, ein „Ensemble von Modellanalysen”
+
+Allerdings entfaltet sich auf dem Weg eines Vollzugslzugs solcher Analysen zugleich eine normative Intention, deren Gehalt Adorno in seiner „Einleitung" mit dem Begriff der „Versöhnung" umschreibt:
+
+> **Annotation:** *begriff der versöhnung*
+
+Indem die Ausübung der „negativen Dialektik" nämlich indirekt an den Phänomenen das zu thematisieren versucht, „was durch [deren] Zurüstung zum Objekt" (31) diesen verloren ging, macht sie „an den Stücken wieder gut" (31), was durchs identifizierende Denken ihnen an Unrecht zugefügt wurde.
+
+ (!!!)
+
+zentrale Theorie und Begründung kt/nd
+
+Insofern ist, so muß Adorno hier wohl verstanden werden, der Vollzug einer dialektischen Selbstkritik der Philosophie immer auch die Praktizierung einer restituierenden Gerechtigkeit.
+
+> **Annotation:** *so ist, so honneth, „der Vollzug einer dialektischen Selbstkritik der Philosophie immer auch die Praktizierung einer restituierenden Gerechtigkeit.”*
 
 
-# Fußnoten
+# Literatur
 
-[^1]: ND, S. 10
-[^2]: ND, S. 16
-[^3]: ND, S. 17
+- Adorno, Th. W. 1971: „Drei Studien zu Hegel", in: Gesammelte Schriften, Frankfurt/M., Bd. 5,247-380
+- Adorno, Th. W. 1973: „Die Aktualität der Philosophie" [1931], in: Gesammelte Schriften, Frankfurt/M., Bd. 1, 325-344
+- Adorno, Th. W. 2001: Minima Moralia, Frankfurt/M.
+- Bernstein, R. J. 1975: Praxis und Handeln, Frankfurt/M.
+- Habermas, J. 1988: Nachmetaphysisches Denken, Frankfurt/M.
+- Honneth, A. 19891: Kritik der Macht. Reflexionsstufen einer kritischen Gesellschaftstheorie, Frankfurt/M.Honneth, A. 2000: „Dezentrierte Autonomie", in: ders., Das Andere der Gerechtigkeit, Frankfurt/M., 237-254
+- Horkheimer, M./Adorno, Th. W. 1969: Dialektik der Aufklärung. Philosophische Fragmente, Frankfurt/M.
+- McDowell, J. 1994: Mind and World, Cambridge, Mass.Pihlström, S. 2003: Naturalizing the Transcendental: A Pragmatic View, New York
+- Schnädelbach, H. (Hrsg.) 1984: Rationalität. Philosophische Beiträge, Frankfurt/M.
