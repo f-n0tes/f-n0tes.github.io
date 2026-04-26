@@ -405,7 +405,7 @@ Nun zieht Adorno aber aus der negativen Wendung der Dialektik nicht nur Konseque
 die gewandelte Art von Selbstbeziehung, die aus der Einsicht in die prinzipielle Insuffizienz begrifflicher Erkenntnis folgen muß, ist das zweite positive Thema seiner Ausführungen.
 viel umfassender und komplexer als diejenigen, die er in Bezug auf das zu erkennende Objekt dargestellt hat; es mag an der besseren Zugänglichkeit der individuellen Selbsterfahrung liegen, daß hier der Ertrag der Analyse um so vieles differenzierter ausfällt.
 
-Zunächst ergibt sich aus dem Umstand, daß die Aussicht auf eine begriffliche Durchdringung der Wirklichkeit preisgegeben wird, eine Tendenz zur Dezentrierung von Subjektivität: (…) Das Subjekt, das nicht mehr glaubt, sich die Welt begrifflich aneignen zu können, wird sich umgekehrt durch diese mitbestimmt wissen und daher einen Teil seiner bislang unterstellten Souveränität einbüßen müssen.
+Zunächst ergibt sich ==aus dem Umstand, daß die Aussicht auf eine begriffliche Durchdringung der Wirklichkeit preisgegeben wird, eine Tendenz zur Dezentrierung von Subjektivität:== (…) ==Das Subjekt, das nicht mehr glaubt, sich die Welt begrifflich aneignen zu können, wird sich umgekehrt durch diese mitbestimmt wissen und daher einen Teil seiner bislang unterstellten Souveränität einbüßen müssen.==
 
 Adorno findet für den damit angedeuteten Strukturwandel von Subjektivität eine Reihe von verschiedenen Formulierungen (38, 49, 52), die aber alle in der Idee münden, daß das Subjekt mit der Wendung zur negativen Dialektik seine Fähigkeit zur autonomen Sinnsetzung verliert; (!!!)
 
