@@ -31,7 +31,7 @@ Weiter ist, was das „Sein" betrifft, zu unterscheiden zwischen zwei Hauptbedeu
 Einerseits
 1. wird gesagt, daß etwas (wahr oder wirklich) ist (Sein als Existenz oder im sogenannten veritativen Sinn),
 2. andererseits wird gesagt, was etwas ist (Sein als Kopula oder Identität) (vgl. Kahn 1973; Tugendhat 1977/1992; vgl. auch 107).
-3. 
+
 Heidegger scheint den ersten Fall im Sinn zu haben, wenn er vom „Sein" spricht: Gehandelt wird nicht von irgendwelchen Eigenschaften, sondern vom „Sein", Punktum.
 
 Offensichtlich besteht dessen semantische Pointe in dem Kontrast, den es aufbaut: gegenüber dem „Seienden", das ihm irgendwie zugeordnet ist, aber auch gegenüber allem Betrieb und Getue.
