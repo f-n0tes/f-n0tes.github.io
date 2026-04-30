@@ -1,11 +1,17 @@
 ---
-
 title: f-notes
 enableToc: true
 showDate: false
-showReadingTime: false
+showReadingTime:
 draft: true
-
+subtitle:
+created:
+genre:
+tags:
+aliases:
+author:
+  - "[[F. Rix]]"
+cssclasses:
 ---
 Vielen Dank für die Erwähnung in der aktuellen Folge.
 

@@ -5,7 +5,7 @@ author:
   - "[[Manfred Dahlmann]]"
 published:
 created: 2026-03-28
-description: "Manfred Dahlmann:"
+description: "Manfred Dahlmann: Die Arbeit der Kritik"
 tags:
   - clippings
   - thema/kritischetheorie

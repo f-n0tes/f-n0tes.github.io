@@ -1,13 +1,15 @@
 ---
 title:
 subtitle:
-created:
+created: 2026-04-30
 genre:
 tags:
 aliases:
 enableToc: true
 showReadingTime:
 draft: true
+author:
+  - F. Rix
 cssclasses:
 ---
 > Die Schule schafft es schon, Wissen zu vertiefen, jedoch in vielen Disziplinen nicht, bzw. nur oberflächlich.
@@ -24,7 +26,7 @@ Auch wenn ich keine Antwort auf die Frage habe, wie der Spaß am Lernen in der S
 
 # [](https://smalltalk.neuezwanziger.de/t/livesalon-zu-habermas-iran-und-afd-und-das-neue-hollywood/417/29#p-1620-eine-verkrzte-geschichte-der-pdagogik-1)Eine (verkürzte) Geschichte der Pädagogik
 
-Das Ding mit der Erziehung und dem Verstehen ist, dass kein Kind gerne erzogen werden möchte aber erzogen werden muss. Durch Erziehung, durch die geforderte Anpassungsleistung wird der zu Erziehende einem objektiven Zwang ausgesetzt, den er wohl oder übel verinnerlichen muss. Er begegnet den Erziehungsbemühungen mit starken Widerständen, die ein Stück weit gebrochen werden müssen, damit er zu einem mündigen Subjekt heranwachsen kann. In einer demokratischen Gesellschaft, die mündige Subjekte voraussetzt, geht es nicht ohne Erziehung. Das gilt auch, obwohl innerhalb der gegebenen Verhältnisse nur von formal mündigen, das heißt von mehr oder weniger geschäftsfähigen Rechtssubjekten ausgegangen werden kann. Dieser Zwang ist nicht hintergehbar und verweist auf die Aporie im Begriff der Erziehung zur Mündigkeit. Und dennoch kommt es darauf an, zu verstehen, warum und wie diese Widerstände gebrochen werden (müssen) – am besten, indem dieser mehr oder weniger gewaltvolle Vorgang der Durchsetzung eines Zwangs von den zu Erziehenden nachvollzogen, verstanden werden kann.
+Das Ding mit der Erziehung und dem Verstehen ist, dass kein Kind gerne erzogen werden möchte aber erzogen werden muss. Durch Erziehung, durch die geforderte Anpassungsleistung wird der zu Erziehende einem objektiven Zwang ausgesetzt, den er wohl oder übel verinnerlichen muss. Er begegnet den Erziehungsbemühungen mit starken Widerständen, die ein Stück weit gebrochen werden müssen, damit er zu einem mündigen Subjekt heranwachsen kann. In einer demokratischen Gesellschaft, die mündige Subjekte voraussetzt, geht es nicht ohne Erziehung. Das gilt auch, obwohl innerhalb der gegebenen Verhältnisse nur von formal mündigen, das heißt von mehr oder weniger geschäftsfähigen Rechtssubjekten ausgegangen werden kann. Dieser Zwang ist nicht hintergehbar und verweist auf die Aporie im Begriff der Erziehung zur Mündigkeit. Und dennoch kommt es darauf an, zu verstehen, warum und wie diese Widerstände gebrochen werden (müssen) – am besten, indem dieser mehr oder weniger gewaltvolle Vorgang der Durchsetzung eines Zwangs den zu Erziehenden verständlich werden kann.
 
 Andreas Gruschka mit Verweis auf Bernhard Bueb dazu:
 

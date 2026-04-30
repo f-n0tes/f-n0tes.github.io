@@ -8,6 +8,8 @@ aliases:
 enableToc: true
 showReadingTime:
 draft: true
+author:
+  - "[[F. Rix]]"
 cssclasses:
 ---
 Wolfgang spricht regelmäßig von einer Stärkung des Subjekts, die vor allem vor dem Hintergrund der Herausforderungen, die sich uns zur Zeit stellen, an Relevanz gewinnt. So wie ich ihn verstehe, geht er aus der Tradition der Kritischen Theorie (KT) kommend an dieses Projekt.

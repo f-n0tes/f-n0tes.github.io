@@ -11,6 +11,8 @@ enableToc: true
 showReadingTime:
 draft: true
 cssclasses:
+author:
+  - "[[F. Rix]]"
 ---
 # Geyer, Hans-Georg: Elemente der kritischen Theorie Max Horkheimers (1969)
 

@@ -8,5 +8,6 @@ aliases:
 enableToc: true
 showReadingTime:
 draft: true
+author:
 cssclasses:
 ---
