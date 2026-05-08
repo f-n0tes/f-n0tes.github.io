@@ -100,7 +100,7 @@ Der Verweis auf die Theorietraditionen Schleiermachers und insbesondere Diltheys
 > [!quote]
 > suchen
 
-> [!ai] Lektürebegleitung: Pongratz, „Pädagogik und Subjektivität" (2008)
+> [!ai]- Lektürebegleitung: Pongratz, „Pädagogik und Subjektivität" (2008)
 >
 > ### Zum vorliegenden Absatz
 >
@@ -351,7 +351,7 @@ ziehungswissenschaft zur „historisch orientierten Bildungsphilosophie“ (Herr
 > [!notes]
 > DDA der Erziehung ⚠️⚠️⚠️
 
-> [!ai] Zum vorliegenden Absatz
+> [!ai]- Zum vorliegenden Absatz
 >
 > Der Absatz rekonstruiert eine **Entwicklungslinie**, die von der geisteswissenschaftlichen Pädagogik über die „realistische Wendung" bis zu ihrer technokratischen Zuspitzung führt — und dabei zeigt, wie ein aufklärerischer Impuls in sein Gegenteil umschlägt.
 >
@@ -459,7 +459,7 @@ So stellt sich auch diese Wende nochmals in den Aufklärungszusammenhang, ohne d
 > Kritische Theorie mit Poststrukturalisten⁉️ ⚠️⚠️ ⁉️⁉️ gibts nach nov mehrere Verbindungen/Autoren? und zentral für mein eigenes denken. nicht zu lange auf das nichteinlösen der ideale verharren, es ist notwendig, um die Sackgasse auszuloten, ihre widersprüchlichen Momente auszumachen , aber dann zeigen, wozu die tatsächliche e!anzipation auch führt: zurichtung
 >
 
-> [!ai] Zum vorliegenden Absatz — vertiefte Fassung
+> [!ai]- Zum vorliegenden Absatz — vertiefte Fassung
 >
 > **Habermas gegen Adorno: Wie viel kann Vernunft leisten?**
 >
@@ -494,7 +494,7 @@ So stellt sich auch diese Wende nochmals in den Aufklärungszusammenhang, ohne d
 > 2
 >
 
-> [!ai] Kritische Theorie und Poststrukturalismus: Gemeinsamkeiten und Unterschiede
+> [!ai]- Kritische Theorie und Poststrukturalismus: Gemeinsamkeiten und Unterschiede
 >
 > ---
 >
@@ -636,7 +636,7 @@ Gerade darin wird für Horkheimer/ Adorno die Dialektik bürgerlicher Subjektivi
 > von neulateinisch: introiectio aus intra = „innerhalb“ und iacere = „werfen“
 >
 
-> [!ai] Zum vorliegenden Absatz
+> [!ai]- Zum vorliegenden Absatz
 >
 > Der Absatz schließt eine längere Argumentationskette ab und zieht eine strukturelle Schlussfolgerung über den Zustand pädagogischer Theorie insgesamt.
 >
@@ -929,7 +929,7 @@ Das Individuum muss die Vermögen, durch die es in der Welt herrschen will, säu
 
 „Dieser natürlichen Endlichkeit korrespondiert die Konstitution der allgemeinen, entsinnlichten Kategorie ‚der Mensch‘, die als fiktive Klammer das, was praktisch in aller Winde zerstreut zu werden droht, zusammenhalten soll [...].“ (Fleischer//Guttandin/Hoppe 1978, S. 30)
 
-> [!ai] Fortsetzung des Absatzes — Elias und die Selbstfeststellung des Subjekts
+> [!ai]- Fortsetzung des Absatzes — Elias und die Selbstfeststellung des Subjekts
 >
 > Danke für die Korrektur. Der Absatz gewinnt damit eine entscheidende **psycho- und soziogenetische Dimension**, die Pongratz über Norbert Elias einführt.
 >
@@ -989,7 +989,7 @@ Selbsterhaltung wird zunehmend damit identisch, eine blinde Funktion des univers
 
 Was immer in der gesellschaftlichen Totalität existieren will, kann nur als „Füranderessein“ (Adorno 1972, S. 13) existieren. Dieses erzwungene „Füranderessein“, das keinen mehr bei sich belässt, aber höhlt das Postulat autonomer Subjektivität fortschreitend aus. Im Kern des Subjekts wohnen die objektiven Bedingungen, die es um der Unbedingtheit seiner Herrschaft willen verleugnen muss.
 
-> [!ai] Zum vorliegenden Absatz — Adornos „Logik des Zerfalls von Subjektivität"
+> [!ai]- Zum vorliegenden Absatz — Adornos „Logik des Zerfalls von Subjektivität"
 >
 > Dieser Absatz ist einer der theoretisch dichtesten bisher. Pongratz führt Adornos **Negative Dialektik** ins Zentrum und zeigt, warum das Subjektpostulat nicht nur fragwürdig, sondern innerlich widersprüchlich ist.
 >
@@ -1066,7 +1066,7 @@ Darin, dass in der modernen Tauschgesellschaft Selbsterhaltung als Ohnmacht jede
 > ⚠️⚠️⚠️
 >
 
-> [!ai] Zum vorliegenden Absatz — Die Dialektik der Selbsterhaltung
+> [!ai]- Zum vorliegenden Absatz — Die Dialektik der Selbsterhaltung
 >
 > Dieser Absatz treibt das Argument des vorherigen auf seinen äußersten Punkt: Die Selbstzerstörung des Subjekts kommt nicht von außen — sie ist das Werk des Subjekts **an sich selbst**.
 >
@@ -1167,7 +1167,7 @@ Es macht gerade die Kraft negativer Dialektik aus, dass sie sich in dieser Situa
 > Adorno
 >
 
-> [!ai] Zum vorliegenden Absatz — Negative Dialektik und der Doppelsinn der Liquidation
+> [!ai]- Zum vorliegenden Absatz — Negative Dialektik und der Doppelsinn der Liquidation
 >
 > Dieser Absatz ist ein Wendepunkt im Text: Pongratz zieht nicht den Schluss der Resignation, sondern zeigt, wie gerade die Krise des Subjekts einen — negativen — Erkenntnishorizont eröffnet.
 >
@@ -1246,7 +1246,7 @@ Ist aber das Individuum historisch verurteilt, dann schwindet nur ihm, was einma
 > ⁉️⁉️
 >
 
-> [!ai] Zum vorliegenden Satz — Klage als theoretische Haltung
+> [!ai]- Zum vorliegenden Satz — Klage als theoretische Haltung
 >
 > Dieser Satz ist kurz, aber er hat das Gewicht eines **Schlusssteins**: Er zieht die emotionale und normative Konsequenz aus dem gesamten vorangegangenen Argument.
 >
@@ -1322,7 +1322,7 @@ Diese hatte Adorno wohl im Blick, als er schrieb: „[...] die Auflösung des Su
 > Adorno
 >
 
-> [!ai] Zum vorliegenden Absatz — Liquidation als Verflüssigung: Der Ausblick der negativen Dialektik
+> [!ai]- Zum vorliegenden Absatz — Liquidation als Verflüssigung: Der Ausblick der negativen Dialektik
 >
 > Dieser Absatz ist der theoretisch kühnste des gesamten Textes. Pongratz vollzieht hier — streng im Gestus Adornos — eine entscheidende **Wendung**: Liquidation bedeutet nicht nur Verlust, sondern enthält ein **transzendierendes Moment**.
 >
@@ -1406,7 +1406,7 @@ Wollte man der Pädagogik ihr unerfülltes Telos zuweisen, so schiene es auf im 
 > Factum brutum bedeutet auf Deutsch etwa „rohe Tatsache“ oder „brute fact“. In der Philosophie bezeichnet es eine Tatsache, die einfach existiert, ohne dass sie sich aus anderen Tatsachen oder Gründen ableiten lässt. Sie ist also nicht weiter erklärbar und bildet einen grundlegenden Ausgangspunkt. In der Rechtswissenschaft wird factum brutum im Gegensatz zu factum juris verstanden. Ein factum brutum ist ein tatsächliches Geschehen, zum Beispiel ein physischer Vorgang oder ein Ereignis in der Welt, das zunächst keine rechtliche Bedeutung hat. Erst wenn das Recht diesem Geschehen eine bestimmte rechtliche Bewertung oder Folge zuordnet, etwa als Vertrag, Diebstahl oder Schaden, spricht man von einem factum juris. Die Unterscheidung hilft zu verstehen, wie aus bloßen Tatsachen durch rechtliche Interpretation Normen und Pflichten entstehen.
 >
 
-> [!ai] Zum vorliegenden Absatz — Versöhnung als pädagogisches Telos
+> [!ai]- Zum vorliegenden Absatz — Versöhnung als pädagogisches Telos
 >
 > Dieser Absatz ist der normative Höhepunkt des Textes: Pongratz benennt — vorsichtig, im Konjunktiv — das **unerfüllte Telos der Pädagogik** und konfrontiert es sofort mit seiner eigenen Uneinlösbarkeit.
 >
@@ -1491,7 +1491,7 @@ Pädagogisches Handeln, das auf Freiheit zielt, lässt sich keinem einsinnig mon
 > kamper
 >
 
-> [!ai] Zum vorliegenden Absatz — Die Aporie als pädagogische Praxis
+> [!ai]- Zum vorliegenden Absatz — Die Aporie als pädagogische Praxis
 >
 > Dieser Absatz ist der praktisch-theoretische Abschluss des Textes: Pongratz überführt die philosophische Aporie des Subjekts in eine konkrete Beschreibung pädagogischen Handelns — ohne die Aporie aufzulösen.
 >
@@ -1584,7 +1584,7 @@ Die Rückkehr aus der Sackgasse der europäischen Subjektivität vollzieht sich 
 > kamper
 >
 
-> [!ai] Zum vorliegenden Absatz — Umkehrung der Mechanismen: Rationalität und Dekomposition
+> [!ai]- Zum vorliegenden Absatz — Umkehrung der Mechanismen: Rationalität und Dekomposition
 >
 > Dieser Absatz ist der praktisch-theoretische Schluss des gesamten Textes. Pongratz zieht die letzte Konsequenz — und hält dabei mit bemerkenswerter Redlichkeit die Trauer fest, die dieser Konsequenz unvermeidlich anhaftet.
 >
@@ -1669,7 +1669,7 @@ Opferlose Nichtidentität des Subjekts aber, die als Fluchtpunkt solcher Dekonst
 > ⁉️⁉️
 >
 
-> [!ai] Zum vorliegenden Absatz — Opferlose Nichtidentität: Kein natürliches Substrat
+> [!ai]- Zum vorliegenden Absatz — Opferlose Nichtidentität: Kein natürliches Substrat
 >
 > Dieser Absatz ist knapp, aber er zieht eine entscheidende Grenze: Er beschreibt, was die anvisierte Pädagogik **nicht** ist — und schützt damit die Utopie der opferlosen Nichtidentität vor ihrer naheliegendsten Fehldeutung.
 >
@@ -1764,7 +1764,7 @@ Solche Rekonstruktion, die zugleich die Destruktion selbstbesessener Egoität ei
 > ⚠️⚠️⚠️ Fazit/Ausblick: wie ließe sich das 40 Jahre später denken? wie denkt Pongratz es, wie gruschka?
 >
 
-> [!ai] Zum vorliegenden Absatz — Schluss: Überschreitung, Rekonstruktion, Selbstkritik
+> [!ai]- Zum vorliegenden Absatz — Schluss: Überschreitung, Rekonstruktion, Selbstkritik
 >
 > Dieser letzte Absatz ist der Abschluss des gesamten Textes — und er endet bezeichnenderweise nicht mit einem Ergebnis, sondern mit einem **Eingeständnis der Vorläufigkeit**. Das ist theoretische Redlichkeit im höchsten Sinne.
 >
