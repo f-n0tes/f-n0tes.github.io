@@ -11,7 +11,7 @@ tags:
 aliases:
 enableToc: true
 showReadingTime:
-draft: false
+draft: true
 cssclasses:
 ---
 # „2. Einleitung Zum Begriff der Philosophie“ Axel Honneth

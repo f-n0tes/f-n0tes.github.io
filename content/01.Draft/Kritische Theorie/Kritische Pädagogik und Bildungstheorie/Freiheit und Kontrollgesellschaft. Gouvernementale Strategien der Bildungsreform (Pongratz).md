@@ -12,6 +12,7 @@ tags:
   - thema/reformpädagogik
   - thema/poststrukturalismus
   - thema/kritischepädagogik
+  - thema/freiheit
 aliases:
 enableToc: true
 showReadingTime:
