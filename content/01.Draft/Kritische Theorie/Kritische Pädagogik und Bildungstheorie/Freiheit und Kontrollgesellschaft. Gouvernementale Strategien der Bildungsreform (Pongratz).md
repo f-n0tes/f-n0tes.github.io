@@ -4,10 +4,18 @@ subtitle: Gouvernementale Strategien der Bildungsreform
 created: 2026-05-04
 genre:
 tags:
+  - thema/pädagogik
+  - thema/gouvernementalité
+  - thema/neoliberalismus
+  - deleuze
+  - foucault
+  - thema/reformpädagogik
+  - thema/poststrukturalismus
+  - thema/kritischepädagogik
 aliases:
 enableToc: true
 showReadingTime:
-draft: true
+draft: false
 author:
   - "[[Ludwig A. Pongratz]]"
 cssclasses:
@@ -16,10 +24,13 @@ published: 2008-01-01
 ---
 ``` Bibtex
  @book{Pongratz_2011,
- title={Sammlung - Fundstücke aus 30 Hochschuljahren},
+ title=Freiheit und Kontrollgesellschaft. Gouvernementale Strategien der Bildungsreform
+ booktitle={Sammlung - Fundstücke aus 30 Hochschuljahren},
  url={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/1589},
  DOI={https://doi.org/10.26083/tuprints-00002439},
  author={Pongratz, Ludwig A.},
+ bookauthor={Pongratz, Ludwig A.},
+ pages={78--93}
  year={2011}}
 ```
 
