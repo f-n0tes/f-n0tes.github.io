@@ -395,7 +395,7 @@ Der ‚terminus technicus‘ dieser dialektischen Vermittlung von Verstehen und 
 > pongratz/Apel
 >
 
-> [!ai]
+> [!ai]-
 > durcheinander!!! ### Zur Formulierung „sich beider Sackgassen illusionslos zu versichern"
 >
 > Der Ausdruck bedeutet: Die Kritische Erziehungswissenschaft macht sich **ohne Selbsttäuschung klar**, dass beide Wege, die ihre Vorgänger gegangen sind, nicht funktioniert haben.
@@ -566,7 +566,7 @@ Zweifellos war – wie Herrmann konzediert – der Umbruch des geisteswissenscha
 > ⚠️⚠️⚠️ Rettung des Subjekts ⁉️
 >
 
-> [!ai]
+> [!ai]-
 
 Um so mehr muss die Pädagogik die klaglose, ja sogar optimistische Konstatierung poststrukturalistischer Philosophie erschüttern, dass der Mensch den Dispositionen zu entwachsen beginne, nach denen er sich als Substanz, als Zentrum, als Konstituens dachte oder denken musste.
 
@@ -709,7 +709,7 @@ Und die Durchführung dieser Praxissicherung vollzieht sich (nicht alleine, aber
 > eigenbworte ⚠️⚠️ ⁉️
 >
 
-> [!ai]
+> [!ai]-
 > chatgpt Allerdings tritt dieser prekäre Status
 > subjektiver Identitätssicherung zu Anfang der bürgerlichen Gesellschaft in deren Programmen und Konstruktionen noch nicht in voller Konsequenz ans
 > Licht. Die Welt soll auf den vernünftigen Gedanken gebaut werden. Sinn,
@@ -718,7 +718,7 @@ Und die Durchführung dieser Praxissicherung vollzieht sich (nicht alleine, aber
 > aber auch) in pädagogischen Maßnahmen des Festschreibens, Funktionalisierens, Kanalisierens, Territorialisierens, des Ein- und Ausschließen
 >
 
-> [!ai]
+> [!ai]-
 > Claude ### Zum vorliegenden Absatz
 >
 > Der Absatz ist ein Übergangsmoment im Argument: Pongratz macht einen **historischen Rückschritt** — zurück an den Anfang der bürgerlichen Gesellschaft — um zu zeigen, warum die Krise der Subjektivität so lange verdeckt bleiben konnte.
@@ -775,7 +775,7 @@ N. Elias hat diesen Prozess der Selbstfeststellung, der Durchorganisation der in
 
 #### Norbert Elias
 
-> [!ai]
+> [!ai]-
 > chatgpt Hier verdichtet Pongratz seine Kritik an der bürgerlichen Subjektform nochmals stärker — jetzt mit deutlichem Bezug auf die Kritik der Aufklärung und auf psychoanalytische bzw. gesellschaftstheoretische Motive.
 >
 > Der Kerngedanke lautet:
@@ -1154,7 +1154,7 @@ Weil aber „in der gegenwärtigen Phase der geschichtlichen Bewegung deren übe
 > Adorno 1951
 >
 
-> [!ai]
+> [!ai]-
 > kommt
 
 Es macht gerade die Kraft negativer Dialektik aus, dass sie sich in dieser Situation des Doppelsinns der Liquidation des Individuums versichert: Zum einen trägt im Zeitalter seines Zerfalls „die Erfahrung des Individuums von sich und dem, was ihm widerfährt, zu einer Erkenntnis bei, die von ihm bloß verdeckt war, solange es als herrschende Kategorie ungebrochen positiv sich auslegte“ (ebd., S. 11): dass nämlich temporär etwas „von der befreienden gesellschaftlichen Kraft in die Sphäre des Individuellen sich“ (ebd., S. 11) zusammenzog.
