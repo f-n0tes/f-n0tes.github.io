@@ -13,7 +13,7 @@ tags:
 aliases:
 enableToc: true
 showReadingTime:
-draft: true
+draft: false
 author:
   - "[[Ludwig A. Pongratz]]"
 cssclasses:
@@ -21,11 +21,14 @@ source: Sammlung -- Fundstücke aus 30 Hochschuljahren (2011)
 published: 1986-01-01
 ---
 ``` Bibtex
- @book{Pongratz_2011,
- title={Sammlung - Fundstücke aus 30 Hochschuljahren},
+ @book{Pongratz_2011_Paedagogik_Subjektivitaet_86,
+ title={Pädagogik und Subjektivität. Zur Paradigmenkrise der Erziehungswissenschaft},
+ booktitle={Sammlung - Fundstücke aus 30 Hochschuljahren},
  url={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/1589},
  DOI={https://doi.org/10.26083/tuprints-00002439},
  author={Pongratz, Ludwig A.},
+ bookauthor={Pongratz, Ludwig A.},
+ pages={78--93}
  year={2011}}
 ```
 

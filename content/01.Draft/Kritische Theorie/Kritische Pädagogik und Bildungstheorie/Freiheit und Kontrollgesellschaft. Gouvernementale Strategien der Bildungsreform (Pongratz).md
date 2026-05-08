@@ -16,7 +16,7 @@ tags:
 aliases:
 enableToc: true
 showReadingTime:
-draft: false
+draft: true
 author:
   - "[[Ludwig A. Pongratz]]"
 cssclasses:
@@ -24,14 +24,24 @@ source: Sammlung -- Fundstücke aus 30 Hochschuljahren (2011)
 published: 2008-01-01
 ---
 ``` Bibtex
- @book{Pongratz_2011,
+ @book{Pongratz_2011_Freiheit_Kontrollgesellschaft_08,
  title=Freiheit und Kontrollgesellschaft. Gouvernementale Strategien der Bildungsreform
  booktitle={Sammlung - Fundstücke aus 30 Hochschuljahren},
  url={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/1589},
  DOI={https://doi.org/10.26083/tuprints-00002439},
  author={Pongratz, Ludwig A.},
  bookauthor={Pongratz, Ludwig A.},
- pages={78--93}
+ pages={370--384}
+ year={2011}}
+ 
+  @book{Pongratz_2011_Leseerfahrungen_Deleuze_08,
+ title=In Unruhe versetzen. Leseerfahrungen mit Deleuze
+ booktitle={Sammlung - Fundstücke aus 30 Hochschuljahren},
+ url={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/1589},
+ DOI={https://doi.org/10.26083/tuprints-00002439},
+ author={Pongratz, Ludwig A.},
+ bookauthor={Pongratz, Ludwig A.},
+ pages={385--388}
  year={2011}}
 ```
 
