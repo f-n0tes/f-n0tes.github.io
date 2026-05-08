@@ -12,7 +12,7 @@ author:
   - "[[Ludwig A. Pongratz]]"
 cssclasses:
 source: Sammlung -- Fundstücke aus 30 Hochschuljahren (2011)
-published:
+published: 2008-01-01
 ---
 ``` Bibtex
  @book{Pongratz_2011,
