@@ -38,43 +38,34 @@ published: 1986-01-01
 
 „Würde man die gegenwärtige Situation der Erziehungswissenschaft in Kategorien eines Wetterberichts umschreiben“, so umreißt Zedler seinen Bericht zur Lage der Erziehungswissenschaft am Beginn der 80er Jahre in einem anschaulichen Bild, dann „müsste man von einem frontenarmen Tief sprechen, in dessen Einflussbereich es allenfalls gebietsweise zu leichten Aufhellungen kommt. Ohne Anzeichen eines kurzfristigen Wandels zeigt die gesamte Theorieszene schwache, labil verlaufende Konturen [...].“ (Zedler 1982, S. 265)
 
-> [!notes]
-> der Wetterbericht Anfang der 80er
+> [!notes] Der „theoretische Krater“ nach der Reformeuphorie
+> Zu Beginn der 1980er Jahre schienen pädagogische Theoretiker und Theoretikerinnen unterschiedlichster Theorierichtungen darin übereinzukommen, dass die Reformeuphorie der 1960er und 1970er Jahre einen gewissen „theoretischen Krater“ (Pongratz XXX) in der pädagogischen Theorielandschaft zurückgelassen hat. Denn die Reformbewegungen führten zu einer immensen Differenzierung im Feld der erziehungswissenschaftlichen Theoriebildung und Forschung.
+> 
+> Um diesen „theoretischen Krater“ und die entstandenen „metatheoretischen Abgründe“ zu überwinden, wurde von einigen Vertretern der Erziehungswissenschaft nahegelegt, sich zunächst auf die allgemeinen und programmatischen Bestimmung der Hauptaufgaben der Erziehungswissenschaft zurückzubesinnen, während andere optimistisch in die Zukunft und auf das populär gewordene handlungswissenschaftliche Paradigma im pädagogischen Feld blickten.
 
-Wie selten zuvor kommen Theoretiker unterschiedlichster Provenienz einmütig darin überein, dass die ausklingende Reformeuphorie gewissermaßen einen ‚theoretischen Kater‘ zurückgelassen hat
-
-#### Erziehungswissenschaftliche Theorie unterschiedlichster Provenienz beschreiben einen „theoretischen Krater” durch die Reformeuphorie der 70er/80er Jahre
+Wie selten zuvor kommen Theoretiker unterschiedlichster Provenienz einmütig darin überein, dass die ausklingende Reformeuphorie gewissermaßen einen ==‚theoretischen Kater‘== zurückgelassen hat
 
 fragen, was sie und andere mit dieser immens differenzierten – um nicht zu sagen: verzettelten – Wissenschaft noch anfangen können.
 
-> [!notes]
-> führte zur immensen Differenzierung der eigene Disziplin
+empfehlen die einen als Rückweg aus den metatheoretischen Abgründen, dass sich „die Erziehungswissenschaftler [...] für einige Zeit einer ==allgemeinen, programmatischen Bestimmung der Hauptaufgaben erziehungswissenschaftlicher Forschung== enthalten [...].“ (Wellendorf 1982, S. 196) Andere hingegen blicken frohgemut nach vorn „auf dem Weg zum ==handlungswissenschaftlichen Paradigma==“ (Moser 1982, S. 234), auf das die ausgreifende Rezeption von symbolischem Interaktionismus, Ethnomethodologie und Aktionsforschung im pädagogischen Feld hindeute.
 
-empfehlen die einen als Rückweg aus den metatheoretischen Abgründen, dass sich „die Erziehungswissenschaftler [...] für einige Zeit einer allgemeinen, programmatischen Bestimmung der Hauptaufgaben erziehungswissenschaftlicher Forschung enthalten [...].“ (Wellendorf 1982, S. 196) Andere hingegen blicken frohgemut nach vorn „auf dem Weg zum handlungswissenschaftlichen Paradigma“ (Moser 1982, S. 234), auf das die ausgreifende Rezeption von symbolischem Interaktionismus, Ethnomethodologie und Aktionsforschung im pädagogischen Feld hindeute.
+==Wieder andere dagegen melden Skepsis an, ob nach der realistischen, emanzipativen und Alltagswende (vgl. Thiersch 1978, S. 80 ff.) erneute Wendemanöver angebracht seien. Denn das Auf und Ab pädagogischer Theoriekonjunkturen schadet nicht nur der ramponierten Reputation, sondern lässt sich als Ausdruck einer fundamentalen gesellschaftlichen Krisis entschlüsseln, die zunächst in Ansätzen begriffen werden müsste.==
 
-> [!notes]
-> Rückweg aus den metatheoretischen Abgründen: 1. Rückbesinnung auf erziehungswissenschaftliche Forschung vs. 2. Blick nach vorn im Sinne eines handlungstheoretischen Paradigmas
-
-Wieder andere dagegen melden Skepsis an, ob nach der realistischen, emanzipativen und Alltagswende (vgl. Thiersch 1978, S. 80 ff.) erneute Wendemanöver angebracht seien. Denn das Auf und Ab pädagogischer Theoriekonjunkturen schadet nicht nur der ramponierten Reputation, sondern lässt sich als Ausdruck einer fundamentalen gesellschaftlichen Krisis entschlüsseln, die zunächst in Ansätzen begriffen werden müsste.
-
-> [!notes]
-> vs. 3.: sind erneute wendemanöver angebracht? das auf und ab pädagogischer theoriekonjunkturen schade der Reputation der Disziplin. Hierin lässt sich ein Ausdruck für eine fundamentale gesellschaftliche Krisis, die zunächst zumindest ansatzweise begriffen werden muss, erkennen.
+> [!notes] Eine dritte, skeptische Perspektive auf erneute Wendemanöver
+> Entgegen dieser zwei Blickwinkel wurde wiederum von einer dritten Perspektive zunächst skeptisch auf erneute Wendemanöver geblickt, da ein derartiges Hin und Her der pädagogischen Theoriekonjunkturen die ohnehin schon beschädigte Reputation der Disziplin weiteren Schaden zufügen könne. Vielmehr könne dieser schnelle Wandel in der pädagogischen Theoriebildung auch als „Ausdruck einer fundamentalen gesellschaftlichen Krisis“ (Pongratz XXX) gedeutet werden, die zunächst erst einmal zumindest im Ansatz begriffen werden muss.
 
 Falle eines „Denkens vom historischen Nullpunkt her“ (Giesecke 1982, S. 229)
 
 #### Die Falle eines Denkens vom historischen Nullpunkt vermeiden
 
-Pädagogik und Subjektivität Zur Paradigmenkrise der Erziehungswissenschaft (1986) scheint Gieseckes Vorschlag nicht abwegig, „dort noch einmal anzuknüpfen, wo die Geisteswissenschaftliche Pädagogik aufgehört hat: Bei ihren ‘einheimischen Begriffen‘ und ‘Fragestellungen‘ und bei ihrem ‘Theorie-Praxis-Verständnis‘ [...].“ (Ebd., S. 227)
+Zur Paradigmenkrise der Erziehungswissenschaft (1986) scheint Gieseckes Vorschlag nicht abwegig, „dort noch einmal anzuknüpfen, wo die Geisteswissenschaftliche Pädagogik aufgehört hat: Bei ihren ‘einheimischen Begriffen‘ und ‘Fragestellungen‘ und bei ihrem ‘Theorie-Praxis-Verständnis‘ [...].“ (Ebd., S. 227)
 
-> [!notes]
-> dort anfangen, wo geisteswissenschaftliche Pädagogik aufgehört hat
+> [!notes] Zur Paradigmenkrise der Erziehungswissenschaft (1986)
+> Pongratz bezeichnet die Lage der damaligen Erziehungswissenschaft als eine Paradigmenkrise und schlägt mit XXX Giesecke vor, noch einmal dort anzufangen, wo die Geisteswissenschaftliche Pädagogik an Bedeutung eingebüßt hat: „Bei ihren ‚einheimischen Begriffen‘ und ‚Fragestellungen‘ und bei ihrem ‚Theorie-Praxis-Verständnis‘“ (Pongratz XXX, zit. nach Giesecke: 277). Dieser Versuch dürfe keinesfalls als eine erneute, gewissermaßen restaurative Wende, sondern vielmehr als eine Selbstbesinnung der Pädagogik verstanden werden, da die Geisteswissenschaftliche Pädagogik ja gerade erst aus „einer solchen historisch-systematischen Selbstreflexion“ zu ihrer disziplinären Identität gelangte. 
 
-Dies allerdings wäre nicht als erneute – diesmal restaurative – Wende zu verstehen, sondern als Versuch einer Selbstbesinnung der Pädagogik
+Dies allerdings wäre ==nicht als erneute – diesmal restaurative – Wende zu verstehen, sondern als Versuch einer Selbstbesinnung der Pädagogik==
 
-> [!notes]
-> keine Rückkehr, keine erneute wende, sondern der Versuch einer Selbstbesinnung der Pädagogik
-
-Gerade aus einer solchen histo­ risch-systematischen Selbstreflexion zog ja die Geisteswissenschaftliche Pädagogik ihre disziplinäre Identität, die Theoretiker und Praktiker über Jahrzehnte zusammenhielt
+Gerade aus einer solchen ==histo­risch-systematischen Selbstreflexion zog ja die Geisteswissenschaftliche Pädagogik ihre disziplinäre Identität==, die Theoretiker und Praktiker über Jahrzehnte zusammenhielt
 
 #### Aus einer historisch-systematischen Selbstbesinnung bezog die geisteswissenschaftliche Pädagogik ihre disziplinäre Identität
 

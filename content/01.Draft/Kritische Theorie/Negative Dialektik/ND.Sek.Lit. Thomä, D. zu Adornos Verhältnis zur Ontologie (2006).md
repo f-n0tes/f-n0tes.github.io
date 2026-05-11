@@ -13,6 +13,8 @@ enableToc: true
 showReadingTime:
 draft: true
 cssclasses:
+author:
+  - "[[Dieter Thomä]]"
 ---
 # Dieter Thomä: Verhältnis zur Ontologie. Adornos Denken des Unbegrifflichen.
 

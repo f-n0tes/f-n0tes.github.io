@@ -13,4 +13,6 @@ enableToc: true
 showReadingTime:
 draft: true
 cssclasses:
+author:
+  - "[[Albert Scherr]]"
 ---

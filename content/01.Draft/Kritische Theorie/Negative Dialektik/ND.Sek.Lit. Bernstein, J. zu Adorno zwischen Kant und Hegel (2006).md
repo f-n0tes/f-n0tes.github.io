@@ -16,6 +16,8 @@ enableToc: true
 showReadingTime:
 draft: true
 cssclasses:
+author:
+  - "[[Jay Bernstein]]"
 ---
 # Jay Bernstein: Adorno zwischen Kant und Hegel
 
