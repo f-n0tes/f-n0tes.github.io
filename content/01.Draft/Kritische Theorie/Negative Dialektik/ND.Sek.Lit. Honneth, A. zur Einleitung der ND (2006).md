@@ -13,6 +13,8 @@ enableToc: true
 showReadingTime:
 draft: true
 cssclasses:
+author:
+  - "[[Axel Honneth]]"
 ---
 # „2. Einleitung Zum Begriff der Philosophie“ Axel Honneth
 

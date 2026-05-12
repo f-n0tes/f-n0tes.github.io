@@ -16,6 +16,8 @@ enableToc: true
 showReadingTime:
 draft: true
 cssclasses:
+author:
+  - "[[Andrea Kern]]"
 ---
 # Andrea Kern
 
