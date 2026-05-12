@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Tabelle
+    order:
+      - file.name
+      - tags
