@@ -1,0 +1,5 @@
+---
+Aliases:
+  - "#thema/halbbildung"
+---
+test

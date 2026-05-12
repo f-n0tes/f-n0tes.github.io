@@ -34,7 +34,7 @@ published: 2008-01-01
  pages={370--384}
  year={2011}}
  
-  @book{Pongratz_2011_Leseerfahrungen_Deleuze_08,
+ @book{Pongratz_2011_Leseerfahrungen_Deleuze_08,
  title=In Unruhe versetzen. Leseerfahrungen mit Deleuze
  booktitle={Sammlung - Fundstücke aus 30 Hochschuljahren},
  url={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/1589},
