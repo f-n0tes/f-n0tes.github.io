@@ -718,7 +718,7 @@ Und die Durchführung dieser Praxissicherung vollzieht sich (nicht alleine, aber
 >
 
 > [!ai]-
-> Claude ### Zum vorliegenden Absatz
+> Claude Zum vorliegenden Absatz
 >
 > Der Absatz ist ein Übergangsmoment im Argument: Pongratz macht einen **historischen Rückschritt** — zurück an den Anfang der bürgerlichen Gesellschaft — um zu zeigen, warum die Krise der Subjektivität so lange verdeckt bleiben konnte.
 >
