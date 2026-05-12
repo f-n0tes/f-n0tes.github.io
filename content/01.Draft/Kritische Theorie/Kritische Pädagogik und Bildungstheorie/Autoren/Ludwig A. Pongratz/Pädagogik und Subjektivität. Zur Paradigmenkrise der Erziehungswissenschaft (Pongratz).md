@@ -10,6 +10,14 @@ tags:
   - thema/kritischepädagogik
   - thema/kritischebildung
   - thema/subjektivität
+  - thema/subjekt
+  - autor/dilthey
+  - autor/giesecke
+  - autor/moser
+  - autor/weniger
+  - autor/adorno
+  - autor/foucault
+  - autor/schleiermacher
 aliases:
 enableToc: true
 showReadingTime:
