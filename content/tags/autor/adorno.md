@@ -23,7 +23,7 @@ published: 2026-06-05
 
 ## Kurzprofil
 
-Theodor W. Adorno war Philosoph, Soziologe, Musiktheoretiker und eine zentrale Figur der Kritischen Theorie. Seine Arbeiten kreisen unter anderem um Gesellschaftskritik, Dialektik, Kulturindustrie, Autoritarismus, Aesthetik und die Frage, wie Denken nach der historischen Katastrophe des 20. Jahrhunderts noch moeglich ist.
+Theodor W. Adorno war Philosoph, Soziologe, Musiktheoretiker und eine zentrale Figur der Kritischen Theorie. Seine Arbeiten kreisen unter anderem um Gesellschaftskritik, Dialektik, Kulturindustrie, Autoritarismus, Ästhetik und die Frage, wie Denken nach der historischen Katastrophe des 20. Jahrhunderts noch möglich ist.
 
 ## Zentrale Begriffe
 
@@ -31,19 +31,19 @@ Theodor W. Adorno war Philosoph, Soziologe, Musiktheoretiker und eine zentrale F
 - Nichtidentisches
 - Kulturindustrie
 - Verwaltete Welt
-- Autoritaerer Charakter
-- Aesthetische Theorie
+- Autoritärer Charakter
+- Ästhetische Theorie
 - Halbbildung
-- Gesellschaftliche Totalitaet
+- Gesellschaftliche Totalität
 
 ## Wichtige Werke
 
-- [[Dialektik der Aufklaerung]]
+- [[Dialektik der Aufklärung]]
 - [[Minima Moralia]]
 - [[Negative Dialektik]]
-- [[Aesthetische Theorie]]
+- [[Ästhetische Theorie]]
 - [[Theorie der Halbbildung]]
-- [[Studien zum autoritaeren Charakter]]
+- [[Studien zum autoritären Charakter]]
 
 ## Verwandte Autorinnen und Autoren
 
@@ -55,4 +55,4 @@ Theodor W. Adorno war Philosoph, Soziologe, Musiktheoretiker und eine zentrale F
 
 ## Notizen
 
-Diese Seite dient als kuratierte Hauptseite fuer den Autor. Quartz ergaenzt darunter automatisch alle Inhalte, die mit `#autor/adorno` getaggt sind.
+Diese Seite dient als kuratierte Hauptseite für den Autor. Quartz ergänzt darunter automatisch alle Inhalte, die mit `#autor/adorno` getaggt sind.
