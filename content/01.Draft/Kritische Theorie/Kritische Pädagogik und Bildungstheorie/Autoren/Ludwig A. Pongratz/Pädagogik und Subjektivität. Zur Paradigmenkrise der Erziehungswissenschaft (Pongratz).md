@@ -62,9 +62,9 @@ empfehlen die einen als Rückweg aus den metatheoretischen Abgründen, dass sich
 > [!notes] Eine dritte, skeptische Perspektive auf erneute Wendemanöver
 > Entgegen dieser zwei Blickwinkel wurde wiederum von einer dritten Perspektive zunächst skeptisch auf erneute Wendemanöver geblickt, da ein derartiges Hin und Her der pädagogischen Theoriekonjunkturen die ohnehin schon beschädigte Reputation der Disziplin weiteren Schaden zufügen könne. Vielmehr könne dieser schnelle Wandel in der pädagogischen Theoriebildung auch als „Ausdruck einer fundamentalen gesellschaftlichen Krisis“ (Pongratz XXX) gedeutet werden, die zunächst erst einmal zumindest im Ansatz begriffen werden muss.
 
-Falle eines „Denkens vom historischen Nullpunkt her“ (Giesecke 1982, S. 229)
+Falle eines „Denkens vom historischen Nullpunkt her“ 
 
-#### Die Falle eines Denkens vom historischen Nullpunkt vermeiden
+#### Die Falle eines „Denkens vom historischen Nullpunkt her“ (Giesecke 1982, S. 229) vermeiden
 
 Zur Paradigmenkrise der Erziehungswissenschaft (1986) scheint Gieseckes Vorschlag nicht abwegig, „dort noch einmal anzuknüpfen, wo die Geisteswissenschaftliche Pädagogik aufgehört hat: Bei ihren ‘einheimischen Begriffen‘ und ‘Fragestellungen‘ und bei ihrem ‘Theorie-Praxis-Verständnis‘ [...].“ (Ebd., S. 227)
 
