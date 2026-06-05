@@ -4,6 +4,8 @@ enableToc: true
 showDate: false
 showReadingTime: false
 draft: false
+tags:
+  - autor/adorno
 ---
 ![[f-notes-intro-2.jpg]]
 
@@ -20,5 +22,4 @@ draft: false
 > Lässt er Regeln ändern, bis der Zufall programmierbar ist
 > Ich drehe euer Einbahnstraßenschild um
 > Und willkommen in der Sackgasse der systematisierten Bildung
-
 
