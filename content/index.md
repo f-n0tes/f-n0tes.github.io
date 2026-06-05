@@ -4,8 +4,6 @@ enableToc: true
 showDate: false
 showReadingTime: false
 draft: false
-tags:
-  - autor/adorno
 ---
 ![[f-notes-intro-2.jpg]]
 
