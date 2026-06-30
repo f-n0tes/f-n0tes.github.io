@@ -185,7 +185,7 @@ So in die Richtung. Und dann aber sofort wieder zu wir wurden von KI ausgeraubt.
 
 [02:26:05]Mhm. Also, ==es gibt, glaube ich, nicht mal 39 oder so oder dann später in der Radikalisierung eine Zeit, in der man äh aus Deutschland von Seiten der Regierung gehört hätte, ganz Polen muss brennen.==
 
-[02:26:20]Also das übersteigt einfach wirklich historische Maße
+[02:26:20]Also das ==übersteigt einfach wirklich historische Maße.==
 
 ## Mick:
 
