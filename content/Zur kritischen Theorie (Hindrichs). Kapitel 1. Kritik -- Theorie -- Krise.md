@@ -92,7 +92,7 @@ Vielmehr ist sie sachlich begrün-det .Denn der scharfsinnige Unsinn droht die k
 >
 > Schick den nächsten Abschnitt, wenn du bereit bist.
 
-## Vorwort
+### Vorwort
 
 In ihrer heutigen Lage hingegen trennt sich die kritische Theo-rie von dem radikalen Widerspruch gegen das ,was der Fall ist .Statt des Unsagbaren sagen ihre neuen traditionellen Theorien ,wie die Dinge in der Gesellschaft liegen .Und ihre neuen traditionellen Kritiken verurteilen das Bestehende auf der Grundlage einer Tatsa-che :der Tatsache diversifizierter Lebensformen .Darum vollziehen sie einen neuen Pleonasmus der Tatsachen .Sie verdoppeln das Fak-tum der Diversität ,deren Anerkennungsverhältnisse und Lebens-formen ,zur Norm
 
@@ -375,7 +375,7 @@ zum Wesenszug seiner ,ja aller Philosophie gemacht ,die als Wissenschaft wird au
 
 Das ist keine leere Metaphorik .Vielmehr begründet es die Form und den Inhalt der philosophischen Argu mentation .So bilden die transzendentale Deduktion der Kategori en und die Antithetik der reinen Vernunft -beides Kernmomente einer Kritik der reinen Vernunft -in ihrer jeweiligen Argument-form ausdrücklich Rechtsverfahren ,in denen die Ansprüche der Vernunft auf Erkenntnis vor ihrem eigenen Gerichtshof verhandelt werden Entsprechend verfolgen sie keine Tatsachenfrage (quaestio facti ),sondern eine Rechtsfrage (quaestio iuris )(KrVB 116).Nur in deren Beantwortung gewinnen sie die Grundgehalte
 
-## IV. Kritik als Verrechtlichung des Denkens
+### IV. Kritik als Verrechtlichung des Denkens
 
 > [!notes]
 > zur bedeutung des rechtsprozesses des Konzepts „kritische Theorie”. if kritik = rechtsprozess -> Kritik = Durchführung rechtsförmiger Verfahren
@@ -3410,7 +3410,7 @@ Darstellbar würde sie nur mit einem Schlag :mit der Revolution selber .Ohne Rev
 > [!notes]
 > Und dass das Grundkonzept der KT „das Konzept eines negativen Spiegelbildes der positiven All-Einheit” (42) ist, lässt sich Hindrichs zufolge mit dem Wahrsein und Unwahrsein verdeutlichen. Denn unter den bisherigen (Hegel-Marx???) Voraussetzungen würde das Wahrsein durch den Gesamtzusammenhang von Widerspiegelungen „zur Darstellung gebracht” (42). ⁉️⁉️⁉️ Weil er allerdings nicht zur Darstellung gelangt, „bleibt das Wahrsein undarstellbar ” (42). ⁉️⁉️⁉️ Aber etwas anderes wird zur Darstellung gebracht: das „in den Verneinungen ausgedrückte Unwahrsein“ (42), dessen Totalität sich „als das negative Spiegelbild des positiven Gesamtzusammenhanges” (42) verstehen lässt. Das Unwahrsein soll also auf das Wahrsein negativ verweisen. Hindrichs verdeutlicht dies an der Umkehrung des Satzes „Das Wahre ist das Zeichen seiner selbst und des Falschen” (*„verum est index sui et falsi”*) von Spinoza durch Adorno, demzufolge das „Falsche […] das Zeichen seiner selbst und des Wahren” ist (*„falsum est index sui et veri”*). (42, Hindrichs bzw. Spinoza/Adorno zit. nach Hindrichs). Adorno bestimmt das Falsche als das Zeichen seiner selbst, „weil es im Zusammenschluss von Verneinungen steht.” (42) ⁉️⁉️⁉️ Verneint wird hier die Geltung des Falschen, und verneint wird sie von etwas anderem, „dessen Geltung selber wiederum von etwas anderem verneint wird, […] usw.” (42 f.). Dementsprechend „besitzt jede Verneinung von Geltung selber ebenfalls eine verneinte Geltung. Falsches verneint Falsches.”(43). ⁉️⁉️⁉️ Diese Kette von Falschem ist alles, was sich zur Darstellung bringen lässt. Das „in ihr [der Kette von Falschem] verflochtene Falsche” ist Hindrichs zufolge „zugleich das Zeichen des Wahren”, da es „in seiner Totalität negativ auf einen in sich gespiegelten Gesamtzusammenhang von Widerspiegelungen”, der das Wahrsein letztendlich darstellen würde, verweise (43), . ⁉️⁉️⁉️ ⁉️⁉️⁉️
 
-Unter den bisherigen Voraussetzun-gen würde der Gesamtzusammenhang von Widerspiegelungen das Wahrsein zur Darstellung bringen .Er gelangt jedoch nicht zur Darstellung .Entsprechend bleibt das Wahrsein undarstellbar
+Unter den bisherigen Voraussetzun-gen würde der Gesamtzusammenhang von Widerspiegelungen das Wahrsein zur Darstellung bringen .Er gelangt jedoch nicht zur Darstellung .Entsprechend bleibt das Wahrsein undarstellbar 
 
 > [!notes]
 
