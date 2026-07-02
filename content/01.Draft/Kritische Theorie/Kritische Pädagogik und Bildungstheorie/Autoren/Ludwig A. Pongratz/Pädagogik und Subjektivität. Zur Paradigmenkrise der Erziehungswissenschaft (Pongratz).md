@@ -21,7 +21,7 @@ tags:
 aliases:
 enableToc: true
 showReadingTime:
-draft: false
+draft: true
 author:
   - "[[Ludwig A. Pongratz]]"
 cssclasses:
