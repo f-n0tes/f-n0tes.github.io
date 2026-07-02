@@ -1,3 +1,18 @@
+---
+title:
+subtitle:
+created:
+genre:
+tags:
+aliases:
+enableToc: true
+showReadingTime:
+draft: true
+author:
+cssclasses:
+source:
+published:
+---
 https://www.threads.com/@frau_waibel/post/DZN45fVgkuM?xmt=AQG0NpQpxiqQmEDrOomj5nN3NPV-7pQWA9u-rP82G9LjJQ
 
 - Palästinenser*innen sind Menschen.
