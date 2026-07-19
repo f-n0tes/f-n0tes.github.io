@@ -1,13 +1,13 @@
 ---
-title: "Fetisch Marx"
-source: "https://jungle.world/artikel/2011/21/fetisch-marx"
+title: Fetisch Marx
+source: https://jungle.world/artikel/2011/21/fetisch-marx
 author:
-  - "[[Manfred Dahlmann]]"
+  - "[[_Manfred Dahlmann]]"
 published:
 created: 2026-03-28
 description: "Manfred Dahlmann: Marx als Fetisch"
 tags:
-  - "clippings"
+  - clippings
 draft: true
 ---
 # Marx als Fetisch

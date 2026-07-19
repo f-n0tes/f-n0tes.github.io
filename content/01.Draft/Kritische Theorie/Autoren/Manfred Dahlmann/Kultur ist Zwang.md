@@ -1,13 +1,13 @@
 ---
-title: "Kultur ist Zwang"
-source: "https://jungle.world/artikel/2010/50/kultur-ist-zwang"
+title: Kultur ist Zwang
+source: https://jungle.world/artikel/2010/50/kultur-ist-zwang
 author:
-  - "[[Manfred Dahlmann]]"
+  - "[[_Manfred Dahlmann]]"
 published:
 created: 2026-03-28
 description: "Manfred Dahlmann: Die Idee der kulturellen Identität ist reaktionär"
 tags:
-  - "clippings"
+  - clippings
 draft: true
 ---
 Die Idee der kulturellen Identität ist reaktionär

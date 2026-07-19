@@ -2,7 +2,7 @@
 title: Die Arbeit der Kritik
 source: https://jungle.world/artikel/2004/22/die-arbeit-der-kritik
 author:
-  - "[[Manfred Dahlmann]]"
+  - "[[_Manfred Dahlmann]]"
 published:
 created: 2026-03-28
 description: "Manfred Dahlmann: Die Arbeit der Kritik"
