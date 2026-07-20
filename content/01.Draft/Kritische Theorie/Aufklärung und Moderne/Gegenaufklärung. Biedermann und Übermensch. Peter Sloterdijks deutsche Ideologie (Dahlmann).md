@@ -14,14 +14,31 @@ cssclasses:
 source: "Gegenaufklärung. Der postmoderne Beitrag zur Barbarisierung der Gesellschaft. 2006. (Hrsg.: Alex Grube/Philipp Lenhard), 3. Auflage 2020. S. 255--284"
 published: 2006-01-01
 ---
-# „Einleitung“: Sloterdijk vs. Kant und vs. Habermas
+## Sloterdijk vs. Kant und vs. Habermas
 
 - Sloterdijks Kritik der zynischen Vernunft sieht Dahlmann als eine „Beleidigung“ Kants: Es gehe ihm um eine „Verächtlichmachung der philosophischen Erkenntnisse der Aufklärung zugunsten einer offensiven Parteinahme für die Realzynismen des Naziphilosphen Heidegger“ (255).
 - Die Linke, die, so Dahlmann mit Verweis auf Johannes Agnoli, in ihrem Denken Marx mit Foucault ersetzt habe, sei äußerst anfällig für die gegenaufklärerischen Vereinnahmungsversuche eines Sloterdijks.
 - In dem kulturindustriell-philosophischen Spektakel zwischen Sloterdijk und Habermas ging ersterer als Sieger hervor. Wie das mit der Kulturindustrie so ist, muss auch der Sieger im Anschluss des Spektakels wieder in irgendeiner Nische versauern – seine Inhalte jedoch, finden Eingang in den kulturindustriellen Mainstream. Zumindest aber habe Sloterdijk mit seinen Auftritten und Veröffentlichungen zur Jahrtausendwende dazu beigetragen, darüber aufzuklären, wie sich „Deutsch-Denken (und -Fühlen)“ (256) unter den aktuellen Umständen zum Ausdruck bringen können.
 
-# Sloterdijks Frechheiten: Adornos kritische Theorie sei eine Spielart der Heideggerschen Ontologie
+## Sloterdijks Frechheiten: Adornos kritische Theorie sei eine Spielart der Heideggerschen Ontologie
 
+- Die akademische Linke habe Adorno, so Dahlmann, ohnehin schon immer idealisierend vereinnahmt und behandelt. In ungefähr dieser Weise lief Sloterdijks Angriff auf Habermas ab.
+- Die eigentliche Frechheit besteht allerdings darin, dass Sloterdijk die zentralen Teile der kritischen Theorie Adornos als eine Variante der Heideggerschen Ontologie diffamierte, wovon sich die akademische Linke natürlich gerne überzeugen ließ, „trieben und treiben [sie] solche, jeder Textlektüre diametral widersprechenden Verdrehungen“ doch „von Berufs wegen“ (256) (Im Menschenpark Sloterijks stehe Adorno wieder auf lol).
+- Die Habermas‘schen Linken war dabei natürlich nicht an einer Verteidigung Adornos gegenüber Sloterdijks Frechheiten gelegen…
+- Sloterdijk geht es also um eine Versöhnung des absolut Entgegengesetzten: Adornos Negative Dialektik und Heideggers Ontologie
+
+## Zu Sloterdijks Philo-Amerikanismus und den Grundmustern des Antisemitismus der Gegenwart
+
+- Sloterdijk ist also daran gelegen, die Kritische Theorie ins Reich zurückzuholen und als deutsche Ideologie umzudeuten. So wie Sloterdijk sich auf Adorno bezieht, ihn mit Heidegger zusammendenkt und von den USA als ein „kulturell verbündetes Projekt“ spricht, geht es ihm nicht um ein bloßes Vorschieben, nicht um eine Betonung der Gemeinsamkeiten zwischen seiner Philosophie und dem Projekt der USA: Es geht ihm, so Dahlmann, um eine konstitutive rhetorische Form, und zwar um die, in der der zeitgenössische Antisemitismus auftritt:
+1. Die Form selbst besteht in dieser vorgeblichen Identifizierung, die in Wahrheit die bedingungslose Ablehnung bedeutet und lässt sich damit nicht bloß mit einer Taktik oder Heuchelei Sloterdijks erklären.
+2. Diese identifizierende Einbettung ist notwendig, um anschließend *auch* Israel und die USA kritisieren zu dürfen: Denn man nimmt ja bloß das allgemeine Menschenrecht wahr, alle (Staaten) gleichermaßen zu kritisieren, weshalb man folglich kein Antisemit sein kann – obwohl die tatsächliche Stoßrichtung im Grunde klar ist.
+3. Sloterdijk bedient also nicht nur „das gängige Grundmuster“ des heutigen Antisemitismus, sondern erklärt diese „Gedankenlosigkeit“ (257) als eine besonders differenzierte, wirklichkeitsadäquate Form von Reflexion, die dann zur Philosophie erklärt wird.
+- ==Das Vorschieben der USA als ein „kulturell verbündetes Projekt“ ist also kein taktischer Move, der bewusst vollzogen wird. Es ist selbst bereits die Form, in der der antisemitische Gehalt erscheint. Gerade deshalb muss sich die Ablehnung als Identifizierung ausgeben, weil sie sich nach 1945 gar nicht mehr anders artikulieren kann. Diese äußerliche Verkleidung ist also bereits die notwendige Erscheinungsform des Inhalts. In der Gedankenlosigkeit erscheint der antisemitische Gehalt Sloterdijks. ==
+
+## Sloterdijks „Reflexion“ und das Denken Schopenhauers
+
+- Das, was Sloterdijk unverschämterweise als Reflexion bezeichne und was seine Kritik auszeichne, sei gekennzeichnet durch „ständige ‚Perspektivenwechsel‘“, sodass „[j]ede Festlegung auf ein wie auch immer verstandenes ‚Gewisses‘ […] als ‚einseitig‘ zurückgewiesen“ wird (257).
+- 
 # Manfred Dahlmann: Biedermann und Übermensch. Peter Sloterdijks deutsche Ideologie
 
 >*“Ungreifbarkeit wird zur Unangreifbarkeit. Wer die Gefolgschaft verweigert, ist als vaterlandsloser Geselle verdächtig, ohne Heimat im Sein.“* 
