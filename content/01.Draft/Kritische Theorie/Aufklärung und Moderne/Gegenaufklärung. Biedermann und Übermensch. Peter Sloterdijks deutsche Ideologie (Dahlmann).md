@@ -38,7 +38,20 @@ published: 2006-01-01
 ## Sloterdijks „Reflexion“ und das Denken Schopenhauers
 
 - Das, was Sloterdijk unverschämterweise als Reflexion bezeichne und was seine Kritik auszeichne, sei gekennzeichnet durch „ständige ‚Perspektivenwechsel‘“, sodass „[j]ede Festlegung auf ein wie auch immer verstandenes ‚Gewisses‘ […] als ‚einseitig‘ zurückgewiesen“ wird (257).
-- 
+- Sloterdijk möchte also ein philosophisches Programm entwerfen, das sich auf die Suche nach „einer sich selbst noch suchenden Vollmoderne“ begibt, „die es lernt, die Produktivität des cartesischen Zweifels zu bezweifeln und den Maßlosigkeiten des aufklärerischen Mißtrauens zu mißtrauen“ (zit sloterdjk einer der beiden texte)
+	- Descartes‘ methodischer Zweifel gilt als der Gründungsgestus der neuzeitlichen Philosophie: Alles wird bezweifelt, um Unbezweifelbares zu finden. Der Zweifel ist produktiv, d.h., er reinigt das Denken von Vorurteilen mit dem Ziel ein positives Ergebnis zu erreichen. In der Aufklärung wird diese Struktur verallgemeinert, soll heißen, dass sie der Tradition, der Autorität, der Offenbarung etc. Misstrauen entgegenbringt, da sich alles zunächst vor dem Gerichtshof der Vernunft zu verantworten hat.
+		- Kants *Kritik der reinen Vernunft* kann als eine Antwort auf die Aporien des cartesischen Zweifels gelesen werden, indem sie den Zweifel bestimmt begrenzt, d.h., indem sie zeigt, wo Erkenntnis möglich ist und wo nicht.
+	- Sloterdijk geht es mit dem Begriff der „Vollmoderne“ also um eine Vollendung der Moderne, die erst jetzt zu sich selbst findet. Dazu möchte er „die Produktivität des cartesischen Zweifels […] bezweifeln“, also bezweifelt er, dass Zweifeln überhaupt sinnvoll ist, denn zu der Funktion des erkenntnistheoretischen Zweifelns gehöre ein Sicherheitsbedürfnis, das er aufgeben möchte. Dazu muss Sloterdijk im selben Atemzug das Misstrauen der Aufklärung gegenüber Autorität, Tradition und Metaphysik als übertrieben, als Maßlosigkeit bezeichnen, um das zu rehabilitieren, was die Aufklärung einst kritisierte.
+- Diese philosophische Position, sich nicht festzulegen, die ständigen Perspektivenwechsel, alles von einem dritten Standpunkt aus zu beobachten, wie es in dem angeführten Zitat auszumachen ist, dient Sloterdijk als philosophische Legitimationsformel. Sloterdijks Denken und seine Vorstellung des Zweifelns gelangen somit aber nicht auf eine höhere Stufe, sondern Zweifeln und Misstrauen wird grundsätzlich verdächtig und damit unmöglich.
+	- Denn wenn jede Festlegung als „einseitig“ gilt und alles was übrig bleibt, der bloße Wechsel von Perspektiven ist – also die Kritik des einen vom Standpunkt eines anderen, dann wieder von einem dritten usw. usf. – ohne dass irgendeiner dieser Standpunkte eingelöst oder verantwortet werden müsste, kann es keinen Standpunkt mehr geben, von dem aus Kritik möglich wäre. Was bleibt ist laut Dahlmann der schiere „[[Voluntarismus]]“ – also die reine Willkür der Stellungnahme.
+		- Wichtig ist dabei die Differenzierung von anderen Philosophen, die Dahlmann hier vornimmt: Denn auch Schopenhauer, Nietzsche und Heidegger betreiben dieselbe Struktur des Standpunktverzichts. Ihnen gelinge es im Gegensatz zu Sloterdijk jedoch noch, diese Struktur „stilistisch und inhaltlich als der Wahrheit verpflichtete Philosophie darzustellen“ (257).
+
+⇨ Die vorherige „Chuzpe“ Sloterdijks, ==ein antisemitisches Grundmuster als „wirklichkeitsadäquate Form von Reflexion“ zu erklären==, kann also nur dadurch gelingen, dass er sich mit dem Zweifel des Zweifels und dem Misstrauens des Misstrauens ==eine Philosophie, ein intellektuelles Werkzeug gebaut hat, mit dem jede ideologische Inversion als Differenziertheit erscheinen kann==: z.B. indem Ablehnung in Identifizierung eingebettet ist oder indem Antisemitismus als Menschenrecht behandelt wird – ==Die Form legitimiert den Inhalt.==
+
+## Aufklärung – Gegenaufklärung – Ideologie
+
+- Dahlmann attestiert also allen der Tradition der Gegenaufklärung verpflichteten Philosophen, ebenso wie den Aufklärern, eine zugrundeliegende Ideologie. Es handelt sich bei ihren Gedanken also nicht um bloße Phantasieprodukte:
+	- 
 # Manfred Dahlmann: Biedermann und Übermensch. Peter Sloterdijks deutsche Ideologie
 
 >*“Ungreifbarkeit wird zur Unangreifbarkeit. Wer die Gefolgschaft verweigert, ist als vaterlandsloser Geselle verdächtig, ohne Heimat im Sein.“* 
