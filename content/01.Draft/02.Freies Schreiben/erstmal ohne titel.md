@@ -59,7 +59,7 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Ich sag ihnen jetzt etwas: Viele Menschen geraten in ihrem Leben in eine Krise und denken, sie können nie wieder glücklich werden. Sie haben aber nur dieses eine Leben, und, das kann ich Ihnen versichern, mit dem, was sie bisher geschafft haben, werden sie auch in ihren Leben wieder Momente haben – auch wenn es, ähm, nur wenige sein werden, aber es wird sie früher oder später ganz sicher geben – in denen Sie glücklich sind, in denen Sie das Leben wieder genießen können.“
 
-*„Kann schon sein“,* dachte XXX sich, *„aber in welchem Verhältnis stehen diese schon zu den vielen Moment des absoluten Abfucks…“*
+*„Kann schon sein“,* dachte XXX sich, *„aber in welchem Verhältnis stehen diese schon zu den vielen Momenten des absoluten Abfucks…“*
 
 „Die Alternative wäre, dass Sie diese Momente niemals wieder erleben werden können, wenn sie diesen Gedanken jetzt in die Tat umsetzen wollen. Oder Sie sind für die weiteren 40 Jahre ihres Lebens vollkommen entstellt, ein Pflegefall.“
 
