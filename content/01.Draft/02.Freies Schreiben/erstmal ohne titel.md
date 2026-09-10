@@ -55,7 +55,7 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Das ist jetzt erstmal gar nicht wichtig. Wichtig ist, Sie haben es geschafft und damit eine Ausbildung abgeschlossen haben, auf der Sie in der Zukunft aufbauen können. Und ich habe Sie hier an der Leitung… und sie sind in der Lage persönlich mit mir zu sprechen, das schaffen viele schon mal nicht! Nun ist es so, wir telefonieren hier ja, weil bei ihnen eine akute Krise, eine Lebensmüdigkeit vorliegt. Stimmt das so?“
 
-„Kann man schon so nennen, ich will nicht mehr leben, also den Gedanken hatte ich schon öfter, im Grunde schon als Kind, aber so stark war er noch nie, ich kriege ihn einfach nicht mehr weg“, flüsterte XXX, kaum hörbar, mit zitternder Stimme, „und außerdem habe ich seit 10 Tagen nichts mehr gegessen“, was so nicht ganz stimmte, aber zu wenig war es auf jeden Fall und der Appetit war ihm gänzlich vergangen.
+„Kann man schon so nennen, ich will nicht mehr leben, also den Gedanken hatte ich schon öfter, im Grunde schon als Kind, aber so stark war er noch nie, ich kriege ihn einfach nicht mehr weg“, flüsterte XXX, kaum hörbar, mit zitternder Stimme, „und außerdem habe ich seit 10 Tagen nichts mehr gegessen…“, was so nicht ganz stimmte, aber zu wenig war es auf jeden Fall und der Appetit war ihm gänzlich vergangen.
 
 „Ich sag ihnen jetzt etwas: Viele Menschen geraten in ihrem Leben in eine Krise und denken, sie können nie wieder glücklich werden. Sie haben aber nur dieses eine Leben, und, das kann ich Ihnen versichern, mit dem, was sie bisher geschafft haben, werden sie auch in ihren Leben wieder Momente haben – auch wenn es, ähm, nur wenige sein werden, aber es wird sie früher oder später ganz sicher geben – in denen Sie glücklich sind, in denen Sie das Leben wieder genießen können.“
 
@@ -63,11 +63,11 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Die Alternative wäre, dass Sie diese Momente niemals wieder erleben werden können, wenn sie diesen Gedanken jetzt in die Tat umsetzen wollen. Oder Sie sind für die weiteren 40 Jahre ihres Lebens vollkommen entstellt, ein Pflegefall.“
 
-*„Wäre irgendwie auch scheiße…“*
+*„Noch 40 Jahre? Als ob ich 80 werde. Aber er hat schon recht, wäre auch scheiße… irgendwie“*
 
 „Wissen Sie Herr XXX, stellen Sie sich einmal eine Kerze vor, eine Kerze die im Wind flackert. Sie sind die kleine Flamme, die gerade kurz davor ist, für immer auszugehen, und der Wind…“
 
-XXX beobachtete, wie seine Nachbarin ihr E-Bike aus dem Fahrradkeller schub, um im Regen irgendwo hinzufahren. Sie war für ihr Alter ausgesprochen aktiv, fast jeden Tag begegnete er ihr, wie sie gerade auf ihr Fahrrad stieg oder damit angeradelt kam. Eine alte, vom Leben gezeichnete Frau, die kaum deutsch sprach, mit der er noch nie wirklich ein Gespräch, nicht mal einen Smalltalk geführt hat. Von allen Nachbarn war sie die, die immer am freundlichsten grüßte, bei der er nicht das Gefühl hatte, in diesem Wohnblock unerwünscht zu sein, weil er nicht, wie die vielen anderen, jeden Morgen in der früh zur Arbeit ging. Vor ein paar Tagen hatte er ihr noch vom Balkon (ebenfalls am Telefonieren, allerdings mit einem Freund) aus zugewunken und ein schüchternes Grinsen von ihr zurückbekommen. Nun aber hoffte er, sie würde ihn nicht sehen und ging hinter der Balkonwand in die Hocke und versuchte, möglichst nicht auf sich aufmerksam zu machen.
+XXX beobachtete, wie seine Nachbarin ihr E-Bike aus dem Fahrradkeller schob, um im Regen irgendwo hinzufahren. Sie war für ihr Alter ausgesprochen aktiv, fast jeden Tag begegnete er ihr, wie sie gerade auf ihr Fahrrad stieg oder damit angeradelt kam. Eine alte, vom Leben gezeichnete Frau, die kaum deutsch sprach, mit der er noch nie wirklich ein Gespräch, nicht mal einen Smalltalk geführt hat. Von allen Nachbarn war sie die, die immer am freundlichsten grüßte, bei der er nicht das Gefühl hatte, in diesem Wohnblock unerwünscht zu sein, weil er nicht, wie die vielen anderen, jeden Morgen in der früh zur Arbeit ging. Vor ein paar Tagen hatte er ihr noch vom Balkon (ebenfalls am Telefonieren, allerdings mit einem Freund) aus zugewunken und ein schüchternes Grinsen von ihr zurückbekommen. Nun aber hoffte er, sie würde ihn nicht sehen und ging hinter der Balkonwand in die Hocke und versuchte, möglichst nicht auf sich aufmerksam zu machen.
 
 „…also Herr XXX, hören sie mir zu. Wissen Sie was ich ihnen damit sagen will?“
 
