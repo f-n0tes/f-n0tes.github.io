@@ -57,7 +57,7 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Kann man schon so nennen, ich will nicht mehr leben, also den Gedanken hatte ich schon öfter, im Grunde schon als Kind, aber so stark war er noch nie, ich kriege ihn einfach nicht mehr weg“, flüsterte XXX, kaum hörbar, mit zitternder Stimme, „und außerdem habe ich seit 10 Tagen nichts mehr gegessen“, was so nicht ganz stimmte, aber zu wenig war es auf jeden Fall und der Appetit war ihm gänzlich vergangen.
 
-„Ich sag ihnen jetzt etwas: Viele Menschen geraten in ihren Leben in eine Krise und denken, sie können nie wieder glücklich werden. Sie haben aber nur dieses eine Leben, und, das kann ich Ihnen versichern, mit dem, was sie bisher geschafft haben, werden sie auch in ihren Leben wieder Momente haben – auch wenn es, ähm, nur wenige sein werden, aber es wird sie früher oder später ganz sicher geben – in denen Sie glücklich sind, in denen Sie das Leben wieder genießen können.“
+„Ich sag ihnen jetzt etwas: Viele Menschen geraten in ihrem Leben in eine Krise und denken, sie können nie wieder glücklich werden. Sie haben aber nur dieses eine Leben, und, das kann ich Ihnen versichern, mit dem, was sie bisher geschafft haben, werden sie auch in ihren Leben wieder Momente haben – auch wenn es, ähm, nur wenige sein werden, aber es wird sie früher oder später ganz sicher geben – in denen Sie glücklich sind, in denen Sie das Leben wieder genießen können.“
 
 *„Kann schon sein“,* dachte XXX sich, *„aber in welchem Verhältnis stehen diese schon zu den vielen Moment des absoluten Abfucks…“*
 
