@@ -45,7 +45,7 @@ Stille.
 
 Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
-„…die hat von einer Lebensmüdigkeit ihrerseits berichtet. Nun ist es so, dass ich sie ja schonmal persönlich an der Leitung habe und ich kann ihnen aus über 30 Jahren Erfahrung sagen, dass das bei Menschen, die wirklich akut selbstgefährdet sind, sonst eher nicht der Fall ist. Und sie können ja auch etwas reden. Sind sie denn gerade allein.“
+„…die hat von einer Lebensmüdigkeit ihrerseits berichtet. Nun ist es so, dass ich sie jetzt ja persönlich an der Leitung habe und ich kann ihnen aus über 30 Jahren Erfahrung sagen, dass das bei Menschen, die wirklich akut selbstgefährdet sind, sonst eher nicht der Fall ist. Und sie können ja auch etwas reden. Sind sie denn gerade allein.“
 
 „Ja, glaube schon“, sagte er und schaute durch die Balkontür und das Schlafzimmer in die Wohnung, ob er seine Freundin (oder Ex-Freundin) irgendwo in der Nähe ausmachen konnte. Konnte er nicht.
 
