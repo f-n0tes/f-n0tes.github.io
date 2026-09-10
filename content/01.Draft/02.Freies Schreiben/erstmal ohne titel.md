@@ -29,7 +29,7 @@ Er sagte nichts.
 
 „Ja“
 
-„Da wir unsere Patientendaten zentral speichern, kann ich sehen, dass sie bereits vor zwei Wochen persönlich an dem Standort West erschienen sind und sich in der Tagesklinik angemeldet haben, die ja bereits in fünf Wochen für Sie beginnt. Daher weiß ich auch in etwa, was sie beschäftigt. Also Depressionen und ADHS haben sie angegeben. Und sie nehmen Medikinet –“
+„Da wir unsere Patientendaten zentral speichern, kann ich sehen, dass sie bereits vor einigen Wochen persönlich an dem Standort West erschienen sind und sich nach einem Therapieplatz erkundigt haben. Daher weiß ich auch in etwa, was sie beschäftigt. Also Depressionen und ADHS haben sie angegeben. Und sie nehmen Medikinet –“
 
 „Nein, also das habe ich mal genommen, war aber scheiße, hab ich vor über einem Jahr abgesetzt. Ich nehme Escitalopram.“
 
@@ -45,8 +45,42 @@ Stille.
 
 Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
-„die hat von einer Lebensmüdigkeit ihrerseits berichtet. Nun ist es so, dass ich sie ja schonmal persönlich an der Leitung habe und ich kann ihnen aus über 30 Jahren Erfahrung sagen, dass das bei Menschen, die wirklich akut selbstgefährdet sind, sonst eher nicht der Fall ist. Und sie können ja auch etwas reden. Sind sie denn gerade allein.“
+„…die hat von einer Lebensmüdigkeit ihrerseits berichtet. Nun ist es so, dass ich sie ja schonmal persönlich an der Leitung habe und ich kann ihnen aus über 30 Jahren Erfahrung sagen, dass das bei Menschen, die wirklich akut selbstgefährdet sind, sonst eher nicht der Fall ist. Und sie können ja auch etwas reden. Sind sie denn gerade allein.“
 
 „Ja, glaube schon“, sagte er und schaute durch die Balkontür und das Schlafzimmer in die Wohnung, ob er seine Freundin (oder Ex-Freundin) irgendwo in der Nähe ausmachen konnte. Konnte er nicht.
 
-„Schauen sie Herr XXX… von dem was ich  “
+„Schauen sie Herr XXX… von dem was ich von ihrer Freundin… oder Ex-Freundin erfahren habe, beziehungsweise, was ich aus ihrer Patientenakte entnehmen kann: Sie haben mehr als zehn Jahre eine feste Beziehung geführt. Das heißt, sie sind dazu in der Lage, langfristige stabile Beziehungen eingehen zu können. Sie haben ihr Studium abgeschlossen, und, wenn ich mich nicht täusche, das sogar mit einem guten bis sehr guten Ergebnis.“
+
+„Ja war sehr gut, hat aber auch viel zu lange gedauert…“
+
+„Das ist jetzt erstmal gar nicht wichtig. Wichtig ist, Sie haben es geschafft und damit eine Ausbildung abgeschlossen haben, mit der Sie weiter in die Zukunft blicken können. Und, ich habe Sie hier an der Leitung, und sie sind in der Lage persönlich mit mir zu sprechen, das schaffen viele schon mal nicht! Nun ist es so, wir telefonieren hier ja, weil bei ihnen eine akute Krise, eine Lebensmüdigkeit vorliegt.“
+
+„Kann man schon so nennen, ich will nicht mehr leben, also den Gedanken hatte ich schon öfter, im Grunde schon als Kind, aber so stark war er noch nie, ich kriege ihn einfach nicht mehr weg“, flüsterte XXX, kaum hörbar, mit zitternder Stimme, „und außerdem habe ich seit 10 Tagen nichts mehr gegessen“, was so nicht ganz stimmte, aber zu wenig war es auf jeden Fall und der Appetit war ihm gänzlich vergangen.
+
+„Ich sag ihnen jetzt etwas: Viele Menschen geraten in ihren Leben in eine Krise und denken, sie können nie wieder glücklich werden. Sie haben aber nur dieses eine Leben, und, das kann ich Ihnen versichern, mit dem, was sie bisher geschafft haben, werden sie auch in ihren Leben wieder Momente haben – auch wenn es, ähm, nur wenige sein werden, aber es wird sie früher oder später ganz sicher geben – in denen Sie glücklich sind, in denen Sie das Leben wieder genießen können.“
+
+*„Kann schon sein“,* dachte XXX sich, *„aber in welchem Verhältnis stehen diese schon zu den vielen Moment des absoluten Abfucks…“*
+
+„Die Alternative wäre, dass Sie diese Momente niemals wieder erleben werden können, wenn sie diesen Gedanken jetzt in die Tat umsetzen wollen. Oder Sie sind für die weiteren 40 Jahre ihres Lebens vollkommen entstellt, ein Pflegefall.“
+
+*„Wäre irgendwie auch scheiße…“*
+
+„Wissen Sie Herr XXX, stellen Sie sich einmal eine Kerze vor, eine Kerze die im Wind flackert. Sie sind die kleine Flamme, die gerade kurz davor ist, für immer auszugehen, und der Wind…“
+
+XXX beobachtete, wie seine Nachbarin ihr E-Bike aus dem Fahrradkeller schub, um im Regen irgendwo hinzufahren. Sie war für ihr Alter ausgesprochen aktiv, fast jeden Tag begegnete er ihr, wie sie gerade auf ihr Fahrrad stieg oder damit angeradelt kam. Eine alte, vom Leben gezeichnete Frau, die kaum deutsch sprach, mit der er noch nie wirklich ein Gespräch, nicht mal einen Smalltalk geführt hat. Von allen Nachbarn war sie die, die immer am freundlichsten grüßte, bei der er nicht das Gefühl hatte, in diesem Wohnblock unerwünscht zu sein, weil er nicht, wie die vielen anderen, jeden Morgen in der früh zur Arbeit ging. Vor ein paar Tagen hatte er ihr noch vom Balkon (ebenfalls am Telefonieren, allerdings mit einem Freund) aus zugewunken und ein schüchternes Grinsen von ihr zurückbekommen. Nun aber hoffte er, sie würde ihn nicht sehen und ging hinter der Balkonwand in die Hocke und versuchte, möglichst nicht auf sich aufmerksam zu machen.
+
+„…also Herr XXX, hören sie mir zu. Wissen Sie was ich ihnen damit sagen will?“
+
+Er hatte gar nicht weiter zugehört, irgendwas mit ner Kerze, der Typ nervte ihn so langsam. „*kommen die mich jetzt endlich abholen und stecken mich in die Klapse?*“
+
+„…ich arbeite gerne mit Metaphern. Passen Sie auf, ich mache ihnen jetzt folgendes Angebot: Ich reiche ihnen jetzt einen Strick, einen Strick, an dem Sie sich festhalten können, bis sie morgen Vormittag hier auf der Station West erscheinen und sich für ein paar Wochen stationär aufnehmen lassen, bis es Ihnen besser geht. Halten sie den Strick fest, anstatt sich an ihm aufzuhängen.“
+
+Er musste plötzlich lachen. Ein sehr zittriges, äußerst kurzes Lachen, aber es war ein Lachen, was der Typ am Telefon kaum überhört haben konnte. „*Okay, dann gehe ich morgen dahin*“, dachte er sich. Er wollte sich doch ohnehin nichts ernsthaft antun, da war er sich die ganze Zeit recht sicher. Nicht zu 100% vielleicht, „*aber wann ist man das schon?*“ Eigentlich wollte er einfach nur weg, irgendwohin, wo er niemanden zur Last fiel, irgendwohin, wo er nicht in einen vollkommen durchstrukturierten Alltag reinplatzte und nach wenigen Tagen das Gefühl bekam, weiterziehen zu müssen. Und zum Weiterziehen hatte er keine Kraft mehr (und das Geld erst recht nicht). Irgendwohin, wo er sich nicht um seine Ernährung kümmern musste, sondern drei Mal täglich die gute Krankenhauskost serviert bekam. „*Und vielleicht sind ein paar Wochen auf so einer Station, auf der man hoffentlich mit gut scheppernden Psychopharmaka zugedröhnt wird, gerade erstmal die einzig vernünftige Option, denn so kann es ja nicht weitergehen.*“
+
+„Also dann verbleiben wir so. Sie versuchen noch etwas Schlaf zu bekommen und werden morgen Vormittag in der Station West vorstellig und sagen den Kollegen, das, was sie mir jetzt schon erzählt haben und dass sie auf der Akutstation aufgenommen werden möchten. Wenn noch etwas bis dahin sein sollte, dann können Sie gerne wieder diese Nummer wählen, die ist 24/7 erreichbar. Und wenn es ganz ernst wird, zögern sie nicht die 110 zu rufen. Auch dort bekommen sie Hilfe.“
+
+„*Bevor ich die Cops anrufe, halte ich lieber bis morgen durch*“, schoss es ihm durch den Kopf. „Ja okay, dann vielen Dank und ich werde dort morgen vorstellig“, sagte er, ein wenig lauter als am Anfang des Gesprächs, aber immer noch mit einer sehr unruhigen, kaum wahrnehmbaren Stimme.
+
+„Wenn ihre Freundin oder Ex-Freundin“
+
+-  wieso hab ich da eigentlich nicht selbst anrufen können, vor ner halben stunde, warum musste ich sie fragen. naja auch egal 
