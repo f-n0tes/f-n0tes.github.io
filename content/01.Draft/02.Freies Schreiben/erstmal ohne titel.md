@@ -53,7 +53,7 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Ja war sehr gut, hat aber auch viel zu lange gedauert…“
 
-„Das ist jetzt erstmal gar nicht wichtig. Wichtig ist, Sie haben es geschafft und damit eine Ausbildung abgeschlossen haben, mit der Sie weiter in die Zukunft blicken können. Und, ich habe Sie hier an der Leitung, und sie sind in der Lage persönlich mit mir zu sprechen, das schaffen viele schon mal nicht! Nun ist es so, wir telefonieren hier ja, weil bei ihnen eine akute Krise, eine Lebensmüdigkeit vorliegt.“
+„Das ist jetzt erstmal gar nicht wichtig. Wichtig ist, Sie haben es geschafft und damit eine Ausbildung abgeschlossen haben, auf der Sie in der Zukunft aufbauen können. Und, ich habe Sie hier an der Leitung, und sie sind in der Lage persönlich mit mir zu sprechen, das schaffen viele schon mal nicht! Nun ist es so, wir telefonieren hier ja, weil bei ihnen eine akute Krise, eine Lebensmüdigkeit vorliegt.“
 
 „Kann man schon so nennen, ich will nicht mehr leben, also den Gedanken hatte ich schon öfter, im Grunde schon als Kind, aber so stark war er noch nie, ich kriege ihn einfach nicht mehr weg“, flüsterte XXX, kaum hörbar, mit zitternder Stimme, „und außerdem habe ich seit 10 Tagen nichts mehr gegessen“, was so nicht ganz stimmte, aber zu wenig war es auf jeden Fall und der Appetit war ihm gänzlich vergangen.
 
