@@ -59,7 +59,7 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Kann man schon so nennen“
 
-„Woran machen sie das denn fest, Herr XXX?“
+„Woran machen sie das denn fest, Herr ähm, Herr XXX?“
 
 „Ich will nicht mehr leben, also den Gedanken hatte ich schon öfter, im Grunde schon als Kind, aber so stark war er noch nie, ich kriege ihn einfach nicht mehr aus meinem Kopf“, flüsterte XXX, kaum hörbar, mit zitternder Stimme, „und außerdem habe ich seit zehn Tagen nichts mehr gegessen…“
 
