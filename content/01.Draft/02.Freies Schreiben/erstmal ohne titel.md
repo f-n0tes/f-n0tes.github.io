@@ -107,6 +107,46 @@ Als er sich auf die kleine, schmale Küche zubwegte, begann sie nervös an ihren
 
 - Entgiftungstories und die Zeit danach.
 
+Er war dann doch ziemlich aufgeregt, als er mit einem Rucksack und einer vollgepackten Reisetasche an der Adresse ankam, die ihm seine Therapeutin gemailt hatte. Allerdings weniger aufgeregt, als er es noch die letzten Tage und vor allem in der letzten Nacht gewesen ist. Er war eine viertel Stunde zu früh, was ihn selbst überraschte. Bis auf eine vorbeiradelnde Radfahrerin, die das abschüssige Gelände wohl als Abkürzung nutzte, war dort keine Menschenseele zu sehen.Vielleicht war sie auf dem Weg zur Uni, zumindest sah sie so aus, wie er sich Studentinnen vorstellte, denn sie trug einen Fahrradhelm und einen dieser Rucksäcke, den alle tragen, die so aussehen. Vielleicht waren aber auch Semesterferien und sie fährt zu der Badestelle an der Krähenwiese. Eigentlich könnte er jetzt auch einfach wieder umdrehen, nach Hause gehen, ein paar Freunde anrufen und etwas aus dem sonnigen Tag machen, wenn er schon so früh wach war. Vielleicht wäre das besser, als dort reinzugehen. Aber er hatte es seiner Therapeutin versprochen. Also öffnete er die Tür, folgte dem Pfeil auf dem Schild, auf dem "Anmeldung im ersten Stock" geschrieben stand und ging die Treppe hoch. Er drückte gegen den Türknauf und stellte fest, dass die Tür verschlossen war. Vielleicht war er doch falsch. Vielleicht sollte er doch einfach wieder umkehren.
+
+"Yooo, die holen uns gleich rein"
+
+Er erschreckte sich. Dass jemand auf der Treppe zum zweiten Stock saß, war ihm zuvor nicht aufgefallen. Er schien hier doch richtig zu sein. Und weil er nun gesehen wurde, war die Chance vertan, doch noch einen Rückzieher zu machen.
+
+"Achso", sagte er und setzte sich ebenfalls auf die Treppe hinter den Mann, der ihn angesprochen hatte. Er schätzte ihn auf ungefähr 35 Jahre. Der Mann trug eine Picaldi Jogginghose und ein zu der Hose ziemlich unpassendes Hemd, auf dem irgendwelche bedeutungslosen englische Worte und Zahlen gedruckt waren. Seine Fingerknöchel waren tätowiert und die schwarzen Haare hatte er schmierig nach hinten gegelt. Außerdem trug er ein silbernes, längliches Piercing in der linken Augenbraue und kaute aggressiv auf einem Kaugummi herum.
+
+"yooo ich bin Marcel, bist das erste Mal hier?"
+
+Er verstand die Frage nicht wirklich. Wieso sollte man ein zweites Mal hierhin wollen. Einmal war doch schon zu viel.
+
+"XXX, ja ist mein erstes Mal"
+
+"Bruder, du siehst gar nicht so aus, als würdest du hierher gehören. Nicht dass du 'ne Zifte bist, dann verpisst du dich besser schnell wieder. Naja scheiß drauf, was hast du gerade drin?!"
+
+"Bin wegen Kiffen hier..."
+
+"WEGEN KIFFEN?! Das ist doch lächerlich, degah, dann bist du hier falsch. Gehe einfach nach Hause und komm klar. wegen kiffen, ich glaub's nicht. Hast sicher nichts anderes drin gerade?! Nicht mal ein paar Bier oder so?"
+
+Es war kurz vor 9, wieso sollte er jetzt schon ein paar Bier drin haben?
+
+"Ne, ich bin nüchtern. Hab vor drei Tagen das letzte Mal gebufft. Wieso sollte man hier noch stoned oder besoffen reingehen?"
+
+"Bruder ich sag's dir, du bist echt komisch. Keiner geht hier nüchtern rein. Schwöre, wenn du 'ne Zifte bist, dann kriegst du hier richtig Stress. Gleich musst du erstmal pusten, dann werden wir ja sehen, ob du wirklich nichts drin hast. Also ich, iccch hab auch 0 Promille, aber alles außer Gras und Alkohol hab ich mir vor ner halben Stunde noch schön reingescheppert. Degah, so richtig krasse Paste hatte ich da, die ist brutal. Vom besten Koch hier aus der Gegend. Brauchte erstmal paar Tillis um bisschen chillen zu können, auch gar kein Bock hier hin zu müssen, aber sonst geh ich Haps, hahhhaha, in den Knast weißt du?! Weißt du, ich hab Kilos gemacht, aber die haben mich gefickt, wegen 'ner fucking 31er Fotze. Der wird tot sein, wenn der rauskommt, das sag ich dir."
+
+"Ah, scheiße man". "Was wenn aller hier so sind, vielleicht bin ich wirklich falsch hier."
+
+"wegen kiffen... Bruder, hast du überhaupt jemals was anderes ausprobiert als kiffen und Alk? Mal Teile geklinkt? Pep oder Shem gerotzt? Benzos oder so?"
+
+"Ja auf Party mal ausprobiert..."
+
+"Aber heute hast du nichts davon genommen? Gar nichts?!? Degah ich sag dir, die Paste, die ich da hatte, da hättest du nicht widerstehen können, hehe, ich sag dir Bruder, das Zeug ist nicht wie das dreckige Pepp, auf dem Zeug kannst du sogar ficken und wie du darauf ficken kannst, ich sag dir alter –“
+
+Die zuvor verschlossene Tür wurde von innen geöffnet und eine junge Frau mit einem weißen Kittel trat ins Treppenhaus und schaute auf die Treppe auf der die beiden saßen. Mit einer eindrucksvollen, lauten Stimme sagte sie:
+
+"Guten Morgen! OOO mein Name, ich werde hier aber eigentlich von allen Flummi genannt. Sie sind also die Neuankömmlinge, Herr XXX und Herr ZZZMarcel und Herr YYY, richtig?! Einer scheint ja noch zu fehlen. Nun gut, dann kommen Sie, Herr XXX, mal als erstes mit mir mit."
+
+XXX stand auf, nahm seine Sachen und ging mit der Plegerin durch die Tür, die anschließend wieder ins Schloss fiel.
+
 # III.
 
 - nicht in die klinik gehen, stattdessen blauer pueblo tabak und nach Hamburg zu seiner Oma fahren.
