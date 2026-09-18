@@ -53,7 +53,7 @@ Ihm war das schon ziemlich wichtig, sagte aber nichts dazu, wozu auch.
 
 „Schauen Sie Herr XXX… von dem was ich von ihrer Freundin… oder Ex-Freundin erfahren habe, beziehungsweise, was ich aus ihrer Patientenakte entnehmen kann: Sie haben mehr als zehn Jahre eine feste Beziehung geführt. Das heißt, sie sind dazu in der Lage, langfristige, stabile Beziehungen eingehen zu können. Sie haben ihr Studium abgeschlossen, und, wenn ich mich nicht täusche, das sogar mit einem guten bis sehr guten Ergebnis.“
 
-„Ja war sehr gut, hat aber auch viel zu lange gedauert…“, es schien ihm wichtig zu sein, auf dem SEHR guten Ergebnis zu bestehen, hatte es ihm doch einen so hohen Preis gekostet.
+„*ja toll, 10 Jahre, sehr stabil*“ – er war kurz davor, direkt wieder zu weinen: „Ja war sehr gut, bringt bloß gar nichts, hab was vollkommen brotloses studiert und viel zu lange obendrein…“, es schien ihm wichtig zu sein, auf dem SEHR guten Ergebnis zu bestehen, hatte es ihm doch einen so hohen Preis gekostet.
 
 „Das ist jetzt erstmal gar nicht wichtig. Wichtig ist, Sie haben es geschafft und damit eine Ausbildung abgeschlossen haben, auf der Sie in der Zukunft aufbauen können. Und ich habe Sie hier an der Leitung… und sie sind in der Lage persönlich mit mir zu sprechen, das schaffen viele schon mal nicht! Und das kann ich Ihnen versichen, schließlich habe ich einige Jahrzehnte, hmm mittlerweile weit mehr als 30 Jahre Berufserfahrung auf dem Buckel. Nun ist es so, wir telefonieren hier ja, weil bei ihnen eine akute Krise, eine Lebensmüdigkeit vorliegt. Stimmt das so?“
 
@@ -131,13 +131,15 @@ Es war kurz vor 9, wieso sollte er jetzt schon ein paar Bier drin haben?
 
 "Ne, ich bin nüchtern. Hab vor drei Tagen das letzte Mal gebufft. Wieso sollte man hier noch stoned oder besoffen reingehen?"
 
-"Bruder ich sag's dir, du bist echt komisch. Keiner geht hier nüchtern rein. Schwöre, wenn du 'ne Zifte bist, dann kriegst du hier richtig Stress. Gleich musst du erstmal pusten, dann werden wir ja sehen, ob du wirklich nichts drin hast. Also ich, iccch hab auch 0 Promille, aber alles außer Gras und Alkohol hab ich mir vor ner halben Stunde noch schön reingescheppert. Degah, so richtig krasse Paste hatte ich da, die ist brutal. Vom besten Koch hier aus der Gegend. Brauchte erstmal paar Tillis um bisschen chillen zu können, auch gar kein Bock hier hin zu müssen, aber sonst geh ich Haps, hahhhaha, in den Knast weißt du?! Weißt du, ich hab Kilos gemacht, aber die haben mich gefickt, wegen 'ner fucking 31er Fotze. Der wird tot sein, wenn der rauskommt, das sag ich dir."
+"Bruder ich sag's dir, du bist echt komisch. Keiner geht hier nüchtern rein. Schwöre, wenn du 'ne Zifte bist, dann kriegst du hier richtig Stress. Gleich musst du erstmal pusten und danach pissen hehe, dann werden wir ja sehen, ob du wirklich nichts drin hast. Also ich, iccch hab auch 0 Promille, aber alles außer Gras und Alkohol hab ich mir vor ner halben Stunde noch schön reingescheppert. Ich bin locker noch bis morgen drauf. Degah, so richtig krasse Paste hatte ich da, die ist brutal. Vom besten Koch hier aus der Gegend. Brauchte erstmal paar Tillis um bisschen chillen zu können, auch gar kein Bock hier hin zu müssen, aber sonst geh ich Haps, hahhhaha, in den Knast weißt du?! Weißt du, ich hab Kilos gemacht, aber die haben mich gefickt, wegen 'ner fucking 31er Fotze. Der wird tot sein, wenn der rauskommt, das sag ich dir."
 
 "Ah, scheiße man". "Was wenn aller hier so sind, vielleicht bin ich wirklich falsch hier."
 
 "wegen kiffen... Bruder, hast du überhaupt jemals was anderes ausprobiert als kiffen und Alk? Mal Teile geklinkt? Pep oder Shem gerotzt? Benzos oder so?"
 
 "Ja auf Party mal ausprobiert..."
+
+556913266380-o6noj78g2oh1q1sn0r4juukao8vde690.apps.googleusercontent.com
 
 "Aber heute hast du nichts davon genommen? Gar nichts?!? Degah ich sag dir, die Paste, die ich da hatte, da hättest du nicht widerstehen können, hehe, ich sag dir Bruder, das Zeug ist nicht wie das dreckige Pepp, auf dem Zeug kannst du sogar ficken und wie du darauf ficken kannst, ich sag dir alter –“
 

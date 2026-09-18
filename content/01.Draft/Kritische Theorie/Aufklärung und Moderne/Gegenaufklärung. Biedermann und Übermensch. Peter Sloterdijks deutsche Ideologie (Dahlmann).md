@@ -48,6 +48,7 @@ published: 2006-01-01
 
 ⇨ Die vorherige „Chuzpe“ Sloterdijks, ==ein antisemitisches Grundmuster als „wirklichkeitsadäquate Form von Reflexion“ zu erklären==, kann also nur dadurch gelingen, dass er sich mit dem Zweifel des Zweifels und dem Misstrauens des Misstrauens ==eine Philosophie, ein intellektuelles Werkzeug gebaut hat, mit dem jede ideologische Inversion als Differenziertheit erscheinen kann==: z.B. indem Ablehnung in Identifizierung eingebettet ist oder indem Antisemitismus als Menschenrecht behandelt wird – ==Die Form legitimiert den Inhalt.==
 
+
 ### Aufklärung – Gegenaufklärung – Ideologie
 
 - Dahlmann attestiert also allen der Tradition der Gegenaufklärung verpflichteten Philosophen, ebenso wie den Aufklärern, eine zugrundeliegende Ideologie. Es handelt sich bei ihren Gedanken also nicht um bloße Phantasieprodukte:
