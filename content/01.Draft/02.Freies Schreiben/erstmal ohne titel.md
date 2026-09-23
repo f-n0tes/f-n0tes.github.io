@@ -139,15 +139,13 @@ Es war kurz vor 9, wieso sollte er jetzt schon ein paar Bier drin haben?
 
 "Ja auf Party mal ausprobiert..."
 
-556913266380-o6noj78g2oh1q1sn0r4juukao8vde690.apps.googleusercontent.com
-
-"Aber heute hast du nichts davon genommen? Gar nichts?!? Degah ich sag dir, die Paste, die ich da hatte, da hättest du nicht widerstehen können, hehe, ich sag dir Bruder, das Zeug ist nicht wie das dreckige Pepp, auf dem Zeug kannst du sogar ficken und wie du darauf ficken kannst, ich sag dir alter –“
+"Aber heute hast du nichts davon genommen? Gar nichts?!? Degah ich sag dir, die Paste, die ich da hatte, da hättest du nicht widerstehen können, hehe, ich sag dir Bruder, das Zeug ist nicht wie das dreckige Pepp, auf dem Zeug kannst du sogar ficken und wie du darauf ficken kannst, ich sag dir alter, Leute, die das nie genommen haben, die können gar nicht wissen –“
 
 Die zuvor verschlossene Tür wurde von innen geöffnet und eine junge Frau mit einem weißen Kittel trat ins Treppenhaus und schaute auf die Treppe auf der die beiden saßen. Mit einer eindrucksvollen, lauten Stimme sagte sie:
 
 "Guten Morgen! OOO mein Name, ich werde hier aber eigentlich von allen Flummi genannt. Sie sind also die Neuankömmlinge, Herr XXX und Herr ZZZMarcel und Herr YYY, richtig?! Einer scheint ja noch zu fehlen. Nun gut, dann kommen Sie, Herr XXX, mal als erstes mit mir mit."
 
-XXX stand auf, nahm seine Sachen und ging mit der Plegerin durch die Tür, die anschließend wieder ins Schloss fiel.
+XXX stand auf, nahm seine Sachen und ging mit Flummi durch die Tür, die sie anschließend wieder hinter sich zuzog.
 
 # III.
 
@@ -156,6 +154,8 @@ XXX stand auf, nahm seine Sachen und ging mit der Plegerin durch die Tür, die a
 # IV.
 
 - Erwerbslosenberatung, Antidepressiv leer, Apotheke finden, Sidehustle (schmierigste Typen aber es war ja gar nicht seine Aufgabe zu testen, ob sie keine rentner und dumme über den Tisch ziehen, sondern ob sie ihren laden ordentlich führen, also gab er sich zu erkennen. Win/Win für beide Seiten)
+
+XXX spazierte langsam durch die Nordstadt, einem Teil der Stadt, der relativ abgelegen vom Rest der Stadt war und in dem er sich überhaupt nicht auskannte und auch nicht auskennen wollte. Das vierte oder fünfte Mal war er nun dort gewesen. Er war dort für eine Erwerbslosenberatung, die ihm hoffentlichen dabei helfen würde, aus seiner Misere herauszukommen. Im Grunde 
 
 # V.
 
