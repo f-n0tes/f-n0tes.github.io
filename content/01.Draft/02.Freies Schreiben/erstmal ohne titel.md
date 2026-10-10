@@ -131,9 +131,9 @@ Es war kurz vor 9, wieso sollte er jetzt schon ein paar Bier drin haben?
 
 "Ne, ich bin nüchtern. Hab vor drei Tagen das letzte Mal gebufft. Wieso sollte man hier noch stoned oder besoffen reingehen?"
 
-"Bruder ich sag's dir, du bist echt komisch. Keiner geht hier nüchtern rein. Schwöre, wenn du 'ne Zifte bist, dann kriegst du hier richtig Stress. Gleich musst du erstmal pusten und danach pissen hehe, dann werden wir ja sehen, ob du wirklich nichts drin hast. Also ich, iccch hab auch 0 Promille, aber alles außer Gras und Alkohol hab ich mir vor ner halben Stunde noch schön reingescheppert. Ich bin locker noch bis morgen drauf. Degah, so richtig krasse Paste hatte ich da, die ist brutal. Vom besten Koch hier aus der Gegend. Brauchte erstmal paar Tillis um bisschen chillen zu können, auch gar kein Bock hier hin zu müssen, aber sonst geh ich Haps, hahhhaha, in den Knast weißt du?! Weißt du, ich hab Kilos gemacht, aber die haben mich gefickt, wegen 'ner fucking 31er Fotze. Der wird tot sein, wenn der rauskommt, das sag ich dir."
+"Bruder ich sag's dir, du bist echt komisch. Keiner geht hier nüchtern rein. Schwöre, wenn du 'ne Zifte bist, dann kriegst du hier richtig Stress. Gleich musst du erstmal pusten und danach pissen hehe, dann werden wir ja sehen, ob du wirklich nichts drin hast. Also ich, iccch hab auch 0 Promille, aber alles außer Gras und Alkohol hab ich mir vor ner halben Stunde noch schön reingescheppert. Ich bin locker noch bis übermorgen druff. Degah, so richtig krasse Paste hatte ich da, die ist brutal. Vom besten Koch hier aus der Gegend. Brauchte erstmal paar Tillis um bisschen chillen zu können, auch gar kein Bock hier hin zu müssen, aber sonst geh ich Haps, hahhhaha, in den Knast weißt du?! Weißt du, ich hab Kilos gemacht, aber die haben mich gefickt, wegen 'ner fucking 31er Fotze. Der wird tot sein, wenn der rauskommt, das sag ich dir."
 
-"Ah, scheiße man". "Was wenn aller hier so sind, vielleicht bin ich wirklich falsch hier."
+"Ah, scheiße man". "*Was wenn aller hier so sind, vielleicht bin ich wirklich falsch hier.*"
 
 "wegen kiffen... Bruder, hast du überhaupt jemals was anderes ausprobiert als kiffen und Alk? Mal Teile geklinkt? Pep oder Shem gerotzt? Benzos oder so?"
 
@@ -151,9 +151,36 @@ XXX stand auf, nahm seine Sachen und ging mit Flummi durch die Tür, die sie ans
 
 - nicht in die klinik gehen, stattdessen blauer pueblo tabak und nach Hamburg zu seiner Oma fahren.
 
+„Einen blauen Pueblo Tabak, die weißen Gizeh-Blättchen und Filter bitte“
+
+„9,25 € macht das“
+
+Er bezahlte, nahm die Ware entgegen und verließ den Kiosk gegenüber der noch gemeinsamen Wohnung. Vor ein paar Tagen, als die Welt irgendwie noch in Ordnung war, ist der Kiosk überfallen worden. Der Kioskbesitzer hatte sich gewehrt und konnte den Täter, der ihm mit einer Schreckschusspistole auf den Kopf geschlagen und im Gerangel wild rumgeballert hat, in die Flucht schlagen. Anschließend schien er die Videoaufzeichnung aus der Überwachungskamera wohl an die BILD-Zeitung verkauft zu haben, zumindest konnte man es dort einen Tag nach dem Überfall auffinden. Warum auch nicht noch etwas Kapital aus so einer beschissenen Situation schlagen? Wobei es wohl smarter gewesen wäre, dem Täter einach die 300 € aus der Kasse und paar Stangen Zigaretten in die Tüte zu packen. Hätte ja auch ins Auge gehen können.
+
+Er drehte sich direkt vor dem Kiosk eine Zigarette und dachte darüber nach, wie teuer auch selbstgedrehte Kippen mittlerweile geworden sind. Außerdem hatte er kein Feuerzeug, weshalb er nach etwas Kleingeld kramte und den Kiosk ein zweites Mal betrat. Der junge Verkäufer hinter dem Tresen hatte noch einen kleinen Verband auf seiner Glatze.
+
+„Ich brauche noch ein Feuerzeug“
+
+„ Such dir eins aus. Die hier kosten 1 € und diese 1,50 €“
+
+Er nahm sich eins für 1,50 €. Das günstigere hätte seinen Dienst wohl auch erfüllt, aber er wollte schon ein großes BIC-Feuerzeug, weil die ihm als zuverlässiger in Erinnerung waren. Über 4 Jahre hatte er nicht mehr geraucht. Sollte er nicht doch einfach in die Klinik fahren? Aber der Entschluss, dies nicht zu tun, war eigentlich schon gefasst und deshalb nahm er seinen vollgepackten Wanderrucksack vom Rücken und setzte sich an die Bushaltestelle gegenüber des Kiosks. Mit der Zigarette im Mund und dem Feuerzeug in der Hand hielt er noch einmal inne. Er wusste ganz genau, dass dies im besten Fall zu ein paar Monaten, im schlechtesten Fall zu weiteren zehn Jahren Rauchen müssen führen würde. Und damit aufzuhören und es so lange durchzuhalten, gehörte wohl zu den größten Errungenschaften, die er in seinem bisherigen, knapp 40 jährigen Leben erreicht hatte. Es gab da zugegeben noch die ein oder andere Errungenschaft, aber keine war so anstrengend gewesen wie diese. Außerdem hatte er Asthma. Aber irgendetwas musste jetzt erstmal geschehen, außerdem hätte er in der Klinik sich wohl eh nach zwei Tagen eine Kippe geschnorrt.
+
+Er zündete sich die Zigarette an, nahm einen tiefen Zug, dann einen zweiten und innerhalb von Sekunden breitete sich das allzu bekannte, wohlige Gefühl in seinen Körper aus. Er spürte es bis in seine Beine und fühlte sich so vollkommen ruhig wie seit wohl mindestens 4 Jahren nicht mehr. Den Geschmack auf seiner Zunge hatte er nicht vermisst, aber ansonsten sah die Welt jetzt schon etwas anders aus.
+
+„*Es ist tatsächlich wie in diesem Houllebecq Roman. Ein elementarer Mangel in meinem Leben scheint gerade, wenn auch nur für ein paar Minuten, beseitigt worden zu sein.*“
+
+Er überlegte, was nun seine nächste Station sein könnte. Schließlich hatte er sich ein Deutschland-Ticket gekauft und seinen Wanderrucksack so gepackt, dass seine Medikamente für mindestens 10 Tage ausreichten. Und früher wollte er auf keinen Fall zurück in die gemeinsame Wohnung. Das Nikotin traf auf seinen viel zu leeren Magen, der seit über einer Woche kaum etwas anderes als ein paar Bananen, Müsliriegel und jede Menge Kaffee gesehen hatte. Um eine weitere Zigarette rauchen zu können, sollte er zuvor auf jeden Fall eine üppige Mahlzeit zu sich nehmen. Er fasste den Plan, einem seiner besten Freunde zu schreiben, ob er ein paar Tage auf seiner WG-Couch unterkommen könne und zuvor seine Oma zu besuchen, die sicherlich zu Hause sein sollte. Er war sich sicher, dass seine Oma ihm ein ausgezeichnetes Mittagessen zubereiten würde, wenn er ihr erzählte, so lange nichts mehr gegessen zu haben. Außerdem war sein Budget sehr begrenzt und einen Besuch wollte er ihr ohnehin schon lange mal wieder abgestattet haben. Beide, die Oma und sein Freund, lebten in der gleichen Stadt, ungefähr anderthalb Stunden mit dem Regio entfernt. Und zunächst einmal die Stadt zu verlassen, erschien ihm als eine sehr vernünftige Idee, wenn er sich schon nicht in der Klinik hat aufnehmen lassen.
+
+Er suchte sich einen Zug raus, schrieb seinem Freund OOO und rief seine Oma an, die zwar von der sponatenen Beuschsabsicht überfordert aber auch sichtlich erfreut war. In der Bahn steckte er sich seine Kopfhörer ins Ohr, ohne sich Musik einen Podcast oder irgendetwas anderes anzumachen. Er beobachtete die vielen unterschiedlichen Graffiti an den Schallschutzwänden entlang der Gleise. Manche bekannte Namen von Writern und Crews waren überproportinal häufig zu sehen, während andere sich nur ein einziges Mal an den Wänden verewigt hatten. Und natürlich gab es sehr viele, stilistisch eher langweilige dafür äußerst große Chrome-Bombings mit Bezug zu dem lokalen Fußballverein. Je nähere er seinem Reiseziel kam, desto häufiger waren die Graffiti eines anderen, rivalisierten Fußballverein auszumachen, deren Styles der schlechten Qualität des lokalen Vereins in nichts nachstanden. Das erschien ihm die sinnloseste Form von Graffiti zu sein. Falls „sinnlos“ hier überhaupt eine passende Kategorie ist.
+
+„*Ich meine, das sind erwachsene Männer, die kaufen sich für 50 oder 100 € Sprühdosen, gehen dann nachts raus an die Bahngleise, malen dort vollkommen leblose Styles, taggen hängengebliebene Floskeln daneben und crossen dann noch die styletechnisch ebenfalls langweiligen Bilder des gegnerischen Vereins mit so geistreichen Wörtern wie ‚FOTZEN‘ oder ‚HURENSÖHNE‘ … erwachsene… Männer…*“
+
+
+
+
 # IV.
 
-- Erwerbslosenberatung, Antidepressiv leer, Apotheke finden, Sidehustle (schmierigste Typen aber es war ja gar nicht seine Aufgabe zu testen, ob sie keine rentner und dumme über den Tisch ziehen, sondern ob sie ihren laden ordentlich führen, also gab er sich zu erkennen. Win/Win für beide Seiten)
+- Erwerbslosenberatung, Antidepressiva leer, Apotheke finden, Sidehustle (schmierigste Typen aber es war ja gar nicht seine Aufgabe zu testen, ob sie keine rentner und dumme über den Tisch ziehen, sondern ob sie ihren laden ordentlich führen, also gab er sich zu erkennen. Win/Win für beide Seiten)
 
 XXX spazierte langsam durch die Nordstadt, einem Teil der Stadt, der relativ abgelegen vom Rest der Stadt war und in dem er sich überhaupt nicht auskannte und auch nicht auskennen wollte. Das vierte oder fünfte Mal war er nun dort gewesen. Er war dort für eine Erwerbslosenberatung, die ihm hoffentlichen dabei helfen würde, aus seiner Misere herauszukommen. Im Grunde 
 
