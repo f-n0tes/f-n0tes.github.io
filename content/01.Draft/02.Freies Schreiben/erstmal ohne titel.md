@@ -13,7 +13,7 @@ cssclasses:
 source:
 published:
 ---
-# I.
+p# I.
 
 „Er ruft dich gleich auf deine Nummer zurück“, sagte sie, „irgendwie war der Typ komisch“. Seine Hände zitterten, eigentlich zitterte er am ganzen Körper, während er verschwitzt aus der viel zu warmen Decke kroch, sich langsam vom Bett erhob und nach seinem Handy griff, um auf den Balkon zu gehen, weil dort der Empfang am besten war. In dieser scheiß Wohnung konnte man einfach nicht vernünftig telefonieren. Aber er wollte eigentlich auch nicht belauscht werden und prüfte, ob das Fenster zum Schlafzimmer überhaupt geschlossen war. Es war geschlossen. In der Ferne fuhr gerade ein Güterzug vorbei. So fern waren die Gleise eigentlich nicht, vielleicht zwei Minuten zu Fuß, wenn man mit einem gemütlichen Tempo dort hin spazierte. Das hat er schon oft getan. Bahnschienen und Züge, insbesondere Güterzüge hatten schon immer eine faszinierende Wirkung auf ihm. Zuletzt spürte er allerdings ein immer größeres Unbehagen, wenn er auf dem kleinen Trampelpfad neben den Gleisen entlängs spazierte. Er konnte die Schienen und den vorbeifahrenden Güterzug von hier aus zwar nicht sehen, war sich aber aufgrund des rhythmisch klackernden Sounds sicher, dass es sich um einen Güter- und nicht um einen Personenzug handeln musste. Außerdem regnete es und es war verdammt windig. Ob der Wind gleich beim Telefonieren stören sollte, so wie beim Fahrradfahren der Fahrtwind mit den Billig-Kopfhörern? Eigentlich auch egal jetzt, wenigstens war der Balkon überdacht. Er bemerkte eine weiße, schimmlige Stelle an einem Trieb seiner über Monate hinweg liebevoll gepflegten und großgezogenen Cannabispflanze. Dies könnte ihm gerade ebenfalls nicht egaler sein. Konsumieren wollte er die Blüten, die wohl in zwei bis drei Wochen erntereif sein sollten und bereits einen penetranten, zitronigen Geruch in der Nachbarschaft versprühten, ohnehin nicht. Die Pflanze stand dort doch nur, weil es jetzt legal war, so eine Pflanze dort stehen zu haben. Die Blüten wollte er an einen Freund verschenken, was ziemlich sicher wieder im Bereich der Illegalität lag. So genau hatte er sich mit dem neuen Gesetz aber auch nicht auseinandergesetzt. Auf dem ersten Blick schien es so, dass nur der eine Trieb, einer der kleineren Triebe, befallen war. Er griff zur Gartenschere, die noch auf dem Balkontisch lag und schnitt den gesamten Trieb ab. Beinahe hätte er ihn einfach vom Balkon geworfen. Aber das wäre wohl wirklich illegal und irgendwelche Kids hätten ihn einfach aufheben und mitnehmen können. Sein Telefon klingelte, er legte den schimmligen Trieb auf den Boden des Balkons und nahm den Anruf von einer Festnetznummer an.
 
@@ -99,7 +99,7 @@ Er legte auf und fragte sich, wieso er da vor ungefähr einer halben Stunde eige
 
 Er war auf jeden Fall nicht wirklich er selbst und zugleich so sehr er selbst, wie er es das ganze Jahr zuvor nicht mehr gewesen ist.
 
-Seine Ex-Freundin, AAA, war gerade in der Küche und sah überhaupt nicht gut aus. Was hatte er ihr die letzten Tage bloß zugemutet, als er sie nach ein paar Tagen ohne Kontakt von seinem Elternhaus aus, in dem sich seine Eltern zu diesemm Zeitpunkt zum Glück nicht aufhielten, sie waren verreist, vollkommen erschöpft anrief und die genannten fünf Worte das erste Mal laut vor einem anderen Menschen aussprach. Klar hat er über eine gewisse Lebensmüdigkeit, über die Angst davor, sich etwas antun zu können, bereits zuvor mal sehr abstrakt berichtet. Auch mit einer Therapeutin darüber gesprochen. Aber dieses Mal war es irgendwie anders.
+Seine Ex-Freundin, AAA, war gerade in der Küche und sah überhaupt nicht gut aus. Was hatte er ihr die letzten Tage bloß zugemutet, als er sie nach ein paar Tagen ohne Kontakt von seinem Elternhaus aus, in dem sich seine Eltern zu diesem Zeitpunkt zum Glück nicht aufhielten, sie waren verreist, vollkommen erschöpft anrief und die genannten fünf Worte das erste Mal laut vor einem anderen Menschen aussprach. Klar hat er über eine gewisse Lebensmüdigkeit, über die Angst davor, sich etwas antun zu können, bereits zuvor mal sehr abstrakt berichtet. Auch mit einer Therapeutin darüber gesprochen. Aber dieses Mal war es irgendwie anders.
 
 Als er sich auf die kleine, schmale Küche zubwegte, begann sie nervös an ihren rotbraunen Locken herumzuspielen. Eine klassische Übersprungshandlung ihrerseits, die er eigentlich immer ganz süß fand, auch wenn es ihn immer ein bisschen nervös machte. Er sagte ihr, dass sie, wenn sie denn wolle, den Typen von eben nochmal zurückrufen kann, auch wenn das im Grunde vergeudete Zeit wäre. Das wäre es in der Tat gewesen. Außerdem machte sie nicht den Anschein, als hätte sie noch etwas mit dem Typen von eben am Telefon, geschweige denn mit ihm zu besprechen. Er hatte ihr auch nichts mehr zu sagen. Eigentlich hatte er ihr noch so einiges zu sagen und vor allem wollte er auch noch so einiges von ihr erfahren. Aber nach den letzten Tagen, Wochen ja Monaten machte er sich gerade keine Illusionen mehr, dass das nächste Gespräch die gewünschte Erkenntnis bringen würde. Also bedankte er sich für ihre Hilfe, und  Sie verließ das Haus, denn sie war ohnehin schon zu spät für 
 
@@ -145,11 +145,22 @@ Die zuvor verschlossene Tür wurde von innen geöffnet und eine junge Frau mit e
 
 "Guten Morgen! OOO mein Name, ich werde hier aber eigentlich von allen Flummi genannt. Sie sind also die Neuankömmlinge, Herr XXX und Herr ZZZMarcel und Herr YYY, richtig?! Einer scheint ja noch zu fehlen. Nun gut, dann kommen Sie, Herr XXX, mal als erstes mit mir mit."
 
-XXX stand auf, nahm seine Sachen und ging mit Flummi durch die Tür, die sie anschließend wieder hinter sich zuzog.
+XXX stand auf, nahm seine Sachen und ging mit Flummi durch die Tür, die sie anschließend wieder hinter sich zuzog. Nachdem er ein paar Formulare zur Aufnahme auf der Entgiftungsstation ausgefüllt und unterzeichnet hatte, wurde er von Flummi in das Untersuchungszimmer geführt. Während Flummi mit übergestreiften Latexhandschuhen seine Tasche bis in den letzten Winkel des letzten Sockenknäuels durchsuchte (er hatte dieser verpflichtenden Durchsuchung zuvor in einem dieser Formulare zugestimmt), wurde ihm von einem Krankenpfleger Blut abgenommen, ein EKG durchgeführt und, wie es Marcel bereits angekündigt hatte, ein Atemalkoholtest durchgeführt, dessen Ergebnis natürlich bei 0,00 ‰ lag. Wie Marcel schien auch der Krankenpfleger über dieses ernüchternde Ergebnis überrascht, gar ein wenig erfreut zu sein, was man über Marcel gewiss nicht sagen konnte.
+
+„Herr XXX, damit hätten wir ihre Aufnahme weitestgehend abgeschlossen“ sagte der Krankenpfleger, während Flummi gerade dabei war, die einzelnen Etiketten seiner Medikamente und Pflegeprodukte in seinem Kulturbeutel zu studieren. „Die Laborwerte und das EKG werden morgen bei der Oberarztvisite mit ihnen besprochen werden. Bevor Sie nun in das Aquarium können, müssen Sie allerdings – wie übrigens jeden Morgen – noch eine Urinprobe abgeben. Die Urinprobe erfolgt unter Sicht, weshalb ich sie auf das Klo begleiten muss.“
+
+„Unter Sicht?“
+
+„Ja genau, wir gehen da einfach auf Nummer sicher. Sie können sich gar nicht vorstellen, was sich die Leute hier alles einfallen lassen. Sauberer Urin wird von außen eingeschmuggelt, manche kippen einfach Apfelsaft in den Becher und andere haben sogar schon eine Art Fake-Penis mitgebracht, aus dem sauberer, synthetischer Urin kommt. Also da gehen wir einfach auf Nummer sicher, das gilt für alle hier.“
+
+„Ich muss aber gar nicht pinkeln. Und ‚unter Sicht‘ klappt das bei mir ohnehin nicht.“
+
+„Wir brauchen ja auch nicht viel, mir reichen da ein paar Tropfen.“
+
+„“
 
 # III.
 
-- nicht in die klinik gehen, stattdessen blauer pueblo tabak und nach Hamburg zu seiner Oma fahren.
 
 „Einen blauen Pueblo Tabak, die weißen Gizeh-Blättchen und Filter bitte“
 
@@ -161,21 +172,21 @@ Er drehte sich direkt vor dem Kiosk eine Zigarette und dachte darüber nach, wie
 
 „Ich brauche noch ein Feuerzeug“
 
-„ Such dir eins aus. Die hier kosten 1 € und diese 1,50 €“
+„Such dir eins aus. Die hier kosten 1 € und diese 1,50 €“
 
-Er nahm sich eins für 1,50 €. Das günstigere hätte seinen Dienst wohl auch erfüllt, aber er wollte schon ein großes BIC-Feuerzeug, weil die ihm als zuverlässiger in Erinnerung waren. Über 4 Jahre hatte er nicht mehr geraucht. Sollte er nicht doch einfach in die Klinik fahren? Aber der Entschluss, dies nicht zu tun, war eigentlich schon gefasst und deshalb nahm er seinen vollgepackten Wanderrucksack vom Rücken und setzte sich an die Bushaltestelle gegenüber des Kiosks. Mit der Zigarette im Mund und dem Feuerzeug in der Hand hielt er noch einmal inne. Er wusste ganz genau, dass dies im besten Fall zu ein paar Monaten, im schlechtesten Fall zu weiteren zehn Jahren Rauchen müssen führen würde. Und damit aufzuhören und es so lange durchzuhalten, gehörte wohl zu den größten Errungenschaften, die er in seinem bisherigen, knapp 40 jährigen Leben erreicht hatte. Es gab da zugegeben noch die ein oder andere Errungenschaft, aber keine war so anstrengend gewesen wie diese. Außerdem hatte er Asthma. Aber irgendetwas musste jetzt erstmal geschehen, außerdem hätte er in der Klinik sich wohl eh nach zwei Tagen eine Kippe geschnorrt.
+Er nahm sich eins für 1,50 €. Das günstigere hätte seinen Dienst wohl auch erfüllt, aber er wollte schon ein großes BIC-Feuerzeug, weil diese ihm als zuverlässiger in Erinnerung geblieben waren. Über 4 Jahre hatte er nicht mehr geraucht. Sollte er nicht doch einfach in die Klinik fahren? Aber der Entschluss, dies nicht zu tun, war eigentlich schon gefasst und deshalb nahm er seinen vollgepackten Wanderrucksack vom Rücken und setzte sich an die Bushaltestelle gegenüber des Kiosks. Mit der Zigarette im Mund und dem Feuerzeug in der Hand hielt er noch einmal inne. Er wusste ganz genau, dass dies im besten Fall zu ein paar Monaten, im schlechtesten Fall zu weiteren Jahr(zehnt)en Rauchen müssen und regelmäßig verzweifelt wieder damit aufhören wollen führen würde. Und damit aufzuhören und es so lange durchzuhalten, gehörte wohl zu den größten Errungenschaften, die er in seinem bisherigen, knapp 40 jährigen Leben erreicht hatte. Es gab da zugegeben noch die ein oder andere Errungenschaft, aber keine war so anstrengend gewesen wie diese. Außerdem hatte er Asthma. Aber irgendetwas musste jetzt erstmal geschehen, außerdem hätte er in der Klinik sich wohl eh nach zwei Tagen eine Kippe geschnorrt.
 
 Er zündete sich die Zigarette an, nahm einen tiefen Zug, dann einen zweiten und innerhalb von Sekunden breitete sich das allzu bekannte, wohlige Gefühl in seinen Körper aus. Er spürte es bis in seine Beine und fühlte sich so vollkommen ruhig wie seit wohl mindestens 4 Jahren nicht mehr. Den Geschmack auf seiner Zunge hatte er nicht vermisst, aber ansonsten sah die Welt jetzt schon etwas anders aus.
 
 „*Es ist tatsächlich wie in diesem Houllebecq Roman. Ein elementarer Mangel in meinem Leben scheint gerade, wenn auch nur für ein paar Minuten, beseitigt worden zu sein.*“
 
-Er überlegte, was nun seine nächste Station sein könnte. Schließlich hatte er sich ein Deutschland-Ticket gekauft und seinen Wanderrucksack so gepackt, dass seine Medikamente für mindestens 10 Tage ausreichten. Und früher wollte er auf keinen Fall zurück in die gemeinsame Wohnung. Das Nikotin traf auf seinen viel zu leeren Magen, der seit über einer Woche kaum etwas anderes als ein paar Bananen, Müsliriegel und jede Menge Kaffee gesehen hatte. Um eine weitere Zigarette rauchen zu können, sollte er zuvor auf jeden Fall eine üppige Mahlzeit zu sich nehmen. Er fasste den Plan, einem seiner besten Freunde zu schreiben, ob er ein paar Tage auf seiner WG-Couch unterkommen könne und zuvor seine Oma zu besuchen, die sicherlich zu Hause sein sollte. Er war sich sicher, dass seine Oma ihm ein ausgezeichnetes Mittagessen zubereiten würde, wenn er ihr erzählte, so lange nichts mehr gegessen zu haben. Außerdem war sein Budget sehr begrenzt und einen Besuch wollte er ihr ohnehin schon lange mal wieder abgestattet haben. Beide, die Oma und sein Freund, lebten in der gleichen Stadt, ungefähr anderthalb Stunden mit dem Regio entfernt. Und zunächst einmal die Stadt zu verlassen, erschien ihm als eine sehr vernünftige Idee, wenn er sich schon nicht in der Klinik hat aufnehmen lassen.
+Er überlegte, was nun seine nächste Station sein könnte. Schließlich hatte er sich ein Deutschland-Ticket gekauft und seinen Wanderrucksack so gepackt, dass seine Medikamente für mindestens 10 Tage ausreichten. Und früher wollte er auf keinen Fall zurück in die gemeinsame Wohnung. Das Nikotin traf auf seinen viel zu leeren Magen, der seit über einer Woche kaum etwas anderes als ein paar Bananen, Müsliriegel und jede Menge Kaffee gesehen hatte. Um eine weitere Zigarette rauchen zu können, sollte er zuvor auf jeden Fall eine üppige Mahlzeit zu sich nehmen. Er fasste den Plan, einem seiner besten Freunde, bei dem er sich allerdings viel zu lange nicht mehr gemeldet hatte, zu schreiben, ob er ein paar Tage auf seiner WG-Couch unterkommen könne und zuvor seine Oma zu besuchen, die sicherlich zu Hause sein sollte. Er war sich sicher, dass seine Oma ihm ein ausgezeichnetes Mittagessen zubereiten würde, wenn er ihr erzählte, so lange nichts mehr gegessen zu haben. Außerdem war sein Budget sehr begrenzt und einen Besuch wollte er ihr ohnehin schon lange mal wieder abgestattet haben. Beide, die Oma und sein Freund, lebten in der gleichen Stadt, ungefähr anderthalb Stunden mit dem Regio entfernt. Und zunächst einmal die Stadt zu verlassen, erschien ihm als eine sehr vernünftige Idee, wenn er sich schon nicht in der Klinik hat aufnehmen lassen.
 
-Er suchte sich einen Zug raus, schrieb seinem Freund OOO und rief seine Oma an, die zwar von der sponatenen Beuschsabsicht überfordert aber auch sichtlich erfreut war. In der Bahn steckte er sich seine Kopfhörer ins Ohr, ohne sich Musik einen Podcast oder irgendetwas anderes anzumachen. Er beobachtete die vielen unterschiedlichen Graffiti an den Schallschutzwänden entlang der Gleise. Manche bekannte Namen von Writern und Crews waren überproportinal häufig zu sehen, während andere sich nur ein einziges Mal an den Wänden verewigt hatten. Und natürlich gab es sehr viele, stilistisch eher langweilige dafür äußerst große Chrome-Bombings mit Bezug zu dem lokalen Fußballverein. Je nähere er seinem Reiseziel kam, desto häufiger waren die Graffiti eines anderen, rivalisierten Fußballverein auszumachen, deren Styles der schlechten Qualität des lokalen Vereins in nichts nachstanden. Das erschien ihm die sinnloseste Form von Graffiti zu sein. Falls „sinnlos“ hier überhaupt eine passende Kategorie ist.
+Er suchte sich einen Zug raus, schrieb seinem Freund OOO und rief seine Oma an, die zwar von der spontanen Besuchsabsicht überfordert aber auch sichtlich erfreut war. In der Bahn steckte er sich seine Kopfhörer ins Ohr, ohne sich Musik einen Podcast oder irgendetwas anderes anzumachen. Er beobachtete die vielen unterschiedlichen Graffiti an den Schallschutzwänden entlang der Gleise. Manche bekannte Namen von Writern und Crews waren überproportional häufig zu sehen, während andere sich augenscheinlich nur ein einziges Mal an den Wänden verewigt hatten. Und natürlich gab es sehr viele, stilistisch eher langweilige dafür äußerst große Chrome-Bombings mit Bezug zu dem lokalen Fußballverein. Je nähere er seinem Reiseziel kam, desto häufiger waren die Graffiti eines anderen, rivalisierten Fußballvereins auszumachen, deren Styles der schlechten Qualität des lokalen Vereins in nichts nachstanden. Das erschien ihm die sinnloseste Form von Graffiti zu sein. Falls „sinnlos“ hier überhaupt eine passende Kategorie ist.
 
 „*Ich meine, das sind erwachsene Männer, die kaufen sich für 50 oder 100 € Sprühdosen, gehen dann nachts raus an die Bahngleise, malen dort vollkommen leblose Styles, taggen hängengebliebene Floskeln daneben und crossen dann noch die styletechnisch ebenfalls langweiligen Bilder des gegnerischen Vereins mit so geistreichen Wörtern wie ‚FOTZEN‘ oder ‚HURENSÖHNE‘ … erwachsene… Männer…*“
 
-
+-  Gespräche mit seiner Oma über den NS, penetrante Glasfasermafia an der Wohnungstür. bei der man sich geradezu nach den Zeugen Jehovas sehnt, 
 
 
 # IV.
@@ -194,4 +205,12 @@ XXX spazierte langsam durch die Nordstadt, einem Teil der Stadt, der relativ abg
 # VII.
 
 - story weiter
+
+# VIII.
+
+
+
+# IX.
+
+
 
